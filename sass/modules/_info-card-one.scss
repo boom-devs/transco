@@ -1,0 +1,140 @@
+.info-card {
+  background: $white;
+  border-radius: 14px;
+  padding: 30px 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  &.style-two {
+    padding: 30px;
+    display: flex;
+    gap: 25px;
+    z-index: 1;
+    position: relative;
+  }
+  &.style-three {
+    padding: 42px;
+    border-radius: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    &.info-rounded-style {
+      border-radius: 14px;
+      @media screen and (min-width: "1199px") {
+        border-radius: 14px 0px 0px 14px;
+      }
+    }
+    &.info-rounded-style-two {
+      border-radius: 14px;
+      @media screen and (min-width: "1199px") {
+        border-radius: 0;
+      }
+    }
+    &.info-rounded-style-three {
+      border-radius: 14px;
+      @media screen and (min-width: "1199px") {
+        border-radius: 0px 14px 14px 0px !important;
+      }
+    }
+  }
+
+  .icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background: #ecf0fb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    i {
+      font-size: 35px;
+    }
+  }
+  .content {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+    .title {
+      font-family: $heading-font;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 28px;
+      text-transform: capitalize;
+      color: $secondary-color;
+      margin-bottom: 0;
+    }
+    .text {
+      font-family: $body-font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 25px;
+      color: $text-gray-light;
+      margin-bottom: 0;
+    }
+  }
+}
+// contact-info item start
+.contact-info-item {
+  padding: 0;
+  display: flex;
+  gap: 12px;
+  z-index: 1;
+  position: relative;
+  flex-direction: row;
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    span {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 25px;
+      color: #04144f;
+    }
+    p {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 25px;
+      color: $secondary-color;
+      margin: 0;
+    }
+  }
+  .contact-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background: #ecf0fb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    i {
+      font-size: 22px;
+      line-height: 22px;
+    }
+  }
+  &.style-two {
+    .contact {
+      span {
+        color: $white-50;
+      }
+      p {
+        color: $white;
+      }
+    }
+    .contact-icon {
+      background: transparent;
+      border: 1px solid $white-50;
+      i {
+        color: $orange-color;
+      }
+    }
+  }
+}
+// contact info item end

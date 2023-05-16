@@ -1,0 +1,265 @@
+.footer {
+  background-color: $black;
+  position: relative;
+
+  //footer shape
+  .footer-shape {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+}
+.footer-widget-title {
+  font-family: $heading-font;
+  font-size: 24px;
+  line-height: 28px;
+  color: $white;
+  position: relative;
+  margin-bottom: 26px;
+}
+.footer-widget {
+  ul {
+    padding-left: 0;
+  }
+  // Footer Info Widget
+  .footer-widget-info {
+    p {
+      color: $white-50;
+      padding-right: 68px;
+      margin-bottom: 30px;
+    }
+    .footer-logo {
+      margin-bottom: 35px;
+      display: inline-block;
+    }
+  }
+
+  // Footer Menu Widget
+  .footer-widget-menu {
+    ul {
+      margin-top: -5px;
+      padding-left: 0;
+    }
+
+    li {
+      position: relative;
+      display: inline-block;
+      width: 100%;
+      padding-bottom: 10px;
+
+      &:last-child {
+        padding-top: 0px;
+      }
+
+      a {
+        color: $white-50;
+        text-transform: capitalize;
+        font-size: 16px;
+        @include transition;
+        position: relative;
+
+        &:before {
+          content: "";
+          transform: rotate(-45deg);
+          border: solid $black-100;
+          border-width: 0 1px 1px 0;
+          display: inline-block;
+          padding: 3px;
+          margin-right: 10px;
+        }
+        &:hover {
+          @include transition;
+          color: $primary-color;
+
+          &:before {
+            border-color: $primary-color;
+          }
+        }
+      }
+    }
+  }
+
+  // Footer Contact Widget
+  .footer-widget-contact {
+    p {
+      color: $white-50;
+    }
+    .footer-contact ul {
+      list-style: none;
+
+      li {
+        margin-bottom: 16px;
+        display: flex;
+        align-items: center;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+        .contact-icon {
+          border: 1px solid $black-100;
+          color: $orange-color;
+          width: 40px;
+          height: 40px;
+          border-radius: 50px;
+          float: left;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-right: 10px;
+          flex-shrink: 0;
+
+        }
+        .contact-text {
+          color: $white-50;
+          font-size: 16px;
+          overflow: hidden;
+
+          span {
+            color: $white-50;
+            font-size: 16px;
+            display: inline-block;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Footer Bottom Section
+.footer-bottom-border {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 35px 0;
+}
+.footer-bottom-menu {
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 0;
+
+    li {
+      a {
+        font-size: 16px;
+        text-transform: capitalize;
+        color: $white-50;
+        @include transition;
+
+        &:hover {
+          @include transition;
+          color: $primary-color;
+        }
+      }
+    }
+  }
+}
+
+.footer-bottom-area {
+  .copyright-text {
+    p {
+      color: $white-50;
+      margin-bottom: 0;
+    }
+  }
+  .credit-text {
+    p {
+      color: $white-50;
+      margin-bottom: 0;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 10px;
+    }
+    a {
+      color: $primary-color;
+    }
+  }
+}
+
+// Footer Subscribe
+.subscribe-area {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  .subscribe-title {
+    color: $white;
+    text-transform: capitalize;
+  }
+}
+.subscribe-form-widget {
+  display: flex;
+  background-color: $white;
+  border-radius: 50px;
+  padding: 4px;
+
+  .single-field {
+    flex-grow: 1;
+    input {
+      color: $white-50;
+      height: 52px;
+      padding: 0 30px;
+      font-size: 16px;
+      border-radius: 50px;
+      width: 100%;
+    }
+    *::-webkit-input-placeholder {
+      color: $white-50;
+    }
+    *:-moz-placeholder {
+      color: $white-50;
+      opacity: 1;
+    }
+    *::-moz-placeholder {
+      color: $white-50;
+      opacity: 1;
+    }
+    *:-ms-input-placeholder {
+      color: $white-50;
+    }
+    *::-ms-input-placeholder {
+      color: $white-50;
+    }
+    *::placeholder {
+      color: $white-50;
+    }
+  }
+  .submit-btn {
+    background-color: $primary-color;
+    color: $white;
+    cursor: pointer;
+    padding: 0 35px;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    gap: 9px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+
+// Social Widget
+.social-widget {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  a {
+    background-color: $black-100;
+    color: $white;
+    height: 44px;
+    width: 44px;
+    font-size: 18px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @include transition;
+
+    &:hover {
+      @include transition;
+      background-color: $primary-color;
+      color: $white;
+    }
+  }
+}

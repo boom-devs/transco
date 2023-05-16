@@ -1,0 +1,80 @@
+.page-breadcrumb-sec {
+  padding: 88px 0;
+  position: relative;
+  z-index: 2;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.page-overlay {
+  background-color: rgba(2, 10, 39, 0.7);
+  height: 100%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.page-heading h1 {
+  font-size: 60px;
+  text-align: center;
+  color: $white;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  line-height: 72px;
+  font-weight: 700;
+}
+.breadcrumb-wrapper {
+  padding: 0 150px;
+}
+.breadcrumb-list {
+  text-align: center;
+
+  ul {
+    margin-bottom: 10px;
+    padding-left: 0;
+
+    li {
+      display: inline-block;
+      position: relative;
+      padding: 0px 14px;
+
+      &.active {
+        a {
+          color: $orange-color;
+        }
+      }
+      a {
+        font-size: 18px;
+        text-align: center;
+        color: $white;
+        text-transform: uppercase;
+        line-height: 28px;
+        font-weight: 700;
+        @include transition;
+
+        &:hover {
+          @include transition;
+          color: $primary-color;
+        }
+      }
+
+      &::before {
+        content: "-";
+        position: absolute;
+        right: -8px;
+        font-size: 16px;
+        color: #fff;
+        font-family: Icofont;
+      }
+
+      &:last-child::before {
+        display: none;
+        display: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,73 @@
+/**
+ * Stylesheet:  style.css
+ * Theme:       ITblust - IT Solutions Sass Html5 Template
+ * Version:     1.0
+ * Author:     	BoomDevs
+ * 
+ */
+/* Table of contents
+=========================
+1.Preloader
+2.Scrollup
+3. Nav Menu CSS
+4. Banner Section CSS
+5.About Section
+6.Why Choose Us Section 
+7.Service Version 
+8.Title Section
+9.Service Another Section
+10.Count Up Section 
+11.Contact Page
+12.Call To Action Section
+13.Team section
+14.Testimonial CSS
+15.Page Breadcrumb Section
+16.Blog Section
+17.Sidebar
+18.Pricing Section
+19.About Us Section
+Footer Section 
+
+===========================*/
+
+/* Theme Default CSS */
+@import "variables";
+@import "custom_font";
+@import "mixin";
+@import "partials/theme-default";
+@import "partials/default-spacing";
+@import "unittest";
+@import "keyframes";
+
+/* 1.Preloader */
+@import "modules/preeloader";
+
+/* 2.Scrollup */
+@import "partials/scrollup";
+
+/* 3.Nav Menu CSS */
+@import "partials/header";
+@import "modules/meanmenu";
+
+/* 8.Title Section */
+//@import "modules/title-section";
+
+/* 15.Page Breadcrumb Section */
+@import "modules/breadcrumb";
+
+/* 16.Blog Section */
+@import "modules/post-card";
+@import "modules/paginations";
+
+/* 17.Sidebar */
+@import "partials/sidebar";
+@import "modules/comment-list";
+@import "modules/comment-form";
+
+
+/* Footer Section */
+@import "partials/footer";
+
+/* Team Member */
+@import "modules/team-member";
+@import "modules/portfolio-two";
