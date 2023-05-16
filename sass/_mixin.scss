@@ -1,3 +1,7 @@
+@mixin gradient-color() {
+  background: rgb(227,0,8);
+  background: linear-gradient(65deg, rgba(227,0,8,1) 0%, rgba(250,174,0,1) 100%);
+}
 @mixin overlay($bg-color){
     position:absolute;
     top: 0;

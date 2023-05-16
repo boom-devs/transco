@@ -1,6 +1,6 @@
 /**
  * Stylesheet:  style.css
- * Theme:       ITblust - IT Solutions Sass Html5 Template
+ * Theme:       Transco - Transport and Logistic HTML5 Template
  * Version:     1.0
  * Author:     	BoomDevs
  * 
@@ -29,7 +29,6 @@
 Footer Section 
 
 ===========================*/
-
 /* Theme Default CSS */
 @import "variables";
 @import "custom_font";
@@ -44,7 +43,6 @@ Footer Section
 
 /* 2.Scrollup */
 @import "partials/scrollup";
-
 /* 3.Nav Menu CSS */
 @import "partials/header";
 @import "modules/meanmenu";
@@ -63,8 +61,6 @@ Footer Section
 @import "partials/sidebar";
 @import "modules/comment-list";
 @import "modules/comment-form";
-
-
 /* Footer Section */
 @import "partials/footer";
 
