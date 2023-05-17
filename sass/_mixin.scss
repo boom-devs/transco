@@ -1,6 +1,11 @@
-@mixin gradient-color() {
+@mixin gradient-color-red () {
   background: rgb(227,0,8);
   background: linear-gradient(65deg, rgba(227,0,8,1) 0%, rgba(250,174,0,1) 100%);
+}
+
+@mixin gradient-color-skye () {
+  background: rgb(0,91,172);
+  background: linear-gradient(135deg, rgba(0,91,172,0.83) 0%, rgba(30,174,152,1) 100%);
 }
 @mixin overlay($bg-color){
     position:absolute;

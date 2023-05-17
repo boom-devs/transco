@@ -116,7 +116,7 @@
     height: 240px;
     left: 0;
     top: -50px;
-    @include gradient-color;
+    @include gradient-color-red;
     border-radius: 15px;
     z-index: -1;
     transform: rotate(25deg);
@@ -351,7 +351,7 @@
       width: 60px;
       height: 60px;
       border-radius: 50px;
-      @include gradient-color;
+      @include gradient-color-red;
       flex-shrink: 0;
     }
   }
