@@ -3173,6 +3173,55 @@ a.meanmenu-reveal {
   display: none !important;
 }
 
+/* 8.Slider Section */
+.slider-area .slider-wrapper {
+  height: 920px;
+}
+.slider-area .single-slider {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 920px;
+  position: relative;
+  z-index: 2;
+}
+.slider-area .single-slider .slider-overlay {
+  background: rgb(0, 91, 172);
+  background: linear-gradient(135deg, rgba(0, 91, 172, 0.83) 0%, rgb(30, 174, 152) 100%);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.slider-area .single-slider .slider-content-wrapper {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.slider-area .single-slider .slider-content-wrapper .slider-content .slider-short-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #ffffff;
+}
+.slider-area .single-slider .slider-content-wrapper .slider-content .slider-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 90px;
+  color: #ffffff;
+  line-height: 102px;
+  margin-bottom: 26px;
+}
+.slider-area .single-slider .slider-content-wrapper .slider-content .slider-short-desc {
+  font-size: 24px;
+  color: #ffffff;
+  line-height: 36px;
+}
+.slider-area .single-slider .slider-content-wrapper .slider-content .slider-btn-wrapper {
+  margin-top: 60px;
+}
 /* 8.Title Section */
 /* 15.Page Breadcrumb Section */
 .page-breadcrumb-sec {
