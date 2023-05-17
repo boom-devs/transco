@@ -21,7 +21,7 @@
     /*
 			Stikey Js
 			============================*/
-    var nav = $(".header-sec");
+    var nav = $(".header-sec.sticky-header");
     var scrolled = false;
     $(window).scroll(function () {
       if (100 < $(window).scrollTop() && !scrolled) {
