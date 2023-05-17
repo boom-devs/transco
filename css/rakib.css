@@ -1105,53 +1105,51 @@
 }
 
 .info-card.style-three {
-  padding: 20px 30px 35px 35px;
-  background: #ffffff;
-  border-radius: 8px;
-  margin: 0 60px -60px 60px;
+  position: relative;
+}
+.info-card.style-three:hover .content-wrapper .content-inner .content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.info-card.style-three .content-wrapper {
+  margin-bottom: -60px;
+  padding: 0 60px;
   position: absolute;
   bottom: 0;
   left: 0;
+  width: 100%;
+}
+.info-card.style-three .content-wrapper .content-inner {
+  padding: 20px 30px 20px 35px;
+  background: #ffffff;
+  border-radius: 8px;
   display: flex;
   gap: 22px;
   flex-direction: column;
-  width: 80%;
 }
-.info-card.style-three .title-wrapper {
+.info-card.style-three .content-wrapper .content-inner .title-wrapper {
   display: flex;
   justify-content: space-between;
 }
-.info-card.style-three .title-wrapper .icon {
+.info-card.style-three .content-wrapper .content-inner .title-wrapper .icon {
   display: flex;
   flex-shrink: 0;
 }
-.info-card.style-three .title-wrapper .title {
+.info-card.style-three .content-wrapper .content-inner .title-wrapper .title {
   font-size: 30px;
   line-height: 42px;
   font-weight: 700;
   margin: 0;
 }
-.info-card.style-three .content {
+.info-card.style-three .content-wrapper .content-inner .content {
   display: none;
 }
-.info-card.style-three .content .desc {
+.info-card.style-three .content-wrapper .content-inner .content .desc {
   font-size: 18px;
   line-height: 30px;
   font-weight: 400;
   margin: 0;
-}
-
-.service-item-wrapper {
-  position: relative;
-  transition: 5s;
-}
-.service-item-wrapper .content {
-  display: none;
-}
-.service-item-wrapper:hover .content {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
 }
 
 /*# sourceMappingURL=rakib.css.map */
