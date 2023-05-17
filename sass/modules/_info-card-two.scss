@@ -1,13 +1,17 @@
 .info-card {
     &.style-three {
         position: relative;
+
         &:hover {
             .content-wrapper {
-                .content-inner {
+                .content-area {
+
+                    visibility: visible;
+                    opacity: 1;
+                    transition: 0.9s;
+
                     .content {
-                        display: flex;
-                        flex-direction: column;
-                        gap: 30px;
+                        margin-top: 20px;
                     }
                 }
             }
@@ -19,38 +23,47 @@
             bottom: 0;
             left: 0;
             width: 100%;
+
             .content-inner {
                 padding: 20px 30px 20px 35px;
                 background: $white;
                 border-radius: 8px;
                 display: flex;
-                gap: 22px;
                 flex-direction: column;
-                .title-wrapper {
+            }
+            .title-wrapper {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .icon {
                     display: flex;
-                    align-items: center;
-                    justify-content: space-between;
-                    .icon {
-                        display: flex;
-                        flex-shrink: 0;
-                        width: 60px;
-                        height: 60px;
-                    }
-                    .title {
-                        font-size: 30px;
-                        line-height: 42px;
-                        font-weight: 700;
-                        margin: 0;
-                    }
+                    flex-shrink: 0;
+                    width: 60px;
+                    height: 60px;
                 }
-                .content {
-                    display: none;
-                    .desc {
-                        font-size: 18px;
-                        line-height: 30px;
-                        font-weight: 400;
-                        margin: 0;
-                    }
+                .title {
+                    font-size: 30px;
+                    line-height: 42px;
+                    font-weight: 700;
+                    margin: 0;
+                }
+            }
+            .content-area {
+                overflow: hidden;
+                visibility: hidden;
+                opacity: 0;
+                transition: 0.9s;
+            }
+            .content {
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                margin-top: -200px;
+                .desc {
+                    font-size: 18px;
+                    line-height: 30px;
+                    font-weight: 400;
+                    margin: 0;
                 }
             }
         }

@@ -1107,10 +1107,13 @@
 .info-card.style-three {
   position: relative;
 }
-.info-card.style-three:hover .content-wrapper .content-inner .content {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
+.info-card.style-three:hover .content-wrapper .content-area {
+  visibility: visible;
+  opacity: 1;
+  transition: 0.9s;
+}
+.info-card.style-three:hover .content-wrapper .content-area .content {
+  margin-top: 20px;
 }
 .info-card.style-three .content-wrapper {
   margin-bottom: -48px;
@@ -1125,30 +1128,38 @@
   background: #ffffff;
   border-radius: 8px;
   display: flex;
-  gap: 22px;
   flex-direction: column;
 }
-.info-card.style-three .content-wrapper .content-inner .title-wrapper {
+.info-card.style-three .content-wrapper .title-wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.info-card.style-three .content-wrapper .content-inner .title-wrapper .icon {
+.info-card.style-three .content-wrapper .title-wrapper .icon {
   display: flex;
   flex-shrink: 0;
   width: 60px;
   height: 60px;
 }
-.info-card.style-three .content-wrapper .content-inner .title-wrapper .title {
+.info-card.style-three .content-wrapper .title-wrapper .title {
   font-size: 30px;
   line-height: 42px;
   font-weight: 700;
   margin: 0;
 }
-.info-card.style-three .content-wrapper .content-inner .content {
-  display: none;
+.info-card.style-three .content-wrapper .content-area {
+  overflow: hidden;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.9s;
 }
-.info-card.style-three .content-wrapper .content-inner .content .desc {
+.info-card.style-three .content-wrapper .content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: -200px;
+}
+.info-card.style-three .content-wrapper .content .desc {
   font-size: 18px;
   line-height: 30px;
   font-weight: 400;
