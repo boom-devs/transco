@@ -1,7 +1,35 @@
 .icon-card {
     display: flex;
+    background: #2c3236;
+    padding: 70px;
+    .content {
+        display: flex;
+        gap: 34px;
+        flex-direction: column;
+        .title {
+            font-family: sans-serif;
+            font-weight: 700;
+            font-size: 24px;
+            margin-bottom: 0;
+            color: $white;
+            line-height: 36px;
+        }
+        .desc {
+            font-family: sans-serif;
+            font-weight: 400;
+            font-size: 18px;
+            margin-bottom: 0;
+            color: #c7cdda;
+            line-height: 30px;
+        }
+    }
     &.style-three {
         flex-direction: row;
         justify-content: space-between;
+        gap: 34px;
+        .icon {
+            width: 62px;
+            height: 62px;
+        }
     }
 }
