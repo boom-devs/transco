@@ -52,12 +52,18 @@
 }
 
 /* Hero slider CSS */
-.read-more {
+.read-more a {
   display: flex;
   align-items: center;
   gap: 18px;
+  font-size: 16px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 0;
+  color: #393d48;
 }
-.read-more .icon {
+.read-more a .icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -66,16 +72,11 @@
   height: 32px;
   border-radius: 100%;
   background: #ff6731;
-  justify-content: center;
-  align-items: center;
   color: #ffffff;
 }
-.read-more .btn-text {
+.read-more a .icon i {
+  color: #ffffff;
   font-size: 16px;
-  line-height: 36px;
-  font-weight: 700;
-  text-transform: capitalize;
-  margin-bottom: 0;
 }
 
 /* Hero slider CSS */
