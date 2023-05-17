@@ -457,6 +457,44 @@ input:focus {
   padding-bottom: 85px;
 }
 
+.theme-btn,
+.wp-block-loginout a {
+  display: inline-flex;
+  background: rgb(227, 0, 8);
+  background: linear-gradient(65deg, rgb(227, 0, 8) 0%, rgb(250, 174, 0) 100%);
+  color: #fff;
+  padding: 11px 11px 11px 36px;
+  text-align: center;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  position: relative;
+  z-index: 1;
+  transition: all 0.5s ease-out;
+  font-size: 18px;
+  align-items: center;
+  gap: 36px;
+  border-radius: 6px;
+}
+.theme-btn i,
+.wp-block-loginout a i {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 6px;
+  background-color: #005bac;
+  color: #fff;
+  font-size: 16px;
+}
+.theme-btn:hover,
+.wp-block-loginout a:hover {
+  background: #071c34;
+  color: #fff;
+  border-color: #071c34;
+}
+
 /* Deafult Margin & Padding */
 /*-- Margin Top --*/
 .mt-5 {
@@ -2469,36 +2507,6 @@ nav.wp-calendar-nav a:hover {
   color: #005bac;
 }
 
-.theme-btn,
-.wp-block-loginout a {
-  display: inline-flex;
-  background: #005bac;
-  color: #fff;
-  padding: 12px 32px;
-  text-align: center;
-  font-weight: 500;
-  font-family: "Roboto", sans-serif;
-  text-transform: capitalize;
-  position: relative;
-  z-index: 1;
-  transition: 0.3s;
-  font-size: 16px;
-  align-items: center;
-  gap: 10px;
-  border-radius: 50px;
-}
-.theme-btn i,
-.wp-block-loginout a i {
-  color: #fff;
-  font-size: 16px;
-}
-.theme-btn:hover,
-.wp-block-loginout a:hover {
-  background: #071c34;
-  color: #fff;
-  border-color: #071c34;
-}
-
 /*
  Media
 ============================*/
@@ -2786,6 +2794,7 @@ html {
   display: inline-block;
   border-radius: 0 0 10px 10px;
   margin-left: 30px;
+  font-weight: 700;
 }
 .header-top .header-social {
   display: flex;
@@ -3200,6 +3209,9 @@ a.meanmenu-reveal {
   align-items: center;
   height: 100%;
 }
+.slider-area .single-slider .slider-content-wrapper .slider-content {
+  width: 50%;
+}
 .slider-area .single-slider .slider-content-wrapper .slider-content .slider-short-title {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
@@ -3212,7 +3224,7 @@ a.meanmenu-reveal {
   font-size: 90px;
   color: #ffffff;
   line-height: 102px;
-  margin-bottom: 26px;
+  margin-bottom: 30px;
 }
 .slider-area .single-slider .slider-content-wrapper .slider-content .slider-short-desc {
   font-size: 24px;
@@ -3222,6 +3234,24 @@ a.meanmenu-reveal {
 .slider-area .single-slider .slider-content-wrapper .slider-content .slider-btn-wrapper {
   margin-top: 60px;
 }
+.slider-area .single-slider .slider-content-wrapper .slider-image {
+  position: relative;
+  z-index: 2;
+  width: 50%;
+}
+.slider-area .single-slider .slider-content-wrapper .slider-image:before {
+  position: absolute;
+  content: "";
+  width: 640px;
+  height: 640px;
+  background-color: #ff6731;
+  border-radius: 500px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: -1;
+  right: -125px;
+}
+
 /* 8.Title Section */
 /* 15.Page Breadcrumb Section */
 .page-breadcrumb-sec {
