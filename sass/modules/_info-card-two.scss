@@ -1,37 +1,57 @@
 .info-card {
     &.style-three {
-        padding: 20px 30px 35px 35px;
-        background: $white;
-        border-radius: 8px;
-        margin: 0 60px -60px 60px;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        display: flex;
-        gap: 22px;
-        flex-direction: column;
-        width: 80%;
-        .title-wrapper {
-            display: flex;
-            justify-content: space-between;
-            .icon {
-                display: flex;
-                flex-shrink: 0;
-            }
-            .title {
-                font-size: 30px;
-                line-height: 42px;
-                font-weight: 700;
-                margin: 0;
+        position: relative;
+        &:hover {
+            .content-wrapper {
+                .content-inner {
+                    .content {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 30px;
+                    }
+                }
             }
         }
-        .content {
-            display: none;
-            .desc {
-                font-size: 18px;
-                line-height: 30px;
-                font-weight: 400;
-                margin: 0;
+        .content-wrapper {
+            margin-bottom: -48px;
+            padding: 0 60px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            .content-inner {
+                padding: 20px 30px 20px 35px;
+                background: $white;
+                border-radius: 8px;
+                display: flex;
+                gap: 22px;
+                flex-direction: column;
+                .title-wrapper {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    .icon {
+                        display: flex;
+                        flex-shrink: 0;
+                        width: 60px;
+                        height: 60px;
+                    }
+                    .title {
+                        font-size: 30px;
+                        line-height: 42px;
+                        font-weight: 700;
+                        margin: 0;
+                    }
+                }
+                .content {
+                    display: none;
+                    .desc {
+                        font-size: 18px;
+                        line-height: 30px;
+                        font-weight: 400;
+                        margin: 0;
+                    }
+                }
             }
         }
     }
