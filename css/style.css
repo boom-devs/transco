@@ -303,12 +303,12 @@ Footer Section
 html,
 body {
   height: 100%;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   font-family: "Roboto", sans-serif;
   color: #5e6f92;
   vertical-align: baseline;
-  line-height: 28px;
+  line-height: 30px;
   background-color: #f5f5f5;
 }
 
@@ -3252,7 +3252,76 @@ a.meanmenu-reveal {
   right: -125px;
 }
 
+.about-info-card .about-info-content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-left: 60px;
+}
+.about-info-card .about-info-content .section-title .title {
+  margin-bottom: 0;
+}
+.about-info-card .about-info-content .sub-title p,
+.about-info-card .about-info-content .text p,
+.about-info-card .about-info-content .quote-text p {
+  margin-bottom: 0;
+}
+.about-info-card .about-info-content .sub-title {
+  font-weight: 700;
+}
+.about-info-card .about-info-content .quote-text {
+  padding-left: 40px;
+  border-left: 6px solid #005bac;
+  font-style: italic;
+}
+.about-info-card .about-info-content .quote-text .quote-text-meta {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  margin-top: 20px;
+}
+.about-info-card .about-info-content .quote-text .quote-text-meta .divider {
+  width: 25px;
+  height: 1px;
+  background-color: #bfc5cb;
+}
+.about-info-card .about-info-content .quote-text .quote-text-meta .name {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #393d48;
+  font-style: normal;
+}
+.about-info-card .about-info-content .quote-text .quote-text-meta .designation {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
 /* 8.Title Section */
+.section-title {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  z-index: 2;
+  position: relative;
+}
+.section-title .short-title {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  color: #ff6731;
+}
+.section-title .title {
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  color: #393d48;
+}
+.section-title .title span {
+  color: #1eae98;
+}
+
 /* 15.Page Breadcrumb Section */
 .page-breadcrumb-sec {
   padding: 88px 0;
@@ -4564,7 +4633,7 @@ ul.children {
   padding-left: 0;
 }
 .footer-widget .footer-widget-info p {
-  color: #a5aabb;
+  color: #bfc5cb;
   padding-right: 68px;
   margin-bottom: 30px;
 }
@@ -4586,7 +4655,7 @@ ul.children {
   padding-top: 0px;
 }
 .footer-widget .footer-widget-menu li a {
-  color: #a5aabb;
+  color: #bfc5cb;
   text-transform: capitalize;
   font-size: 16px;
   transition: all 0.5s ease-out;
@@ -4609,7 +4678,7 @@ ul.children {
   border-color: #005bac;
 }
 .footer-widget .footer-widget-contact p {
-  color: #a5aabb;
+  color: #bfc5cb;
 }
 .footer-widget .footer-widget-contact .footer-contact ul {
   list-style: none;
@@ -4636,12 +4705,12 @@ ul.children {
   flex-shrink: 0;
 }
 .footer-widget .footer-widget-contact .footer-contact ul li .contact-text {
-  color: #a5aabb;
+  color: #bfc5cb;
   font-size: 16px;
   overflow: hidden;
 }
 .footer-widget .footer-widget-contact .footer-contact ul li .contact-text span {
-  color: #a5aabb;
+  color: #bfc5cb;
   font-size: 16px;
   display: inline-block;
   width: 100%;
@@ -4663,7 +4732,7 @@ ul.children {
 .footer-bottom-menu ul li a {
   font-size: 16px;
   text-transform: capitalize;
-  color: #a5aabb;
+  color: #bfc5cb;
   transition: all 0.5s ease-out;
 }
 .footer-bottom-menu ul li a:hover {
@@ -4672,11 +4741,11 @@ ul.children {
 }
 
 .footer-bottom-area .copyright-text p {
-  color: #a5aabb;
+  color: #bfc5cb;
   margin-bottom: 0;
 }
 .footer-bottom-area .credit-text p {
-  color: #a5aabb;
+  color: #bfc5cb;
   margin-bottom: 0;
   display: flex;
   align-items: center;
@@ -4705,7 +4774,7 @@ ul.children {
   flex-grow: 1;
 }
 .subscribe-form-widget .single-field input {
-  color: #a5aabb;
+  color: #bfc5cb;
   height: 52px;
   padding: 0 30px;
   font-size: 16px;
@@ -4713,24 +4782,24 @@ ul.children {
   width: 100%;
 }
 .subscribe-form-widget .single-field *::-webkit-input-placeholder {
-  color: #a5aabb;
+  color: #bfc5cb;
 }
 .subscribe-form-widget .single-field *:-moz-placeholder {
-  color: #a5aabb;
+  color: #bfc5cb;
   opacity: 1;
 }
 .subscribe-form-widget .single-field *::-moz-placeholder {
-  color: #a5aabb;
+  color: #bfc5cb;
   opacity: 1;
 }
 .subscribe-form-widget .single-field *:-ms-input-placeholder {
-  color: #a5aabb;
+  color: #bfc5cb;
 }
 .subscribe-form-widget .single-field *::-ms-input-placeholder {
-  color: #a5aabb;
+  color: #bfc5cb;
 }
 .subscribe-form-widget .single-field *::placeholder {
-  color: #a5aabb;
+  color: #bfc5cb;
 }
 .subscribe-form-widget .submit-btn {
   background-color: #005bac;
