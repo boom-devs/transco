@@ -1104,6 +1104,18 @@
 .icon-card.style-three .icon img {
   width: 100%;
 }
+.icon-card.style-four {
+  flex-direction: column;
+  gap: 40px;
+  padding: 35px;
+}
+.icon-card.style-four .icon {
+  width: 78px;
+  height: 78px;
+}
+.icon-card.style-four .icon img {
+  width: 100%;
+}
 
 .info-card.style-three {
   position: relative;
