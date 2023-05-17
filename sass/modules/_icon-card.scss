@@ -1,0 +1,7 @@
+.icon-card {
+    display: flex;
+    &.style-three {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
