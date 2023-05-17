@@ -1,0 +1,18 @@
+/* Error: Undefined variable.
+ *    ,
+ * 66 |         background: $text-primary;
+ *    |                     ^^^^^^^^^^^^^
+ *    '
+ *   sass\modules\_custom-slider.scss 66:21  @import
+ *   sass\rakib.scss 75:9                    root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    \2577 \a 66 \2502          background: $text-primary;\d\a    \2502                      ^^^^^^^^^^^^^\a    \2575 \a   sass\\modules\\_custom-slider.scss 66:21  @import\a   sass\\rakib.scss 75:9                    root stylesheet";
+}
