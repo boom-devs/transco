@@ -26,6 +26,8 @@
         height: 100%;
 
         .slider-content {
+          width: 50%;
+
           .slider-short-title {
             font-family: $heading-font;
             font-weight: 700;
@@ -38,7 +40,7 @@
             font-size: 90px;
             color: $white;
             line-height: 102px;
-            margin-bottom: 26px;
+            margin-bottom: 30px;
           }
           .slider-short-desc {
             font-size: 24px;
@@ -50,7 +52,22 @@
           }
         }
         .slider-image {
+          position: relative;
+          z-index: 2;
+          width: 50%;
 
+          &:before {
+            position: absolute;
+            content: "";
+            width: 640px;
+            height: 640px;
+            background-color: $orange-color;
+            border-radius: 500px;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: -1;
+            right: -125px;
+          }
         }
       }
   }
