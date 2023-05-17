@@ -5,8 +5,8 @@
 // global-overwrite
 @import "modules/global-overwrite";
 
-// $text-primary: #4566d4;
-// $text-gray-light: #6a6c73;
+$text-primary: #4566d4;
+$text-gray-light: #6a6c73;
 
 // .mt-8 {
 //   margin-top: 8px;
@@ -69,6 +69,34 @@
 // }
 /* Hero slider CSS */
 //@import "modules/title-section";
+
+// read more-btn
+.read-more {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    background: #ff6731;
+    justify-content: center;
+    align-items: center;
+    color: $white;
+  }
+  .btn-text {
+    font-size: 16px;
+    line-height: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 0;
+  }
+}
+
 /* Hero slider CSS */
 @import "modules/slider-style-one";
 /* custom slider CSS */
@@ -99,7 +127,7 @@
 @import "modules/articles";
 
 /* Info card-style-one CSS */
-@import "modules/info-card-one";
+// @import "modules/info-card-one";
 
 /* Testimonial card CSS */
 @import "modules/testimonial-card-one";
@@ -118,3 +146,9 @@
 
 // icon-card
 @import "modules/icon-card";
+
+// icon-card
+@import "modules/info-card-two";
+
+// icon-card
+@import "modules/service-card";

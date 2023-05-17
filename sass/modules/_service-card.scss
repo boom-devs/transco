@@ -1,0 +1,14 @@
+.service-item-wrapper {
+    position: relative;
+    transition: 5s;
+    .content {
+        display: none;
+    }
+    &:hover {
+        .content {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+    }
+}
