@@ -177,3 +177,14 @@ $desc-text-gray: #c7cdda;
 
 // price-card
 @import "modules/price-card";
+
+// Testimonial-card
+@import "modules/testimonial-card-two";
+
+.prices-card-wrapper {
+  background: #4566d4;
+}
+.testimonial-cards {
+  background: #eef5f8;
+  padding: 50px;
+}
