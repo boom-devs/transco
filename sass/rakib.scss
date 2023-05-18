@@ -98,6 +98,27 @@ $desc-text-gray: #c7cdda;
         font-size: 16px;
       }
     }
+    &:hover {
+      margin-left: 5px;
+    }
+  }
+  &.style-two {
+    a {
+      .icon {
+        background: linear-gradient(65deg, rgb(227, 0, 8) 0%, rgb(250, 174, 0) 100%);
+        padding: 1px;
+        i {
+          background: $white;
+          color: $primary-color;
+          border-radius: 50px;
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
   }
 }
 
@@ -180,6 +201,12 @@ $desc-text-gray: #c7cdda;
 
 // Testimonial-card
 @import "modules/testimonial-card-two";
+
+// Process-card
+@import "modules/process-step";
+
+// Post-card
+@import "modules/post-card-two";
 
 .prices-card-wrapper {
   background: #4566d4;
