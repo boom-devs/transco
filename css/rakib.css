@@ -1311,4 +1311,65 @@
   justify-content: center;
 }
 
+.testimonial-card {
+  padding: 40px 50px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 30px;
+  border-radius: 10px;
+}
+.testimonial-card .content .text {
+  margin: 0;
+  font-size: 23px;
+  line-height: 36px;
+  font-weight: 400;
+}
+.testimonial-card .meta-user {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.testimonial-card .meta-user .user-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.testimonial-card .meta-user .user-info .image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.testimonial-card .meta-user .user-info .info {
+  display: flex;
+  flex-direction: column;
+}
+.testimonial-card .meta-user .user-info .info h2 {
+  margin: 0;
+  font-size: 21px;
+  line-height: 45px;
+  font-weight: 700;
+  color: #393d48;
+}
+.testimonial-card .meta-user .user-info .info p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #778196;
+}
+
+.prices-card-wrapper {
+  background: #4566d4;
+}
+
+.testimonial-cards {
+  background: #eef5f8;
+  padding: 50px;
+}
+
 /*# sourceMappingURL=rakib.css.map */
