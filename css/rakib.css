@@ -1145,6 +1145,22 @@
 .icon-card.style-three .icon img {
   width: 100%;
 }
+.info-card-wrapper {
+  position: relative;
+}
+.info-card-wrapper .divider {
+  background-color: #020a27;
+}
+.info-card-wrapper .divider:before {
+  content: "";
+  position: absolute;
+  background: #5e6f92;
+  right: 0;
+  height: 80%;
+  width: 1px;
+  top: 45px;
+}
+
 .info-card {
   background: #ffffff;
   padding: 45px;
@@ -1152,18 +1168,6 @@
   flex-direction: column;
   gap: 30px;
   border-radius: 10px;
-  position: relative;
-}
-.info-card .divider {
-  background-color: #020a27;
-}
-.info-card .divider:before {
-  content: "";
-  position: absolute;
-  background: #5e6f92;
-  right: 0;
-  height: 80%;
-  width: 1px;
 }
 .info-card .icon {
   display: flex;
