@@ -239,7 +239,7 @@
 .portfolio-slider .slick-dots li button {
   width: 100%;
   height: 5px;
-  background: #d2d6e4;
+  background: #31373f;
   font-size: 0;
 }
 .custom-slider-wrapper .slick-dots .slick-active button,
@@ -478,7 +478,7 @@
 }
 .counter-main .counter-item:after {
   content: "";
-  border-bottom: 1px solid #d2d6e4;
+  border-bottom: 1px solid #31373f;
   border-right: none;
   position: absolute;
   height: 100%;
@@ -497,7 +497,7 @@
     width: 50%;
   }
   .counter-main .counter-item:after {
-    border-right: 1px solid #d2d6e4;
+    border-right: 1px solid #31373f;
     border-bottom: none;
   }
 }
@@ -507,7 +507,7 @@
     width: 100%;
   }
   .counter-main .counter-item:after {
-    border-right: 1px solid #d2d6e4;
+    border-right: 1px solid #31373f;
     border-bottom: none;
   }
 }

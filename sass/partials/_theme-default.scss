@@ -13,7 +13,6 @@ body {
   color: $text-color;
   vertical-align: baseline;
   line-height: 30px;
-  background-color: $white-100;
 }
 p {
   margin: 0 0 15px;
@@ -132,7 +131,7 @@ input:focus {
   background-color: $black;
 }
 .bg-gray {
-  background-color: $gray-100;
+  background-color: $gray;
 }
 .page-bg {
   background-color: $black;
