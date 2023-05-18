@@ -1195,8 +1195,103 @@
   color: #5e6f92;
   margin: 0;
 }
+.info-card.style-two {
+  padding: 48px;
+  position: relative;
+  border: 1px solid #005bac;
+}
+.info-card.style-two:hover .info-card {
+  border: none;
+}
+.info-card.style-two:hover .info-card .style-two {
+  border: none;
+}
+.info-card.style-two:hover .image-wrapper {
+  opacity: 0.7;
+}
+.info-card.style-two:hover .title-wrapper {
+  border-bottom: 3px solid #ffffff;
+}
+.info-card.style-two:hover .title-wrapper .title {
+  color: #ffffff;
+}
+.info-card.style-two:hover .content .desc {
+  color: #ffffff;
+}
+.info-card.style-two:hover .read-more a {
+  color: #ffffff;
+}
+.info-card.style-two .image-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  transition: all 0.9s ease;
+}
+.info-card.style-two .image-wrapper img {
+  width: 100%;
+  height: 100%;
+}
+.info-card.style-two .image-wrapper .overlay {
+  width: 100%;
+  height: 100%;
+  background: #005bac;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.6;
+}
+.info-card.style-two .content-wrapper {
+  position: relative;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.info-card.style-two .title-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding-bottom: 40px;
+  border-bottom: 3px solid #1eae98;
+}
+.info-card.style-two .title-wrapper .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 97px;
+  height: 97px;
+  background: linear-gradient(65deg, rgb(227, 0, 8) 0%, rgb(250, 174, 0) 100%);
+  border-radius: 10px;
+}
+.info-card.style-two .title-wrapper .title {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+  margin: 0;
+  color: #393d48;
+  transition: all 0.9s ease;
+}
+.info-card.style-two .content {
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+  margin-top: 36px;
+}
+.info-card.style-two .content .desc {
+  transition: all 0.9s ease;
+  font-size: 18px;
+  line-height: 34px;
+  font-weight: 400;
+  margin: 0;
+  color: #5e6f92;
+}
 .info-card.style-three {
   position: relative;
+  padding: 0;
 }
 .info-card.style-three:hover .content-wrapper .content-area {
   visibility: visible;
