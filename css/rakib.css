@@ -1523,6 +1523,18 @@
   font-weight: 400;
   color: #778196;
 }
+.testimonial-card.style-two {
+  padding: 58px;
+}
+.testimonial-card.style-two .icon {
+  align-self: self-start;
+}
+.testimonial-card.style-two .content .text {
+  line-height: 30px;
+}
+.testimonial-card.style-two .meta-user .icon {
+  display: none;
+}
 
 .process-steps-wrapper {
   padding: 70px 0px 10px 50px;
@@ -1548,6 +1560,11 @@
   height: 72px;
   border-radius: 50px;
   color: #ffffff;
+}
+.process-step .count span {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
 }
 .process-step .content {
   display: flex;

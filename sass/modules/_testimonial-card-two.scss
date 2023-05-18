@@ -51,4 +51,20 @@
             }
         }
     }
+    &.style-two {
+        padding: 58px;
+        .icon {
+            align-self: self-start;
+        }
+        .content {
+            .text {
+                line-height: 30px;
+            }
+        }
+        .meta-user {
+            .icon {
+                display: none;
+            }
+        }
+    }
 }
