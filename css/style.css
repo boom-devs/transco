@@ -4768,6 +4768,38 @@ ul.children {
   display: inline-block;
   width: 100%;
 }
+.footer-widget .widget_latest_post ul li .latest-post-thumb img {
+  width: 60px;
+  height: 60px;
+}
+.footer-widget .widget_latest_post ul li .latest-post-desc .latest-post-title {
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  font-weight: 600;
+}
+.footer-widget .widget_latest_post ul li .latest-post-desc .latest-post-title a {
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 600;
+  transition: all 0.5s ease-out;
+}
+.footer-widget .widget_latest_post ul li .latest-post-desc .latest-post-title a:hover {
+  color: #005bac;
+  transition: all 0.5s ease-out;
+}
+.footer-widget .widget_latest_post ul li .latest-post-desc .latest-post-meta {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  gap: 8px;
+  color: #c7cdda;
+}
 
 .footer-bottom-menu ul {
   list-style: none;

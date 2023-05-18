@@ -107,6 +107,52 @@
       }
     }
   }
+
+  // Footer Latest News
+  .widget_latest_post {
+    ul {
+      li {
+        .latest-post-thumb {
+          img {
+            width: 60px;
+            height: 60px;
+          }
+        }
+        .latest-post-desc {
+          .latest-post-title {
+            margin-bottom: 8px;
+            font-size: 16px;
+            line-height: 19px;
+            color: $white;
+            font-weight: 600;
+
+            a {
+              font-size: 16px;
+              line-height: 19px;
+              color: $white;
+              position: relative;
+              text-transform: capitalize;
+              font-weight: 600;
+              @include transition;
+
+              &:hover {
+                color: $primary-color;
+                @include transition;
+              }
+            }
+          }
+          .latest-post-meta {
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            font-weight: 400;
+            gap: 8px;
+            color: $white-100;
+          }
+        }
+      }
+    }
+  }
 }
 
 // Footer Bottom Section
