@@ -33,18 +33,4 @@
             line-height: 30px;
         }
     }
-    &.style-three {
-        flex-direction: row;
-        justify-content: space-between;
-        gap: 34px;
-        .icon {
-            width: 62px;
-            height: 62px;
-            img {
-                width: 100%;
-            }
-        }
-    }
-    &.style-four {
-    }
 }

@@ -1136,6 +1136,7 @@
   color: #c7cdda;
   line-height: 30px;
 }
+
 .icon-card.style-three {
   flex-direction: row;
   justify-content: space-between;
@@ -1148,6 +1149,7 @@
 .icon-card.style-three .icon img {
   width: 100%;
 }
+
 .info-card-wrapper {
   position: relative;
 }
