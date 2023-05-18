@@ -1198,6 +1198,7 @@
   color: #5e6f92;
   margin: 0;
 }
+
 .info-card.style-two {
   padding: 48px;
   position: relative;
@@ -1291,6 +1292,7 @@
   margin: 0;
   color: #5e6f92;
 }
+
 .info-card.style-three {
   position: relative;
   padding: 0;
@@ -1353,6 +1355,7 @@
   font-weight: 400;
   margin: 0;
 }
+
 .price-card {
   padding: 30px;
   background: white;
