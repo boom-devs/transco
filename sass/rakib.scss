@@ -70,30 +70,55 @@ $text-gray-light: #6a6c73;
 /* Hero slider CSS */
 //@import "modules/title-section";
 
+$desc-text-gray: #c7cdda;
 // read more-btn
 .read-more {
-  display: flex;
-  align-items: center;
-  gap: 18px;
-  .icon {
+  a {
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-    width: 32px;
-    height: 32px;
-    border-radius: 100%;
-    background: #ff6731;
-    justify-content: center;
-    align-items: center;
-    color: $white;
-  }
-  .btn-text {
+    gap: 18px;
     font-size: 16px;
     line-height: 36px;
     font-weight: 700;
     text-transform: capitalize;
     margin-bottom: 0;
+    color: $secondary-color;
+    .icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      width: 32px;
+      height: 32px;
+      border-radius: 100%;
+      background: #ff6731;
+      color: $white;
+      i {
+        color: $white;
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+// custom btn
+.custom-read-btn {
+  padding: 8px 8px 8px 30px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-between;
+  .icon {
+    width: 38px;
+    height: 38px;
+    border-radius: 4px;
+    background-color: $primary-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    i {
+      color: $white;
+    }
   }
 }
 
@@ -147,6 +172,8 @@ $text-gray-light: #6a6c73;
 // icon-card
 @import "modules/icon-card";
 
-// icon-card
+// info-card
 @import "modules/info-card-two";
 
+// price-card
+@import "modules/price-card";

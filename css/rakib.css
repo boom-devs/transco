@@ -52,12 +52,18 @@
 }
 
 /* Hero slider CSS */
-.read-more {
+.read-more a {
   display: flex;
   align-items: center;
   gap: 18px;
+  font-size: 16px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 0;
+  color: #393d48;
 }
-.read-more .icon {
+.read-more a .icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -66,16 +72,31 @@
   height: 32px;
   border-radius: 100%;
   background: #ff6731;
-  justify-content: center;
-  align-items: center;
   color: #ffffff;
 }
-.read-more .btn-text {
+.read-more a .icon i {
+  color: #ffffff;
   font-size: 16px;
-  line-height: 36px;
-  font-weight: 700;
-  text-transform: capitalize;
-  margin-bottom: 0;
+}
+
+.custom-read-btn {
+  padding: 8px 8px 8px 30px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+.custom-read-btn .icon {
+  width: 38px;
+  height: 38px;
+  border-radius: 4px;
+  background-color: #005bac;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.custom-read-btn .icon i {
+  color: #ffffff;
 }
 
 /* Hero slider CSS */
@@ -1066,10 +1087,17 @@
   display: flex;
   background: #2c3236;
   padding: 70px;
+  flex-direction: column;
+  gap: 40px;
 }
 .icon-card .icon {
+  width: 78px;
+  height: 78px;
   display: flex;
   flex-shrink: 0;
+}
+.icon-card .icon img {
+  width: 100%;
 }
 .icon-card .content {
   display: flex;
@@ -1103,7 +1131,6 @@
 .icon-card.style-three .icon img {
   width: 100%;
 }
-
 .info-card.style-three {
   position: relative;
 }
@@ -1164,6 +1191,124 @@
   line-height: 30px;
   font-weight: 400;
   margin: 0;
+}
+.price-card {
+  padding: 30px;
+  background: white;
+  z-index: 2;
+  position: relative;
+  border-radius: 14px;
+}
+.price-card .card-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 35px;
+  flex-direction: column;
+}
+.price-card .card-title .sub-title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #ff6731;
+  margin: 0;
+}
+.price-card .card-title .title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 30px;
+  color: #393d48;
+}
+.price-card .price {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: #1eae98;
+  border-radius: 7px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  gap: 10px;
+}
+.price-card .price .price-heading {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 42px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  margin-bottom: 0;
+}
+.price-card .price .price-heading .currency {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+  text-align: start;
+  align-self: flex-start;
+}
+.price-card .price .price-heading .under-dot {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: capitalize;
+  color: #ffffff;
+  align-self: end;
+}
+.price-card .price .price-desc {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+.price-card .list-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.price-card .list {
+  margin-top: 0;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+}
+.price-card .list .list-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.price-card .list .list-item .fa-check {
+  color: #ff6731;
+}
+.price-card .list .list-item .fa-x {
+  color: #bbc7cf;
+}
+.price-card .list .list-item .text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  color: #393d48;
+  margin: 0;
+}
+.price-card .card-btn {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=rakib.css.map */
