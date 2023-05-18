@@ -1524,6 +1524,51 @@
   color: #778196;
 }
 
+.process-steps-wrapper {
+  padding: 70px 0px 10px 50px;
+  background: #31373f;
+}
+
+.process-step {
+  position: relative;
+  padding: 42px 50px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+.process-step .count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  background: #1eae98;
+  width: 72px;
+  height: 72px;
+  border-radius: 50px;
+  color: #ffffff;
+}
+.process-step .content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.process-step .content .title {
+  margin: 0;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #393d48;
+}
+.process-step .content .desc {
+  margin: 0;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #5e6f92;
+}
+
 .prices-card-wrapper {
   background: #4566d4;
 }
