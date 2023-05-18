@@ -78,6 +78,9 @@
   color: #ffffff;
   font-size: 16px;
 }
+.read-more a:hover {
+  margin-left: 5px;
+}
 .read-more.style-two a .icon {
   background: linear-gradient(65deg, rgb(227, 0, 8) 0%, rgb(250, 174, 0) 100%);
   padding: 1px;
@@ -1200,11 +1203,9 @@
   position: relative;
   border: 1px solid #005bac;
 }
-.info-card.style-two:hover .info-card {
-  border: none;
-}
-.info-card.style-two:hover .info-card .style-two {
-  border: none;
+.info-card.style-two:hover {
+  border: 1px solid transparent;
+  overflow: hidden;
 }
 .info-card.style-two:hover .image-wrapper {
   opacity: 0.7;
@@ -1229,7 +1230,7 @@
   overflow: hidden;
   top: 0;
   left: 0;
-  transition: all 0.9s ease;
+  transition: all 0.6s ease;
 }
 .info-card.style-two .image-wrapper img {
   width: 100%;
@@ -1256,6 +1257,7 @@
   gap: 30px;
   padding-bottom: 40px;
   border-bottom: 3px solid #1eae98;
+  transition: all 0.6s ease;
 }
 .info-card.style-two .title-wrapper .icon {
   display: flex;
@@ -1273,7 +1275,7 @@
   font-weight: 700;
   margin: 0;
   color: #393d48;
-  transition: all 0.9s ease;
+  transition: all 0.6s ease;
 }
 .info-card.style-two .content {
   display: flex;
@@ -1282,7 +1284,7 @@
   margin-top: 36px;
 }
 .info-card.style-two .content .desc {
-  transition: all 0.9s ease;
+  transition: all 0.6s ease;
   font-size: 18px;
   line-height: 34px;
   font-weight: 400;
@@ -1296,7 +1298,7 @@
 .info-card.style-three:hover .content-wrapper .content-area {
   visibility: visible;
   opacity: 1;
-  transition: 0.9s;
+  transition: 0.6s;
 }
 .info-card.style-three:hover .content-wrapper .content-area .content {
   margin-top: 20px;
@@ -1337,7 +1339,7 @@
   overflow: hidden;
   visibility: hidden;
   opacity: 0;
-  transition: 0.9s;
+  transition: all 0.6s ease;
 }
 .info-card.style-three .content-wrapper .content {
   display: flex;
