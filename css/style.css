@@ -2373,14 +2373,14 @@ html {
     content: "";
     width: 350px;
     height: 240px;
-    left: 0;
-    top: -50px;
+    left: -30px;
+    bottom: -40px;
     background: #e30008;
     background: linear-gradient(65deg, #e30008 0%, #faae00 100%);
     border-radius: 15px;
     z-index: -1;
-    -webkit-transform: rotate(25deg);
-            transform: rotate(25deg); }
+    -webkit-transform: rotate(20deg);
+            transform: rotate(20deg); }
   .logo .retina-logo {
     display: none; }
     .logo .retina-logo img {

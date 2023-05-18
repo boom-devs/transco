@@ -115,12 +115,12 @@
     content: "";
     width: 350px;
     height: 240px;
-    left: 0;
-    top: -50px;
+    left: -30px;
+    bottom: -40px;
     @include gradient-color-red;
     border-radius: 15px;
     z-index: -1;
-    transform: rotate(25deg);
+    transform: rotate(20deg);
   }
 
   .standard-logo {
