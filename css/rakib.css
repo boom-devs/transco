@@ -78,6 +78,20 @@
   color: #ffffff;
   font-size: 16px;
 }
+.read-more.style-two a .icon {
+  background: linear-gradient(65deg, rgb(227, 0, 8) 0%, rgb(250, 174, 0) 100%);
+  padding: 1px;
+}
+.read-more.style-two a .icon i {
+  background: #ffffff;
+  color: #005bac;
+  border-radius: 50px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .custom-read-btn {
   padding: 8px 8px 8px 30px;
@@ -1130,6 +1144,52 @@
 }
 .icon-card.style-three .icon img {
   width: 100%;
+}
+.info-card {
+  background: #ffffff;
+  padding: 45px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border-radius: 10px;
+  position: relative;
+}
+.info-card .divider {
+  background-color: #020a27;
+}
+.info-card .divider:before {
+  content: "";
+  position: absolute;
+  background: #5e6f92;
+  right: 0;
+  height: 80%;
+  width: 1px;
+}
+.info-card .icon {
+  display: flex;
+  flex-shrink: 0;
+  justify-content: start;
+  width: 54px;
+  height: 50px;
+}
+.info-card .content {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+.info-card .content .title {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  color: #393d48;
+  margin: 0;
+}
+.info-card .content .desc {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #5e6f92;
+  margin: 0;
 }
 .info-card.style-three {
   position: relative;
