@@ -87,8 +87,9 @@ $desc-text-gray: #c7cdda;
 // Post-card
 @import "modules/post-card-two";
 
-.prices-card-wrapper {
+.common-card-wrapper {
   background: #4566d4;
+  padding: 100px 50px;
 }
 .testimonial-cards {
   background: #eef5f8;
