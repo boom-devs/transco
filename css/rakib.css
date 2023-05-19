@@ -52,70 +52,6 @@
 }
 
 /* Hero slider CSS */
-.read-more a {
-  display: flex;
-  align-items: center;
-  gap: 18px;
-  font-size: 16px;
-  line-height: 36px;
-  font-weight: 700;
-  text-transform: capitalize;
-  margin-bottom: 0;
-  color: #393d48;
-}
-.read-more a .icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  width: 32px;
-  height: 32px;
-  border-radius: 100%;
-  background: #ff6731;
-  color: #ffffff;
-}
-.read-more a .icon i {
-  color: #ffffff;
-  font-size: 16px;
-}
-.read-more a:hover {
-  margin-left: 5px;
-}
-.read-more.style-two a .icon {
-  background: linear-gradient(65deg, rgb(227, 0, 8) 0%, rgb(250, 174, 0) 100%);
-  padding: 1px;
-}
-.read-more.style-two a .icon i {
-  background: #ffffff;
-  color: #005bac;
-  border-radius: 50px;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.custom-read-btn {
-  padding: 8px 8px 8px 30px;
-  display: flex;
-  gap: 30px;
-  align-items: center;
-  justify-content: space-between;
-}
-.custom-read-btn .icon {
-  width: 38px;
-  height: 38px;
-  border-radius: 4px;
-  background-color: #005bac;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.custom-read-btn .icon i {
-  color: #ffffff;
-}
-
 /* Hero slider CSS */
 .slider-area .slider-wrapper {
   height: 920px;
@@ -1199,6 +1135,49 @@
   font-weight: 400;
   color: #5e6f92;
   margin: 0;
+}
+.info-card .content .read-more a {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  font-size: 16px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 0;
+  color: #393d48;
+}
+.info-card .content .read-more a .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  background: #ff6731;
+  color: #ffffff;
+}
+.info-card .content .read-more a .icon i {
+  color: #ffffff;
+  font-size: 16px;
+}
+.info-card .content .read-more a:hover {
+  margin-left: 5px;
+}
+.info-card .content .read-more.style-two a .icon {
+  background: linear-gradient(65deg, rgb(227, 0, 8) 0%, rgb(250, 174, 0) 100%);
+  padding: 1px;
+}
+.info-card .content .read-more.style-two a .icon i {
+  background: #ffffff;
+  color: #005bac;
+  border-radius: 50px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .info-card.style-two {
