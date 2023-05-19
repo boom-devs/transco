@@ -1089,10 +1089,23 @@
 .info-card-wrapper {
   position: relative;
 }
-.info-card-wrapper .divider {
+
+.info-card {
+  background: #ffffff;
+  padding: 40px 50px;
+  border-radius: 10px;
+  position: relative;
+}
+.info-card .info-card-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  height: 100%;
+}
+.info-card .divider {
   background-color: #020a27;
 }
-.info-card-wrapper .divider:before {
+.info-card .divider:before {
   content: "";
   position: absolute;
   background: #5e6f92;
@@ -1101,14 +1114,28 @@
   width: 1px;
   top: 45px;
 }
-
-.info-card {
-  background: #ffffff;
-  padding: 45px;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  border-radius: 10px;
+.info-card .image-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  transition: all 0.6s ease;
+}
+.info-card .image-wrapper img {
+  width: 100%;
+  height: 100%;
+}
+.info-card .image-wrapper .overlay {
+  width: 100%;
+  height: 100%;
+  background: #005bac;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.6;
 }
 .info-card .icon {
   display: flex;
@@ -1117,24 +1144,56 @@
   width: 54px;
   height: 50px;
 }
-.info-card .content {
+.info-card .content-wrapper {
+  position: relative;
+  border-radius: 8px;
   display: flex;
-  gap: 30px;
   flex-direction: column;
 }
-.info-card .content .title {
+.info-card .title-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding-bottom: 40px;
+  border-bottom: none;
+  transition: all 0.6s ease;
+  flex-direction: column;
+  align-items: start;
+}
+.info-card .title-wrapper .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 52px;
+  height: 52px;
+  background: transparent;
+  border-radius: 10px;
+}
+.info-card .title-wrapper .title {
   font-size: 24px;
   line-height: 32px;
   font-weight: 700;
-  color: #393d48;
   margin: 0;
+  color: #393d48;
+  transition: all 0.6s ease;
+}
+.info-card .content {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
 }
 .info-card .content .desc {
+  transition: all 0.6s ease;
   font-size: 18px;
-  line-height: 30px;
+  line-height: 28px;
   font-weight: 400;
-  color: #5e6f92;
   margin: 0;
+  color: #5e6f92;
+}
+.info-card .content .read-more {
+  display: flex;
+  justify-content: start;
 }
 .info-card .content .read-more a {
   display: flex;
@@ -1181,7 +1240,7 @@
 }
 
 .info-card.style-two {
-  padding: 48px;
+  padding: 46px;
   position: relative;
   border: 1px solid #005bac;
 }
@@ -1204,74 +1263,25 @@
 .info-card.style-two:hover .read-more a {
   color: #ffffff;
 }
-.info-card.style-two .image-wrapper {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  overflow: hidden;
-  top: 0;
-  left: 0;
-  transition: all 0.6s ease;
-}
-.info-card.style-two .image-wrapper img {
-  width: 100%;
-  height: 100%;
-}
-.info-card.style-two .image-wrapper .overlay {
-  width: 100%;
-  height: 100%;
-  background: #005bac;
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0.6;
-}
-.info-card.style-two .content-wrapper {
-  position: relative;
-  border-radius: 8px;
-  display: flex;
-  flex-direction: column;
-}
 .info-card.style-two .title-wrapper {
-  display: flex;
-  align-items: center;
-  gap: 30px;
-  padding-bottom: 40px;
+  flex-direction: row;
   border-bottom: 3px solid #1eae98;
-  transition: all 0.6s ease;
+  align-items: center;
 }
 .info-card.style-two .title-wrapper .icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
   width: 97px;
   height: 97px;
   background: linear-gradient(65deg, rgb(227, 0, 8) 0%, rgb(250, 174, 0) 100%);
-  border-radius: 10px;
 }
 .info-card.style-two .title-wrapper .title {
-  font-size: 24px;
   line-height: 36px;
-  font-weight: 700;
-  margin: 0;
-  color: #393d48;
-  transition: all 0.6s ease;
 }
 .info-card.style-two .content {
-  display: flex;
-  flex-direction: column;
-  gap: 38px;
-  margin-top: 36px;
+  margin-top: 38px;
+  gap: 37px;
 }
 .info-card.style-two .content .desc {
-  transition: all 0.6s ease;
-  font-size: 18px;
-  line-height: 34px;
-  font-weight: 400;
-  margin: 0;
-  color: #5e6f92;
+  line-height: 26px;
 }
 
 .info-card.style-three {
@@ -1607,7 +1617,7 @@
 
 .testimonial-cards {
   background: #eef5f8;
-  padding: 50px;
+  padding: 50px 0;
 }
 
 /*# sourceMappingURL=rakib.css.map */
