@@ -50,16 +50,28 @@
   }
   .header-top-btn {
     a {
-      background-color: $orange-color;
+      position: relative;
       padding: 11px 46px;
       font-size: 18px;
       font-family: $heading-font;
       color: $white;
       margin-bottom: -100px;
       display: inline-block;
-      border-radius: 0 0 10px 10px;
       margin-left: 30px;
       font-weight: 700;
+      z-index: 2;
+
+      &:before {
+        position: absolute;
+        content: "";
+        border-radius: 0 0 10px 10px;
+        background-color: $orange-color;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+      }
     }
   }
   .header-social {
