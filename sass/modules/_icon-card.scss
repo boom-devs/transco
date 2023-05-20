@@ -1,8 +1,8 @@
 .icon-card {
     display: flex;
-    background: #2c3236;
+    background: $white;
     padding: 70px;
-    flex-direction: column;
+    flex-direction: row;
     gap: 40px;
     .icon {
         width: 78px;
@@ -15,22 +15,23 @@
     }
     .content {
         display: flex;
-        gap: 34px;
+        gap: 32px;
         flex-direction: column;
         .title {
+            font-family: $heading-font;
             font-weight: 700;
             font-size: 24px;
-            margin-bottom: 0;
-            color: $white;
             line-height: 36px;
+            color: $secondary-color;
+            margin-bottom: 0;
         }
         .desc {
-            font-family: sans-serif;
-            font-weight: 400;
+            font-family: $body-font;
             font-size: 18px;
-            margin-bottom: 0;
-            color: $white-100;
             line-height: 30px;
+            font-weight: 400;
+            color: $text-color;
+            margin-bottom: 0;
         }
     }
 }

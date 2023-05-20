@@ -4786,44 +4786,32 @@ ul.children {
       color: #005bac; }
 
 /* Team Member */
-.team-member {
-  background-color: #ffffff;
-  border-radius: 14px;
-  overflow: hidden;
-  margin-bottom: 30px; }
-  .team-member:hover .image img {
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
-    -webkit-transition: all 0.5s ease-out;
-    transition: all 0.5s ease-out; }
-  .team-member .image {
-    height: 236px;
-    overflow: hidden;
-    position: relative; }
-    .team-member .image img {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      left: 0;
-      top: 0;
-      -o-object-fit: cover;
-         object-fit: cover;
-      -webkit-transform: scale(1);
-              transform: scale(1);
-      -webkit-transition: all 0.5s ease-out;
-      transition: all 0.5s ease-out; }
-  .team-member .content-wrapper {
-    background-color: #f3f4f8;
-    padding: 30px;
+.team-member-card {
+  position: relative; }
+  .team-member-card .image img {
+    width: 100%;
+    height: 100%; }
+  .team-member-card .content-wrapper {
+    position: absolute;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    gap: 30px; }
-    .team-member .content-wrapper .content {
+    padding: 0 30px;
+    width: 100%;
+    bottom: -36px; }
+    .team-member-card .content-wrapper .content {
+      width: 100%;
+      padding: 30px 0;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -4831,27 +4819,53 @@ ul.children {
       -webkit-box-direction: normal;
           -ms-flex-direction: column;
               flex-direction: column;
-      text-align: center;
-      gap: 2px; }
-      .team-member .content-wrapper .content .name {
-        font-size: 20px;
-        font-weight: 600;
-        line-height: 28px;
-        margin-bottom: 0; }
-      .team-member .content-wrapper .content .designation {
-        color: #005bac; }
-    .team-member .content-wrapper .social-widget {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
-              justify-content: center; }
-      .team-member .content-wrapper .social-widget a {
-        color: #393d48;
-        background-color: #ffffff; }
-        .team-member .content-wrapper .social-widget a:hover {
-          background-color: #005bac;
-          color: #ffffff; }
-  .team-member.style-two {
-    margin-bottom: 0; }
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      background: #005bac;
+      z-index: 1; }
+      .team-member-card .content-wrapper .content .title {
+        font-size: 24px;
+        line-height: 60px;
+        font-weight: 700;
+        color: #ffffff;
+        font-family: "Poppins", sans-serif;
+        margin: 0; }
+      .team-member-card .content-wrapper .content .desc {
+        font-size: 16px;
+        line-height: 33px;
+        font-weight: 400;
+        color: #c7cdda;
+        font-family: "Poppins", sans-serif;
+        margin: 0; }
+    .team-member-card .content-wrapper .social {
+      background: #ff6731;
+      padding: 22px 0;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      gap: 10px;
+      width: 94%;
+      margin-top: -68px;
+      z-index: -1;
+      -webkit-transition: all 0.5s ease-out;
+      transition: all 0.5s ease-out; }
+      .team-member-card .content-wrapper .social i {
+        color: #ffffff; }
+  .team-member-card:hover .content-wrapper .content {
+    z-index: 1; }
+  .team-member-card:hover .content-wrapper .social {
+    margin-top: 0;
+    z-index: 1; }
 
 .portfolio-style-two {
   background-color: #ffffff;
@@ -4986,4 +5000,5 @@ ul.children {
   padding-bottom: 120px; }
   .service-area .section-title {
     margin-bottom: 70px; }
+
 /*# sourceMappingURL=style.css.map */
