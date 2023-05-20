@@ -2309,16 +2309,26 @@ html {
         .header-top .header-contact-info span a i {
           color: #ffffff; }
   .header-top .header-top-btn a {
-    background-color: #ff6731;
+    position: relative;
     padding: 11px 46px;
     font-size: 18px;
     font-family: "Poppins", sans-serif;
     color: #ffffff;
     margin-bottom: -100px;
     display: inline-block;
-    border-radius: 0 0 10px 10px;
     margin-left: 30px;
-    font-weight: 700; }
+    font-weight: 700;
+    z-index: 2; }
+    .header-top .header-top-btn a:before {
+      position: absolute;
+      content: "";
+      border-radius: 0 0 10px 10px;
+      background-color: #ff6731;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1; }
   .header-top .header-social {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2542,6 +2552,20 @@ html {
     .header-btn {
       display: none; } }
 
+.header-area.style-two .header-top .header-top-btn a {
+  margin-bottom: inherit;
+  padding: 6px 46px; }
+  .header-area.style-two .header-top .header-top-btn a:before {
+    border-radius: 0;
+    -webkit-transform: skewX(-20deg);
+            transform: skewX(-20deg); }
+.header-area.style-two .header-sec .logo:before {
+  border-radius: 0;
+  -webkit-transform: skewX(-20deg);
+          transform: skewX(-20deg);
+  bottom: 0;
+  height: 190px; }
+
 /*!
 MeanMenu 2.0.8 -------- To be used with jquery.meanmenu.js by Chris Wharton (http://www.meanthemes.com/plugins/meanmenu/) 
 */
@@ -2746,6 +2770,36 @@ a.meanmenu-reveal {
         top: 50%;
         -webkit-transform: translateY(-50%);
                 transform: translateY(-50%);
+        z-index: -1;
+        right: -125px; }
+
+.slider-area.style-two {
+  position: relative; }
+  .slider-area.style-two:before {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-bottom: 290px solid #005bac;
+    border-left: 117px solid transparent;
+    z-index: 1; }
+  .slider-area.style-two .slider-wrapper .slider-content-wrapper {
+    gap: 100px; }
+    .slider-area.style-two .slider-wrapper .slider-content-wrapper .slider-image {
+      position: relative;
+      z-index: 2;
+      width: 58%; }
+      .slider-area.style-two .slider-wrapper .slider-content-wrapper .slider-image:before {
+        position: absolute;
+        content: "";
+        width: 520px;
+        height: 1500px;
+        background-color: #ff6731;
+        border-radius: 0;
+        top: -500px;
+        right: 0;
+        -webkit-transform: skewX(-20deg);
+                transform: skewX(-20deg);
         z-index: -1;
         right: -125px; }
 
@@ -5003,4 +5057,5 @@ ul.children {
   padding-bottom: 270px; }
   .news-area .section-title {
     margin-bottom: 70px; }
+
 /*# sourceMappingURL=style.css.map */
