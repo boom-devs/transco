@@ -3363,6 +3363,51 @@ a.meanmenu-reveal {
     .testimonial-card.style-two .meta-user .icon {
       display: none; }
 
+.client-logo-wrapper .client-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.post-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 35px 35px 30px 35px;
+  border: 1px solid #778196;
+  border-radius: 12px;
+  gap: 60px; }
+  .post-card .content .sub-title {
+    color: #ff6731;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 700;
+    margin: 0; }
+  .post-card .content .title {
+    font-size: 21px;
+    line-height: 30px;
+    font-weight: 700;
+    margin: 0;
+    color: #393d48; }
+  .post-card .date {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    margin: 0;
+    color: #778196; }
+
 /* 8.Title Section */
 .section-title {
   display: -webkit-box;
@@ -5149,5 +5194,15 @@ ul.children {
 .testimonial-area {
   padding-top: 144px;
   padding-bottom: 140px; }
+
+.client-logo-area {
+  background-color: #1eae98;
+  padding: 100px 0; }
+
+.news-area {
+  padding-top: 144px;
+  padding-bottom: 270px; }
+  .news-area .section-title {
+    margin-bottom: 70px; }
 
 /*# sourceMappingURL=style.css.map */

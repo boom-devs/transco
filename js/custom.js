@@ -90,6 +90,33 @@
                 },
             ],
         });
+
+        /*
+       Client Logo Slider
+       ============================*/
+        $(".client-logo-slider-wrapper").slick({
+            slidesToShow: 5,
+            infinite: true,
+            autoplay: false,
+            draggable: true,
+            arrows: false,
+            slidesToScroll: 1,
+            loop: true,
+            dots: false,
+            speed: 1500,
+            prevArrow:
+                "<button type='button' class='post-gallery-btn prev-btn'><i class='fa fa-arrow-left'></i></button>",
+            nextArrow:
+                "<button type='button' class='post-gallery-btn next-btn'><i class='fa fa-arrow-right'></i></button>",
+            responsive: [
+                {
+                    breakpoint: 767,
+                    settings: {
+                        autoplay: true,
+                    },
+                },
+            ],
+        });
         /*
        scrollUp
        ============================*/

@@ -50,3 +50,18 @@
   padding-top: 144px;
   padding-bottom: 140px;
 }
+
+// Client Logo Area
+.client-logo-area {
+  background-color: $sky-color;
+  padding: 100px 0;
+}
+// News Area
+.news-area {
+  padding-top: 144px;
+  padding-bottom: 270px;
+
+  .section-title {
+    margin-bottom: 70px;
+  }
+}
