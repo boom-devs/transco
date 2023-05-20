@@ -641,50 +641,6 @@
   border-bottom: 2px solid rgba(4, 20, 78, 0.1);
 }
 
-/* Portfolio CSS */
-.portfolio-style-one {
-  background: #ffffff;
-  border-radius: 14px;
-  box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.08);
-}
-.portfolio-style-one .image {
-  margin: 0;
-}
-.portfolio-style-one .image img {
-  width: 100%;
-}
-.portfolio-style-one .content-wrapper {
-  padding: 30px 25px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.portfolio-style-one .content-wrapper .title-img {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.portfolio-style-one .content-wrapper .title-img span {
-  font-size: 13px;
-  line-height: 23px;
-  text-align: right;
-  text-transform: uppercase;
-  color: #4566d4;
-}
-.portfolio-style-one .content-wrapper .desc {
-  margin-top: 10px;
-  margin-bottom: 0;
-}
-.portfolio-style-one .content-wrapper .read-more {
-  margin-top: 20px;
-  display: flex;
-}
-.portfolio-style-one .content-wrapper .read-more :hover {
-  margin-left: 10px;
-  transition-property: all;
-  transition-duration: 0.7s;
-}
-
 /* Articles CSS */
 .post-card-item {
   background: #ffffff;
@@ -1677,6 +1633,73 @@
   font-weight: 400;
   margin: 0;
   color: #778196;
+}
+
+/* Team-member-card style-one CSS */
+.team-member-card {
+  position: relative;
+}
+.team-member-card .image img {
+  width: 100%;
+  height: 100%;
+}
+.team-member-card .content-wrapper {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 30px;
+  width: 100%;
+  bottom: -36px;
+}
+.team-member-card .content-wrapper .content {
+  width: 100%;
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #005bac;
+  z-index: 1;
+}
+.team-member-card .content-wrapper .content .title {
+  font-size: 24px;
+  line-height: 60px;
+  font-weight: 700;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+.team-member-card .content-wrapper .content .desc {
+  font-size: 16px;
+  line-height: 33px;
+  font-weight: 400;
+  color: #c7cdda;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+.team-member-card .content-wrapper .social {
+  background: #ff6731;
+  padding: 22px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 94%;
+  margin-top: -68px;
+  z-index: -1;
+  transition: all 0.5s ease-out;
+}
+.team-member-card .content-wrapper .social i {
+  color: #ffffff;
+}
+.team-member-card:hover .content-wrapper .content {
+  z-index: 1;
+}
+.team-member-card:hover .content-wrapper .social {
+  margin-top: 0;
+  z-index: 1;
 }
 
 .common-card-wrapper {

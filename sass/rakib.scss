@@ -34,9 +34,6 @@ $text-gray-light: #6a6c73;
 /* Pricing CSS */
 @import "modules/pricing";
 
-/* Portfolio CSS */
-@import "modules/portfolio";
-
 /* Articles CSS */
 @import "modules/articles";
 
@@ -93,6 +90,9 @@ $text-gray-light: #6a6c73;
 
 // Post-card
 @import "modules/post-card-two";
+
+/* Team-member-card style-one CSS */
+@import "modules/team-member";
 
 .common-card-wrapper {
   background: #4566d4;
