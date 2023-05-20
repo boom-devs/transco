@@ -11,8 +11,6 @@ $text-gray-light: #6a6c73;
 /* Hero slider CSS */
 //@import "modules/title-section";
 
-$desc-text-gray: #c7cdda;
-
 /* Hero slider CSS */
 @import "modules/slider-style-one";
 /* custom slider CSS */
@@ -84,8 +82,11 @@ $desc-text-gray: #c7cdda;
 // Testimonial-card
 @import "modules/testimonial-card-two";
 
-// Process-card
+// Process-step-card
 @import "modules/process-step";
+
+// Process-step-card style-two
+@import "modules/process-step-two";
 
 // Post-card
 @import "modules/post-card-two";
@@ -97,4 +98,8 @@ $desc-text-gray: #c7cdda;
 .testimonial-cards {
   background: #eef5f8;
   padding: 50px 0;
+}
+.process-wrapper-two {
+  background: #393d48;
+  padding: 50px;
 }
