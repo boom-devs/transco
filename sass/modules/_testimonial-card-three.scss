@@ -1,0 +1,13 @@
+.testimonial-card {
+    &.style-three {
+        flex-direction: row;
+        .icon {
+            align-self: flex-start;
+        }
+        .content-wrapper {
+            .content {
+                margin-top: 18px;
+            }
+        }
+    }
+}

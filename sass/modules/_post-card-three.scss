@@ -1,21 +1,22 @@
 .post-card {
-    &.style-two {
-        padding: 0;
-        border: none;
-        border-radius: 12px;
-        gap: 30px;
-        flex-direction: row;
-        align-items: center;
-        .image {
-            flex-shrink: 0;
+    &.style-three {
+        height: 468px;
+        justify-content: end;
+        align-items: end;
+        &:before {
+            background-color: $secondary-color;
+            opacity: 0.3;
         }
         .content {
-            gap: 12px;
             .sub-title {
+                color: $white;
                 display: inline-flex;
                 gap: 17px;
                 align-items: center;
+                font-size: 16px;
+                line-height: 30px;
                 .date {
+                    color: $white;
                     margin: 0;
                     &:before {
                         background-color: #b8bfcc;
@@ -28,8 +29,9 @@
                 }
             }
             .title {
-                font-size: 24px;
-                line-height: 33px;
+                color: $white;
+                font-size: 30px;
+                line-height: 42px;
                 font-weight: 700;
             }
         }

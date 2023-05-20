@@ -80,7 +80,10 @@ $text-gray-light: #6a6c73;
 @import "modules/price-card";
 
 // Testimonial-card
-@import "testimonial-card";
+@import "modules/testimonial-card-two";
+
+// Testimonial-card
+@import "modules/testimonial-card-three";
 
 // Process-step-card
 @import "modules/process-step";
@@ -90,6 +93,9 @@ $text-gray-light: #6a6c73;
 
 // Post-card
 @import "modules/post-card-two";
+
+// Post-card
+@import "modules/post-card-three";
 
 /* Team-member-card style-one CSS */
 @import "modules/team-member";
