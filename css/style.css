@@ -3923,6 +3923,68 @@ a.meanmenu-reveal {
   font-weight: 700;
 }
 
+.skill-and-accordion-sec {
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+.progress-inner {
+  margin: 0 0 12px;
+  overflow: hidden;
+}
+
+.progress-inner-item {
+  position: relative;
+  margin: 0;
+}
+
+.skill-title {
+  z-index: 100;
+  color: #2d3663;
+  font-size: 18px;
+  font-weight: 800;
+  font-family: "Raleway", sans-serif;
+}
+
+.progressbar-number {
+  width: 100%;
+  z-index: 10;
+}
+
+.progress-number-count {
+  background-color: #6bb1e1;
+  padding: 0 8px;
+  position: absolute;
+  bottom: -40px;
+  -moz-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+}
+
+.progressbar-number,
+.progress-number-count {
+  font-size: 18px;
+  line-height: 40px;
+  height: 40px;
+  letter-spacing: 0px;
+  font-weight: 800;
+  text-transform: none;
+  color: #fff;
+}
+
+.progress-content-outter {
+  height: 40px;
+  background-color: #eeeeee;
+}
+
+.progress-content {
+  height: 40px;
+  background-color: #2d3663;
+  width: 0%;
+}
+
 /* 8.Title Section */
 .section-title {
   display: flex;
