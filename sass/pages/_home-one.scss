@@ -12,3 +12,15 @@
   background-position: center center;
   background-color: $primary-color;
 }
+
+// Why Choose Us Area
+.why-choose-us-area {
+  margin-top: -74px;
+
+  .why-choose-us-wrapper {
+    background-color: $white;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 5px 0 90px rgba(245, 246, 249, 0.8);
+  }
+}

@@ -971,7 +971,7 @@
 
 .info-card {
   background: #ffffff;
-  padding: 40px 50px;
+  padding: 48px 30px;
   border-radius: 10px;
   position: relative;
 }
@@ -982,12 +982,12 @@
   height: 100%;
 }
 .info-card .divider {
-  background-color: #020a27;
+  background-color: #dfe2e9;
 }
 .info-card .divider:before {
   content: "";
   position: absolute;
-  background: #5e6f92;
+  background-color: #dfe2e9;
   right: 0;
   height: 80%;
   width: 1px;
