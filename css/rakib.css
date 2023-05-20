@@ -1576,22 +1576,6 @@
 .post-card.style-two .content {
   gap: 12px;
 }
-.post-card.style-two .content .sub-title {
-  display: inline-flex;
-  gap: 17px;
-  align-items: center;
-}
-.post-card.style-two .content .sub-title .date {
-  margin: 0;
-}
-.post-card.style-two .content .sub-title .date:before {
-  background-color: #b8bfcc;
-  width: 1px;
-  display: inline-flex;
-  height: 12px;
-  content: "";
-  margin-right: 17px;
-}
 .post-card.style-two .content .title {
   font-size: 24px;
   line-height: 33px;
@@ -1632,6 +1616,22 @@
   font-size: 30px;
   line-height: 42px;
   font-weight: 700;
+}
+
+.post-card.style-four {
+  flex-direction: column;
+  border: none;
+  padding: 0;
+  gap: 28px;
+}
+.post-card.style-four .image img {
+  width: 100%;
+  height: 100%;
+}
+.post-card.style-four .content .sub-title .date {
+  color: #778196;
+  line-height: 30px;
+  font-weight: 400;
 }
 
 /* Team-member-card style-one CSS */

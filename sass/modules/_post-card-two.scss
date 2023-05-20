@@ -12,20 +12,6 @@
         .content {
             gap: 12px;
             .sub-title {
-                display: inline-flex;
-                gap: 17px;
-                align-items: center;
-                .date {
-                    margin: 0;
-                    &:before {
-                        background-color: #b8bfcc;
-                        width: 1px;
-                        display: inline-flex;
-                        height: 12px;
-                        content: "";
-                        margin-right: 17px;
-                    }
-                }
             }
             .title {
                 font-size: 24px;

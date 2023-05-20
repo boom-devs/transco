@@ -3917,22 +3917,6 @@ a.meanmenu-reveal {
 .post-card.style-two .content {
   gap: 12px;
 }
-.post-card.style-two .content .sub-title {
-  display: inline-flex;
-  gap: 17px;
-  align-items: center;
-}
-.post-card.style-two .content .sub-title .date {
-  margin: 0;
-}
-.post-card.style-two .content .sub-title .date:before {
-  background-color: #b8bfcc;
-  width: 1px;
-  display: inline-flex;
-  height: 12px;
-  content: "";
-  margin-right: 17px;
-}
 .post-card.style-two .content .title {
   font-size: 24px;
   line-height: 33px;
@@ -4071,6 +4055,20 @@ a.meanmenu-reveal {
   line-height: 28px;
   font-weight: 700;
   margin: 0;
+  display: inline-flex;
+  gap: 17px;
+  align-items: center;
+}
+.post-card .content .sub-title .date {
+  margin: 0;
+}
+.post-card .content .sub-title .date:before {
+  background-color: #b8bfcc;
+  width: 1px;
+  display: inline-flex;
+  height: 12px;
+  content: "";
+  margin-right: 17px;
 }
 .post-card .content .title {
   font-size: 21px;
@@ -4079,7 +4077,7 @@ a.meanmenu-reveal {
   margin: 0;
   color: #393d48;
 }
-.post-card .date {
+.post-card .date-bottom {
   font-size: 16px;
   line-height: 18px;
   font-weight: 400;

@@ -22,6 +22,20 @@
       line-height: 28px;
       font-weight: 700;
       margin: 0;
+      display: inline-flex;
+      gap: 17px;
+      align-items: center;
+      .date {
+        margin: 0;
+        &:before {
+          background-color: #b8bfcc;
+          width: 1px;
+          display: inline-flex;
+          height: 12px;
+          content: "";
+          margin-right: 17px;
+        }
+      }
     }
     .title {
       font-size: 21px;
@@ -31,7 +45,7 @@
       color: $secondary-color;
     }
   }
-  .date {
+  .date-bottom {
     font-size: 16px;
     line-height: 18px;
     font-weight: 400;
