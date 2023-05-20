@@ -3223,6 +3223,62 @@ a.meanmenu-reveal {
       margin: 0;
       color: #c7cdda; }
 
+.process-steps-wrapper {
+  padding: 70px 0px 10px 50px;
+  background: #31373f; }
+
+.process-step {
+  position: relative;
+  padding: 42px 50px;
+  border-radius: 10px;
+  background: #ffffff;
+  margin-bottom: 78px; }
+  .process-step .count {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    background: #1eae98;
+    width: 72px;
+    height: 72px;
+    border-radius: 50px;
+    color: #ffffff; }
+    .process-step .count span {
+      font-size: 24px;
+      line-height: 36px;
+      font-weight: 700; }
+  .process-step .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 16px; }
+    .process-step .content .title {
+      margin: 0;
+      font-size: 24px;
+      line-height: 36px;
+      font-weight: 700;
+      color: #393d48; }
+    .process-step .content .desc {
+      margin: 0;
+      font-size: 18px;
+      line-height: 30px;
+      font-weight: 400;
+      color: #5e6f92; }
+
 /* 8.Title Section */
 .section-title {
   display: -webkit-box;
@@ -5000,5 +5056,18 @@ ul.children {
   padding-bottom: 120px; }
   .service-area .section-title {
     margin-bottom: 70px; }
+
+.process-step-area {
+  background-color: #31373f;
+  padding-top: 144px; }
+
+.process-image {
+  margin-bottom: -70px;
+  position: relative;
+  text-align: center; }
+
+.testimonial-area {
+  padding-top: 144px;
+  padding-bottom: 140px; }
 
 /*# sourceMappingURL=style.css.map */
