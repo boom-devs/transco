@@ -1577,6 +1577,9 @@
   gap: 17px;
   align-items: center;
 }
+.post-card.style-two .content .sub-title .date {
+  margin: 0;
+}
 .post-card.style-two .content .sub-title .date:before {
   background-color: #b8bfcc;
   width: 1px;
@@ -1588,6 +1591,42 @@
 .post-card.style-two .content .title {
   font-size: 24px;
   line-height: 33px;
+  font-weight: 700;
+}
+
+.post-card.style-three {
+  height: 468px;
+  justify-content: end;
+  align-items: end;
+}
+.post-card.style-three:before {
+  background-color: #393d48;
+  opacity: 0.3;
+}
+.post-card.style-three .content .sub-title {
+  color: #ffffff;
+  display: inline-flex;
+  gap: 17px;
+  align-items: center;
+  font-size: 16px;
+  line-height: 30px;
+}
+.post-card.style-three .content .sub-title .date {
+  color: #ffffff;
+  margin: 0;
+}
+.post-card.style-three .content .sub-title .date:before {
+  background-color: #b8bfcc;
+  width: 1px;
+  display: inline-flex;
+  height: 12px;
+  content: "";
+  margin-right: 17px;
+}
+.post-card.style-three .content .title {
+  color: #ffffff;
+  font-size: 30px;
+  line-height: 42px;
   font-weight: 700;
 }
 
