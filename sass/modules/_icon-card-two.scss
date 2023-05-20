@@ -1,23 +1,18 @@
 .icon-card {
-    &.style-three {
-        display: flex;
+    &.style-two {
         background: #2c3236;
-        padding: 70px;
-        flex-direction: column;
-        gap: 40px;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 34px;
         .icon {
-            width: 78px;
-            height: 78px;
-            display: flex;
-            flex-shrink: 0;
+            width: 62px;
+            height: 62px;
             img {
                 width: 100%;
             }
         }
         .content {
-            display: flex;
             gap: 34px;
-            flex-direction: column;
             .title {
                 color: $white;
             }

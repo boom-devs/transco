@@ -23,7 +23,7 @@ $text-gray-light: #6a6c73;
 @import "modules/about-us";
 
 /* Service CSS */
-@import "counter-card";
+// @import "counter-card";
 
 /* Service CSS */
 @import "modules/service";
@@ -58,10 +58,13 @@ $text-gray-light: #6a6c73;
 /* Footer CSS */
 @import "partials/footer-two";
 
-// icon-card
+// icon-card style-one
 @import "modules/icon-card";
 
-// icon-card
+// icon-card style-two
+@import "modules/icon-card-two";
+
+// icon-card style-three
 @import "modules/icon-card-three";
 
 // info-card
