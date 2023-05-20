@@ -3032,6 +3032,8 @@ a.meanmenu-reveal {
       border-bottom: 3px solid #ffffff; }
       .info-card.style-two:hover .title-wrapper .title {
         color: #ffffff; }
+      .info-card.style-two:hover .title-wrapper .icon {
+        background: linear-gradient(65deg, #e30008 0%, #faae00 100%); }
     .info-card.style-two:hover .content .desc {
       color: #ffffff; }
     .info-card.style-two:hover .read-more a {
@@ -3048,7 +3050,7 @@ a.meanmenu-reveal {
     .info-card.style-two .title-wrapper .icon {
       width: 97px;
       height: 97px;
-      background: linear-gradient(65deg, #e30008 0%, #faae00 100%); }
+      background: #005bac; }
     .info-card.style-two .title-wrapper .title {
       line-height: 36px; }
   .info-card.style-two .content {
