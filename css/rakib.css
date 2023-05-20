@@ -1357,6 +1357,84 @@
   margin: 0;
 }
 
+.info-card.style-four {
+  position: relative;
+  padding: 0;
+  border-radius: 14px;
+}
+.info-card.style-four .image-wrapper {
+  position: relative;
+  opacity: 1;
+  transition: all 0.6s ease;
+  border-radius: 10px;
+}
+.info-card.style-four .image-wrapper .overlay {
+  background: #393d49;
+}
+.info-card.style-four .content-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.info-card.style-four .content-wrapper .content-inner {
+  padding: 20px 30px 20px 35px;
+  background: transparent;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.info-card.style-four .content-wrapper .title-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-bottom: 30px;
+}
+.info-card.style-four .content-wrapper .title-wrapper .icon {
+  display: flex;
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  color: #ffffff;
+}
+.info-card.style-four .content-wrapper .title-wrapper .title {
+  font-size: 30px;
+  line-height: 42px;
+  font-weight: 700;
+  margin: 0;
+  color: #ffffff;
+}
+.info-card.style-four .content-wrapper .content-area {
+  overflow: hidden;
+  visibility: hidden;
+  opacity: 1;
+  transition: all 0.6s ease;
+}
+.info-card.style-four .content-wrapper .content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: -200px;
+}
+.info-card.style-four .content-wrapper .content .desc {
+  color: #ffffff;
+}
+.info-card.style-four .content-wrapper .content .read-more a {
+  color: #ffffff;
+}
+.info-card.style-four:hover .title-wrapper {
+  border-bottom: 1px solid #ffffff;
+}
+.info-card.style-four:hover .content-wrapper .content-area {
+  visibility: visible;
+  opacity: 1;
+  transition: 0.6s;
+}
+.info-card.style-four:hover .content-wrapper .content-area .content {
+  margin: 20px 0 30px 0;
+}
+
 .price-card {
   padding: 30px;
   background: white;
