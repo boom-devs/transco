@@ -3363,6 +3363,66 @@ a.meanmenu-reveal {
     .testimonial-card.style-two .meta-user .icon {
       display: none; }
 
+.accordion-wrapper .accordion-item.open .accordion-body {
+  display: block; }
+.accordion-wrapper .accordion-item.open .accordion-head .icon:before {
+  width: 0; }
+.accordion-wrapper .accordion-item .accordion-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 32px;
+  cursor: pointer;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse; }
+  .accordion-wrapper .accordion-item .accordion-head .accordion-title {
+    font-size: 21px;
+    line-height: 60px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 0; }
+  .accordion-wrapper .accordion-item .accordion-head .icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 16px;
+    width: 21px;
+    height: 21px;
+    position: relative; }
+    .accordion-wrapper .accordion-item .accordion-head .icon:before {
+      position: absolute;
+      content: "";
+      width: 3px;
+      height: 100%;
+      background-color: #ffffff;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+              transform: translateX(-50%); }
+    .accordion-wrapper .accordion-item .accordion-head .icon:after {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 3px;
+      background-color: #ffffff;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+              transform: translateX(-50%); }
+.accordion-wrapper .accordion-item .accordion-body {
+  display: none;
+  color: #c7cdda;
+  padding-left: 60px; }
+
 .client-logo-wrapper .client-logo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -5194,6 +5254,23 @@ ul.children {
 .testimonial-area {
   padding-top: 144px;
   padding-bottom: 140px; }
+
+.appointment-area {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 144px 0;
+  position: relative;
+  z-index: 2; }
+
+.blue-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 56, 105, 0.8);
+  left: 0;
+  top: 0;
+  z-index: -1; }
 
 .client-logo-area {
   background-color: #1eae98;

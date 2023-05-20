@@ -36,6 +36,18 @@
             }
         });
 
+        /*
+        Jquery Accordion
+        ============================*/
+        $(function() {
+            $('.accordion-item').click(function(){
+                $(this).toggleClass(' open ');
+                $(this).siblings().removeClass(' open ');
+                $('.accordion-body').stop().slideUp();
+                $('.open .accordion-body').stop().slideDown();
+                return false;
+            });
+        });
 
         /*
        Slider
