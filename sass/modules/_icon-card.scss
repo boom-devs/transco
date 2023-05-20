@@ -29,22 +29,8 @@
             font-weight: 400;
             font-size: 18px;
             margin-bottom: 0;
-            color: $desc-text-gray;
+            color: $white-100;
             line-height: 30px;
         }
-    }
-    &.style-three {
-        flex-direction: row;
-        justify-content: space-between;
-        gap: 34px;
-        .icon {
-            width: 62px;
-            height: 62px;
-            img {
-                width: 100%;
-            }
-        }
-    }
-    &.style-four {
     }
 }
