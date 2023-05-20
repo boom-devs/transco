@@ -4,6 +4,8 @@
   flex-direction: column;
   z-index: 2;
   position: relative;
+  align-items: center;
+  text-align: center;
 
   .short-title {
     font-size: 24px;
@@ -20,5 +22,10 @@
     span {
       color: $sky-color;
     }
+  }
+  .divider {
+    width: 72px;
+    height: 6px;
+    background-color: $primary-color;
   }
 }

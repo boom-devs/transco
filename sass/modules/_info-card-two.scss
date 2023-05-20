@@ -2,12 +2,34 @@
     &.style-two {
         padding: 46px;
         position: relative;
-        border: 1px solid $primary-color;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        border-radius: 12px;
+        z-index: 2;
+        @include transition;
+        overflow: hidden;
+        margin-bottom: 24px;
+
+        &:before {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background-color: $white;
+            z-index: -1;
+            content: "";
+            @include transition;
+            border: 1px solid $gray-300;
+            border-radius: 12px;
+        }
         &:hover {
-            border: 1px solid transparent;
-            overflow: hidden;
-            .image-wrapper {
-                opacity: 0.7;
+
+            @include transition;
+            &:before {
+               @include gradient-color-skye;
+                @include transition;
             }
             .title-wrapper {
                 border-bottom: 3px solid $white;
@@ -30,6 +52,7 @@
             flex-direction: row;
             border-bottom: 3px solid #1eae98;
             align-items: center;
+
             .icon {
                 width: 97px;
                 height: 97px;
