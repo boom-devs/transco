@@ -1428,6 +1428,8 @@
 
 .testimonial-card.style-two {
   padding: 58px;
+  box-shadow: 0 10px 68px rgba(0, 0, 0, 0.12);
+  border-radius: 20px;
 }
 .testimonial-card.style-two .icon {
   align-self: self-start;
