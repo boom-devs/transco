@@ -1447,6 +1447,9 @@
 .testimonial-card.style-three .icon {
   align-self: flex-start;
 }
+.testimonial-card.style-three .content-wrapper .content {
+  margin-top: 18px;
+}
 
 .process-steps-wrapper {
   padding: 70px 0px 10px 50px;
@@ -1555,35 +1558,37 @@
   color: #c7cdda;
 }
 
-.post-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 35px 35px 30px 35px;
-  border: 1px solid #778196;
+.post-card.style-two {
+  padding: 0;
+  border: none;
   border-radius: 12px;
-  gap: 60px;
+  gap: 30px;
+  flex-direction: row;
+  align-items: center;
 }
-.post-card .content .sub-title {
-  color: #ff6731;
-  font-size: 16px;
-  line-height: 28px;
+.post-card.style-two .image {
+  flex-shrink: 0;
+}
+.post-card.style-two .content {
+  gap: 12px;
+}
+.post-card.style-two .content .sub-title {
+  display: inline-flex;
+  gap: 17px;
+  align-items: center;
+}
+.post-card.style-two .content .sub-title .date:before {
+  background-color: #b8bfcc;
+  width: 1px;
+  display: inline-flex;
+  height: 12px;
+  content: "";
+  margin-right: 17px;
+}
+.post-card.style-two .content .title {
+  font-size: 24px;
+  line-height: 33px;
   font-weight: 700;
-  margin: 0;
-}
-.post-card .content .title {
-  font-size: 21px;
-  line-height: 30px;
-  font-weight: 700;
-  margin: 0;
-  color: #393d48;
-}
-.post-card .date {
-  font-size: 16px;
-  line-height: 18px;
-  font-weight: 400;
-  margin: 0;
-  color: #778196;
 }
 
 /* Team-member-card style-one CSS */
