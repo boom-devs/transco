@@ -34,3 +34,34 @@
     margin-bottom: 70px;
   }
 }
+
+// Process Step Area
+.process-step-area {
+  background-color: $black-200;
+  padding-top: 144px;
+}
+.process-image {
+  margin-bottom: -70px;
+  position: relative;
+  text-align: center;
+}
+// Testimonial Area
+.testimonial-area {
+  padding-top: 144px;
+  padding-bottom: 140px;
+}
+
+// Client Logo Area
+.client-logo-area {
+  background-color: $sky-color;
+  padding: 100px 0;
+}
+// News Area
+.news-area {
+  padding-top: 144px;
+  padding-bottom: 270px;
+
+  .section-title {
+    margin-bottom: 70px;
+  }
+}
