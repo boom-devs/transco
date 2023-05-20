@@ -1,23 +1,12 @@
 .info-card-wrapper {
     position: relative;
-    // .divider {
-    //     background-color: $black;
-    //     &:before {
-    //         content: "";
-    //         position: absolute;
-    //         background: $text-color;
-    //         right: 0;
-    //         height: 80%;
-    //         width: 1px;
-    //         top: 45px;
-    //     }
-    // }
 }
 .info-card {
     background: $white;
-    padding: 40px 50px;
+    padding: 48px 30px;
     border-radius: 10px;
     position: relative;
+
     .info-card-inner {
         display: flex;
         flex-direction: column;
@@ -25,11 +14,12 @@
         height: 100%;
     }
     .divider {
-        background-color: $black;
+        background-color: $gray-300;
+
         &:before {
             content: "";
             position: absolute;
-            background: $text-color;
+            background-color: $gray-300;
             right: 0;
             height: 80%;
             width: 1px;
@@ -164,24 +154,4 @@
             }
         }
     }
-    // .content {
-    //     display: flex;
-    //     gap: 30px;
-    //     flex-direction: column;
-
-    //     .title {
-    //         font-size: 24px;
-    //         line-height: 32px;
-    //         font-weight: 700;
-    //         color: $secondary-color;
-    //         margin: 0;
-    //     }
-    //     .desc {
-    //         font-size: 18px;
-    //         line-height: 30px;
-    //         font-weight: 400;
-    //         color: $text-color;
-    //         margin: 0;
-    //     }
-    // }
 }
