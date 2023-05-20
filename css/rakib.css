@@ -1291,6 +1291,7 @@
   flex-direction: column;
   gap: 30px;
   margin-top: -200px;
+  transition: all 0.5s ease-out;
 }
 .info-card.style-four .content-wrapper .content .desc {
   color: #ffffff;
@@ -1699,6 +1700,28 @@
 .team-member-card:hover .content-wrapper .social {
   margin-top: 0;
   z-index: 0;
+}
+
+/* Nav-tab style-one CSS */
+.nav-tab {
+  list-style: none;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 10px 0;
+  gap: 48px;
+  border-bottom: 1px solid #393d48;
+}
+.nav-tab .tab-item .item-link {
+  color: #393d48;
+}
+.nav-tab .tab-item .active:before {
+  content: "";
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  bottom: -9px;
+  background: blue;
 }
 
 .common-card-wrapper {

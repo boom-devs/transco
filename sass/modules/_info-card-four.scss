@@ -57,6 +57,7 @@
                 flex-direction: column;
                 gap: 30px;
                 margin-top: -200px;
+                @include transition;
                 .desc {
                     color: $white;
                 }
