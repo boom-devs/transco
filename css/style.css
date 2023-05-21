@@ -3311,7 +3311,7 @@ a.meanmenu-reveal {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    gap: 25px;
+    gap: 20px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -3325,6 +3325,19 @@ a.meanmenu-reveal {
     position: relative;
     width: 100%;
     text-align: center; }
+    .counter-card .counter-item .counter-title {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      width: 100%;
+      gap: 20px;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; }
     .counter-card .counter-item .number {
       font-family: "Poppins", sans-serif;
       font-style: normal;
@@ -3358,13 +3371,10 @@ a.meanmenu-reveal {
 .counter-card.style-two .counter-item {
   text-align: left; }
   .counter-card.style-two .counter-item .counter-title {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    width: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     gap: 30px; }
   .counter-card.style-two .counter-item .number {
     font-size: 90px; }
