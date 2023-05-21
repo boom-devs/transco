@@ -1849,6 +1849,21 @@
   padding: 44px 40px;
   text-align: center;
   background-color: #020a27;
+  position: relative;
+  overflow: hidden;
+}
+.widget_service_promotion .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #020a27;
+  opacity: 0.6;
+}
+.widget_service_promotion .widget-subtitle {
+  position: relative;
+  z-index: 0;
 }
 .widget_service_promotion .widget-subtitle p {
   color: #ff6731;
@@ -1859,6 +1874,8 @@
   margin: 0;
 }
 .widget_service_promotion .promotion-card {
+  position: relative;
+  z-index: 0;
   display: flex;
   flex-direction: column;
   gap: 50px;
