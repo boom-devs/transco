@@ -848,7 +848,6 @@
 .icon-card {
   display: flex;
   background: #ffffff;
-  padding: 70px;
   flex-direction: row;
   gap: 40px;
 }
@@ -1450,6 +1449,9 @@
 }
 .testimonial-card.style-three .content-wrapper .content {
   margin-top: 18px;
+}
+.testimonial-card.style-three .content-wrapper .meta-user .icon {
+  display: none;
 }
 
 .process-steps-wrapper {

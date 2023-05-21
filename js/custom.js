@@ -103,7 +103,7 @@
        Testimonial Slider
        ============================*/
         $(".testimonial-slider-wrapper").slick({
-            slidesToShow: 2,
+            slidesToShow: 1,
             infinite: true,
             autoplay: true,
             draggable: true,
