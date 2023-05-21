@@ -1,5 +1,5 @@
 .page-breadcrumb-sec {
-  padding: 88px 0;
+  padding: 125px 0;
   position: relative;
   z-index: 2;
   background-repeat: no-repeat;
@@ -19,12 +19,13 @@
 }
 
 .page-heading h1 {
-  font-size: 60px;
+  font-family: $heading-font;
+  font-size: 72px;
   text-align: center;
   color: $white;
   margin-bottom: 20px;
   text-transform: capitalize;
-  line-height: 72px;
+  line-height: 132px;
   font-weight: 700;
 }
 .breadcrumb-wrapper {
@@ -48,12 +49,13 @@
         }
       }
       a {
-        font-size: 18px;
+        font-family: $body-font;
+        font-size: 16px;
         text-align: center;
         color: $white;
         text-transform: uppercase;
-        line-height: 28px;
-        font-weight: 700;
+        line-height: 12px;
+        font-weight: 400;
         @include transition;
 
         &:hover {
@@ -62,14 +64,14 @@
         }
       }
 
-      &::before {
-        content: "-";
-        position: absolute;
-        right: -8px;
-        font-size: 16px;
-        color: #fff;
-        font-family: Icofont;
-      }
+      // &::before {
+      //   content: "-";
+      //   position: absolute;
+      //   right: -8px;
+      //   font-size: 16px;
+      //   color: #fff;
+      //   font-family: Icofont;
+      // }
 
       &:last-child::before {
         display: none;

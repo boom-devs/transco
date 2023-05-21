@@ -109,6 +109,12 @@ $text-gray-light: #6a6c73;
 /* Time-card style-one CSS */
 @import "modules/time-card";
 
+/* Service-details CSS */
+@import "modules/service-details";
+
+/* Service-details side-bar CSS */
+@import "partials/sidebar-two";
+
 .common-card-wrapper {
   background: #4566d4;
   padding: 100px 50px;
