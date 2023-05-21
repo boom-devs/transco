@@ -377,8 +377,8 @@ textarea:focus,
 input:focus {
   outline: none; }
 
-.bg-black {
-  background-color: #020a27; }
+.background-black {
+  background-color: #393d48; }
 
 .bg-gray {
   background-color: #31373f; }
@@ -3654,7 +3654,8 @@ a.meanmenu-reveal {
     font-size: 48px;
     font-weight: 700;
     font-family: "Poppins", sans-serif;
-    color: #393d48; }
+    color: #393d48;
+    margin-bottom: 0; }
     .section-title .title span {
       color: #1eae98; }
   .section-title .divider {
