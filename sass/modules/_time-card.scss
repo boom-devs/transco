@@ -1,0 +1,30 @@
+.time-card {
+    background: $white;
+    border-radius: 8px;
+    overflow: hidden;
+    .title {
+        padding: 8px 0;
+        background: $orange-color;
+        display: flex;
+        justify-content: center;
+        h2 {
+            margin: 0;
+            font-family: $heading-font;
+            font-size: 21px;
+            line-height: 60px;
+            font-weight: 700;
+            color: $white;
+        }
+    }
+    .desc {
+        padding: 40px;
+        p {
+            margin: 0;
+            font-family: $body-font;
+            font-size: 18px;
+            line-height: 30px;
+            font-weight: 400;
+            color: $text-color;
+        }
+    }
+}

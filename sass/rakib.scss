@@ -97,8 +97,17 @@ $text-gray-light: #6a6c73;
 // Post-card
 @import "modules/post-card-three";
 
+// Post-card
+@import "modules/post-card-four";
+
 /* Team-member-card style-one CSS */
 @import "modules/team-member";
+
+/* Nav-tab style-one CSS */
+@import "modules/nav-tabs";
+
+/* Time-card style-one CSS */
+@import "modules/time-card";
 
 .common-card-wrapper {
   background: #4566d4;
@@ -111,4 +120,11 @@ $text-gray-light: #6a6c73;
 .process-wrapper-two {
   background: #393d48;
   padding: 50px;
+}
+.time-card-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  background: #f3f7fc;
 }

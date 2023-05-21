@@ -1,0 +1,17 @@
+.counter-card {
+  &.style-two {
+    .counter-item {
+      text-align: left;
+
+      .counter-title {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        gap: 30px;
+      }
+      .number {
+        font-size: 90px;
+      }
+    }
+  }
+}
