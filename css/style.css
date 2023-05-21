@@ -2216,7 +2216,8 @@ table td#today a {
 .screen-reader-text {
   border: 0;
   clip: rect(1px, 1px, 1px, 1px);
-  clip-path: inset(50%);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
   height: 1px;
   margin: -1px;
   overflow: hidden;
@@ -2229,7 +2230,8 @@ table td#today a {
 .screen-reader-text:focus {
   background-color: #eee;
   clip: auto !important;
-  clip-path: none;
+  -webkit-clip-path: none;
+          clip-path: none;
   color: #444;
   display: block;
   font-size: 1em;
@@ -2523,56 +2525,17 @@ iframe,
 object {
   max-width: 100%;
 }
-
-@-webkit-keyframes pulse {
-  to {
-    box-shadow: 0 0 0 45px rgba(255, 255, 255, 0);
-  }
-}
-@-moz-keyframes pulse {
-  to {
-    box-shadow: 0 0 0 45px rgba(255, 255, 255, 0);
-  }
-}
-@-ms-keyframes pulse {
-  to {
-    box-shadow: 0 0 0 45px rgba(255, 255, 255, 0);
-  }
-}
 @keyframes pulse {
   to {
     box-shadow: 0 0 0 45px rgba(255, 255, 255, 0);
   }
 }
-@-webkit-keyframes animatelinebar {
-  0% {
-    -webkit-transform: translateX(0px);
-    transform: translateX(0px);
-  }
-  100% {
-    -webkit-transform: translateX(25px);
-    transform: translateX(25px);
-  }
-}
 @keyframes animatelinebar {
   0% {
-    -webkit-transform: translateX(0px);
     transform: translateX(0px);
   }
   100% {
-    -webkit-transform: translateX(25px);
     transform: translateX(25px);
-  }
-}
-@-webkit-keyframes slideUpIn {
-  0% {
-    -webkit-transform: translateY(40px);
-  }
-  100% {
-    -webkit-transform: translateY(0);
-  }
-  0% {
-    -webkit-transform: translateY(40px);
   }
 }
 @keyframes slideUpIn {
@@ -2979,14 +2942,11 @@ html {
 }
 
 .animation {
-  -webkit-animation-duration: 0.3s;
   animation-duration: 0.3s;
-  -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
 
 .slideUpIn {
-  -webkit-animation-name: slideUpIn;
   animation-name: slideUpIn;
 }
 
@@ -3198,8 +3158,6 @@ a.meanmenu-reveal {
 }
 
 .mean-container .mean-bar, .mean-container .mean-bar * {
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
   box-sizing: content-box;
 }
 
@@ -3661,7 +3619,8 @@ a.meanmenu-reveal {
 .video-popup-card .video-popup-image img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .video-popup-card .video-popup-btn {
   position: absolute;
@@ -3678,9 +3637,6 @@ a.meanmenu-reveal {
   border-radius: 50%;
   background-size: cover;
   background-repeat: no-repeat;
-  -webkit-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
-  -moz-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
-  -ms-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
   animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
   display: flex;
   align-items: center;
@@ -3691,9 +3647,6 @@ a.meanmenu-reveal {
   font-size: 24px;
 }
 .video-popup-card .video-popup-btn a:hover {
-  -webkit-animation: none;
-  -moz-animation: none;
-  -ms-animation: none;
   animation: none;
 }
 
@@ -3956,8 +3909,6 @@ a.meanmenu-reveal {
   padding: 0 8px;
   position: absolute;
   bottom: -40px;
-  -moz-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
   transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
@@ -4965,27 +4916,10 @@ ul.children {
   background-color: #ffffff;
   font-family: "Roboto", sans-serif !important;
 }
-.comment-respond *::-webkit-input-placeholder {
-  font-family: "Roboto", sans-serif !important;
-  color: #5e6f92;
-}
-.comment-respond *:-moz-placeholder {
-  font-family: "Roboto", sans-serif !important;
-  color: #5e6f92;
-  opacity: 1;
-}
 .comment-respond *::-moz-placeholder {
   font-family: "Roboto", sans-serif !important;
   color: #5e6f92;
   opacity: 1;
-}
-.comment-respond *:-ms-input-placeholder {
-  font-family: "Roboto", sans-serif !important;
-  color: #5e6f92;
-}
-.comment-respond *::-ms-input-placeholder {
-  font-family: "Roboto", sans-serif !important;
-  color: #5e6f92;
 }
 .comment-respond *::placeholder {
   font-family: "Roboto", sans-serif !important;
@@ -5184,7 +5118,8 @@ ul.children {
 .footer-widget .widget-instagram-feed .single-instagram-feed img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   position: absolute;
   left: 0;
   top: 0;
@@ -5258,22 +5193,9 @@ ul.children {
   border-radius: 50px;
   width: 100%;
 }
-.subscribe-form-widget .single-field *::-webkit-input-placeholder {
-  color: #c7cdda;
-}
-.subscribe-form-widget .single-field *:-moz-placeholder {
-  color: #c7cdda;
-  opacity: 1;
-}
 .subscribe-form-widget .single-field *::-moz-placeholder {
   color: #c7cdda;
   opacity: 1;
-}
-.subscribe-form-widget .single-field *:-ms-input-placeholder {
-  color: #c7cdda;
-}
-.subscribe-form-widget .single-field *::-ms-input-placeholder {
-  color: #c7cdda;
 }
 .subscribe-form-widget .single-field *::placeholder {
   color: #c7cdda;
@@ -5544,6 +5466,4 @@ ul.children {
 }
 .news-area .section-title {
   margin-bottom: 70px;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

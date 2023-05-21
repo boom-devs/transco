@@ -262,9 +262,6 @@
   border-radius: 50%;
   background-size: cover;
   background-repeat: no-repeat;
-  -webkit-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
-  -moz-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
-  -ms-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
   animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
   display: flex;
   align-items: center;
@@ -1712,16 +1709,49 @@
   gap: 48px;
   border-bottom: 1px solid #393d48;
 }
+.nav-tab .tab-item {
+  position: relative;
+}
 .nav-tab .tab-item .item-link {
   color: #393d48;
+  font-family: "Poppins", sans-serif;
+  font-size: 21px;
+  line-height: 60px;
+  font-weight: 700;
+  margin: 0;
 }
 .nav-tab .tab-item .active:before {
   content: "";
   width: 100%;
   height: 1px;
   position: absolute;
-  bottom: -9px;
+  bottom: -10px;
   background: blue;
+}
+.nav-tab .tab-item:hover .item-link:before {
+  content: "";
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  bottom: -10px;
+  background: blue;
+}
+
+.tab-content .tab-text {
+  color: #5e6f92;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  margin: 0;
+}
+.tab-content .image {
+  width: 100%;
+  height: 100%;
+}
+.tab-content .image img {
+  border-radius: 8px;
+  height: 100%;
 }
 
 .common-card-wrapper {
@@ -1737,6 +1767,4 @@
 .process-wrapper-two {
   background: #393d48;
   padding: 50px;
-}
-
-/*# sourceMappingURL=rakib.css.map */
+}/*# sourceMappingURL=rakib.css.map */
