@@ -1754,6 +1754,38 @@
   height: 100%;
 }
 
+/* Time-card style-one CSS */
+.time-card {
+  background: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.time-card .title {
+  padding: 8px 0;
+  background: #ff6731;
+  display: flex;
+  justify-content: center;
+}
+.time-card .title h2 {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 21px;
+  line-height: 60px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.time-card .desc {
+  padding: 40px;
+}
+.time-card .desc p {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #5e6f92;
+}
+
 .common-card-wrapper {
   background: #4566d4;
   padding: 100px 50px;
@@ -1767,4 +1799,12 @@
 .process-wrapper-two {
   background: #393d48;
   padding: 50px;
+}
+
+.time-card-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  background: #f3f7fc;
 }/*# sourceMappingURL=rakib.css.map */
