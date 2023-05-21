@@ -883,7 +883,7 @@
 }
 
 .icon-card.style-two {
-  background: #2c3236;
+  background: transparent;
   flex-direction: row;
   justify-content: space-between;
   gap: 34px;
@@ -1602,6 +1602,7 @@
 .post-card.style-three .content .sub-title .date {
   color: #ffffff;
   margin: 0;
+  font-weight: 400;
 }
 .post-card.style-three .content .sub-title .date:before {
   background-color: #b8bfcc;
@@ -1952,4 +1953,11 @@
   align-items: center;
   padding: 50px 0;
   background: #f3f7fc;
+}
+
+.icon-card-wrapper-two {
+  padding: 70px;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #2c3236;
 }/*# sourceMappingURL=rakib.css.map */
