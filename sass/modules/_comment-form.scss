@@ -7,12 +7,21 @@
   }
 }
 .post-comments-title {
+  .sub-title {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: $heading-font;
+    color: $orange-color;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 15px;
+  }
   h2 {
-    font-size: 24px;
+    font-size: 36px;
     line-height: 28px;
     font-weight: 700;
     color: $secondary-color;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     display: flex;
     justify-content: space-between;
 
@@ -25,69 +34,95 @@
 }
 .comment-respond {
   background-color: $white;
-  padding: 30px;
-  border-radius: 14px;
+  padding: 46px 36px;
+  border-radius: 18px;
 
   .contacts-email,
   .contacts-name,
   .single-input-field {
-    margin-bottom: 20px;
+    margin-bottom: 12px;
   }
   label {
     display: block;
     font-size: 16px;
     font-weight: 600;
-    color: $text-color;
+    color: $black-300;
     margin-bottom: 12px;
+  }
+  .checkbox-field-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+    padding: 15px 0;
+
+    .single-checkbox-field {
+      margin-bottom: 0;
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 16px;
+      font-weight: 400;
+      font-family: $body-font;
+
+      .form-check-input {
+        margin: 0 !important;
+        width: 18px;
+        height: 18px;
+        padding: 0;
+      }
+    }
   }
   .comment-form-cookies-consent {
     display: none;
   }
-  input {
+  input,
+  select {
     padding: 0 20px;
-    height: 55px;
+    height: 60px;
     width: 100%;
-    color: $text-color;
-    border: 1px solid #d2d2d2;
-    border-radius: 10px;
-    font-size: 14px;
+    color: $black-300;
+    border: 1px solid $gray-300;
+    border-radius: 5px;
+    font-size: 16px;
     font-weight: 400;
     background-color: $white;
     font-family: $body-font !important;
   }
   *::-webkit-input-placeholder {
     font-family: $body-font !important;
-    color: $text-color;
+    color: $black-300;
   }
   *:-moz-placeholder {
     font-family: $body-font !important;
-    color: $text-color;
+    color: $black-300;
     opacity: 1;
   }
   *::-moz-placeholder {
     font-family: $body-font !important;
-    color: $text-color;
+    color: $black-300;
     opacity: 1;
   }
   *:-ms-input-placeholder {
     font-family: $body-font !important;
-    color: $text-color;
+    color: $black-300;
   }
   *::-ms-input-placeholder {
     font-family: $body-font !important;
-    color: $text-color;
+    color: $black-300;
   }
   *::placeholder {
     font-family: $body-font !important;
-    color: $text-color;
+    color: $black-300;
   }
   textarea {
     resize: vertical;
     padding: 20px;
     width: 100%;
-    color: $text-color;
+    color: $black-300;
     border: 1px solid #d2d2d2;
-    border-radius: 10px;
+    border-radius: 5px;
     font-size: 14px;
     background-color: $white;
     font-family: $body-font;
@@ -95,38 +130,40 @@
     height: 130px;
   }
 
-  .theme-btn {
-    display: inline-flex;
-    background: $primary-color;
-    color: $white;
-    padding: 12px 34px;
-    text-align: center;
-    font-weight: 500;
-    font-family: $body-font;
-    text-transform: capitalize;
-    position: relative;
-    z-index: 1;
-    transition: 0.3s;
-    font-size: 16px;
-    align-items: center;
-    gap: 10px;
-    border-radius: 50px;
-    margin-top: 20px;
-
-    &:hover {
-      background: #071c34;
-      color: #fff;
-      border-color: #071c34;
-    }
-  }
+  //.theme-btn {
+  //  display: inline-flex;
+  //  background: $primary-color;
+  //  color: $white;
+  //  padding: 12px 34px;
+  //  text-align: center;
+  //  font-weight: 500;
+  //  font-family: $body-font;
+  //  text-transform: capitalize;
+  //  position: relative;
+  //  z-index: 1;
+  //  transition: 0.3s;
+  //  font-size: 16px;
+  //  align-items: center;
+  //  gap: 10px;
+  //  border-radius: 50px;
+  //  margin-top: 20px;
+  //
+  //  &:hover {
+  //    background: #071c34;
+  //    color: #fff;
+  //    border-color: #071c34;
+  //  }
+  //}
 
   p {
     margin-bottom: 20px;
   }
 
   input:focus,
-  textarea:focus {
+  textarea:focus,
+  .form-select:focus{
     outline: none !important;
+    box-shadow: none;
     border-color: $primary-color;
     transition: all 0.4s ease 0s;
   }
