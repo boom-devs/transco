@@ -4,9 +4,7 @@
       text-align: left;
 
       .counter-title {
-        display: flex;
-        align-items: center;
-        width: 100%;
+        flex-direction: row;
         gap: 30px;
       }
       .number {
