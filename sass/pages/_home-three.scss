@@ -1,3 +1,4 @@
+// Why Choose Area
 .why-us-area {
   margin-top: -65px;
   position: relative;
@@ -9,4 +10,13 @@
     border-radius: 8px;
     overflow: hidden;
   }
+}
+
+// Why Choose Area Three
+.why-choose-three-area {
+  background-color: $secondary-color;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
 }
