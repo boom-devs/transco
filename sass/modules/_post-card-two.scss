@@ -12,6 +12,9 @@
         .content {
             gap: 12px;
             .sub-title {
+                .date {
+                    color: $black-300;
+                }
             }
             .title {
                 font-size: 24px;

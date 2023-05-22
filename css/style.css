@@ -3598,6 +3598,8 @@ a.meanmenu-reveal {
         flex-shrink: 0; }
   .post-card.style-two .content {
     gap: 12px; }
+    .post-card.style-two .content .sub-title .date {
+      color: #778196; }
     .post-card.style-two .content .title {
       font-size: 24px;
       line-height: 33px;
@@ -3671,6 +3673,13 @@ a.meanmenu-reveal {
     margin-bottom: 0; }
     .section-title .title span {
       color: #1eae98; }
+  .section-title .desc {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    color: #5e6f92;
+    margin-bottom: 0;
+    margin-top: 28px; }
   .section-title .divider {
     width: 72px;
     height: 6px;
