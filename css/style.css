@@ -5482,14 +5482,12 @@ ul.children {
 
 .triangle-shape-bottom {
   position: absolute;
-  right: -580px;
+  right: 0;
   bottom: -115px;
-  width: 750px;
-  height: 230px;
-  background-color: #ff6731;
-  z-index: 1;
-  -webkit-transform: skewX(-22deg);
-          transform: skewX(-22deg); }
+  border-bottom: 240px solid #ff6731;
+  border-left: 100px solid transparent;
+  border-right: 0 solid transparent;
+  width: 170px; }
 
 .triangle-border-shape {
   position: absolute;
