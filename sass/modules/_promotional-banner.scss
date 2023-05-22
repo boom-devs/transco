@@ -1,0 +1,44 @@
+.promotional-banner-widget {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+
+  .promotional-bannar-img {
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  .promotional-bananer-content {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    justify-content: center;
+
+    .icon {
+      width: 65px;
+      height: 65px;
+      background-color: $sky-color;
+      border-radius: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      color: $white;
+    }
+    .content {
+      display: inline-flex;
+      flex-direction: column;
+
+      span {
+        display: inline-block;
+        width: 100%;
+      }
+      .text {
+        font-family: $heading-font;
+        font-size: 21px;
+        font-weight: 700;
+        color: $secondary-color;
+      }
+    }
+  }
+}
