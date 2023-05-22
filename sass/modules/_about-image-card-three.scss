@@ -1,0 +1,36 @@
+.about-image-card {
+  &.style-three {
+    .main-img-wrapper {
+      text-align: center;
+    }
+    .img-card-wrapper {
+      top: 0;
+      transform: translate(-50%, 50%);
+
+      .image-six {
+        width: 190px;
+        height: 190px;
+        border-radius: 8px;
+        z-index: -1;
+        background-color: $blue-color;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+      }
+      .image-seven {
+        width: 190px;
+        height: 190px;
+        border-radius: 8px;
+        z-index: -1;
+        background-color: $sky-color;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+      }
+    }
+  }
+}
