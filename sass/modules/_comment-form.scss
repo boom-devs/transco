@@ -91,29 +91,23 @@
     font-family: $body-font !important;
   }
   *::-webkit-input-placeholder {
-    font-family: $body-font !important;
     color: $black-300;
   }
   *:-moz-placeholder {
-    font-family: $body-font !important;
     color: $black-300;
     opacity: 1;
   }
   *::-moz-placeholder {
-    font-family: $body-font !important;
     color: $black-300;
     opacity: 1;
   }
   *:-ms-input-placeholder {
-    font-family: $body-font !important;
     color: $black-300;
   }
   *::-ms-input-placeholder {
-    font-family: $body-font !important;
     color: $black-300;
   }
   *::placeholder {
-    font-family: $body-font !important;
     color: $black-300;
   }
   textarea {
@@ -166,5 +160,58 @@
     box-shadow: none;
     border-color: $primary-color;
     transition: all 0.4s ease 0s;
+  }
+}
+
+.post-comments-form {
+  &.style-two {
+
+    .post-comments-title {
+      h2 {
+        color: $white;
+      }
+    }
+    .comment-respond {
+      label {
+        color: $white-100;
+      }
+      .single-input-field {
+        input,
+        select {
+          background-color: transparent;
+          border-color: #739bbf;
+          color: $white-100;
+        }
+        *::-webkit-input-placeholder {
+          color: $white-100;
+        }
+        *:-moz-placeholder {
+          color: $white-100;
+          opacity: 1;
+        }
+        *::-moz-placeholder {
+          color: $white-100;
+          opacity: 1;
+        }
+        *:-ms-input-placeholder {
+          color: $white-100;
+        }
+        *::-ms-input-placeholder {
+          color: $white-100;
+        }
+        *::placeholder {
+          color: $white-100;
+        }
+      }
+      .checkbox-field-wrapper {
+
+        .single-checkbox-field {
+          .form-check-input {
+            background-color: transparent;
+            border-color: #739bbf;
+          }
+        }
+      }
+    }
   }
 }

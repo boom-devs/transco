@@ -4741,16 +4741,12 @@ ul.children {
     background-color: #ffffff;
     font-family: "Roboto", sans-serif !important; }
   .comment-respond *::-webkit-input-placeholder {
-    font-family: "Roboto", sans-serif !important;
     color: #778196; }
   .comment-respond *:-ms-input-placeholder {
-    font-family: "Roboto", sans-serif !important;
     color: #778196; }
   .comment-respond *::-ms-input-placeholder {
-    font-family: "Roboto", sans-serif !important;
     color: #778196; }
   .comment-respond *::placeholder {
-    font-family: "Roboto", sans-serif !important;
     color: #778196; }
   .comment-respond textarea {
     resize: vertical;
@@ -4775,6 +4771,27 @@ ul.children {
     border-color: #005bac;
     -webkit-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s; }
+
+.post-comments-form.style-two .post-comments-title h2 {
+  color: #ffffff; }
+.post-comments-form.style-two .comment-respond label {
+  color: #c7cdda; }
+.post-comments-form.style-two .comment-respond .single-input-field input,
+.post-comments-form.style-two .comment-respond .single-input-field select {
+  background-color: transparent;
+  border-color: #739bbf;
+  color: #c7cdda; }
+.post-comments-form.style-two .comment-respond .single-input-field *::-webkit-input-placeholder {
+  color: #c7cdda; }
+.post-comments-form.style-two .comment-respond .single-input-field *:-ms-input-placeholder {
+  color: #c7cdda; }
+.post-comments-form.style-two .comment-respond .single-input-field *::-ms-input-placeholder {
+  color: #c7cdda; }
+.post-comments-form.style-two .comment-respond .single-input-field *::placeholder {
+  color: #c7cdda; }
+.post-comments-form.style-two .comment-respond .checkbox-field-wrapper .single-checkbox-field .form-check-input {
+  background-color: transparent;
+  border-color: #739bbf; }
 
 /* Footer Section */
 .footer {
