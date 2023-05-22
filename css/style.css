@@ -4096,6 +4096,150 @@ a.meanmenu-reveal {
   width: 0%;
   border-radius: 50px; }
 
+.price-card {
+  padding: 30px;
+  background: white;
+  z-index: 2;
+  position: relative;
+  border-radius: 14px; }
+  .price-card .card-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 35px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .price-card .card-title .sub-title {
+      font-family: "Roboto", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 36px;
+      text-transform: uppercase;
+      color: #ff6731;
+      margin: 0; }
+    .price-card .card-title .title {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 30px;
+      color: #393d48; }
+  .price-card .price {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: #1eae98;
+    border-radius: 7px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    gap: 10px; }
+    .price-card .price .price-heading {
+      font-family: "Poppins", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 48px;
+      line-height: 42px;
+      color: #ffffff;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      gap: 2px;
+      margin-bottom: 0; }
+      .price-card .price .price-heading .currency {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+        color: #ffffff;
+        text-align: start;
+        -ms-flex-item-align: start;
+            align-self: flex-start; }
+      .price-card .price .price-heading .under-dot {
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        text-transform: capitalize;
+        color: #ffffff;
+        -ms-flex-item-align: end;
+            align-self: end; }
+    .price-card .price .price-desc {
+      font-family: "Roboto", sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 30px;
+      text-transform: capitalize;
+      color: #ffffff;
+      margin-bottom: 0; }
+  .price-card .list-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .price-card .list {
+    margin-top: 0;
+    padding: 40px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 12px; }
+    .price-card .list .list-item {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      gap: 12px; }
+      .price-card .list .list-item .fa-check {
+        color: #ff6731; }
+      .price-card .list .list-item .fa-x {
+        color: #bbc7cf; }
+      .price-card .list .list-item .text {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 36px;
+        color: #393d48;
+        margin: 0; }
+  .price-card .card-btn {
+    width: 100%;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+
 /* 8.Title Section */
 .section-title {
   display: -webkit-box;
@@ -5255,6 +5399,12 @@ ul.children {
 
 .why-choose-three-area {
   background-color: #393d48;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
+
+.pricing-area {
+  background-color: #003869;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; }
