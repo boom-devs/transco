@@ -77,14 +77,14 @@
   .header-social {
     display: flex;
     align-items: center;
-    gap: 20px;
-    padding: 14px 0;
+    gap: 30px;
     justify-content: flex-end;
 
     a {
-      font-size: 14px;
-      color: #cbcbcb;
+      font-size: 16px;
+      color: $white;
       transition: 0.3s;
+
     }
   }
 }

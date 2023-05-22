@@ -2339,14 +2339,13 @@ html {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    gap: 20px;
-    padding: 14px 0;
+    gap: 30px;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end; }
     .header-top .header-social a {
-      font-size: 14px;
-      color: #cbcbcb;
+      font-size: 16px;
+      color: #ffffff;
       -webkit-transition: 0.3s;
       transition: 0.3s; }
 
@@ -2568,6 +2567,14 @@ html {
           transform: skewX(-20deg);
   bottom: 0;
   height: 190px; }
+
+.header-area.style-three .header-top .header-top-btn a {
+  margin-bottom: inherit;
+  padding: 6px 30px; }
+  .header-area.style-three .header-top .header-top-btn a:before {
+    border-radius: 8px; }
+.header-area.style-three .header-sec .logo:before {
+  display: none; }
 
 /*!
 MeanMenu 2.0.8 -------- To be used with jquery.meanmenu.js by Chris Wharton (http://www.meanthemes.com/plugins/meanmenu/) 
