@@ -1810,6 +1810,7 @@
   width: 100%;
   flex-direction: column;
   gap: 12px;
+  padding: 0;
 }
 .widget_service_categories ul li {
   background: #ebf4f8;
@@ -1864,8 +1865,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  background: #020a27;
-  opacity: 0.6;
+  background: rgb(0, 91, 172);
+  background: linear-gradient(135deg, rgba(0, 91, 172, 0.83) 0%, rgb(30, 174, 152) 100%);
 }
 .widget_service_promotion .widget-subtitle {
   position: relative;
@@ -1933,6 +1934,65 @@
   font-size: 21px;
   line-height: 30px;
   font-weight: 700;
+}
+
+.widget_service_brochura {
+  padding: 38px;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #dfe2e9;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.widget_service_brochura .widget-title-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.widget_service_brochura .widget-title-wrapper .widget-subtitle {
+  color: #ff6731;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  margin: 0;
+}
+.widget_service_brochura .widget-title-wrapper .widget-title {
+  color: #393d48;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+  margin: 0;
+}
+.widget_service_brochura .button-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.widget_service_brochura .button-wrapper .btn-text {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.widget_service_brochura .button-wrapper .pdf {
+  padding: 18px;
+  border-radius: 6px;
+  background: rgb(227, 0, 8);
+  background: linear-gradient(65deg, rgb(227, 0, 8) 0%, rgb(250, 174, 0) 100%);
+}
+.widget_service_brochura .button-wrapper .doc {
+  padding: 18px;
+  border-radius: 6px;
+  background: rgb(0, 91, 172);
+  background: linear-gradient(135deg, rgba(0, 91, 172, 0.83) 0%, rgb(30, 174, 152) 100%);
 }
 
 .common-card-wrapper {
