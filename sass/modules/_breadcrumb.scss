@@ -8,7 +8,7 @@
 }
 
 .page-overlay {
-  background-color: rgba(2, 10, 39, 0.7);
+  @include gradient-color-skye;
   height: 100%;
   left: 0;
   position: absolute;
@@ -16,6 +16,7 @@
   top: 0;
   width: 100%;
   z-index: -1;
+  opacity: 0.6;
 }
 
 .page-heading h1 {

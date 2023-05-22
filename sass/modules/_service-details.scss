@@ -30,34 +30,6 @@
                 margin-top: 60px;
             }
         }
-        .right {
-            display: flex;
-            flex-direction: column;
-            gap: 18px;
-            .achieve-item {
-                padding: 60px 40px;
-                background: $primary-color;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                gap: 30px;
-                border-radius: 8px;
-                h3 {
-                    margin: 0;
-                    color: $white;
-                    font-size: 60px;
-                    line-height: 60px;
-                    font-weight: 700;
-                }
-                p {
-                    margin: 0;
-                    color: $white;
-                    font-size: 18px;
-                    line-height: 30px;
-                    font-weight: 700;
-                }
-            }
-        }
         .benefits-image {
             img {
                 border-radius: 8px;
