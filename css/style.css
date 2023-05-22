@@ -4339,6 +4339,22 @@ a.meanmenu-reveal {
         display: none; }
 
 /* 16.Blog Section */
+.post-card.style-four {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: none;
+  padding: 0;
+  gap: 28px; }
+  .post-card.style-four .image img {
+    width: 100%;
+    height: 100%; }
+  .post-card.style-four .content .sub-title .date {
+    color: #778196;
+    line-height: 30px;
+    font-weight: 400; }
+
 .post-card {
   display: -webkit-box;
   display: -ms-flexbox;
