@@ -3596,6 +3596,63 @@ a.meanmenu-reveal {
         .about-info-card.style-three .about-info-content .icon-card-wrapper .icon-card .content .title {
           font-size: 18px; }
 
+.promotional-banner-widget {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 40px; }
+  .promotional-banner-widget .promotional-bannar-img {
+    border-radius: 12px;
+    overflow: hidden; }
+  .promotional-banner-widget .promotional-bananer-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 25px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .promotional-banner-widget .promotional-bananer-content .icon {
+      width: 65px;
+      height: 65px;
+      background-color: #1eae98;
+      border-radius: 50px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+      color: #ffffff; }
+    .promotional-banner-widget .promotional-bananer-content .content {
+      display: -webkit-inline-box;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+      .promotional-banner-widget .promotional-bananer-content .content span {
+        display: inline-block;
+        width: 100%; }
+      .promotional-banner-widget .promotional-bananer-content .content .text {
+        font-family: "Poppins", sans-serif;
+        font-size: 21px;
+        font-weight: 700;
+        color: #393d48; }
+
 .video-popup-card {
   position: relative;
   padding: 10px;
