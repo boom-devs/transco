@@ -46,14 +46,26 @@ Footer Section
 /* 3.Nav Menu CSS */
 @import "partials/header";
 @import "partials/header-two";
+@import "partials/header-three";
 @import "modules/meanmenu";
 /* 8.Slider Section */
 @import "modules/slider-style-one";
 @import "modules/slider-style-two";
+@import "modules/slider-style-three";
 @import "modules/info-card";
 @import "modules/info-card-two";
+@import "modules/info-card-three";
+@import "modules/info-card-four";
+@import "modules/icon-card";
+@import "modules/icon-card-two";
+@import "modules/icon-card-three";
 @import "modules/about-image-card";
 @import "modules/about-info-card";
+<<<<<<< HEAD
+=======
+@import "modules/about-info-card-two";
+@import "modules/about-info-card-three";
+>>>>>>> 664daa9dec1dd7b1d5e9655bfcbd657a4965ccf0
 @import "modules/video-popup-card";
 @import "modules/counter-card";
 @import "modules/process-step";

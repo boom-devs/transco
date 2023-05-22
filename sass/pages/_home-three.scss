@@ -1,0 +1,12 @@
+.why-us-area {
+  margin-top: -65px;
+  position: relative;
+  z-index: 2;
+
+
+  .why-us-area-inner {
+    background-color: $black-50;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+}
