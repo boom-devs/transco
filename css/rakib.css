@@ -152,8 +152,8 @@ input:focus {
   background-color: #003869;
 }
 
-.bg-gray {
-  background-color: #31373f;
+.background-gray {
+  background-color: #eef5f8;
 }
 
 .page-bg {
@@ -1373,6 +1373,7 @@ input:focus {
 .info-card.style-three {
   position: relative;
   padding: 0;
+  margin-bottom: 95px;
 }
 .info-card.style-three:hover .content-wrapper {
   margin-bottom: 85px;
@@ -2009,7 +2010,99 @@ input:focus {
 
 /* Service-details CSS */
 .Service-details-wrapper {
-  margin-top: 140px;
+  padding: 140px 0;
+}
+.Service-details-wrapper .details-main .list-item ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.Service-details-wrapper .details-main .list-item ul li {
+  display: inline-flex;
+  gap: 15px;
+}
+.Service-details-wrapper .details-main .list-item ul li i {
+  line-height: 30px;
+  color: #1eae98;
+}
+.Service-details-wrapper .details-main .title {
+  font-size: 30px;
+  line-height: 60px;
+  font-weight: 700;
+  color: #393d48;
+}
+.Service-details-wrapper .details-main .details-img-wrapper img {
+  border-radius: 12px;
+}
+.Service-details-wrapper .details-main .details-img-wrapper .text {
+  margin-top: 60px;
+}
+.Service-details-wrapper .details-main .right {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.Service-details-wrapper .details-main .right .achieve-item {
+  padding: 60px 40px;
+  background: #005bac;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  border-radius: 8px;
+}
+.Service-details-wrapper .details-main .right .achieve-item h3 {
+  margin: 0;
+  color: #ffffff;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 700;
+}
+.Service-details-wrapper .details-main .right .achieve-item p {
+  margin: 0;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+}
+.Service-details-wrapper .details-main .benefits-image img {
+  border-radius: 8px;
+}
+.Service-details-wrapper .details-main .service-accordion-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 21px;
+  line-height: 60px;
+  font-weight: 700;
+  color: #393d48;
+}
+.Service-details-wrapper .accordion-item.open .accordion-head .icon {
+  background: #ff6731;
+}
+.Service-details-wrapper .accordion-item .accordion-head .accordion-title {
+  font-size: 21px;
+  line-height: 60px;
+  font-weight: 700;
+  color: #393d48;
+}
+.Service-details-wrapper .accordion-item .accordion-head .icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  background: #1eae98;
+}
+.Service-details-wrapper .accordion-item .accordion-head .icon:before {
+  height: 14px;
+  width: 2px;
+}
+.Service-details-wrapper .accordion-item .accordion-head .icon:after {
+  height: 2px;
+  width: 14px;
+}
+.Service-details-wrapper .accordion-item .accordion-body {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #5e6f92;
 }
 
 /* Service-details side-bar CSS */
