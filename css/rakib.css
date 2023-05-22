@@ -1576,6 +1576,9 @@
 .post-card.style-two .content {
   gap: 12px;
 }
+.post-card.style-two .content .sub-title .date {
+  color: #778196;
+}
 .post-card.style-two .content .title {
   font-size: 24px;
   line-height: 33px;
