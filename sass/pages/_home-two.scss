@@ -32,3 +32,50 @@
     }
   }
 }
+
+// Process Step Two Area
+.process-step-two-area {
+  padding-top: 395px;
+  padding-bottom: 145px;
+}
+.triangle-shape-top {
+  position: absolute;
+  left: 0;
+  top: -80px;
+  border-top: 350px solid $sky-color;
+  border-right: 140px solid transparent;
+  z-index: 1;
+}
+.triangle-shape-bottom {
+  position: absolute;
+  //right: -580px;
+  right: 0;
+  bottom: -115px;
+  //width: 750px;
+  //height: 230px;
+  //background-color: $orange-color;
+  //z-index: 1;
+  //transform: skewX(-22deg);
+  //
+  border-bottom: 240px solid $orange-color;
+  border-left: 100px solid transparent;
+  border-right: 0 solid transparent;
+  width: 170px;
+}
+.triangle-border-shape {
+  position: absolute;
+  width: 230px;
+  height: 400px;
+  top: 85px;
+  left: -150px;
+  border-top: 1px solid $orange-color;
+  border-right: 1px solid $orange-color;
+  transform: skewX(-22deg);
+}
+
+// Appointment Booking Area
+.appointment-booking-area {
+  margin-bottom: -270px;
+  position: relative;
+  z-index: 2;
+}
