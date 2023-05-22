@@ -1,0 +1,41 @@
+.call-to-action-area {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  transform: translateY(-50%);
+}
+.call-to-action-card {
+  display: flex;
+  background-color: $sky-color;
+  padding: 68px 50px;
+  border-radius: 12px;
+  align-items: center;
+  gap: 60px;
+
+  .image {
+    flex-shrink: 0;
+  }
+  .content {
+    position: relative;
+    padding-left: 60px;
+
+    .title {
+      font-size: 36px;
+      font-weight: 700;
+      color: $white;
+      margin-bottom: 0;
+    }
+    &:before {
+      position: absolute;
+      content: "";
+      height: 100%;
+      left: 0;
+      top: 0;
+      width: 1px;
+      background-color: #6fcbbd;
+    }
+  }
+  .btn-wrapper {
+    flex-shrink: 0;
+  }
+}
