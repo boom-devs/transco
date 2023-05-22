@@ -1,0 +1,16 @@
+.slider-area {
+  &.style-three {
+    position: relative;
+
+    .slider-wrapper {
+      .slider-content-wrapper {
+        gap: 100px;
+
+        .slider-content {
+          width: 100%;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
