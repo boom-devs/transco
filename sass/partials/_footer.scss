@@ -164,30 +164,7 @@
       }
     }
   }
-  // Instagram Widget
-  .widget-instagram-feed {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
 
-    .single-instagram-feed {
-      border-radius: 5px;
-      width: 72px;
-      height: 72px;
-      overflow: hidden;
-      position: relative;
-      flex-shrink: 0;
-
-      img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        position: absolute;
-        left: 0;
-        top: 0;
-      }
-    }
-  }
 }
 
 // Footer Bottom Section
@@ -389,7 +366,7 @@
 .social-widget {
   display: flex;
   align-items: center;
-  gap: 24px;
+  gap: 10px;
 
   a {
     color: $white;
