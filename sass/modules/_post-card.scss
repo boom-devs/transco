@@ -1,3 +1,4 @@
+// Blog Details Page
 .blog-area {
   ol,
   ul{
@@ -10,18 +11,26 @@
 }
 .blog-details-wrapper {
   .single-post-item {
+    border: 0;
+
+    .post-thumbnail {
+      border-radius: 12px;
+      overflow: hidden;
+    }
     .post-content-wrapper {
       padding-bottom: 10px;
+      padding-left: 0;
+      padding-right: 0;
     }
     .post-content {
       margin-bottom: 20px;
 
       p {
-        margin-bottom: 15px;
+        margin-bottom: 20px;
 
         img {
-          margin: 15px 0;
-          border-radius: 14px;
+          margin: 20px 0;
+          border-radius: 8px;
         }
       }
     }
@@ -30,17 +39,23 @@
     margin-bottom: 30px;
   }
 }
+
+// Standar Blog Post
 .single-post-item {
   background-color: $white;
-  border-radius: 14px;
+  border-radius: 12px;
   overflow: hidden;
   margin-bottom: 50px;
   border: 1px solid $gray-300;
+
   .post-content-wrapper {
-    padding: 30px;
+    padding: 45px;
 
     .read-more {
       margin-top: 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
   }
   /* Quote Format Post */
@@ -113,20 +128,38 @@
 
   .single-post-meta {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-top: 1px solid $gray;
+    align-items: flex-start;
     padding-top: 15px;
     margin-top: 30px;
     margin-bottom: 20px;
-
+    flex-direction: column;
   }
   // Social Share
   .social-share {
     display: flex;
-    gap: 30px;
+    gap: 17px;
     align-items: center;
     justify-content: center;
+
+    a {
+      &.facebook {
+        color: #1877f2;
+      }
+      &.twitter {
+        color: #1da1f2;
+      }
+      &.linkedin {
+        color: #1a70c6;
+      }
+    }
+
+    .social-share-title {
+      font-size: 16px;
+      font-weight: 700;
+      font-family: $heading-font;
+      color: $secondary-color;
+      margin-right: 5px;
+    }
   }
   // Post Tags
   .blog-post-tag {
@@ -135,32 +168,31 @@
     gap: 10px;
     padding-bottom: 20px;
     width: 100%;
+    align-items: center;
 
     span {
-      font-size: 18px;
-      font-weight: 600;
+      font-size: 16px;
+      font-weight: 700;
       display: inline-block;
       font-family: $heading-font;
-      color: $black;
+      color: $secondary-color;
       margin-bottom: 0;
-      width: 100%;
+      margin-right: 28px;
     }
     a {
-      background: $gray-100;
       color: $text-color;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 14px;
-      font-weight: 600;
-      line-height: 25px;
-      padding: 13px 16px;
-      border-radius: 8px;
+      display: inline-block;
+      font-size: 16px;
+      line-height: 1;
+      padding: 12px 22px;
+      border-radius: 50px;
       @include transition;
+      border: 1px solid $white-50;
 
       &:hover {
         color: $white;
         background: $primary-color;
+        border-color: $primary-color;
         @include transition;
       }
     }
@@ -293,34 +325,53 @@
 
 // Author
 .author {
-  background-color: $white;
-  padding: 30px;
+  background-color: $gray-50;
+  padding: 90px 45px 45px 45px;
   display: flex;
   gap: 30px;
   border-radius: 14px;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  text-align: center;
 
-  .author-img {
+  .author-thumb {
     flex-shrink: 0;
+    width: 120px;
+    height: 120px;
+    border-radius: 50px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
     img {
-      border-radius: 10px;
+      border-radius: 50%;
     }
   }
   .author-text {
     h3 {
       font-size: 24px;
-      font-weight: 600;
+      font-weight: 700;
       margin-bottom: 10px;
       line-height: 28px;
     }
+    .designation {
+      font-size: 16px;
+      font-style: italic;
+      color: #9ba8c3;
+    }
     p {
+      margin-top: 30px;
       margin-bottom: 0;
     }
   }
-  .author-icon {
+  .author-social-profiles {
     margin-top: 20px;
     display: flex;
     gap: 10px;
+    justify-content: center;
 
     a {
       font-size: 18px;
@@ -337,6 +388,21 @@
         @include transition;
         background-color: $white;
         color: $primary-color;
+      }
+    }
+  }
+  .author-post {
+    a {
+      font-size: 16px;
+      font-weight: 700;
+      font-family: $heading-font;
+      color: $secondary-color;
+      border-bottom: 2px solid $orange-color;
+      margin-top: 30px;
+      display: inline-block;
+
+      &:hover {
+        color: $orange-color;
       }
     }
   }
