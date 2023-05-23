@@ -5522,9 +5522,9 @@ a.meanmenu-reveal {
   margin-bottom: 0; }
 
 .latest-comments li .children .comments-box {
-  padding-left: 100px; }
+  margin-left: 50px; }
 .latest-comments li .children .children .comments-box {
-  padding-left: 200px;
+  margin-left: 100px;
   border-top: 1px solid #D2D2D2; }
 .latest-comments li .comments-box {
   padding: 50px;
@@ -5534,21 +5534,24 @@ a.meanmenu-reveal {
   .latest-comments li .comments-box .comments-avatar {
     float: left; }
     .latest-comments li .comments-box .comments-avatar img {
-      margin-right: 20px;
+      margin-right: 30px;
       width: 100px;
-      border-radius: 10px; }
+      border-radius: 50px; }
   .latest-comments li .comments-box .comments-text {
     overflow: hidden; }
     .latest-comments li .comments-box .comments-text p {
-      font-size: 14px;
-      line-height: 25px;
-      margin-bottom: 20px; }
+      font-size: 16px;
+      line-height: 30px;
+      margin-bottom: 20px;
+      color: #5e6f92; }
     .latest-comments li .comments-box .comments-text .avatar-name {
       margin-bottom: 10px;
       position: relative; }
       .latest-comments li .comments-box .comments-text .avatar-name h5 {
-        font-size: 20px;
+        font-size: 21px;
         margin-bottom: 5px;
+        font-weight: 700;
+        font-family: "Poppins", sans-serif;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -5559,10 +5562,9 @@ a.meanmenu-reveal {
             -ms-flex-pack: justify;
                 justify-content: space-between; }
       .latest-comments li .comments-box .comments-text .avatar-name span {
-        color: #005bac;
-        font-size: 14px;
-        font-weight: 600;
-        text-transform: capitalize;
+        color: #9ba8c3;
+        font-size: 16px;
+        font-weight: 400;
         font-family: "Roboto", sans-serif; }
     .latest-comments li .comments-box .comments-text .comment-reply-link {
       display: -webkit-inline-box;
@@ -5571,20 +5573,19 @@ a.meanmenu-reveal {
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center;
-      border-radius: 8px;
+      border-radius: 6px;
       font-size: 14px;
-      font-weight: 600;
-      color: #ffffff;
-      background-color: #005bac;
-      border: 1px solid #005bac;
-      padding: 6px 17px;
+      font-weight: 700;
+      color: #393d48;
+      border: 1px solid #ff6731;
+      padding: 4px 26px;
       gap: 8px;
       position: absolute;
       top: 0;
       right: 0; }
       .latest-comments li .comments-box .comments-text .comment-reply-link:hover {
-        background-color: #ffffff;
-        color: #005bac;
+        background-color: #ff6731;
+        color: #ffffff;
         -webkit-transition: all 0.5s ease-out;
         transition: all 0.5s ease-out; }
 
@@ -5599,66 +5600,6 @@ a.meanmenu-reveal {
 ul.children {
   list-style: none; }
 
-/*
-.commenter-list-sec {
-  .comment-title {
-    font-size: 26px;
-    font-weight: 700;
-    color: #140a20;
-  }
-  .single-commenter {
-    display: flex;
-    gap: 20px;
-    padding: 40px 30px;
-    margin-top: 20px;
-
-    .commenter-img {
-      width: 100px;
-      flex-shrink: 0;
-    }
-    .commenter-info {
-      h4 {
-        margin-bottom: 5px;
-        font-size: 18px;
-        color: $primary-color;
-      }
-
-      p {
-        margin-bottom: 0;
-      }
-    }
-    .commenter-time {
-      font-size: 16px;
-      font-weight: 600;
-      display: inline-block;
-      width: 100%;
-      margin-bottom: 10px;
-    }
-
-    .replay-button {
-      a {
-        color: $primary-color;
-        font-size: 16px;
-        font-weight: 600;
-
-        i {
-          color: $primary-color;
-          margin-right: 10px;
-        }
-      }
-      float: right;
-    }
-  }
-}
-
-
-
-
-
-
-
-
-*/
 /*Comment Input Filed*/
 .page-content .post-comments-form {
   padding-top: 1px;
