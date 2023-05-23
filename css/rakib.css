@@ -2323,6 +2323,25 @@ input:focus {
   line-height: 70px;
 }
 
+.image {
+  border-radius: 12px;
+  overflow: hidden;
+}
+.image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #393d48;
+  margin: 0;
+}
+
 .project-info-widget {
   background: #ebf4f8;
   padding: 55px 58px;
@@ -2351,20 +2370,20 @@ input:focus {
   color: #5e6f92;
 }
 
-.image {
-  border-radius: 12px;
-  overflow: hidden;
+.list-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
-.image img {
-  width: 100%;
-  height: 100%;
+.list-item li {
+  display: inline-flex;
+  gap: 15px;
 }
-
-.title {
-  font-size: 24px;
-  line-height: 36px;
-  font-weight: 700;
-  color: #393d48;
+.list-item li i {
+  color: #ff6731;
+  line-height: 30px;
+}
+.list-item li p {
   margin: 0;
 }
 
