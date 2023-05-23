@@ -127,6 +127,24 @@
         });
 
         /*
+       Post Gallery Slider
+       ============================*/
+        $(".post-gallery").slick({
+            slidesToShow: 1,
+            infinite: false,
+            autoplay: false,
+            draggable: true,
+            arrows: true,
+            slidesToScroll: 1,
+            loop: true,
+            dots: false,
+            speed: 300,
+            prevArrow:
+                "<button type='button' class='post-gallery-btn prev-btn'><i class='fa fa-arrow-left'></i></button>",
+            nextArrow:
+                "<button type='button' class='post-gallery-btn next-btn'><i class='fa fa-arrow-right'></i></button>",
+        });
+        /*
        Client Logo Slider
        ============================*/
         $(".client-logo-slider-wrapper").slick({

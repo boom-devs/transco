@@ -85,12 +85,13 @@ Footer Section
 @import "modules/breadcrumb";
 
 /* 16.Blog Section */
-@import "modules/post-card-four";
 @import "modules/post-card";
+@import "modules/post-card-four";
+@import "modules/post-card-one";
 @import "modules/paginations";
 
 /* 17.Sidebar */
-// @import "partials/sidebar";
+ @import "partials/sidebar";
 @import "modules/comment-list";
 @import "modules/comment-form";
 /* Footer Section */
