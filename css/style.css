@@ -4418,9 +4418,18 @@ a.meanmenu-reveal {
   /* Quote Format Post */
   /* Sticky Post */ }
   .single-post-item .post-content-wrapper {
-    padding: 30px; }
+    padding: 45px; }
     .single-post-item .post-content-wrapper .read-more {
-      margin-top: 30px; }
+      margin-top: 30px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
   .single-post-item.format-quote .post-content {
     margin: 0; }
   .single-post-item.format-quote blockquote {
@@ -4481,13 +4490,25 @@ a.meanmenu-reveal {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    gap: 30px;
+    gap: 17px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center; }
+    .single-post-item .social-share a.facebook {
+      color: #1877f2; }
+    .single-post-item .social-share a.twitter {
+      color: #1da1f2; }
+    .single-post-item .social-share a.linkedin {
+      color: #1a70c6; }
+    .single-post-item .social-share .social-share-title {
+      font-size: 16px;
+      font-weight: 700;
+      font-family: "Poppins", sans-serif;
+      color: #393d48;
+      margin-right: 5px; }
   .single-post-item .blog-post-tag {
     display: -webkit-box;
     display: -ms-flexbox;
