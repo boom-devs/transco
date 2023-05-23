@@ -2348,11 +2348,6 @@ input:focus {
 }
 
 /* Project-details CSS */
-.page-heading.style-two h1 {
-  font-size: 60px;
-  line-height: 70px;
-}
-
 .image {
   border-radius: 12px;
   overflow: hidden;
@@ -2455,12 +2450,29 @@ input:focus {
   background: #2c3236;
 }
 
+.page-heading.style-two h1 {
+  font-size: 50px;
+  line-height: 70px;
+  margin-bottom: 0;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .page-heading.style-two h1 {
+    font-size: 60px;
+    margin-bottom: 12px;
+  }
+}
+
 .contact-title {
   text-align: center;
 }
 .contact-title h2 {
-  font-size: 48px;
+  font-size: 38px;
   color: #393d48;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .contact-title h2 {
+    font-size: 48px;
+  }
 }
 
 .map iframe {

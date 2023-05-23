@@ -148,12 +148,30 @@ $text-gray-light: #6a6c73;
   background: #2c3236;
 }
 
+// page heading
+.page-heading {
+  &.style-two {
+    h1 {
+      font-size: 50px;
+      line-height: 70px;
+      margin-bottom: 0;
+      @media only screen and (min-width: 992px) and (max-width: 1199px) {
+        font-size: 60px;
+        margin-bottom: 12px;
+      }
+    }
+  }
+}
+
 // contact-page
 .contact-title {
   text-align: center;
   h2 {
-    font-size: 48px;
+    font-size: 38px;
     color: $secondary-color;
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      font-size: 48px;
+    }
   }
 }
 .map {
