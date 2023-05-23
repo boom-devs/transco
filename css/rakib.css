@@ -2317,6 +2317,57 @@ input:focus {
   background: linear-gradient(135deg, rgba(0, 91, 172, 0.83) 0%, rgb(30, 174, 152) 100%);
 }
 
+/* Project-details CSS */
+.page-heading.style-two h1 {
+  font-size: 60px;
+  line-height: 70px;
+}
+
+.project-info-widget {
+  background: #ebf4f8;
+  padding: 55px 58px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.project-info-widget .info-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.project-info-widget .info-item h3 {
+  margin: 0;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #393d48;
+}
+.project-info-widget .info-item p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #5e6f92;
+}
+
+.image {
+  border-radius: 12px;
+  overflow: hidden;
+}
+.image img {
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #393d48;
+  margin: 0;
+}
+
 .common-card-wrapper {
   background: #4566d4;
   padding: 100px 50px;

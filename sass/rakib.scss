@@ -116,6 +116,9 @@ $text-gray-light: #6a6c73;
 /* Service-details side-bar CSS */
 @import "partials/sidebar-two";
 
+/* Project-details CSS */
+@import "modules/project-details";
+
 .common-card-wrapper {
   background: #4566d4;
   padding: 100px 50px;
