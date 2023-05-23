@@ -2369,7 +2369,7 @@ input:focus {
 
 .simillar-project-title h2 {
   font-size: 36px;
-  line-height: 28px;
+  line-height: 50px;
   font-weight: 700;
   color: #393d48;
   margin: 0;
@@ -2451,14 +2451,15 @@ input:focus {
 }
 
 .page-heading.style-two h1 {
-  font-size: 50px;
-  line-height: 70px;
+  font-size: 40px;
+  line-height: 54px;
   margin-bottom: 0;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .page-heading.style-two h1 {
     font-size: 60px;
     margin-bottom: 12px;
+    line-height: 70px;
   }
 }
 

@@ -40,6 +40,7 @@
     padding-left: 0;
     i {
       color: $white;
+      font-size: 12px;
     }
     li {
       display: inline-block;
@@ -53,13 +54,18 @@
       }
       a {
         font-family: $body-font;
-        font-size: 16px;
+        font-size: 14px;
         text-align: center;
         color: $white;
-        text-transform: uppercase;
-        line-height: 12px;
+        text-transform: capitalize;
+        line-height: 16px;
         font-weight: 400;
         @include transition;
+
+        @media only screen and (min-width: 992px) {
+          font-size: 16px;
+          line-height: 70px;
+        }
 
         &:hover {
           @include transition;

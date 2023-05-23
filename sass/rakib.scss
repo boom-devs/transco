@@ -152,12 +152,13 @@ $text-gray-light: #6a6c73;
 .page-heading {
   &.style-two {
     h1 {
-      font-size: 50px;
-      line-height: 70px;
+      font-size: 40px;
+      line-height: 54px;
       margin-bottom: 0;
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
         font-size: 60px;
         margin-bottom: 12px;
+        line-height: 70px;
       }
     }
   }
