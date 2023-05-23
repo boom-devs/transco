@@ -102,10 +102,10 @@
         /*
        Testimonial Slider
        ============================*/
-        $(".testimonial-slider-wrapper").slick({
-            slidesToShow: 1,
+        $("#testimonial_two").slick({
+            slidesToShow: 2,
             infinite: true,
-            autoplay: true,
+            autoplay: false,
             draggable: true,
             arrows: false,
             slidesToScroll: 1,
