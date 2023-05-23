@@ -4385,6 +4385,8 @@ a.meanmenu-reveal {
 
 .blog-details-wrapper .single-post-item {
   border: 0; }
+  .blog-details-wrapper .single-post-item .post-meta {
+    margin-bottom: 30px; }
   .blog-details-wrapper .single-post-item .post-thumbnail {
     border-radius: 12px;
     overflow: hidden; }
@@ -5510,11 +5512,8 @@ a.meanmenu-reveal {
     color: rgba(255, 255, 255, 0.53);
     margin-bottom: 32px; }
 
-.post-comments {
-  padding: 30px;
-  background-color: #ffffff;
-  border-radius: 14px;
-  margin-top: 40px; }
+.post-comments-form {
+  margin-top: 70px; }
 
 .blog-coment-title h2 {
   font-size: 24px;
@@ -5632,12 +5631,13 @@ ul.children {
     color: #005bac; }
 
 .comment-respond {
-  background-color: #ffffff;
-  padding: 46px 36px;
-  border-radius: 18px; }
+  background-color: #eef5f8;
+  padding: 50px;
+  border-radius: 8px; }
   .comment-respond .contacts-email,
   .comment-respond .contacts-name,
-  .comment-respond .single-input-field {
+  .comment-respond .single-input-field,
+  .comment-respond .contacts-message {
     margin-bottom: 12px; }
   .comment-respond label {
     display: block;
@@ -5703,10 +5703,10 @@ ul.children {
     color: #778196;
     border: 1px solid #d2d2d2;
     border-radius: 5px;
-    font-size: 14px;
-    background-color: #ffffff;
-    font-family: "Roboto", sans-serif;
+    font-size: 16px;
     font-weight: 400;
+    background-color: #ffffff;
+    font-family: "Roboto", sans-serif !important;
     height: 130px; }
   .comment-respond p {
     margin-bottom: 20px; }

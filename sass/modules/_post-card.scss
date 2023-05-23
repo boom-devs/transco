@@ -13,6 +13,9 @@
   .single-post-item {
     border: 0;
 
+    .post-meta {
+      margin-bottom: 30px;
+    }
     .post-thumbnail {
       border-radius: 12px;
       overflow: hidden;
