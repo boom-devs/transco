@@ -38,7 +38,9 @@
   ul {
     margin-bottom: 10px;
     padding-left: 0;
-
+    i {
+      color: $white;
+    }
     li {
       display: inline-block;
       position: relative;
