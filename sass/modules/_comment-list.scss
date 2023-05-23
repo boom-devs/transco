@@ -1,10 +1,12 @@
-.post-comments {
-  padding: 30px;
-  background-color: $white;
-  border-radius: 14px;
-  margin-top: 40px;
+//.post-comments {
+//  padding: 30px;
+//  background-color: $white;
+//  border-radius: 14px;
+//  margin-top: 40px;
+//}
+.post-comments-form {
+  margin-top: 70px;
 }
-
 .blog-coment-title h2 {
   font-size: 24px;
   line-height: 28px;
@@ -23,11 +25,11 @@
 
     .children {
       .comments-box {
-        padding-left: 100px;
+        margin-left: 50px;
       }
       .children {
         .comments-box {
-          padding-left: 200px;
+          margin-left: 100px;
           border-top: 1px solid #D2D2D2;
         }
       }
@@ -43,9 +45,9 @@
         float: left;
 
         img {
-          margin-right: 20px;
+          margin-right: 30px;
           width: 100px;
-          border-radius: 10px;
+          border-radius: 50px;
         }
       }
       .comments-text {
@@ -53,47 +55,48 @@
 
 
         p {
-          font-size: 14px;
-          line-height: 25px;
+          font-size: 16px;
+          line-height: 30px;
           margin-bottom: 20px;
+          color: $text-color;
         }
         .avatar-name {
           margin-bottom: 10px;
           position: relative;
 
           h5 {
-            font-size: 20px;
+            font-size: 21px;
             margin-bottom: 5px;
+            font-weight: 700;
+            font-family: $heading-font;
             display: flex;
             align-items: center;
             justify-content: space-between;
           }
           span {
-            color: $primary-color;
-            font-size: 14px;
-            font-weight: 600;
-            text-transform: capitalize;
+            color: #9ba8c3;
+            font-size: 16px;
+            font-weight: 400;
             font-family: $body-font;
           }
         }
         .comment-reply-link {
           display: inline-flex;
           align-items: center;
-          border-radius: 8px;
+          border-radius: 6px;
           font-size: 14px;
-          font-weight: 600;
-          color: $white;
-          background-color: $primary-color;
-          border: 1px solid $primary-color;
-          padding: 6px 17px;
+          font-weight: 700;
+          color: $secondary-color;
+          border: 1px solid $orange-color;
+          padding: 4px 26px;
           gap: 8px;
           position: absolute;
           top: 0;
           right: 0;
 
           &:hover {
-            background-color: $white;
-            color: $primary-color;
+            background-color: $orange-color;
+            color: $white;
             @include transition;
           }
         }
@@ -103,15 +106,6 @@
   }
 }
 
-//.post-comments-title {
-//  margin-bottom: 39px;
-//}
-//
-//.post-comments-title h2 {
-//  font-size: 26px;
-//  color: #140a20;
-//  margin-bottom: 0;
-//}
 .post-comments .latest-comments > ul {
   list-style: none;
   padding-left: 0;
@@ -125,64 +119,3 @@ ul.children {
 }
 
 
-// Comment
-/*
-.commenter-list-sec {
-  .comment-title {
-    font-size: 26px;
-    font-weight: 700;
-    color: #140a20;
-  }
-  .single-commenter {
-    display: flex;
-    gap: 20px;
-    padding: 40px 30px;
-    margin-top: 20px;
-
-    .commenter-img {
-      width: 100px;
-      flex-shrink: 0;
-    }
-    .commenter-info {
-      h4 {
-        margin-bottom: 5px;
-        font-size: 18px;
-        color: $primary-color;
-      }
-
-      p {
-        margin-bottom: 0;
-      }
-    }
-    .commenter-time {
-      font-size: 16px;
-      font-weight: 600;
-      display: inline-block;
-      width: 100%;
-      margin-bottom: 10px;
-    }
-
-    .replay-button {
-      a {
-        color: $primary-color;
-        font-size: 16px;
-        font-weight: 600;
-
-        i {
-          color: $primary-color;
-          margin-right: 10px;
-        }
-      }
-      float: right;
-    }
-  }
-}
-
-
-
-
-
-
-
-
-*/
