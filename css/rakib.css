@@ -1183,6 +1183,35 @@ input:focus {
   color: #c7cdda;
 }
 
+.icon-card.style-four {
+  padding: 0;
+  flex-direction: column;
+  gap: 0;
+  justify-content: center;
+  align-items: center;
+}
+.icon-card.style-four .icon {
+  width: 72px;
+  height: 72px;
+  background: #1eae98;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  transform: translate(0, 50%);
+}
+.icon-card.style-four .icon i {
+  color: #ffffff;
+}
+.icon-card.style-four .content {
+  width: 100%;
+  padding: 55px 30px 30px 30px;
+  background: #eef5f8;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+}
+
 .info-card-wrapper {
   position: relative;
 }

@@ -4693,7 +4693,6 @@ a.meanmenu-reveal {
 }
 .breadcrumb-list ul li a:hover {
   transition: all 0.5s ease-out;
-  color: #005bac;
 }
 .breadcrumb-list ul li:last-child::before {
   display: none;
