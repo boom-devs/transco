@@ -4446,9 +4446,9 @@ a.meanmenu-reveal {
       .single-post-item.sticky .post-content p {
         margin-bottom: 0; }
   .single-post-item .post-title {
-    font-size: 40px;
+    font-size: 36px;
     line-height: 54px;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 10px;
     text-transform: capitalize; }
     .single-post-item .post-title:hover a {
@@ -4611,8 +4611,8 @@ a.meanmenu-reveal {
     gap: 32px;
     margin-bottom: 10px; }
     .single-post-item .post-meta span {
-      font-size: 14px;
-      font-weight: 500;
+      font-size: 18px;
+      font-weight: 400;
       color: #5e6f92;
       text-transform: capitalize;
       display: -webkit-box;
@@ -4623,8 +4623,8 @@ a.meanmenu-reveal {
               align-items: center;
       gap: 10px; }
       .single-post-item .post-meta span i {
-        color: #005bac;
-        font-size: 19px; }
+        color: #1eae98;
+        font-size: 18px; }
       .single-post-item .post-meta span a {
         display: -webkit-box;
         display: -ms-flexbox;
