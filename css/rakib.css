@@ -2334,8 +2334,16 @@ input:focus {
      object-fit: cover;
 }
 
-.title {
+.project-details-title {
   font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #393d48;
+  margin: 0;
+}
+
+.simillar-project-title h2 {
+  font-size: 36px;
   line-height: 28px;
   font-weight: 700;
   color: #393d48;
