@@ -22,9 +22,8 @@
             position: relative;
             opacity: 1;
             transition: all 0.6s ease;
-            img {
-                border-radius: 12px;
-            }
+            border-radius: 12px;
+            overflow: hidden;
         }
         .content-wrapper {
             // margin-bottom: -48px;

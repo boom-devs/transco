@@ -3543,9 +3543,8 @@ a.meanmenu-reveal {
   position: relative;
   opacity: 1;
   transition: all 0.6s ease;
-}
-.info-card.style-three .image-wrapper img {
   border-radius: 12px;
+  overflow: hidden;
 }
 .info-card.style-three .content-wrapper {
   transform: translate(0, 50%);
@@ -5470,6 +5469,10 @@ ul.children {
 /* Team Member */
 .team-member-card {
   position: relative;
+}
+.team-member-card .image {
+  border-radius: 12px;
+  overflow: hidden;
 }
 .team-member-card .image img {
   width: 100%;
