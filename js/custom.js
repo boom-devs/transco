@@ -40,7 +40,7 @@
         Jquery Accordion
         ============================*/
         $(function() {
-            $('.accordion-item').click(function(){
+            $('.accordion-item').on('click', function(){
                 $(this).toggleClass(' open ');
                 $(this).siblings().removeClass(' open ');
                 $('.accordion-body').stop().slideUp();
@@ -105,17 +105,17 @@
         $("#testimonial_two").slick({
             slidesToShow: 2,
             infinite: true,
-            autoplay: false,
+            autoplay: true,
             draggable: true,
-            arrows: false,
+            arrows: true,
             slidesToScroll: 1,
             loop: true,
-            dots: false,
+            dots: true,
             speed: 1500,
             prevArrow:
-                "<button type='button' class='post-gallery-btn prev-btn'><i class='fa fa-arrow-left'></i></button>",
+                "<button type='button' class='testimonial-arrow-btn prev-btn'><i class='fa-solid fa-angle-left'></i></button>",
             nextArrow:
-                "<button type='button' class='post-gallery-btn next-btn'><i class='fa fa-arrow-right'></i></button>",
+                "<button type='button' class='testimonial-arrow-btn next-btn'><i class='fa-solid fa-angle-right'></i></button>",
             responsive: [
                 {
                     breakpoint: 767,
@@ -124,6 +124,13 @@
                     },
                 },
             ],
+        });
+
+        $('#trigger_testimonial_prev').on('click', function() {
+            $('.testimonial-slider-wrapper .prev-btn').trigger('click');
+        });
+        $('#trigger_testimonial_next').on('click', function() {
+            $('.testimonial-slider-wrapper .next-btn').trigger('click');
         });
 
         /*
