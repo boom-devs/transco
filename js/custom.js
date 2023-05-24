@@ -100,6 +100,35 @@
         });
 
         /*
+       Info Card Slider
+       ============================*/
+        $("#info_card_slider_wrapper").slick({
+            slidesToShow: 3,
+            infinite: true,
+            autoplay: false,
+            draggable: true,
+            arrows: true,
+            // variableWidth: true,
+            slidesToScroll: 1,
+            loop: true,
+            dots: false,
+            speed: 1500,
+            prevArrow:
+                "<button type='button' class='info-card-arrow-btn prev-btn'><i class='fa-solid fa-angle-left'></i></button>",
+            nextArrow:
+                "<button type='button' class='info-card-arrow-btn next-btn'><i class='fa-solid fa-angle-right'></i></button>",
+            responsive: [
+                {
+                    breakpoint: 767,
+                    settings: {
+                        autoplay: true,
+                    },
+                },
+            ],
+        });
+
+
+        /*
        Testimonial Slider
        ============================*/
         $("#testimonial_two").slick({
