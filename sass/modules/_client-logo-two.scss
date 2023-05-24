@@ -1,0 +1,7 @@
+.client-logo-wrapper {
+    &.style-two {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-gap: 60px 30px;
+    }
+}

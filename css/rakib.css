@@ -2569,6 +2569,13 @@ input:focus {
   margin: 0;
 }
 
+/* Client-logo CSS */
+.client-logo-wrapper.style-two {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 60px 30px;
+}
+
 .common-card-wrapper {
   background: #4566d4;
   padding: 100px 50px;
