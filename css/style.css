@@ -4035,6 +4035,81 @@ a.meanmenu-reveal {
       font-weight: 400;
       color: #5e6f92; }
 
+.process-step.style-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  background: transparent;
+  gap: 37px;
+  padding: 0; }
+  .process-step.style-two .icon {
+    width: 85px;
+    height: 85px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: #ffffff;
+    border-radius: 50px;
+    position: relative; }
+    .process-step.style-two .icon .count {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+      background: #1eae98;
+      width: 30px;
+      height: 30px;
+      border-radius: 50px;
+      color: #ffffff; }
+      .process-step.style-two .icon .count span {
+        font-size: 16px;
+        line-height: 36px;
+        font-weight: 700; }
+  .process-step.style-two .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 20px; }
+    .process-step.style-two .content .title {
+      margin: 0;
+      font-size: 24px;
+      line-height: 36px;
+      font-weight: 700;
+      color: #ffffff; }
+    .process-step.style-two .content .desc {
+      margin: 0;
+      font-size: 18px;
+      line-height: 30px;
+      font-weight: 400;
+      color: #c7cdda; }
+
 .testimonial-card {
   padding: 40px 50px;
   background: #ffffff;
@@ -4278,11 +4353,11 @@ button.testimonial-arrow-btn {
   gap: 12px;
   margin-top: 50px; }
 
-.accordion-wrapper .accordion-item.open .accordion-body {
+.accordion-wrapper .accordion-list-item.open .accordion-item-body {
   display: block; }
-.accordion-wrapper .accordion-item.open .accordion-head .icon:before {
-  width: 0; }
-.accordion-wrapper .accordion-item .accordion-head {
+.accordion-wrapper .accordion-list-item.open .accordion-head .icon:before {
+  content: "\f068"; }
+.accordion-wrapper .accordion-list-item .accordion-head {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4298,45 +4373,51 @@ button.testimonial-arrow-btn {
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse; }
-  .accordion-wrapper .accordion-item .accordion-head .accordion-title {
+  .accordion-wrapper .accordion-list-item .accordion-head .accordion-title {
     font-size: 21px;
     line-height: 60px;
     color: #ffffff;
     font-weight: 700;
     margin-bottom: 0; }
-  .accordion-wrapper .accordion-item .accordion-head .icon {
+  .accordion-wrapper .accordion-list-item .accordion-head .icon {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    font-size: 16px;
-    width: 21px;
-    height: 21px;
-    position: relative; }
-    .accordion-wrapper .accordion-item .accordion-head .icon:before {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700; }
+    .accordion-wrapper .accordion-list-item .accordion-head .icon:before {
       position: absolute;
-      content: "";
-      width: 3px;
-      height: 100%;
-      background-color: #ffffff;
+      content: "\2b";
       left: 50%;
-      -webkit-transform: translateX(-50%);
-              transform: translateX(-50%); }
-    .accordion-wrapper .accordion-item .accordion-head .icon:after {
-      position: absolute;
-      content: "";
-      width: 100%;
-      height: 3px;
-      background-color: #ffffff;
-      left: 50%;
-      -webkit-transform: translateX(-50%);
-              transform: translateX(-50%); }
-.accordion-wrapper .accordion-item .accordion-body {
-  display: none;
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+      font-family: "Font Awesome 6 Pro"; }
+.accordion-wrapper .accordion-list-item .accordion-item-body {
   color: #c7cdda;
-  padding-left: 60px; }
+  padding-left: 60px;
+  padding-bottom: 25px; }
+
+.accordion-wrapper.style-two .accordion-list-item.open .accordion-head .icon {
+  background-color: #ff6731;
+  color: #ffffff; }
+.accordion-wrapper.style-two .accordion-list-item .accordion-head {
+  border-top: 1px solid #395670;
+  padding: 12px 0; }
+  .accordion-wrapper.style-two .accordion-list-item .accordion-head .icon {
+    background-color: #ffffff;
+    border-radius: 50px;
+    color: #ff6731;
+    font-size: 12px; }
+.accordion-wrapper.style-two .accordion-list-item:last-child {
+  border-bottom: 1px solid #395670; }
 
 .client-logo-wrapper .client-logo {
   display: -webkit-box;
@@ -6853,5 +6934,4 @@ ul.children {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; }
-
 /*# sourceMappingURL=style.css.map */
