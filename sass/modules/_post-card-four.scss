@@ -12,10 +12,22 @@
             }
         }
         .content {
-            .sub-title {
-                .date {
-                    color: #778196;
+            .post-meta {
+                span {
+                    color: $orange-color;
                     line-height: 30px;
+                    font-weight: 700;
+                    &:last-child {
+                        display: block;
+                    }
+                    &:first-child {
+                        &:before {
+                            display: none;
+                        }
+                    }
+                }
+                .date {
+                    color: $black-300;
                     font-weight: 400;
                 }
             }

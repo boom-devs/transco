@@ -1670,6 +1670,7 @@ input:focus {
 }
 .price-card .list .list-item {
   display: flex;
+  flex-direction: row;
   align-items: center;
   gap: 12px;
 }
@@ -1841,14 +1842,6 @@ input:focus {
 .post-card.style-two .content {
   gap: 12px;
 }
-.post-card.style-two .content .post-meta span:before {
-  background-color: #b8bfcc;
-  width: 1px;
-  display: inline-flex;
-  height: 12px;
-  content: "";
-  margin-right: 17px;
-}
 .post-card.style-two .content .post-meta span:last-child {
   display: block;
 }
@@ -1919,9 +1912,19 @@ input:focus {
   height: 100%;
   border-radius: 12px;
 }
-.post-card.style-four .content .sub-title .date {
-  color: #778196;
+.post-card.style-four .content .post-meta span {
+  color: #ff6731;
   line-height: 30px;
+  font-weight: 700;
+}
+.post-card.style-four .content .post-meta span:last-child {
+  display: block;
+}
+.post-card.style-four .content .post-meta span:first-child:before {
+  display: none;
+}
+.post-card.style-four .content .post-meta .date {
+  color: #778196;
   font-weight: 400;
 }
 

@@ -13,14 +13,6 @@
             gap: 12px;
             .post-meta {
                 span {
-                    &:before {
-                        background-color: #b8bfcc;
-                        width: 1px;
-                        display: inline-flex;
-                        height: 12px;
-                        content: "";
-                        margin-right: 17px;
-                    }
                     &:last-child {
                         display: block;
                     }
