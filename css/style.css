@@ -383,6 +383,9 @@ input:focus {
 .background-blue {
   background-color: #003869; }
 
+.background-skye {
+  background-color: #1eae98; }
+
 .background-gray {
   background-color: #eef5f8; }
 
@@ -6882,10 +6885,6 @@ ul.children {
   top: 0;
   z-index: -1; }
 
-.client-logo-area {
-  background-color: #1eae98;
-  padding: 100px 0; }
-
 .news-area {
   padding-top: 144px;
   padding-bottom: 270px; }
@@ -6996,5 +6995,4 @@ ul.children {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; }
-
 /*# sourceMappingURL=style.css.map */
