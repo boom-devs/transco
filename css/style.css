@@ -3808,6 +3808,13 @@ a.meanmenu-reveal {
   .promotional-banner-widget .promotional-bannar-img {
     border-radius: 12px;
     overflow: hidden; }
+  .promotional-banner-widget .title-wrapper .title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 48px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 0; }
   .promotional-banner-widget .promotional-bananer-content {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3852,6 +3859,24 @@ a.meanmenu-reveal {
         font-size: 21px;
         font-weight: 700;
         color: #393d48; }
+
+.promotional-banner-widget.style-two .promotional-bananer-content {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  gap: 20px; }
+  .promotional-banner-widget.style-two .promotional-bananer-content .icon {
+    background: #e30008;
+    background: linear-gradient(65deg, #e30008 0%, #faae00 100%); }
+  .promotional-banner-widget.style-two .promotional-bananer-content .content span {
+    display: inline-block;
+    width: 100%;
+    color: #1eae98;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif; }
+  .promotional-banner-widget.style-two .promotional-bananer-content .content .text {
+    font-size: 24px;
+    color: #ffffff; }
 
 .video-popup-card {
   position: relative;
@@ -6915,6 +6940,25 @@ ul.children {
   margin-bottom: -270px;
   position: relative;
   z-index: 2; }
+
+.accordion-area {
+  z-index: 2; }
+
+.triangle-image-shape-wrapper {
+  position: absolute;
+  width: 760px;
+  top: -160px;
+  left: 0;
+  z-index: -1; }
+
+.triangle-image-shape {
+  -webkit-clip-path: polygon(0 0, 64% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0 0, 64% 0, 100% 100%, 0% 100%); }
+
+.triangle-image-shape-border {
+  position: absolute;
+  top: -30px;
+  left: 0; }
 
 .why-us-area {
   margin-top: -65px;

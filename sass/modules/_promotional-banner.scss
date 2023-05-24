@@ -8,6 +8,16 @@
     border-radius: 12px;
     overflow: hidden;
   }
+  .title-wrapper {
+    .title {
+      font-size: 36px;
+      font-weight: 700;
+      color: $white;
+      line-height: 48px;
+      font-family: $heading-font;
+      margin-bottom: 0;
+    }
+  }
   .promotional-bananer-content {
     display: flex;
     align-items: center;
