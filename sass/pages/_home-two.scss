@@ -87,7 +87,7 @@
 .triangle-image-shape-wrapper {
   position: absolute;
   width: 760px;
-  top: -160px;
+  top: -140px;
   left: 0;
   z-index: -1;
 }
@@ -99,4 +99,21 @@
   position: absolute;
   top: -30px;
   left: 0;
+}
+
+
+// Client Logo Area
+.triangle-shape {
+  position: absolute;
+  left: 0;
+  bottom: -50%;
+  transform: translateY(50%);
+  z-index: 99;
+  border-top: 408px solid $secondary-color;
+  border-right: 165px solid transparent;
+}
+
+// Testimonial Triangle Image
+.testimonial-triangle-image {
+  width: 760px;
 }

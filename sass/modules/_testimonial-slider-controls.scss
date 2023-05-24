@@ -152,6 +152,11 @@ button.testimonial-arrow-btn {
 // Testimonial Slider Control Three
 .testimonial-slider-wrapper {
   &.style-three {
+    &:before,
+    &:after {
+      display: none;
+    }
+
     .slick-list {
 
       .slick-slide {
