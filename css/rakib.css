@@ -274,6 +274,7 @@ input:focus {
   top: 50%;
   transform: translateY(-50%);
   left: 60px;
+  z-index: 99;
 }
 .slider-area .social-share a {
   font-size: 24px;
@@ -335,6 +336,7 @@ input:focus {
   height: 920px;
   position: relative;
   z-index: 2;
+  overflow: hidden;
 }
 .slider-area .single-slider .slider-overlay {
   background: rgb(0, 91, 172);
@@ -1904,7 +1906,6 @@ input:focus {
   align-items: center;
 }
 .post-card.style-two:hover .image img {
-  transition: all 0.5s ease-out;
   transform: scale(1.05);
 }
 .post-card.style-two:hover .image .icon {
@@ -1922,6 +1923,9 @@ input:focus {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.post-card.style-two .image img {
+  transition: all 0.5s ease-out;
 }
 .post-card.style-two .image:before {
   content: "";
@@ -1968,6 +1972,9 @@ input:focus {
   font-size: 24px;
   line-height: 33px;
   font-weight: 700;
+}
+.post-card.style-two .content .title:hover {
+  color: #005bac;
 }
 
 .post-card.style-three {
@@ -2026,6 +2033,9 @@ input:focus {
   line-height: 42px;
   font-weight: 700;
 }
+.post-card.style-three .content .title:hover {
+  color: #ff6731;
+}
 
 .post-card.style-four {
   flex-direction: column;
@@ -2035,12 +2045,15 @@ input:focus {
 }
 .post-card.style-four:hover .image img {
   transform: scale(1.05);
-  transition: all 0.5s ease-out;
 }
 .post-card.style-four .image img {
   width: 100%;
   height: 100%;
   border-radius: 12px;
+  transition: all 0.5s ease-out;
+}
+.post-card.style-four .content .title:hover {
+  color: #005bac;
 }
 .post-card.style-four .content .post-meta span {
   color: #ff6731;

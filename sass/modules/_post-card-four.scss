@@ -8,7 +8,6 @@
             .image {
                 img {
                     transform: scale(1.05);
-                    @include transition;
                 }
             }
         }
@@ -17,9 +16,15 @@
                 width: 100%;
                 height: 100%;
                 border-radius: 12px;
+                @include transition;
             }
         }
         .content {
+            .title {
+                &:hover {
+                    color: $primary-color;
+                }
+            }
             .post-meta {
                 span {
                     color: $orange-color;
