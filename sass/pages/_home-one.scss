@@ -11,6 +11,17 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-color: $primary-color;
+  z-index: -1;
+}
+.counter-squre-shape {
+  width: 245px;
+  height: 245px;
+  border-radius: 18px;
+  @include gradient-color-red;
+  transform: rotate(45deg);
+  right: -90px;
+  bottom: -80px;
+  position: absolute;
 }
 
 // Why Choose Us Area
@@ -60,6 +71,16 @@
   position: relative;
   z-index: 2;
 }
+.appointment-squre-shape {
+  width: 200px;
+  height: 200px;
+  border-radius: 18px;
+  @include gradient-color-red;
+  transform: rotate(45deg);
+  left: -20px;
+  top: -140px;
+  position: absolute;
+}
 .blue-overlay {
   position: absolute;
   width: 100%;
@@ -69,6 +90,8 @@
   top: 0;
   z-index: -1;
 }
+
+
 
 // Client Logo Area
 .client-logo-area {
@@ -84,3 +107,5 @@
     margin-bottom: 70px;
   }
 }
+
+

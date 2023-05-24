@@ -11,6 +11,7 @@
     top: 50%;
     transform: translateY(-50%);
     left: 60px;
+    z-index: 99;
 
     a {
       font-size: 24px;
@@ -85,6 +86,7 @@
     height: 920px;
     position: relative;
     z-index: 2;
+    overflow: hidden;
 
     .slider-overlay {
       @include gradient-color-skye;
