@@ -4292,8 +4292,7 @@ a.meanmenu-reveal {
     right: -65px;
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
-    z-index: 2;
-    flex-direction: column; }
+    z-index: 2; }
     .testimonial-slider-wrapper .slick-dots li {
       display: inline-block;
       line-height: 0; }
@@ -4377,6 +4376,23 @@ button.testimonial-arrow-btn {
           align-items: center;
   gap: 12px;
   margin-top: 50px; }
+
+.testimonial-slider-wrapper.style-three .slick-list .slick-slide {
+  border-radius: 0; }
+  .testimonial-slider-wrapper.style-three .slick-list .slick-slide.slick-active {
+    -webkit-box-shadow: none;
+            box-shadow: none; }
+.testimonial-slider-wrapper.style-three .slick-dots {
+  margin-top: 20px;
+  position: unset;
+  padding-left: 0;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 
 .accordion-wrapper .accordion-list-item.open .accordion-item-body {
   display: block; }
