@@ -2,10 +2,11 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 35px 35px 30px 35px;
+  padding: 30px 35px 25px 35px;
   border: 1px solid #778196;
   border-radius: 12px;
   gap: 60px;
+  margin-bottom: 25px;
   .overlay {
     width: 100%;
     height: 100%;
@@ -16,7 +17,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    .sub-title {
+    .post-meta {
       color: $orange-color;
       font-size: 16px;
       line-height: 28px;
@@ -25,7 +26,7 @@
       display: inline-flex;
       gap: 17px;
       align-items: center;
-      .date {
+      span {
         margin: 0;
         &:before {
           background-color: #b8bfcc;
@@ -34,6 +35,14 @@
           height: 12px;
           content: "";
           margin-right: 17px;
+        }
+        &:last-child {
+          display: none;
+        }
+        &:first-child {
+          &:before {
+            display: none;
+          }
         }
       }
     }
@@ -45,13 +54,14 @@
       color: $secondary-color;
     }
   }
+  .date {
+    margin-bottom: 0;
+  }
   .date-bottom {
     font-size: 16px;
     line-height: 18px;
     font-weight: 400;
-    margin-top: 60px;
     margin-bottom: 0;
-
     color: #778196;
   }
 }

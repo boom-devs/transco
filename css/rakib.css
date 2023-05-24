@@ -1859,7 +1859,7 @@ input:focus {
   background-color: #393d48;
   opacity: 0.3;
 }
-.post-card.style-three .content .sub-title {
+.post-card.style-three .content .post-meta {
   color: #ffffff;
   display: inline-flex;
   gap: 17px;
@@ -1867,18 +1867,24 @@ input:focus {
   font-size: 16px;
   line-height: 30px;
 }
-.post-card.style-three .content .sub-title .date {
+.post-card.style-three .content .post-meta span {
   color: #ffffff;
   margin: 0;
   font-weight: 400;
 }
-.post-card.style-three .content .sub-title .date:before {
+.post-card.style-three .content .post-meta span:before {
   background-color: #b8bfcc;
   width: 1px;
   display: inline-flex;
   height: 12px;
   content: "";
   margin-right: 17px;
+}
+.post-card.style-three .content .post-meta span:last-child {
+  display: block;
+}
+.post-card.style-three .content .post-meta span:first-child:before {
+  display: none;
 }
 .post-card.style-three .content .title {
   color: #ffffff;
