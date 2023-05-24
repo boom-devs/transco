@@ -6135,24 +6135,24 @@ ul.children {
     -webkit-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s; }
 
-.post-comments-form.style-two .post-comments-title h2 {
+.comment-respond.style-two .post-comments-title h2 {
   color: #ffffff; }
-.post-comments-form.style-two .comment-respond label {
+.comment-respond.style-two label {
   color: #c7cdda; }
-.post-comments-form.style-two .comment-respond .single-input-field input,
-.post-comments-form.style-two .comment-respond .single-input-field select {
+.comment-respond.style-two .single-input-field input,
+.comment-respond.style-two .single-input-field select {
   background-color: transparent;
   border-color: #739bbf;
   color: #c7cdda; }
-.post-comments-form.style-two .comment-respond .single-input-field *::-webkit-input-placeholder {
+.comment-respond.style-two .single-input-field *::-webkit-input-placeholder {
   color: #c7cdda; }
-.post-comments-form.style-two .comment-respond .single-input-field *:-ms-input-placeholder {
+.comment-respond.style-two .single-input-field *:-ms-input-placeholder {
   color: #c7cdda; }
-.post-comments-form.style-two .comment-respond .single-input-field *::-ms-input-placeholder {
+.comment-respond.style-two .single-input-field *::-ms-input-placeholder {
   color: #c7cdda; }
-.post-comments-form.style-two .comment-respond .single-input-field *::placeholder {
+.comment-respond.style-two .single-input-field *::placeholder {
   color: #c7cdda; }
-.post-comments-form.style-two .comment-respond .checkbox-field-wrapper .single-checkbox-field .form-check-input {
+.comment-respond.style-two .checkbox-field-wrapper .single-checkbox-field .form-check-input {
   background-color: transparent;
   border-color: #739bbf; }
 
