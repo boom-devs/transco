@@ -6216,26 +6216,28 @@ ul.children {
     -webkit-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s; }
 
-.comment-respond.style-two .post-comments-title h2 {
-  color: #ffffff; }
-.comment-respond.style-two label {
-  color: #c7cdda; }
-.comment-respond.style-two .single-input-field input,
-.comment-respond.style-two .single-input-field select {
-  background-color: transparent;
-  border-color: #739bbf;
-  color: #c7cdda; }
-.comment-respond.style-two .single-input-field *::-webkit-input-placeholder {
-  color: #c7cdda; }
-.comment-respond.style-two .single-input-field *:-ms-input-placeholder {
-  color: #c7cdda; }
-.comment-respond.style-two .single-input-field *::-ms-input-placeholder {
-  color: #c7cdda; }
-.comment-respond.style-two .single-input-field *::placeholder {
-  color: #c7cdda; }
-.comment-respond.style-two .checkbox-field-wrapper .single-checkbox-field .form-check-input {
-  background-color: transparent;
-  border-color: #739bbf; }
+.comment-respond.style-two {
+  background-color: transparent; }
+  .comment-respond.style-two .post-comments-title h2 {
+    color: #ffffff; }
+  .comment-respond.style-two label {
+    color: #c7cdda; }
+  .comment-respond.style-two .single-input-field input,
+  .comment-respond.style-two .single-input-field select {
+    background-color: transparent;
+    border-color: #739bbf;
+    color: #c7cdda; }
+  .comment-respond.style-two .single-input-field *::-webkit-input-placeholder {
+    color: #c7cdda; }
+  .comment-respond.style-two .single-input-field *:-ms-input-placeholder {
+    color: #c7cdda; }
+  .comment-respond.style-two .single-input-field *::-ms-input-placeholder {
+    color: #c7cdda; }
+  .comment-respond.style-two .single-input-field *::placeholder {
+    color: #c7cdda; }
+  .comment-respond.style-two .checkbox-field-wrapper .single-checkbox-field .form-check-input {
+    background-color: transparent;
+    border-color: #739bbf; }
 
 /* Footer Section */
 .footer {
@@ -6934,4 +6936,5 @@ ul.children {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; }
+
 /*# sourceMappingURL=style.css.map */
