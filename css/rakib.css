@@ -1841,8 +1841,23 @@ input:focus {
 .post-card.style-two .content {
   gap: 12px;
 }
-.post-card.style-two .content .sub-title .date {
+.post-card.style-two .content .post-meta span:before {
+  background-color: #b8bfcc;
+  width: 1px;
+  display: inline-flex;
+  height: 12px;
+  content: "";
+  margin-right: 17px;
+}
+.post-card.style-two .content .post-meta span:last-child {
+  display: block;
+}
+.post-card.style-two .content .post-meta span:first-child:before {
+  display: none;
+}
+.post-card.style-two .content .post-meta .date {
   color: #778196;
+  font-weight: 400;
 }
 .post-card.style-two .content .title {
   font-size: 24px;
