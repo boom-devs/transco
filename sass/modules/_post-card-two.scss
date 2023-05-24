@@ -6,8 +6,58 @@
         gap: 30px;
         flex-direction: row;
         align-items: center;
+        &:hover {
+            .image {
+                img {
+                    @include transition;
+                    transform: scale(1.05);
+                }
+                .icon {
+                    z-index: 2;
+                    opacity: 1;
+                    @include transition;
+                }
+                &:before {
+                    // @include transition;
+                    opacity: 0.6;
+                    z-index: 1;
+                }
+            }
+        }
         .image {
             flex-shrink: 0;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &:before {
+                content: "";
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                background: $secondary-color;
+                z-index: -2;
+                opacity: 0;
+            }
+            .icon {
+                width: 32px;
+                height: 32px;
+                border-radius: 50px;
+                background: $orange-color;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                top: 40%;
+                left: 40%;
+                z-index: -1;
+                opacity: 0;
+                i {
+                    color: $white;
+                }
+            }
         }
         .content {
             gap: 12px;
