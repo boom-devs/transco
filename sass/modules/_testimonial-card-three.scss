@@ -3,8 +3,12 @@
         flex-direction: row;
         .icon {
             align-self: flex-start;
+            flex-shrink: 0;
         }
         .content-wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 45px;
             .content {
                 margin-top: 18px;
             }

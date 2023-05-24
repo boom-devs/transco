@@ -263,9 +263,70 @@ input:focus {
 /* Hero slider CSS */
 .slider-area {
   overflow: hidden;
+  position: relative;
+}
+.slider-area .social-share {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 60px;
+}
+.slider-area .social-share a {
+  font-size: 24px;
+  color: #ffffff;
+  transform: rotate(-90deg);
 }
 .slider-area .slider-wrapper {
   height: 920px;
+}
+.slider-area .slider-wrapper .slick-dots {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  right: 60px;
+  transform: translateY(-50%);
+  z-index: 2;
+  flex-direction: column;
+}
+.slider-area .slider-wrapper .slick-dots li {
+  display: inline-block;
+  line-height: 0;
+}
+.slider-area .slider-wrapper .slick-dots li button {
+  font-size: 0;
+  padding: 0;
+  width: 25px;
+  height: 25px;
+  background-color: transparent;
+  border-radius: 100%;
+  position: relative;
+}
+.slider-area .slider-wrapper .slick-dots li button:after {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  background-color: #c1e2dd;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: "";
+}
+.slider-area .slider-wrapper .slick-dots li.slick-active button:before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  border: 2px solid #ff6731;
+  top: 0;
+  left: 0;
+  content: "";
 }
 .slider-area .single-slider {
   background-size: cover;
@@ -1712,6 +1773,12 @@ input:focus {
 }
 .testimonial-card.style-three .icon {
   align-self: flex-start;
+  flex-shrink: 0;
+}
+.testimonial-card.style-three .content-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
 }
 .testimonial-card.style-three .content-wrapper .content {
   margin-top: 18px;
