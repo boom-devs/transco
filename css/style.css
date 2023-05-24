@@ -4378,6 +4378,63 @@ a.meanmenu-reveal {
   color: #5e6f92;
 }
 
+.process-step.style-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  background: transparent;
+  gap: 37px;
+  padding: 0;
+}
+.process-step.style-two .icon {
+  width: 85px;
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 50px;
+  position: relative;
+}
+.process-step.style-two .icon .count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  transform: translate(-50%, -50%);
+  background: #1eae98;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  color: #ffffff;
+}
+.process-step.style-two .icon .count span {
+  font-size: 16px;
+  line-height: 36px;
+  font-weight: 700;
+}
+.process-step.style-two .content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.process-step.style-two .content .title {
+  margin: 0;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.process-step.style-two .content .desc {
+  margin: 0;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #c7cdda;
+}
+
 .testimonial-card {
   padding: 40px 50px;
   background: #ffffff;
@@ -4596,13 +4653,13 @@ button.testimonial-arrow-btn:hover i {
   margin-top: 50px;
 }
 
-.accordion-wrapper .accordion-item.open .accordion-body {
+.accordion-wrapper .accordion-list-item.open .accordion-item-body {
   display: block;
 }
-.accordion-wrapper .accordion-item.open .accordion-head .icon:before {
-  width: 0;
+.accordion-wrapper .accordion-list-item.open .accordion-head .icon:before {
+  content: "\f068";
 }
-.accordion-wrapper .accordion-item .accordion-head {
+.accordion-wrapper .accordion-list-item .accordion-head {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -4610,43 +4667,53 @@ button.testimonial-arrow-btn:hover i {
   cursor: pointer;
   flex-direction: row-reverse;
 }
-.accordion-wrapper .accordion-item .accordion-head .accordion-title {
+.accordion-wrapper .accordion-list-item .accordion-head .accordion-title {
   font-size: 21px;
   line-height: 60px;
   color: #ffffff;
   font-weight: 700;
   margin-bottom: 0;
 }
-.accordion-wrapper .accordion-item .accordion-head .icon {
+.accordion-wrapper .accordion-list-item .accordion-head .icon {
   display: flex;
   align-items: center;
-  font-size: 16px;
-  width: 21px;
-  height: 21px;
+  width: 24px;
+  height: 24px;
   position: relative;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
 }
-.accordion-wrapper .accordion-item .accordion-head .icon:before {
+.accordion-wrapper .accordion-list-item .accordion-head .icon:before {
   position: absolute;
-  content: "";
-  width: 3px;
-  height: 100%;
-  background-color: #ffffff;
+  content: "+";
   left: 50%;
-  transform: translateX(-50%);
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Font Awesome 6 Pro";
 }
-.accordion-wrapper .accordion-item .accordion-head .icon:after {
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 3px;
-  background-color: #ffffff;
-  left: 50%;
-  transform: translateX(-50%);
-}
-.accordion-wrapper .accordion-item .accordion-body {
-  display: none;
+.accordion-wrapper .accordion-list-item .accordion-item-body {
   color: #c7cdda;
   padding-left: 60px;
+  padding-bottom: 25px;
+}
+
+.accordion-wrapper.style-two .accordion-list-item.open .accordion-head .icon {
+  background-color: #ff6731;
+  color: #ffffff;
+}
+.accordion-wrapper.style-two .accordion-list-item .accordion-head {
+  border-top: 1px solid #395670;
+  padding: 12px 0;
+}
+.accordion-wrapper.style-two .accordion-list-item .accordion-head .icon {
+  background-color: #ffffff;
+  border-radius: 50px;
+  color: #ff6731;
+  font-size: 12px;
+}
+.accordion-wrapper.style-two .accordion-list-item:last-child {
+  border-bottom: 1px solid #395670;
 }
 
 .client-logo-wrapper .client-logo {
@@ -6429,6 +6496,9 @@ ul.children {
   transition: all 0.4s ease 0s;
 }
 
+.comment-respond.style-two {
+  background-color: transparent;
+}
 .comment-respond.style-two .post-comments-title h2 {
   color: #ffffff;
 }

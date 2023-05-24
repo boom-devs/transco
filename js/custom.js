@@ -40,11 +40,13 @@
         Jquery Accordion
         ============================*/
         $(function() {
-            $('.accordion-item').on('click', function(){
+            $('.accordion-list-item .accordion-item-body').css("display","none");
+            $('.accordion-list-item.open .accordion-item-body').css("display","block");
+            $('.accordion-list-item').on('click', function(){
                 $(this).toggleClass(' open ');
                 $(this).siblings().removeClass(' open ');
-                $('.accordion-body').stop().slideUp();
-                $('.open .accordion-body').stop().slideDown();
+                $('.accordion-item-body').stop().slideUp();
+                $('.open .accordion-item-body').stop().slideDown();
                 return false;
             });
         });
