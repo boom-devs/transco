@@ -4,8 +4,6 @@
   //margin-left: -30px !important;
   position: relative;
 
-
-
   &:before {
     left: -100%;
     margin-left: -10px;
@@ -48,14 +46,14 @@
     background-color: #ffffff;
     border: 1px solid $gray-300;
     cursor: pointer;
-    bottom: 0;
+    top: -125px;
     overflow: hidden;
 
     &.prev-btn {
-      left: 30px;
+      right: 72px;
     }
     &.next-btn {
-      right: 30px;
+      right: 0
     }
     i{
       position: absolute;
