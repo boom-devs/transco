@@ -5971,7 +5971,10 @@ button.testimonial-arrow-btn {
   display: flex;
   gap: 20px;
   margin-bottom: 10px;
-  border: 0; }
+  border: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
   .widget_latest_post ul li:last-child {
     margin-bottom: 0; }
   .widget_latest_post ul li a {
@@ -6343,6 +6346,9 @@ ul.children {
 .footer-widget .footer-widget-info .footer-logo {
   margin-bottom: 35px;
   display: inline-block; }
+.footer-widget .footer-widget-info .social-widget {
+  gap: 20px;
+  margin-top: 30px; }
 .footer-widget .footer-widget-menu ul {
   margin-top: -5px;
   padding-left: 0; }
@@ -6413,16 +6419,16 @@ ul.children {
 .footer-widget .widget_latest_post ul li .latest-post-desc .latest-post-title {
   margin-bottom: 8px;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 22px;
   color: #ffffff;
-  font-weight: 600; }
+  font-weight: 700; }
   .footer-widget .widget_latest_post ul li .latest-post-desc .latest-post-title a {
     font-size: 16px;
-    line-height: 19px;
+    line-height: 22px;
     color: #ffffff;
     position: relative;
     text-transform: capitalize;
-    font-weight: 600;
+    font-weight: 700;
     -webkit-transition: all 0.5s ease-out;
     transition: all 0.5s ease-out; }
     .footer-widget .widget_latest_post ul li .latest-post-desc .latest-post-title a:hover {
@@ -6639,6 +6645,49 @@ ul.children {
       -webkit-transition: all 0.5s ease-out;
       transition: all 0.5s ease-out;
       color: #005bac; }
+
+.footer.style-two .subscribe-form-wrapper p {
+  color: #c7cdda;
+  margin-bottom: 35px; }
+.footer.style-two .subscribe-form-wrapper .subscribe-form-widget {
+  border-radius: 6px; }
+  .footer.style-two .subscribe-form-wrapper .subscribe-form-widget .single-field input {
+    height: 60px; }
+
+.footer-triangle-image-wrapper {
+  position: absolute;
+  width: 777px;
+  top: 0;
+  height: 100%;
+  left: 0;
+  z-index: -1; }
+
+.footer-triangle-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-clip-path: polygon(0 0, 100% 0, 65% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 65% 100%, 0 100%); }
+  .footer-triangle-image:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #005bac;
+    opacity: 0.90;
+    z-index: 1; }
+  .footer-triangle-image img {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 100%; }
 
 /* Team Member */
 .team-member-card {
