@@ -8,7 +8,8 @@
     position: absolute;
     bottom: -150px;
     right: 0;
-    z-index: 1;
+    z-index: 2;
+    animation: MoveUpDown 2s linear infinite alternate;
 }
 .triangle-shape-card-two {
     width: 310px;
@@ -19,4 +20,7 @@
     position: absolute;
     bottom: -210px;
     right: 0;
+    animation: MoveLeftRight 2s linear infinite alternate;
+    overflow: hidden;
+    z-index: 1;
 }
