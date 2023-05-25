@@ -3974,6 +3974,16 @@ a.meanmenu-reveal {
       .video-popup-card .video-popup-btn a:hover {
         -webkit-animation: none;
         animation: none; }
+  .video-popup-card.style-two {
+    padding: 0;
+    margin-bottom: -70px;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
+    .video-popup-card.style-two .video-popup-btn a {
+      width: 100px;
+      height: 100px;
+      background-color: rgba(255, 103, 49, 0.84);
+      background-image: none; }
 
 .counter-card {
   z-index: 1;
@@ -4513,6 +4523,23 @@ button.testimonial-arrow-btn {
     font-size: 12px; }
 .accordion-wrapper.style-two .accordion-list-item:last-child {
   border-bottom: 1px solid #395670; }
+
+.accordion-wrapper.style-two.accordion-style-three .accordion-list-item.open .accordion-head .icon {
+  background-color: #ff6731;
+  color: #ffffff; }
+.accordion-wrapper.style-two.accordion-style-three .accordion-list-item .accordion-head {
+  border-top: 1px solid #dfe2e9;
+  padding: 12px 0; }
+  .accordion-wrapper.style-two.accordion-style-three .accordion-list-item .accordion-head .accordion-title {
+    color: #393d48; }
+  .accordion-wrapper.style-two.accordion-style-three .accordion-list-item .accordion-head .icon {
+    background-color: #1eae98;
+    border-radius: 50px;
+    color: #ffffff; }
+.accordion-wrapper.style-two.accordion-style-three .accordion-list-item .accordion-item-body {
+  color: #5e6f92; }
+.accordion-wrapper.style-two.accordion-style-three .accordion-list-item:last-child {
+  border-bottom: 1px solid #dfe2e9; }
 
 .client-logo-wrapper .client-logo {
   display: -webkit-box;
@@ -7147,4 +7174,5 @@ ul.children {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; }
+
 /*# sourceMappingURL=style.css.map */

@@ -48,5 +48,21 @@
       }
     }
   }
+
+  // Style Two
+  &.style-two {
+    padding: 0;
+    margin-bottom: -70px;
+    box-shadow: none;
+
+    .video-popup-btn {
+      a {
+        width: 100px;
+        height: 100px;
+        background-color: rgba(255, 103, 49, 0.84);
+        background-image: none;
+      }
+    }
+  }
 }
 
