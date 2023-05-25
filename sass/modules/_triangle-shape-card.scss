@@ -11,6 +11,7 @@
     z-index: 2;
     animation: MoveUpDown 2s linear infinite alternate;
 }
+// Two
 .triangle-shape-card-two {
     width: 310px;
     height: 290px;
@@ -23,4 +24,15 @@
     animation: MoveLeftRight 2s linear infinite alternate;
     overflow: hidden;
     z-index: 1;
+}
+
+// Three
+.triangle-shape-card-three {
+    position: absolute;
+    left: 0;
+    bottom: -50%;
+    transform: translateY(50%);
+    z-index: 99;
+    border-top: 408px solid $secondary-color;
+    border-right: 165px solid transparent;
 }

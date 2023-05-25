@@ -19,7 +19,7 @@
   border-radius: 18px;
   @include gradient-color-red;
   transform: rotate(45deg);
-  right: -90px;
+  //right: -90px;
   bottom: -80px;
   position: absolute;
 }
@@ -27,6 +27,11 @@
 // Why Choose Us Area
 .why-choose-us-area {
   margin-top: -74px;
+
+  @include rmaxwd(1199) {
+    margin-top: 0;
+    padding-top: 100px;
+  }
 
   .why-choose-us-wrapper {
     background-color: $white;
