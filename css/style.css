@@ -4382,11 +4382,13 @@ button.testimonial-arrow-btn {
 
 .testimonial-slider-wrapper.style-three:before, .testimonial-slider-wrapper.style-three:after {
   display: none; }
-.testimonial-slider-wrapper.style-three .slick-list .slick-slide {
-  border-radius: 0; }
-  .testimonial-slider-wrapper.style-three .slick-list .slick-slide.slick-active {
-    -webkit-box-shadow: none;
-            box-shadow: none; }
+.testimonial-slider-wrapper.style-three .slick-list {
+  overflow: hidden; }
+  .testimonial-slider-wrapper.style-three .slick-list .slick-slide {
+    border-radius: 0; }
+    .testimonial-slider-wrapper.style-three .slick-list .slick-slide.slick-active {
+      -webkit-box-shadow: none;
+              box-shadow: none; }
 .testimonial-slider-wrapper.style-three .slick-dots {
   margin-top: 20px;
   position: unset;
@@ -7026,5 +7028,4 @@ ul.children {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; }
-
 /*# sourceMappingURL=style.css.map */
