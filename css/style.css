@@ -4853,10 +4853,28 @@ button.testimonial-arrow-btn:hover i {
   border-bottom: 1px solid #dfe2e9;
 }
 
+.client-logo-wrapper {
+  padding: 10px 0;
+}
 .client-logo-wrapper .client-logo {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.5s ease-out;
+}
+.client-logo-wrapper .client-logo img {
+  filter: grayscale(100%);
+  opacity: 0.65;
+  transition: all 0.5s ease-out;
+}
+.client-logo-wrapper .client-logo:hover {
+  transform: scale(1.1);
+}
+.client-logo-wrapper .client-logo:hover img {
+  filter: none;
+  opacity: 1;
 }
 
 .post-card.style-two {
