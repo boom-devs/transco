@@ -4519,6 +4519,21 @@ button.testimonial-arrow-btn {
       -ms-flex-pack: center;
           justify-content: center; }
 
+.testimonial-slider-wrapper.has-backgorund-slider:before, .testimonial-slider-wrapper.has-backgorund-slider:after {
+  display: none; }
+.testimonial-slider-wrapper.has-backgorund-slider .slick-dots {
+  margin-top: 65px;
+  margin-bottom: 0;
+  position: unset;
+  padding-left: 0;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
 .accordion-wrapper .accordion-list-item.open .accordion-item-body {
   display: block; }
 .accordion-wrapper .accordion-list-item.open .accordion-head .icon:before {

@@ -178,3 +178,23 @@ button.testimonial-arrow-btn {
     }
   }
 }
+
+// Testimonial Slider Control Three
+
+.testimonial-slider-wrapper {
+  &.has-backgorund-slider {
+    &:before,
+    &:after {
+      display: none;
+    }
+    // Slick Dots
+    .slick-dots {
+      margin-top: 65px;
+      margin-bottom: 0;
+      position: unset;
+      padding-left: 0;
+      flex-direction: row;
+      justify-content: center;
+    }
+  }
+}
