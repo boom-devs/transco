@@ -6989,8 +6989,22 @@ ul.children {
   border-right: 165px solid transparent; }
 
 .testimonial-triangle-image-wrapper {
-  width: 760px;
+  width: 780px;
   position: absolute; }
+
+.testimonial-triangle-image {
+  -webkit-clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%); }
+
+.testimonial-triangle-shape {
+  position: absolute;
+  right: 40px;
+  bottom: 70px;
+  width: 190px;
+  height: 190px;
+  background-color: #1eae98;
+  -webkit-transform: skewX(-20deg);
+          transform: skewX(-20deg); }
 
 .why-us-area {
   margin-top: -65px;
