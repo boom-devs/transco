@@ -2441,8 +2441,17 @@ html {
     z-index: -1;
     -webkit-transform: rotate(20deg);
             transform: rotate(20deg); }
+    @media only screen and (max-width: 1199px) {
+      .logo:before {
+        display: none; } }
+  @media only screen and (max-width: 1199px) {
+    .logo .standard-logo {
+      display: none; } }
   .logo .retina-logo {
     display: none; }
+    @media only screen and (max-width: 1199px) {
+      .logo .retina-logo {
+        display: block; } }
     .logo .retina-logo img {
       width: 134px; }
 
@@ -2561,6 +2570,9 @@ html {
       -ms-flex-align: center;
           align-items: center;
   gap: 20px; }
+  @media only screen and (max-width: 1399px) {
+    .header-btn {
+      display: none; } }
   .header-btn .icon-wrapper {
     border: 1px solid #1eae98;
     border-radius: 50px;
@@ -2857,7 +2869,8 @@ a.meanmenu-reveal {
     top: 50%;
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
-    overflow: hidden; }
+    overflow: hidden;
+    display: none !important; }
     .slider-area button.slider-arrow-btn.prev-btn {
       left: 30px; }
     .slider-area button.slider-arrow-btn.next-btn {
@@ -3008,6 +3021,8 @@ a.meanmenu-reveal {
     .slider-area.style-three .single-slider .slider-content-wrapper .slider-content {
       width: 100%;
       text-align: center; }
+  .slider-area.style-three button.slider-arrow-btn {
+    display: block !important; }
   .slider-area.style-three .slider-wrapper .slick-dots {
     display: none !important; }
 

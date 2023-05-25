@@ -133,14 +133,23 @@
     border-radius: 15px;
     z-index: -1;
     transform: rotate(20deg);
+
+    @media only screen and (max-width: 1199px) {
+      display: none;
+    }
   }
 
   .standard-logo {
+    @media only screen and (max-width: 1199px) {
+      display: none;
+    }
   }
 
   .retina-logo {
     display: none;
-
+    @media only screen and (max-width: 1199px) {
+      display: block;
+    }
     img {
       width: 134px;
     }
@@ -351,6 +360,10 @@
   display: flex;
   align-items: center;
   gap: 20px;
+
+  @media only screen and (max-width: 1399px) {
+    display: none;
+  }
 
   .icon-wrapper {
     border: 1px solid $sky-color;
