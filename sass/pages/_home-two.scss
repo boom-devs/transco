@@ -79,3 +79,45 @@
   position: relative;
   z-index: 2;
 }
+
+// Accordion Area
+.accordion-area {
+  z-index: 2;
+}
+.triangle-image-shape-wrapper {
+  position: absolute;
+  width: 760px;
+  top: -140px;
+  left: 0;
+  z-index: -1;
+}
+.triangle-image-shape {
+  -webkit-clip-path: polygon(0 0, 64% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0 0, 64% 0, 100% 100%, 0% 100%);
+}
+.triangle-image-shape-border {
+  position: absolute;
+  top: -30px;
+  left: 0;
+}
+
+
+// Client Logo Area
+.triangle-shape {
+  position: absolute;
+  left: 0;
+  bottom: -50%;
+  transform: translateY(50%);
+  z-index: 99;
+  border-top: 408px solid $secondary-color;
+  border-right: 165px solid transparent;
+}
+// Testimonial Area
+.testimonial-area {
+
+}
+// Testimonial Triangle Image
+.testimonial-triangle-image-wrapper {
+  width: 760px;
+  position: absolute;
+}
