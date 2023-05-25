@@ -861,6 +861,9 @@ input:focus {
 .pt-200 {
   padding-top: 200px; }
 
+.pt-250 {
+  padding-top: 250px; }
+
 /*-- Padding Bottom --*/
 .pb-5 {
   padding-bottom: 5px; }
@@ -3795,7 +3798,9 @@ a.meanmenu-reveal {
     height: 180px;
     z-index: 2;
     background: #005bac;
-    background: linear-gradient(135deg, #005bac 0%, #1eae98 100%); }
+    background: linear-gradient(135deg, #005bac 0%, #1eae98 100%);
+    -webkit-animation: MoveUpDown 2s linear infinite alternate;
+            animation: MoveUpDown 2s linear infinite alternate; }
   .about-image-card .img-card-wrapper.image-four {
     bottom: -100px;
     left: -220px;
@@ -4840,6 +4845,67 @@ button.testimonial-arrow-btn {
       .post-card.style-two .content .title:hover {
         color: #005bac; }
 
+.post-card.style-three {
+  height: 468px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  position: relative;
+  overflow: hidden; }
+  .post-card.style-three:before {
+    background-color: #393d48;
+    opacity: 0.3; }
+  .post-card.style-three:hover .image {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05); }
+  .post-card.style-three .image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out; }
+  .post-card.style-three .content .post-meta {
+    color: #ffffff;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    gap: 17px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 16px;
+    line-height: 30px; }
+    .post-card.style-three .content .post-meta span {
+      color: #ffffff;
+      margin: 0;
+      font-weight: 400; }
+      .post-card.style-three .content .post-meta span:before {
+        background-color: #b8bfcc;
+        width: 1px;
+        display: -webkit-inline-box;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+        height: 12px;
+        content: "";
+        margin-right: 17px; }
+      .post-card.style-three .content .post-meta span:last-child {
+        display: block; }
+      .post-card.style-three .content .post-meta span:first-child:before {
+        display: none; }
+  .post-card.style-three .content .title {
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 42px;
+    font-weight: 700; }
+    .post-card.style-three .content .title:hover {
+      color: #ff6731; }
+
 .skill-progressbar:last-child .progress-inner {
   margin-bottom: 0; }
 .skill-progressbar .progress-inner {
@@ -5081,7 +5147,9 @@ button.testimonial-arrow-btn {
   position: absolute;
   bottom: -150px;
   right: 0;
-  z-index: 1; }
+  z-index: 2;
+  -webkit-animation: MoveUpDown 2s linear infinite alternate;
+          animation: MoveUpDown 2s linear infinite alternate; }
 
 .triangle-shape-card-two {
   width: 310px;
@@ -5091,7 +5159,21 @@ button.testimonial-arrow-btn {
   clip-path: polygon(40% 0, 100% 0, 100% 100%, 0% 100%);
   position: absolute;
   bottom: -210px;
-  right: 0; }
+  right: 0;
+  -webkit-animation: MoveLeftRight 2s linear infinite alternate;
+          animation: MoveLeftRight 2s linear infinite alternate;
+  overflow: hidden;
+  z-index: 1; }
+
+.triangle-shape-card-three {
+  position: absolute;
+  left: 0;
+  bottom: -50%;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+  z-index: 99;
+  border-top: 408px solid #393d48;
+  border-right: 165px solid transparent; }
 
 /* 8.Title Section */
 .section-title {
@@ -7311,7 +7393,9 @@ ul.children {
   border-bottom: 240px solid #ff6731;
   border-left: 100px solid transparent;
   border-right: 0 solid transparent;
-  width: 170px; }
+  width: 170px;
+  -webkit-animation: MoveUpDown 2s linear infinite alternate;
+          animation: MoveUpDown 2s linear infinite alternate; }
 
 .triangle-border-shape {
   position: absolute;
@@ -7346,17 +7430,9 @@ ul.children {
 .triangle-image-shape-border {
   position: absolute;
   top: -30px;
-  left: 0; }
-
-.triangle-shape {
-  position: absolute;
   left: 0;
-  bottom: -50%;
-  -webkit-transform: translateY(50%);
-          transform: translateY(50%);
-  z-index: 99;
-  border-top: 408px solid #393d48;
-  border-right: 165px solid transparent; }
+  -webkit-animation: MoveUpDown 2s linear infinite alternate;
+          animation: MoveUpDown 2s linear infinite alternate; }
 
 .testimonial-triangle-image-wrapper {
   width: 780px;
