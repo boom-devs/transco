@@ -1,7 +1,7 @@
 .about-info-card {
     &.style-three {
       .section-title {
-        margin-bottom: 50px;
+        margin-bottom: 40px;
       }
       .about-info-wrapper {
         display: flex;
@@ -20,6 +20,7 @@
       }
       .about-info-content {
         padding-left: 50px;
+        gap: 30px;
 
         .icon-card-wrapper {
           display: flex;
@@ -28,12 +29,13 @@
           .icon-card {
             width: 50%;
             padding: 0;
-            gap: 25px;
+            gap: 20px;
             flex-direction: column;
+            margin-bottom: 0;
 
             .icon {
-              width: 50px;
-              height: 50px;
+              width: 40px;
+              height: 40px;
             }
             .content {
               gap: 4px;

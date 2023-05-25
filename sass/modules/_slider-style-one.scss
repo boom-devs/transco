@@ -79,6 +79,47 @@
       }
     }
   }
+  // Slick Nav Arrow Button
+  button.slider-arrow-btn {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    transition: 0.3s;
+    z-index: 99;
+    background-color: transparent;
+    border: 1px solid $gray-300;
+    cursor: pointer;
+    top: 50%;
+    transform: translateY(-50%);
+    overflow: hidden;
+
+    &.prev-btn {
+      left: 30px;
+    }
+    &.next-btn {
+      right: 30px;
+    }
+    i{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: $orange-color;
+      font-size: 21px;
+      @include transition;
+    }
+    &:hover{
+      @include transition;
+      @include gradient-color-red;
+      border-color: $orange-color;
+
+      i{
+        color: $white;
+        @include transition;
+      }
+    }
+  }
   .single-slider {
     background-size: cover;
     background-repeat: no-repeat;

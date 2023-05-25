@@ -2787,6 +2787,45 @@ a.meanmenu-reveal {
           top: 0;
           left: 0;
           content: ""; }
+  .slider-area button.slider-arrow-btn {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    z-index: 99;
+    background-color: transparent;
+    border: 1px solid #dfe2e9;
+    cursor: pointer;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    overflow: hidden; }
+    .slider-area button.slider-arrow-btn.prev-btn {
+      left: 30px; }
+    .slider-area button.slider-arrow-btn.next-btn {
+      right: 30px; }
+    .slider-area button.slider-arrow-btn i {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+      color: #ff6731;
+      font-size: 21px;
+      -webkit-transition: all 0.5s ease-out;
+      transition: all 0.5s ease-out; }
+    .slider-area button.slider-arrow-btn:hover {
+      -webkit-transition: all 0.5s ease-out;
+      transition: all 0.5s ease-out;
+      background: #e30008;
+      background: linear-gradient(65deg, #e30008 0%, #faae00 100%);
+      border-color: #ff6731; }
+      .slider-area button.slider-arrow-btn:hover i {
+        color: #ffffff;
+        -webkit-transition: all 0.5s ease-out;
+        transition: all 0.5s ease-out; }
   .slider-area .single-slider {
     background-size: cover;
     background-repeat: no-repeat;
@@ -2905,11 +2944,16 @@ a.meanmenu-reveal {
 
 .slider-area.style-three {
   position: relative; }
-  .slider-area.style-three .slider-wrapper .slider-content-wrapper {
+  .slider-area.style-three .single-slider .slider-overlay {
+    background: #005bac;
+    background: linear-gradient(135deg, rgba(30, 174, 152, 0.66) 0%, rgba(0, 91, 172, 0.66) 100%); }
+  .slider-area.style-three .single-slider .slider-content-wrapper {
     gap: 100px; }
-    .slider-area.style-three .slider-wrapper .slider-content-wrapper .slider-content {
+    .slider-area.style-three .single-slider .slider-content-wrapper .slider-content {
       width: 100%;
       text-align: center; }
+  .slider-area.style-three .slider-wrapper .slick-dots {
+    display: none !important; }
 
 .info-card-wrapper {
   position: relative; }
@@ -3464,7 +3508,8 @@ a.meanmenu-reveal {
           justify-content: space-between;
   gap: 34px;
   padding: 70px;
-  position: relative; }
+  position: relative;
+  margin-bottom: 0; }
   .icon-card.style-two .divider {
     position: absolute;
     width: 100%;
@@ -3759,7 +3804,7 @@ a.meanmenu-reveal {
       background-image: none; }
 
 .about-info-card.style-three .section-title {
-  margin-bottom: 50px; }
+  margin-bottom: 40px; }
 .about-info-card.style-three .about-info-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3775,7 +3820,8 @@ a.meanmenu-reveal {
       width: 100%;
       height: 100%; }
 .about-info-card.style-three .about-info-content {
-  padding-left: 50px; }
+  padding-left: 50px;
+  gap: 30px; }
   .about-info-card.style-three .about-info-content .icon-card-wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3786,14 +3832,15 @@ a.meanmenu-reveal {
     .about-info-card.style-three .about-info-content .icon-card-wrapper .icon-card {
       width: 50%;
       padding: 0;
-      gap: 25px;
+      gap: 20px;
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
           -ms-flex-direction: column;
-              flex-direction: column; }
+              flex-direction: column;
+      margin-bottom: 0; }
       .about-info-card.style-three .about-info-content .icon-card-wrapper .icon-card .icon {
-        width: 50px;
-        height: 50px; }
+        width: 40px;
+        height: 40px; }
       .about-info-card.style-three .about-info-content .icon-card-wrapper .icon-card .content {
         gap: 4px; }
         .about-info-card.style-three .about-info-content .icon-card-wrapper .icon-card .content .title {
@@ -7100,5 +7147,4 @@ ul.children {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; }
-
 /*# sourceMappingURL=style.css.map */
