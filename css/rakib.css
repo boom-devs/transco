@@ -2674,6 +2674,35 @@ input:focus {
   opacity: 1;
 }
 
+/* List-item CSS */
+.list-item {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 24px;
+  margin-bottom: 45px;
+}
+.list-item .icon {
+  width: 54px;
+  height: 54px;
+  border-radius: 50px;
+  background: #ff6731;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.list-item .icon i {
+  color: #ffffff;
+}
+.list-item .text {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #5e6f92;
+  margin: 0;
+}
+
 .common-card-wrapper {
   background: #4566d4;
   padding: 100px 50px;
