@@ -2214,7 +2214,7 @@ input:focus {
   align-items: start;
   position: relative;
 }
-.time-card-wrapper .time-card-item.style-two {
+.time-card-wrapper .time-card-item:nth-of-type(even) {
   flex-direction: row-reverse;
 }
 .time-card-wrapper .time-card-item::after {
