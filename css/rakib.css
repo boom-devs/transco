@@ -152,6 +152,10 @@ input:focus {
   background-color: #003869;
 }
 
+.background-skye {
+  background-color: #1eae98;
+}
+
 .background-gray {
   background-color: #eef5f8;
 }
@@ -2655,11 +2659,15 @@ input:focus {
 .client-logo-wrapper.style-two .client-logo {
   cursor: pointer;
   overflow: hidden;
+  transition: all 0.5s ease-out;
 }
 .client-logo-wrapper.style-two .client-logo img {
   filter: grayscale(100%);
   opacity: 0.65;
   transition: all 0.5s ease-out;
+}
+.client-logo-wrapper.style-two .client-logo:hover {
+  transform: scale(1.1);
 }
 .client-logo-wrapper.style-two .client-logo:hover img {
   filter: none;

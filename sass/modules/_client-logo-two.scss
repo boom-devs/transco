@@ -7,12 +7,14 @@
         .client-logo {
             cursor: pointer;
             overflow: hidden;
+            @include transition;
             img {
                 filter: grayscale(100%);
                 opacity: 0.65;
                 @include transition;
             }
             &:hover {
+                transform: scale(1.1);
                 img {
                     filter: none;
                     opacity: 1;
