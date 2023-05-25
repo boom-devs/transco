@@ -13,7 +13,7 @@
         flex-direction: row;
         align-items: start;
         position: relative;
-        &.style-two {
+        &:nth-of-type(even) {
             flex-direction: row-reverse;
         }
         &::after {

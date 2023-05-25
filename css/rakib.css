@@ -152,6 +152,10 @@ input:focus {
   background-color: #003869;
 }
 
+.background-skye {
+  background-color: #1eae98;
+}
+
 .background-gray {
   background-color: #eef5f8;
 }
@@ -2214,7 +2218,7 @@ input:focus {
   align-items: start;
   position: relative;
 }
-.time-card-wrapper .time-card-item.style-two {
+.time-card-wrapper .time-card-item:nth-of-type(even) {
   flex-direction: row-reverse;
 }
 .time-card-wrapper .time-card-item::after {
@@ -2655,25 +2659,19 @@ input:focus {
 .client-logo-wrapper.style-two .client-logo {
   cursor: pointer;
   overflow: hidden;
+  transition: all 0.5s ease-out;
 }
-.client-logo-wrapper.style-two .client-logo .overlay {
-  position: relative;
+.client-logo-wrapper.style-two .client-logo img {
+  filter: grayscale(100%);
+  opacity: 0.65;
+  transition: all 0.5s ease-out;
 }
-.client-logo-wrapper.style-two .client-logo .overlay img {
-  overflow: hidden;
+.client-logo-wrapper.style-two .client-logo:hover {
+  transform: scale(1.1);
 }
-.client-logo-wrapper.style-two .client-logo .overlay:after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  background: #393d48;
-  opacity: 0.6;
-}
-.client-logo-wrapper.style-two .client-logo .overlay:hover:after {
-  opacity: 0;
+.client-logo-wrapper.style-two .client-logo:hover img {
+  filter: none;
+  opacity: 1;
 }
 
 .common-card-wrapper {

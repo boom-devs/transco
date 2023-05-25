@@ -4796,6 +4796,27 @@ button.testimonial-arrow-btn {
     -ms-flex-negative: 0;
         flex-shrink: 0; }
 
+.triangle-shape-card-one {
+  width: 200px;
+  height: 375px;
+  background-color: #ff6731;
+  -webkit-clip-path: polygon(68% 0, 100% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(80% 0, 100% 0, 100% 100%, 0% 100%);
+  position: absolute;
+  bottom: -150px;
+  right: 0;
+  z-index: 1; }
+
+.triangle-shape-card-two {
+  width: 310px;
+  height: 290px;
+  background-color: #005bac;
+  -webkit-clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(40% 0, 100% 0, 100% 100%, 0% 100%);
+  position: absolute;
+  bottom: -210px;
+  right: 0; }
+
 /* 8.Title Section */
 .section-title {
   display: -webkit-box;
@@ -6992,7 +7013,9 @@ ul.children {
 
 .testimonial-triangle-image-wrapper {
   width: 780px;
-  position: absolute; }
+  position: absolute;
+  top: 0;
+  left: 0; }
 
 .testimonial-triangle-image {
   -webkit-clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
@@ -7028,4 +7051,5 @@ ul.children {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; }
+
 /*# sourceMappingURL=style.css.map */
