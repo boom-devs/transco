@@ -43,16 +43,16 @@
         width: 96px;
         height: 96px;
         background-color: $primary-color;
+        animation: MoveUpDown 2s linear infinite alternate
       }
       &.image-two {
-        bottom: 0;
-        transform: translateY(50%);
+        bottom: -60px;
         right: 50px;
         border-radius: 6px;
         width: 120px;
         height: 120px;
         background-color: $orange-color;
-
+        animation: MoveLeftRight 2s linear infinite alternate
       }
       &.image-three {
         top: 50%;
