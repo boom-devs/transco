@@ -13,10 +13,26 @@
     left: 60px;
     z-index: 99;
 
+    @include sm {
+      display: none;
+    }
+
+    @include rmaxwd(1199) {
+      top: unset;
+      left: 50%;
+      transform: translateY(0);
+      transform: translateX(-50%);
+      bottom: 100px;
+      flex-direction: row;
+    }
+
     a {
       font-size: 24px;
       color: $white;
       transform: rotate(-90deg);
+      @include rmaxwd(1199) {
+        transform: unset;
+      }
     }
   }
 
@@ -145,14 +161,26 @@
         align-items: center;
         height: 100%;
 
+        @include sm {
+          flex-direction: column-reverse;
+          justify-content: center;
+          gap: 90px;
+        }
         .slider-content {
           width: 50%;
 
+          @include sm {
+            width: 100%;
+          }
           .slider-short-title {
             font-family: $heading-font;
             font-weight: 700;
             font-size: 24px;
             color: $white;
+
+            @include lg {
+              font-size: 18px;
+            }
           }
           .slider-title {
             font-family: $heading-font;
@@ -161,14 +189,44 @@
             color: $white;
             line-height: 102px;
             margin-bottom: 30px;
+
+            @include lg {
+              font-size: 48px;
+              line-height: 56px;
+            }
+            @include md {
+              font-size: 48px;
+              line-height: 56px;
+            }
+            @include sm {
+              font-size: 48px;
+              line-height: 56px;
+            }
           }
           .slider-short-desc {
             font-size: 24px;
             color: $white;
             line-height: 36px;
+
+            @include lg {
+              font-size: 18px;
+              line-height: 32px;
+            }
+            @include md {
+              font-size: 18px;
+              line-height: 32px;
+            }
+            @include sm {
+              font-size: 18px;
+              line-height: 32px;
+            }
           }
           .slider-btn-wrapper {
             margin-top: 60px;
+
+            @include sm {
+              margin-top: 40px;
+            }
           }
         }
         .slider-image {
@@ -176,6 +234,9 @@
           z-index: 2;
           width: 50%;
 
+          @include sm {
+            width: 100%;
+          }
           &:before {
             position: absolute;
             content: "";
@@ -187,6 +248,23 @@
             transform: translateY(-50%);
             z-index: -1;
             right: -125px;
+
+            @include lg {
+              width: 440px;
+              height: 440px;
+              right: 0;
+            }
+            @include md {
+              width: 340px;
+              height: 340px;
+              right: 0;
+            }
+            @include sm {
+              width: 340px;
+              height: 340px;
+              right: 0;
+              left: 0;
+            }
           }
         }
       }
