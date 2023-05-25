@@ -1576,6 +1576,46 @@ input:focus {
 .info-card.style-two .content .desc {
   line-height: 26px;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .info-card.style-two {
+    padding: 35px;
+  }
+  .info-card.style-two .title-wrapper {
+    gap: 24px;
+  }
+  .info-card.style-two .title-wrapper .icon {
+    width: 50px;
+    height: 50px;
+  }
+  .info-card.style-two .title-wrapper .icon img {
+    width: 30px;
+    height: 30px;
+  }
+  .info-card.style-two .title-wrapper .title {
+    font-size: 22px;
+    line-height: 30px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .info-card.style-two {
+    padding: 35px;
+  }
+  .info-card.style-two .title-wrapper {
+    gap: 24px;
+  }
+  .info-card.style-two .title-wrapper .icon {
+    width: 50px;
+    height: 50px;
+  }
+  .info-card.style-two .title-wrapper .icon img {
+    width: 30px;
+    height: 30px;
+  }
+  .info-card.style-two .title-wrapper .title {
+    font-size: 22px;
+    line-height: 30px;
+  }
+}
 
 .info-card.style-three {
   position: relative;
