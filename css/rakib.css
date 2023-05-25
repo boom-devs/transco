@@ -346,6 +346,7 @@ input:focus {
   top: 50%;
   transform: translateY(-50%);
   overflow: hidden;
+  display: none !important;
 }
 .slider-area button.slider-arrow-btn.prev-btn {
   left: 30px;

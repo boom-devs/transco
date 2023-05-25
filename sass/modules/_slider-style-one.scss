@@ -93,6 +93,7 @@
     top: 50%;
     transform: translateY(-50%);
     overflow: hidden;
+    display: none !important;
 
     &.prev-btn {
       left: 30px;
