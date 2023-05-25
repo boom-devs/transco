@@ -182,3 +182,14 @@ $text-gray-light: #6a6c73;
     border-radius: 12px;
   }
 }
+
+//image-wrapper
+.service-image {
+  height: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
