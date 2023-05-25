@@ -112,8 +112,12 @@
   border-top: 408px solid $secondary-color;
   border-right: 165px solid transparent;
 }
+// Testimonial Area
+.testimonial-area {
 
+}
 // Testimonial Triangle Image
-.testimonial-triangle-image {
+.testimonial-triangle-image-wrapper {
   width: 760px;
+  position: absolute;
 }

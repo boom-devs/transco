@@ -122,6 +122,9 @@ $text-gray-light: #6a6c73;
 /* Project-details CSS */
 @import "modules/project-details";
 
+/* Client-logo CSS */
+@import "modules/client-logo-two";
+
 .common-card-wrapper {
   background: #4566d4;
   padding: 100px 50px;
@@ -134,13 +137,7 @@ $text-gray-light: #6a6c73;
   background: #393d48;
   padding: 50px;
 }
-.time-card-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 50px 0;
-  background: #f3f7fc;
-}
+
 .icon-card-wrapper-two {
   padding: 70px;
   border-radius: 8px;
