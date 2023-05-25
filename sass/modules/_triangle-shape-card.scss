@@ -1,0 +1,22 @@
+// Shape Card One
+.triangle-shape-card-one {
+    width: 200px;
+    height: 375px;
+    background-color: $orange-color;
+    -webkit-clip-path: polygon(68% 0, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(80% 0, 100% 0, 100% 100%, 0% 100%);
+    position: absolute;
+    bottom: -150px;
+    right: 0;
+    z-index: 1;
+}
+.triangle-shape-card-two {
+    width: 310px;
+    height: 290px;
+    background-color: $primary-color;
+    -webkit-clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(40% 0, 100% 0, 100% 100%, 0% 100%);
+    position: absolute;
+    bottom: -210px;
+    right: 0;
+}
