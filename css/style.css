@@ -4717,6 +4717,18 @@ a.meanmenu-reveal {
   font-weight: 400;
   color: #5e6f92;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .process-step .count {
+    left: 50%;
+    top: 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .process-step .count {
+    left: 50%;
+    top: 0;
+  }
+}
 
 .process-step.style-two {
   display: flex;
@@ -5272,6 +5284,11 @@ button.testimonial-arrow-btn:hover i {
 }
 .post-card.style-three .content .title:hover {
   color: #ff6731;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .post-card.style-three {
+    height: 300px;
+  }
 }
 
 .skill-progressbar:last-child .progress-inner {
@@ -6121,6 +6138,19 @@ button.testimonial-arrow-btn:hover i {
   font-weight: 400;
   margin-bottom: 0;
   color: #778196;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .post-card {
+    padding: 20px 25px;
+    gap: 55px;
+  }
+  .post-card .content .post-meta {
+    font-size: 14px;
+  }
+  .post-card .content .title {
+    font-size: 16px;
+    line-height: 26px;
+  }
 }
 
 .basic-pagination,

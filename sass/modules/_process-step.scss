@@ -47,4 +47,16 @@
             color: $text-color;
         }
     }
+    @include sm {
+        .count {
+            left: 50%;
+            top: 0;
+        }
+    }
+    @include md {
+        .count {
+            left: 50%;
+            top: 0;
+        }
+    }
 }

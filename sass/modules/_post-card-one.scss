@@ -64,4 +64,17 @@
     margin-bottom: 0;
     color: #778196;
   }
+  @include lg {
+    padding: 20px 25px;
+    gap: 55px;
+    .content {
+      .post-meta {
+        font-size: 14px;
+      }
+      .title {
+        font-size: 16px;
+        line-height: 26px;
+      }
+    }
+  }
 }
