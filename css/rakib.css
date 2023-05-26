@@ -2078,6 +2078,30 @@ input:focus {
 .testimonial-card.style-three .content-wrapper .meta-user .icon {
   display: none;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .testimonial-card.style-three {
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+  }
+  .testimonial-card.style-three .content-wrapper {
+    gap: 20px;
+  }
+  .testimonial-card.style-three .content-wrapper .content {
+    margin-top: 0;
+  }
+  .testimonial-card.style-three .content-wrapper .content .text {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .testimonial-card.style-three .content-wrapper .meta-user .user-info .info h2 {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .testimonial-card.style-three .content-wrapper .meta-user .user-info .info p {
+    font-size: 14px;
+  }
+}
 
 .process-steps-wrapper {
   padding: 70px 0px 10px 50px;
