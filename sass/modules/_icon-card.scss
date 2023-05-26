@@ -35,4 +35,12 @@
             margin-bottom: 0;
         }
     }
+    @include sm {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        .content {
+            gap: 15px;
+        }
+    }
 }
