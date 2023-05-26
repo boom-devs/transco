@@ -151,7 +151,7 @@
                 {
                     breakpoint: 767,
                     settings: {
-                        autoplay: false,
+                        autoplay: true,
                         slidesToShow: 1,
                     },
                 },
