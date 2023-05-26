@@ -5206,8 +5206,10 @@ button.testimonial-arrow-btn:hover i {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 .post-card.style-two .image img {
+  transform: scale(1.01);
   transition: all 0.5s ease-out;
 }
 .post-card.style-two .image:before {
@@ -5234,6 +5236,7 @@ button.testimonial-arrow-btn:hover i {
   left: 40%;
   z-index: -1;
   opacity: 0;
+  transition: all 0.5s ease-out;
 }
 .post-card.style-two .image .icon i {
   color: #ffffff;
@@ -5258,6 +5261,16 @@ button.testimonial-arrow-btn:hover i {
 }
 .post-card.style-two .content .title:hover {
   color: #005bac;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .post-card.style-two {
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  .post-card.style-two .image {
+    width: 100%;
+  }
 }
 
 .post-card.style-three {
