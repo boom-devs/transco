@@ -4192,6 +4192,16 @@ a.meanmenu-reveal {
 .icon-card.style-two .content .desc {
   color: #c7cdda;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .icon-card.style-two {
+    flex-direction: column;
+    padding: 36px;
+    gap: 34px;
+  }
+  .icon-card.style-two .content {
+    gap: 24px;
+  }
+}
 
 .icon-card.style-three {
   display: flex;

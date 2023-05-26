@@ -33,5 +33,13 @@
                 color: $white-100;
             }
         }
+        @include sm {
+            flex-direction: column;
+            padding: 36px;
+            gap: 34px;
+            .content {
+                gap: 24px;
+            }
+        }
     }
 }
