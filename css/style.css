@@ -5323,6 +5323,13 @@ button.testimonial-arrow-btn:hover i {
   .post-card.style-three {
     height: 300px;
   }
+  .post-card.style-three .content .post-meta {
+    font-size: 14px;
+  }
+  .post-card.style-three .content .title {
+    font-size: 24px;
+    line-height: 38px;
+  }
 }
 
 .skill-progressbar:last-child .progress-inner {
