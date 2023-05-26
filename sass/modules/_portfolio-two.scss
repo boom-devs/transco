@@ -95,6 +95,14 @@
           }
         }
       }
+      @include lg {
+        .content-inner {
+          padding: 18px 10px;
+        }
+        .title {
+          font-size: 20px;
+        }
+      }
     }
   }
 }

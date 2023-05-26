@@ -4276,6 +4276,16 @@ a.meanmenu-reveal {
 .icon-card.style-three .content .desc {
   color: #c7cdda;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .icon-card.style-three {
+    gap: 25px;
+  }
+  .icon-card.style-three .content {
+    gap: 18px;
+    align-items: center;
+    text-align: center;
+  }
+}
 
 .about-image-card .main-img-wrapper {
   text-align: right;
@@ -4903,6 +4913,32 @@ a.meanmenu-reveal {
   line-height: 30px;
   font-weight: 400;
   color: #778196;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .testimonial-card {
+    padding: 25px;
+  }
+  .testimonial-card .content {
+    margin-bottom: 15px;
+  }
+  .testimonial-card .meta-user .user-info {
+    gap: 5px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .testimonial-card {
+    padding: 25px;
+  }
+  .testimonial-card .content {
+    margin-bottom: 15px;
+  }
+  .testimonial-card .meta-user .user-info {
+    gap: 5px;
+  }
+  .testimonial-card .meta-user .icon {
+    width: 50px;
+    height: 50px;
+  }
 }
 
 .testimonial-card.style-two {
@@ -5547,19 +5583,19 @@ button.testimonial-arrow-btn:hover i {
   justify-content: center;
   gap: 12px;
 }
-.price-card .list .list-item {
+.price-card .list .price-list-item {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 12px;
 }
-.price-card .list .list-item .fa-check {
+.price-card .list .price-list-item .fa-check {
   color: #ff6731;
 }
-.price-card .list .list-item .fa-x {
+.price-card .list .price-list-item .fa-x {
   color: #bbc7cf;
 }
-.price-card .list .list-item .text {
+.price-card .list .price-list-item .text {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -5571,6 +5607,11 @@ button.testimonial-arrow-btn:hover i {
   width: 100%;
   text-align: center;
   justify-content: center;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .price-card {
+    padding: 24px;
+  }
 }
 
 .call-to-action-area {
@@ -7725,6 +7766,14 @@ ul.children {
   transition: all 0.5s ease-out;
   background-color: #005bac;
   color: #ffffff;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .portfolio-style-two .content-wrapper .content .content-inner {
+    padding: 18px 10px;
+  }
+  .portfolio-style-two .content-wrapper .content .title {
+    font-size: 20px;
+  }
 }
 
 .video-popup-area {

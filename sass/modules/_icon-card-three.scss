@@ -26,5 +26,13 @@
                 color: $white-100;
             }
         }
+        @include sm {
+            gap: 25px;
+            .content {
+                gap: 18px;
+                align-items: center;
+                text-align: center;
+            }
+        }
     }
 }
