@@ -2188,6 +2188,31 @@ input:focus {
   font-weight: 400;
   color: #c7cdda;
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .process-step.style-two {
+    gap: 18px;
+  }
+  .process-step.style-two .icon {
+    width: 70px;
+    height: 70px;
+  }
+  .process-step.style-two .icon .count {
+    width: 20px;
+    height: 20px;
+  }
+  .process-step.style-two .icon .count span {
+    font-size: 12px;
+    line-height: 28px;
+  }
+  .process-step.style-two .content .title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .process-step.style-two .content .desc {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
 
 .post-card.style-two {
   padding: 0;

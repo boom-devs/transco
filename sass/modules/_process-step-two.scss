@@ -54,5 +54,30 @@
                 color: $white-100;
             }
         }
+        @include lg {
+            gap: 18px;
+            .icon {
+                width: 70px;
+                height: 70px;
+                .count {
+                    width: 20px;
+                    height: 20px;
+                    span {
+                        font-size: 12px;
+                        line-height: 28px;
+                    }
+                }
+            }
+            .content {
+                .title {
+                    font-size: 20px;
+                    line-height: 30px;
+                }
+                .desc {
+                    font-size: 14px;
+                    line-height: 24px;
+                }
+            }
+        }
     }
 }
