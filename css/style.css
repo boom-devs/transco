@@ -7526,6 +7526,16 @@ ul.children {
   margin-top: 0;
   z-index: 0;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .team-member-card {
+    margin-bottom: 50px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .team-member-card {
+    margin-bottom: 50px;
+  }
+}
 
 .portfolio-style-two {
   background-color: #ffffff;
