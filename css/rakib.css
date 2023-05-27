@@ -2803,6 +2803,16 @@ input:focus {
   font-weight: 400;
   color: #5e6f92;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .time-card-wrapper .time-card-item .time-card-desc .desc {
+    padding: 20px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .time-card-wrapper .time-card-item .time-card-desc {
+    width: 300px;
+  }
+}
 .time-card-wrapper .time-card-item .circle-wrapper {
   padding: 30px 117px;
   position: relative;
@@ -2827,18 +2837,39 @@ input:focus {
   position: absolute;
   background: #dde4f6;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .time-card-wrapper .time-card-item .circle-wrapper:after {
+    width: 3px;
+    height: 100%;
+    top: 0;
+    left: 50%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .time-card-wrapper .time-card-item .circle-wrapper:after {
+    width: 3px;
+    height: 100%;
+    top: 0;
+    left: 50%;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .time-card-wrapper .time-card-item .circle-wrapper {
+    padding: 30px 33px;
+  }
+}
 .time-card-wrapper .time-card-item .time-card-time {
   min-width: 174px;
   min-height: 50px;
   border-radius: 24px;
   background: #1eae98;
   flex-shrink: 0;
-  overflow: hidden;
   z-index: 2;
   margin-top: 14px;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 .time-card-wrapper .time-card-item .time-card-time p {
   margin: 0;
@@ -2847,6 +2878,49 @@ input:focus {
   line-height: 30px;
   font-weight: 700;
   color: #ffffff;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .time-card-wrapper .time-card-item .time-card-time {
+    flex-shrink: 0;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .time-card-wrapper .time-card-item {
+    flex-direction: column-reverse;
+    padding: 0;
+    align-items: center;
+    padding-bottom: 30px;
+  }
+  .time-card-wrapper .time-card-item:nth-of-type(even) {
+    flex-direction: column-reverse;
+  }
+  .time-card-wrapper .time-card-item:after {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .time-card-wrapper .time-card-item {
+    flex-direction: column-reverse;
+    padding: 30px 0;
+    align-items: center;
+    padding-bottom: 30px;
+  }
+  .time-card-wrapper .time-card-item:nth-of-type(even) {
+    flex-direction: column-reverse;
+  }
+  .time-card-wrapper .time-card-item:after {
+    display: none;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .time-card-wrapper .time-card-item {
+    padding: 30px 0;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .time-card-wrapper .time-card-item {
+    padding: 30px 8px;
+  }
 }
 
 /* Service-details CSS */
@@ -3305,4 +3379,12 @@ input:focus {
 .service-image img {
   width: 100%;
   height: 100%;
+}
+
+.about-counter-wrapper {
+  padding: 140px 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=rakib.css.map */

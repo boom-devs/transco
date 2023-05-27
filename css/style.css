@@ -4474,6 +4474,10 @@ a.meanmenu-reveal {
       .counter-card.style-two .counter-item .number {
         font-size: 48px;
         line-height: 50px; } }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .counter-card.style-two .counter-item .number {
+        font-size: 48px;
+        line-height: 50px; } }
 
 .process-steps-wrapper {
   padding: 70px 0px 10px 50px;
@@ -5471,17 +5475,39 @@ button.testimonial-arrow-btn {
       -ms-flex-align: center;
           align-items: center;
   gap: 60px; }
+  @media (max-width: 991px) {
+    .call-to-action-card {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      gap: 30px; } }
+  @media (max-width: 767px) {
+    .call-to-action-card {
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start; } }
   .call-to-action-card .image {
     -ms-flex-negative: 0;
         flex-shrink: 0; }
+    @media (max-width: 1399px) {
+      .call-to-action-card .image {
+        width: 200px; } }
   .call-to-action-card .content {
     position: relative;
     padding-left: 60px; }
+    @media (max-width: 991px) {
+      .call-to-action-card .content {
+        padding-left: 0; } }
     .call-to-action-card .content .title {
       font-size: 36px;
       font-weight: 700;
       color: #ffffff;
       margin-bottom: 0; }
+      @media (max-width: 1399px) {
+        .call-to-action-card .content .title {
+          font-size: 18px;
+          line-height: 32px; } }
     .call-to-action-card .content:before {
       position: absolute;
       content: "";
@@ -5490,6 +5516,9 @@ button.testimonial-arrow-btn {
       top: 0;
       width: 1px;
       background-color: #6fcbbd; }
+      @media (max-width: 991px) {
+        .call-to-action-card .content:before {
+          display: none; } }
   .call-to-action-card .btn-wrapper {
     -ms-flex-negative: 0;
         flex-shrink: 0; }
@@ -7212,6 +7241,11 @@ ul.children {
       -ms-flex-pack: end;
           justify-content: flex-end;
   margin-bottom: 0; }
+  @media (max-width: 991px) {
+    .footer-bottom-menu ul {
+      -webkit-box-pack: start;
+          -ms-flex-pack: start;
+              justify-content: flex-start; } }
   .footer-bottom-menu ul li a {
     font-size: 16px;
     text-transform: capitalize;
