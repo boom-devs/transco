@@ -121,9 +121,15 @@
                 "<button type='button' class='info-card-arrow-btn next-btn'><i class='fa-solid fa-angle-right'></i></button>",
             responsive: [
                 {
+                    breakpoint: 991,
+                    settings: {
+                        slidesToShow: 2,
+                    },
+                },
+                {
                     breakpoint: 767,
                     settings: {
-                        autoplay: true,
+                        slidesToShow: 1,
                     },
                 },
             ],
