@@ -48,15 +48,23 @@
         }
     }
     @include sm {
+        .icon {
+            height: 50px;
+        }
         .count {
-            left: 50%;
-            top: 0;
+            left: 0;
+            top: 6px;
+            position: relative;
         }
     }
     @include md {
+        .icon {
+            height: 50px;
+        }
         .count {
-            left: 50%;
-            top: 0;
+            left: 0;
+            top: 6px;
+            position: relative;
         }
     }
 }
