@@ -121,7 +121,13 @@
 // Client Logo Area
 
 // Testimonial Area
-.testimonial-area {
+.home-two-testimonial-area-area {
+  padding-top: 145px;
+
+  @include rmaxwd(991) {
+    padding-top: 0;
+    padding-bottom: 100px;
+  }
 }
 // Testimonial Triangle Image
 .testimonial-triangle-image-wrapper {
@@ -129,6 +135,12 @@
   position: absolute;
   top: 0;
   left: 0;
+  
+  @include rmaxwd(991) {
+    width: 100%;
+    position: relative;
+    margin-bottom: 100px;
+  }
 }
 .testimonial-triangle-image {
   -webkit-clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
@@ -158,5 +170,39 @@
         padding-top: 100px;
       }
     }
+  }
+}
+
+// Form Image Wrapper
+.form-image-wrapper {
+  img {
+    width: 100%;
+  }
+}
+
+// News Area
+.home-two-news-area {
+  padding-top: 145px;
+  padding-bottom: 270px;
+
+  @include rmaxwd(991) {
+    padding-top: 270px;
+  }
+
+  .section-title {
+    margin-bottom: 70px;
+
+    @include rmaxwd(991) {
+      margin-bottom: 50px;
+    }
+  }
+}
+
+// Team Member Area
+.home-two-team-member-area {
+ padding: 145px 0;
+
+  @include rmaxwd(991) {
+    padding: 100px 0;
   }
 }

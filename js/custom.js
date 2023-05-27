@@ -110,7 +110,6 @@
             autoplay: false,
             draggable: true,
             arrows: true,
-            // variableWidth: true,
             slidesToScroll: 1,
             loop: true,
             dots: false,
@@ -119,6 +118,35 @@
                 "<button type='button' class='info-card-arrow-btn prev-btn'><i class='fa-solid fa-angle-left'></i></button>",
             nextArrow:
                 "<button type='button' class='info-card-arrow-btn next-btn'><i class='fa-solid fa-angle-right'></i></button>",
+            responsive: [
+                {
+                    breakpoint: 991,
+                    settings: {
+                        slidesToShow: 2,
+                    },
+                },
+                {
+                    breakpoint: 767,
+                    settings: {
+                        slidesToShow: 1,
+                    },
+                },
+            ],
+        });
+
+        /*
+       Team Slider
+       ============================*/
+        $("#team_slider_wrapper").slick({
+            slidesToShow: 3,
+            infinite: true,
+            autoplay: false,
+            draggable: true,
+            arrows: false,
+            slidesToScroll: 1,
+            loop: true,
+            dots: true,
+            speed: 1500,
             responsive: [
                 {
                     breakpoint: 991,

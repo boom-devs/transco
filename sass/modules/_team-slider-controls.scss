@@ -1,0 +1,74 @@
+.team-member-slider-wrapper {
+  position: relative;
+
+  .slick-list {
+    overflow: visible;
+
+    .slick-slide {
+      margin: 0 50px;
+      visibility: hidden;
+      opacity: 0;
+      @include transition;
+
+      @include rmaxwd(1199) {
+        margin: 0 14px;
+      }
+
+      &.slick-active {
+        @include transition;
+        visibility: visible;
+        opacity: 1;
+      }
+    }
+  }
+  // Slick Dots
+  .slick-dots {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 85px;
+
+    li {
+      display: inline-block;
+      line-height: 0;
+
+      button {
+        font-size: 0;
+        padding: 0;
+        width: 25px;
+        height: 25px;
+        background-color: $white;
+        border-radius: 100%;
+        position: relative;
+
+        &:after {
+          position: absolute;
+          width: 12px;
+          height: 12px;
+          border-radius: 100%;
+          background-color: #b2bacb;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          content: "";
+        }
+      }
+      &.slick-active {
+        button {
+
+          &:before {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 100%;
+            border: 2px solid $orange-color;
+            top: 0;
+            left: 0;
+            content: "";
+          }
+        }
+      }
+    }
+  }
+}

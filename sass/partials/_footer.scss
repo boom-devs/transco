@@ -229,6 +229,10 @@
   padding-top: 100px;
   padding-bottom: 60px;
 
+  @include rmaxwd(991) {
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
   .copyright-text {
     p {
       color: $white-100;
