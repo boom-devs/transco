@@ -17,6 +17,10 @@
         bottom: 0;
         left: -66px;
         transform: translateY(50%);
+
+        @include sm {
+          left: 66px;
+        }
       }
       &.image-four {
         width: 459px;
@@ -25,12 +29,29 @@
         z-index: -1;
         left: -160px;
         bottom: -170px;
+        @include sm {
+          left: -50px;
+        }
+        @include md {
+          left: -130px;
+        }
       }
       &.image-five {
         top: 160px;
         right: -200px;
         border-radius: 12px;
         overflow: hidden;
+
+        @include sm {
+          right: 30px;
+          width: 200px;
+          bottom: -30px;
+          top: unset;
+        }
+
+        @include md {
+          right: -130px;
+        }
       }
     }
   }
