@@ -2881,31 +2881,20 @@ a.meanmenu-reveal {
         .slider-area .slider-wrapper .slick-dots li button {
           font-size: 0;
           padding: 0;
-          width: 25px;
-          height: 25px;
-          background-color: transparent;
+          width: 24px;
+          height: 24px;
+          background-color: #b2bacb;
+          background-color: #b2bacb;
+          border: 4px solid #ffffff;
+          outline: 2px solid transparent;
           border-radius: 100%;
-          position: relative; }
-          .slider-area .slider-wrapper .slick-dots li button:after {
-            position: absolute;
-            width: 12px;
-            height: 12px;
-            border-radius: 100%;
-            background-color: #c1e2dd;
-            top: 50%;
-            left: 50%;
-            -webkit-transform: translate(-50%, -50%);
-                    transform: translate(-50%, -50%);
-            content: ""; }
-        .slider-area .slider-wrapper .slick-dots li.slick-active button:before {
-          position: absolute;
-          width: 100%;
-          height: 100%;
-          border-radius: 100%;
-          border: 2px solid #ff6731;
-          top: 0;
-          left: 0;
-          content: ""; }
+          position: relative;
+          -webkit-transition: all 0.5s ease-out;
+          transition: all 0.5s ease-out; }
+        .slider-area .slider-wrapper .slick-dots li.slick-active button {
+          outline: 2px solid #ff6731;
+          -webkit-transition: all 0.5s ease-out;
+          transition: all 0.5s ease-out; }
   .slider-area button.slider-arrow-btn {
     position: absolute;
     width: 60px;
@@ -4902,31 +4891,20 @@ a.meanmenu-reveal {
       .testimonial-slider-wrapper .slick-dots li button {
         font-size: 0;
         padding: 0;
-        width: 25px;
-        height: 25px;
-        background-color: #ffffff;
+        width: 24px;
+        height: 24px;
+        background-color: #b2bacb;
+        background-color: #b2bacb;
+        border: 4px solid #ffffff;
+        outline: 2px solid transparent;
         border-radius: 100%;
-        position: relative; }
-        .testimonial-slider-wrapper .slick-dots li button:after {
-          position: absolute;
-          width: 12px;
-          height: 12px;
-          border-radius: 100%;
-          background-color: #b2bacb;
-          top: 50%;
-          left: 50%;
-          -webkit-transform: translate(-50%, -50%);
-                  transform: translate(-50%, -50%);
-          content: ""; }
-      .testimonial-slider-wrapper .slick-dots li.slick-active button:before {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        border-radius: 100%;
-        border: 2px solid #ff6731;
-        top: 0;
-        left: 0;
-        content: ""; }
+        position: relative;
+        -webkit-transition: all 0.5s ease-out;
+        transition: all 0.5s ease-out; }
+      .testimonial-slider-wrapper .slick-dots li.slick-active button {
+        outline: 2px solid #ff6731;
+        -webkit-transition: all 0.5s ease-out;
+        transition: all 0.5s ease-out; }
   .testimonial-slider-wrapper button.testimonial-arrow-btn {
     display: none !important; }
     .testimonial-slider-wrapper button.testimonial-arrow-btn.prev-btn {
@@ -7546,6 +7524,10 @@ ul.children {
   height: 100%;
   -webkit-clip-path: polygon(0 0, 100% 0, 65% 100%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 65% 100%, 0 100%); }
+  @media (max-width: 780px) {
+    .footer-triangle-image {
+      -webkit-clip-path: none;
+              clip-path: none; } }
   .footer-triangle-image:before {
     position: absolute;
     content: "";
@@ -7693,31 +7675,20 @@ ul.children {
       .team-member-slider-wrapper .slick-dots li button {
         font-size: 0;
         padding: 0;
-        width: 25px;
-        height: 25px;
-        background-color: #ffffff;
+        width: 24px;
+        height: 24px;
+        background-color: #b2bacb;
+        background-color: #b2bacb;
+        border: 4px solid #ffffff;
+        outline: 2px solid transparent;
         border-radius: 100%;
-        position: relative; }
-        .team-member-slider-wrapper .slick-dots li button:after {
-          position: absolute;
-          width: 12px;
-          height: 12px;
-          border-radius: 100%;
-          background-color: #b2bacb;
-          top: 50%;
-          left: 50%;
-          -webkit-transform: translate(-50%, -50%);
-                  transform: translate(-50%, -50%);
-          content: ""; }
-      .team-member-slider-wrapper .slick-dots li.slick-active button:before {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        border-radius: 100%;
-        border: 2px solid #ff6731;
-        top: 0;
-        left: 0;
-        content: ""; }
+        position: relative;
+        -webkit-transition: all 0.5s ease-out;
+        transition: all 0.5s ease-out; }
+      .team-member-slider-wrapper .slick-dots li.slick-active button {
+        outline: 2px solid #ff6731;
+        -webkit-transition: all 0.5s ease-out;
+        transition: all 0.5s ease-out; }
 
 .portfolio-style-two {
   background-color: #ffffff;
