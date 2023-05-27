@@ -36,6 +36,11 @@
       align-items: center;
       justify-content: center;
 
+      @include md {
+        width: 100px;
+        height: 100px;
+      }
+
       i {
         color: $white;
         font-size: 24px;

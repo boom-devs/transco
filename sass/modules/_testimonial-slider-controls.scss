@@ -48,6 +48,17 @@
     transform: translateY(-50%);
     z-index: 2;
 
+    @include rmaxwd(991) {
+      position: unset;
+      right: unset;
+      top: unset;
+      transform: inherit;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin-top: 50px;
+    }
+
 
     li {
       display: inline-block;
@@ -146,7 +157,10 @@ button.testimonial-arrow-btn {
   display: flex;
   align-items: center;
   gap: 12px;
-  margin-top: 50px;
+
+  @include rmaxwd(991) {
+    display: none;
+  }
 }
 
 // Testimonial Slider Control Three
