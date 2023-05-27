@@ -1,6 +1,11 @@
 // Video Popup Area
 .video-popup-area {
   margin-bottom: -250px;
+
+  @include rmaxwd(991) {
+    margin-bottom: 0;
+    padding-bottom: 100px;
+  }
 }
 
 // Counter Up Area
@@ -12,6 +17,12 @@
   background-position: center center;
   background-color: $primary-color;
   z-index: -1;
+
+  @include rmaxwd(991) {
+    padding: 100px 0;
+  }
+
+
 }
 .counter-squre-shape {
   width: 245px;
@@ -53,6 +64,10 @@
   padding-top: 144px;
   padding-bottom: 120px;
 
+  @include rmaxwd(991) {
+    padding-top: 100px;
+    padding-bottom: 76px;
+  }
   .section-title {
     margin-bottom: 70px;
   }
@@ -79,6 +94,18 @@
   padding: 144px 0;
   position: relative;
   z-index: 2;
+
+  @include rmaxwd(991) {
+    padding: 100px 0;
+  }
+  .accordion-wrapper {
+    &.pl-90 {
+      @include rmaxwd(991) {
+        padding-left: 0;
+        margin-top: 50px;
+      }
+    }
+  }
 }
 .appointment-squre-shape {
   width: 200px;

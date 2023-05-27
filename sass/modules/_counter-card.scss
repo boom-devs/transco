@@ -1,8 +1,16 @@
 .counter-card {
   z-index: 1;
   position: relative;
-  display: flex;
-  gap: 60px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 60px;
+
+  @include md {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @include sm {
+    grid-template-columns: repeat(1, 1fr);
+  }
 
   .counter-item {
     display: flex;
@@ -11,7 +19,6 @@
     align-items: center;
     flex-direction: column;
     position: relative;
-    width: 100%;
     text-align: center;
 
     .counter-title {
@@ -35,6 +42,11 @@
       align-items: center;
       justify-content: center;
       margin: 0;
+
+      @include sm {
+        font-size: 36px;
+        line-height: 40px;
+      }
     }
     .title {
       margin: 0;
