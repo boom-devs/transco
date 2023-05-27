@@ -269,6 +269,12 @@
   z-index: 2;
   position: relative;
   overflow: hidden;
+  @include md {
+    padding: 40px;
+  }
+  @include sm {
+    padding: 40px;
+  }
 
   .triangle-shape {
     width: 250px;
@@ -315,6 +321,17 @@
       color: $white;
       text-transform: capitalize;
       margin-bottom: 0;
+      font-size: 48px;
+      line-height: 60px;
+
+      @include md {
+        font-size: 40px;
+        line-height: 42px;
+      }
+      @include sm {
+        font-size: 40px;
+        line-height: 42px;
+      }
     }
     .text {
       font-size: 22px;
@@ -327,10 +344,16 @@
     display: flex;
     align-items: center;
     gap: 30px;
-
+    @include sm {
+      flex-direction: column;
+    }
     .content-wrapper,
     .subscribe-form-wrapper {
       width: 50%;
+
+      @include sm {
+       width: 100%;
+      }
     }
   }
 }

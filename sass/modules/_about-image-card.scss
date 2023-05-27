@@ -2,6 +2,10 @@
   .main-img-wrapper {
     text-align: right;
 
+    @include md {
+      text-align: center;
+    }
+
     .main-img-inner {
       position: relative;
       display: inline-block;
