@@ -5631,6 +5631,14 @@ button.testimonial-arrow-btn {
     font-family: "Poppins", sans-serif;
     color: #393d48;
     margin-bottom: 0; }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .section-title .title {
+        font-size: 38px;
+        line-height: 48px; } }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .section-title .title {
+        font-size: 36px;
+        line-height: 42px; } }
     .section-title .title span {
       color: #1eae98; }
   .section-title .desc {
