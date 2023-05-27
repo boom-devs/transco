@@ -5386,6 +5386,7 @@ button.testimonial-arrow-btn:hover i {
   width: 100%;
   height: 100%;
   z-index: -1;
+  transform: scale(1.01);
   transition: all 0.5s ease-out;
 }
 .post-card.style-three .content .post-meta {
@@ -7264,6 +7265,13 @@ ul.children {
 .footer-widget .footer-widget-info .social-widget {
   gap: 20px;
   margin-top: 30px;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .footer-widget .footer-widget-info .info-form-and-social-icon {
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+  }
 }
 .footer-widget .footer-widget-menu.two-menu {
   display: flex;

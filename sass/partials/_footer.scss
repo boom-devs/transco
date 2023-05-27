@@ -54,6 +54,13 @@
       gap: 20px;
       margin-top: 30px;
     }
+    @include sm {
+      .info-form-and-social-icon {
+        flex-direction: column;
+        align-items: start;
+        gap: 30px;
+      }
+    }
   }
 
   // Footer Menu Widget
@@ -88,7 +95,6 @@
         &:hover {
           @include transition;
           color: $primary-color;
-
         }
       }
     }
@@ -125,7 +131,6 @@
           display: flex;
           align-items: center;
           flex-shrink: 0;
-
         }
         .contact-text {
           color: $white-100;
@@ -141,7 +146,6 @@
         }
       }
     }
-
   }
 
   // Footer Latest News
@@ -189,7 +193,6 @@
       }
     }
   }
-
 }
 
 // Footer Bottom Section
@@ -383,7 +386,6 @@
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 500;
-
   }
 }
 
