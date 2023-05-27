@@ -38,6 +38,13 @@
     position: relative;
     border-radius: 10px;
     box-shadow: 5px 0 90px rgba(245, 246, 249, 0.8);
+
+    @include sm {
+      box-shadow: none;
+    }
+    @include md {
+      box-shadow: none;
+    }
   }
 }
 
