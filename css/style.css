@@ -3734,10 +3734,22 @@ a.meanmenu-reveal {
     cursor: pointer;
     top: -125px;
     overflow: hidden; }
+    @media (max-width: 991px) {
+      .info-card-slider-wrapper button.info-card-arrow-btn {
+        top: unset;
+        bottom: -80px; } }
     .info-card-slider-wrapper button.info-card-arrow-btn.prev-btn {
       right: 72px; }
+      @media (max-width: 767px) {
+        .info-card-slider-wrapper button.info-card-arrow-btn.prev-btn {
+          right: unset;
+          left: 30px; } }
     .info-card-slider-wrapper button.info-card-arrow-btn.next-btn {
       right: 0; }
+      @media (max-width: 767px) {
+        .info-card-slider-wrapper button.info-card-arrow-btn.next-btn {
+          right: 30px;
+          left: unset; } }
     .info-card-slider-wrapper button.info-card-arrow-btn i {
       position: absolute;
       top: 50%;
