@@ -2,6 +2,10 @@
   &.style-two {
     .main-img-wrapper {
       text-align: left;
+
+      @include md {
+        text-align: center;
+      }
     }
     .img-card-wrapper {
       &.image-three {

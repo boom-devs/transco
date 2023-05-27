@@ -1,4 +1,19 @@
+// About Us Area
+.home-one-about-us-area {
+  .about-info-card {
+    .about-info-content {
+      padding-left: 60px;
 
+      @include rmaxwd(991) {
+        padding-left: 0;
+        padding-top: 200px;
+      }
+      @include rmaxwd(650) {
+        padding-top: 100px;
+      }
+    }
+  }
+}
 // Video Popup Area
 .video-popup-area {
   margin-bottom: -250px;

@@ -10,8 +10,14 @@
       position: relative;
       display: inline-block;
 
+      @include rmaxwd(650) {
+        width: 100%;
+      }
       > img {
         border-radius: 6px;
+        @include rmaxwd(650) {
+          width: 100%;
+        }
       }
     }
   }
@@ -48,6 +54,10 @@
       height: 96px;
       background-color: $primary-color;
       animation: MoveUpDown 2s linear infinite alternate;
+
+      @include rmaxwd(650) {
+        right: 40px;
+      }
     }
     &.image-two {
       bottom: -60px;
@@ -69,6 +79,9 @@
       background: rgb(0, 91, 172);
       background: linear-gradient(135deg, rgba(0, 91, 172, 1) 0%, rgba(30, 174, 152, 1) 100%);
       animation: MoveUpDown 2s linear infinite alternate;
+      @include rmaxwd(650) {
+        left: 40px;
+      }
     }
     &.image-four {
       bottom: -100px;
@@ -78,6 +91,14 @@
       height: 330px;
       overflow: hidden;
       animation: MoveLeftRight 2s linear infinite alternate;
+
+
+      @include rmaxwd(650) {
+       display: none;
+      }
+      @include rmaxwd(991) {
+        left: -120px;
+      }
     }
   }
 }

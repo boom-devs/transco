@@ -127,3 +127,20 @@
   background-color: $sky-color;
   transform: skewX(-20deg);
 }
+
+// About Us Area
+.home-two-about-us-area {
+  .about-info-card {
+    .about-info-content {
+      padding-left: 60px;
+
+      @include rmaxwd(991) {
+        padding-left: 0;
+        padding-top: 300px;
+      }
+      @include rmaxwd(650) {
+        padding-top: 100px;
+      }
+    }
+  }
+}
