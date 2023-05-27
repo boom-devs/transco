@@ -238,7 +238,7 @@
        scrollUp
        ============================*/
         $.scrollUp({
-            scrollText: '<i class="flaticon-scroll"></i>',
+            scrollText: '<i class="fa-light fa-arrow-up-long"></i>',
             easingType: "linear",
             scrollSpeed: 900,
             animation: "fade",
