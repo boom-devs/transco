@@ -81,8 +81,20 @@
 }
 
 // Accordion Area
-.accordion-area {
+.home-two-accordion-area {
   z-index: 2;
+
+  &.py-145 {
+    @include rmaxwd(991) {
+      padding: 100px 0;
+    }
+  }
+  .accordion-wrapper {
+    @include rmaxwd(991) {
+      padding-left: 0;
+      padding-bottom: 80px;
+    }
+  }
 }
 .triangle-image-shape-wrapper {
   position: absolute;
@@ -90,6 +102,10 @@
   top: -140px;
   left: 0;
   z-index: -1;
+
+  @include rmaxwd(991) {
+    display: none;
+  }
 }
 .triangle-image-shape {
   -webkit-clip-path: polygon(0 0, 64% 0, 100% 100%, 0% 100%);

@@ -233,9 +233,33 @@
                 "<button type='button' class='post-gallery-btn next-btn'><i class='fa fa-arrow-right'></i></button>",
             responsive: [
                 {
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 4,
+                    },
+                },
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 3,
+                    },
+                },
+                {
+                    breakpoint: 991,
+                    settings: {
+                        slidesToShow: 3,
+                    },
+                },
+                {
                     breakpoint: 767,
                     settings: {
-                        autoplay: true,
+                        slidesToShow: 2,
+                    },
+                },
+                {
+                    breakpoint: 460,
+                    settings: {
+                        slidesToShow: 1,
                     },
                 },
             ],
