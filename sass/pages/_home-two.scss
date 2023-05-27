@@ -206,3 +206,28 @@
     padding: 100px 0;
   }
 }
+
+// Project Area
+.home-two-project-area {
+  padding-bottom: 200px;
+
+  @include rmaxwd(767) {
+    padding-top: 100px;
+  }
+}
+
+// Why Choose Us Area
+.home-two-why-choose-area {
+  padding-top: 145px;
+  padding-bottom: 100px;
+
+  @include rmaxwd(991) {
+    padding-top: 100px;
+  }
+
+  .section-title {
+    @include rmaxwd(991) {
+      margin-bottom: 70px;
+    }
+  }
+}

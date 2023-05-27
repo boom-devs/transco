@@ -26,6 +26,10 @@
   height: 100%;
   left: 0;
   z-index: -1;
+
+  @include rmaxwd(780) {
+    width: 100%;
+  }
 }
 .footer-triangle-image {
   position: absolute;

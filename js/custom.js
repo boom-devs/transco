@@ -149,6 +149,12 @@
             speed: 1500,
             responsive: [
                 {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 2,
+                    },
+                },
+                {
                     breakpoint: 991,
                     settings: {
                         slidesToShow: 2,

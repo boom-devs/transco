@@ -99,13 +99,13 @@ a:focus,
   outline: none;
 }
 a:focus {
-  color: $primary-color;
+  color: $sky-color;
   text-decoration: none;
   @include transition;
 }
 a,
 button {
-  color: $primary-color;
+  color: $sky-color;
   outline: medium none;
   @include transition;
 }
@@ -123,12 +123,12 @@ ul {
 }
 
 ::-moz-selection {
-  background: $black;
+  background: $primary-color;
   text-shadow: none;
   color: #fff;
 }
 ::selection {
-  background: $black;
+  background: $primary-color;
   text-shadow: none;
   color: #fff;
 }

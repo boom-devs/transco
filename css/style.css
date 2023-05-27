@@ -349,14 +349,14 @@ a:focus,
   outline: none; }
 
 a:focus {
-  color: #005bac;
+  color: #1eae98;
   text-decoration: none;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out; }
 
 a,
 button {
-  color: #005bac;
+  color: #1eae98;
   outline: medium none;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out; }
@@ -374,12 +374,12 @@ ul {
   padding: 0; }
 
 ::-moz-selection {
-  background: #020a27;
+  background: #005bac;
   text-shadow: none;
   color: #fff; }
 
 ::selection {
-  background: #020a27;
+  background: #005bac;
   text-shadow: none;
   color: #fff; }
 
@@ -3782,6 +3782,16 @@ a.meanmenu-reveal {
           flex-direction: row;
   gap: 40px;
   margin-bottom: 50px; }
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .icon-card {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start;
+      gap: 30px; } }
   .icon-card .icon {
     width: 78px;
     height: 78px;
@@ -3801,6 +3811,9 @@ a.meanmenu-reveal {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .icon-card .content {
+        gap: 15px; } }
     .icon-card .content .title {
       font-family: "Poppins", sans-serif;
       font-weight: 700;
@@ -3815,18 +3828,6 @@ a.meanmenu-reveal {
       font-weight: 400;
       color: #5e6f92;
       margin-bottom: 0; }
-  @media only screen and (min-width: 0px) and (max-width: 767px) {
-    .icon-card {
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-              flex-direction: column;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-      gap: 30px; }
-      .icon-card .content {
-        gap: 15px; } }
 
 .icon-card.style-two {
   background: transparent;
@@ -7249,7 +7250,8 @@ ul.children {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  padding-left: 0; }
   @media (max-width: 991px) {
     .footer-bottom-menu ul {
       -webkit-box-pack: start;
@@ -7264,7 +7266,7 @@ ul.children {
     .footer-bottom-menu ul li a:hover {
       -webkit-transition: all 0.5s ease-out;
       transition: all 0.5s ease-out;
-      color: #005bac; }
+      color: #1eae98; }
 
 .footer-bottom-area {
   padding-top: 100px;
@@ -7486,6 +7488,9 @@ ul.children {
   height: 100%;
   left: 0;
   z-index: -1; }
+  @media (max-width: 780px) {
+    .footer-triangle-image-wrapper {
+      width: 100%; } }
 
 .footer-triangle-image {
   position: absolute;
@@ -8066,6 +8071,22 @@ ul.children {
   @media (max-width: 991px) {
     .home-two-team-member-area {
       padding: 100px 0; } }
+
+.home-two-project-area {
+  padding-bottom: 200px; }
+  @media (max-width: 767px) {
+    .home-two-project-area {
+      padding-top: 100px; } }
+
+.home-two-why-choose-area {
+  padding-top: 145px;
+  padding-bottom: 100px; }
+  @media (max-width: 991px) {
+    .home-two-why-choose-area {
+      padding-top: 100px; } }
+  @media (max-width: 991px) {
+    .home-two-why-choose-area .section-title {
+      margin-bottom: 70px; } }
 
 .why-us-area {
   margin-top: -65px;

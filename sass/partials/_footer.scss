@@ -204,6 +204,7 @@
     align-items: center;
     justify-content: flex-end;
     margin-bottom: 0;
+    padding-left: 0;
 
     @include rmaxwd(991) {
       justify-content: flex-start;
@@ -218,7 +219,7 @@
 
         &:hover {
           @include transition;
-          color: $primary-color;
+          color: $sky-color;
         }
       }
     }
