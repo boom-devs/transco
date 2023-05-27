@@ -23,7 +23,7 @@
 
       .accordion-title {
         font-size: 21px;
-        line-height: 60px;
+        line-height: 32px;
         color: $white;
         font-weight: 700;
         margin-bottom: 0;
@@ -37,6 +37,7 @@
         color: $white;
         font-size: 18px;
         font-weight: 700;
+        flex-shrink: 0;
 
         &:before {
           position: absolute;

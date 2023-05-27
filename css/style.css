@@ -5000,7 +5000,7 @@ button.testimonial-arrow-btn {
           flex-direction: row-reverse; }
   .accordion-wrapper .accordion-list-item .accordion-head .accordion-title {
     font-size: 21px;
-    line-height: 60px;
+    line-height: 32px;
     color: #ffffff;
     font-weight: 700;
     margin-bottom: 0; }
@@ -5016,7 +5016,9 @@ button.testimonial-arrow-btn {
     position: relative;
     color: #ffffff;
     font-size: 18px;
-    font-weight: 700; }
+    font-weight: 700;
+    -ms-flex-negative: 0;
+        flex-shrink: 0; }
     .accordion-wrapper .accordion-list-item .accordion-head .icon:before {
       position: absolute;
       content: "\2b";
@@ -7897,8 +7899,15 @@ ul.children {
   position: relative;
   z-index: 2; }
 
-.accordion-area {
+.home-two-accordion-area {
   z-index: 2; }
+  @media (max-width: 991px) {
+    .home-two-accordion-area.py-145 {
+      padding: 100px 0; } }
+  @media (max-width: 991px) {
+    .home-two-accordion-area .accordion-wrapper {
+      padding-left: 0;
+      padding-bottom: 80px; } }
 
 .triangle-image-shape-wrapper {
   position: absolute;
@@ -7906,6 +7915,9 @@ ul.children {
   top: -140px;
   left: 0;
   z-index: -1; }
+  @media (max-width: 991px) {
+    .triangle-image-shape-wrapper {
+      display: none; } }
 
 .triangle-image-shape {
   -webkit-clip-path: polygon(0 0, 64% 0, 100% 100%, 0% 100%);
