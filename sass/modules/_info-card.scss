@@ -155,11 +155,12 @@
         }
     }
     @include sm {
+        box-shadow: 5px 0 90px rgba(245, 246, 249, 0.8);
+        margin-bottom: 20px;
+        padding: 30px;
         .divider {
             &:before {
-                height: 1px;
-                width: 100%;
-                top: 99%;
+                display: none;
             }
         }
         .title-wrapper {
@@ -171,6 +172,12 @@
         }
     }
     @include md {
+        box-shadow: 5px 0 90px rgba(245, 246, 249, 0.8);
+        margin-bottom: 20px;
+        padding: 30px;
+        .divider {
+            display: none;
+        }
         .content {
             .read-more {
                 a {
@@ -193,6 +200,10 @@
         }
         .content {
             gap: 26px;
+            .desc {
+                font-size: 16px;
+                line-height: 26px;
+            }
             .read-more {
                 a {
                     .icon {
@@ -202,8 +213,5 @@
                 }
             }
         }
-    }
-    @include xl {
-        padding: 30px 10px;
     }
 }

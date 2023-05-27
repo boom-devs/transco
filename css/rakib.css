@@ -1681,10 +1681,13 @@ input:focus {
   align-items: center;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
+  .info-card {
+    box-shadow: 5px 0 90px rgba(245, 246, 249, 0.8);
+    margin-bottom: 20px;
+    padding: 30px;
+  }
   .info-card .divider:before {
-    height: 1px;
-    width: 100%;
-    top: 99%;
+    display: none;
   }
   .info-card .title-wrapper {
     gap: 20px;
@@ -1695,6 +1698,14 @@ input:focus {
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .info-card {
+    box-shadow: 5px 0 90px rgba(245, 246, 249, 0.8);
+    margin-bottom: 20px;
+    padding: 30px;
+  }
+  .info-card .divider {
+    display: none;
+  }
   .info-card .content .read-more a .icon {
     width: 25px;
     height: 25px;
@@ -1714,14 +1725,13 @@ input:focus {
   .info-card .content {
     gap: 26px;
   }
+  .info-card .content .desc {
+    font-size: 16px;
+    line-height: 26px;
+  }
   .info-card .content .read-more a .icon {
     width: 25px;
     height: 25px;
-  }
-}
-@media only screen and (min-width: 1200px) and (max-width: 1920px) {
-  .info-card {
-    padding: 30px 10px;
   }
 }
 
@@ -2295,23 +2305,45 @@ input:focus {
   color: #5e6f92;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
+  .process-step {
+    padding: 25px 30px;
+  }
   .process-step .icon {
-    height: 50px;
+    margin-bottom: 20px;
   }
   .process-step .count {
     left: 0;
     top: 6px;
     position: relative;
+    transform: inherit;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .process-step {
+    padding: 25px 30px;
+  }
   .process-step .icon {
-    height: 50px;
+    margin-bottom: 20px;
   }
   .process-step .count {
     left: 0;
     top: 6px;
     position: relative;
+    transform: inherit;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .process-step {
+    padding: 25px 30px;
+  }
+  .process-step .icon {
+    margin-bottom: 20px;
+  }
+  .process-step .count {
+    left: 0;
+    top: 6px;
+    position: relative;
+    transform: inherit;
   }
 }
 
