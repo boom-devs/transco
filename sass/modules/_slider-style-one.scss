@@ -39,9 +39,9 @@
   .slider-wrapper {
     height: 920px;
 
-    @include md{
-      height: 800px;
-    }
+    //@include md{
+    //  height: 800px;
+    //}
     // Slick Dots
     .slick-dots {
       display: flex;
@@ -171,6 +171,7 @@
         }
         .slider-content {
           width: 50%;
+          z-index: 99;
 
           @include sm {
             width: 100%;
