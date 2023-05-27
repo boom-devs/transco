@@ -320,6 +320,11 @@ input:focus {
 .slider-area .slider-wrapper {
   height: 920px;
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .slider-area .slider-wrapper {
+    height: 800px;
+  }
+}
 .slider-area .slider-wrapper .slick-dots {
   display: flex;
   gap: 20px;
@@ -2622,13 +2627,13 @@ input:focus {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 0 30px;
+  padding: 0 36px;
   width: 100%;
   bottom: -36px;
 }
 .team-member-card .content-wrapper .content {
   width: 100%;
-  padding: 30px 0;
+  padding: 9px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -3315,6 +3320,23 @@ input:focus {
   font-weight: 700;
   color: #5e6f92;
   margin: 0;
+}
+
+/* Team-member-page CSS */
+.team-space {
+  padding: 0 37px;
+  margin-top: 30px;
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .team-space {
+    padding: 0 10px;
+    margin-top: 85px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .team-space {
+    margin-top: 85px;
+  }
 }
 
 .common-card-wrapper {

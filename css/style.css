@@ -7538,12 +7538,12 @@ ul.children {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding: 0 30px;
+    padding: 0 36px;
     width: 100%;
     bottom: -36px; }
     .team-member-card .content-wrapper .content {
       width: 100%;
-      padding: 30px 0;
+      padding: 9px 0;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
