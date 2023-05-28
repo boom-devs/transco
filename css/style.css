@@ -8318,6 +8318,12 @@ ul.children {
       padding-top: 100px;
       padding-bottom: 80px; } }
 
+.about-page-about-us-area {
+  padding: 145px 0; }
+  @media (max-width: 991px) {
+    .about-page-about-us-area {
+      padding: 100px 0; } }
+
 .about-page-counter-area {
   padding: 145px 0;
   background-repeat: no-repeat;
