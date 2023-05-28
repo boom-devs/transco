@@ -58,24 +58,27 @@
       li {
         display: inline-block;
         line-height: 0;
+        outline: 2px solid transparent;
+        border: 4px solid transparent;
+        border-radius: 50px;
+        @include transition;
 
         button {
           font-size: 0;
           padding: 0;
-          width: 24px;
-          height: 24px;
+          width: 17px;
+          height: 17px;
           background-color: #b2bacb;
           background-color: #b2bacb;
-          border: 4px solid $white;
-          outline: 2px solid transparent;
-          border-radius: 100%;
+          border-radius: 50px;
           position: relative;
           @include transition;
         }
         &.slick-active {
-          button {
-            outline: 2px solid $orange-color;
+          @include transition;
+          outline: 2px solid $orange-color;
 
+          button {
             @include transition;
           }
         }
