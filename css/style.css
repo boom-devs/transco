@@ -3971,6 +3971,9 @@ a.meanmenu-reveal {
 
 .about-image-card .main-img-wrapper {
   text-align: right; }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .about-image-card .main-img-wrapper {
+      text-align: center; } }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .about-image-card .main-img-wrapper {
       text-align: center; } }
@@ -5847,7 +5850,7 @@ button.testimonial-arrow-btn {
         line-height: 48px; } }
     @media only screen and (min-width: 0px) and (max-width: 767px) {
       .section-title .title {
-        font-size: 36px;
+        font-size: 32px;
         line-height: 42px; } }
     .section-title .title span {
       color: #1eae98; }
@@ -7988,15 +7991,20 @@ ul.children {
             background-color: #005bac;
             color: #ffffff; }
 
-.home-one-about-us-area .about-info-card .about-info-content {
-  padding-left: 60px; }
+.home-one-about-us-area {
+  padding: 145px 0; }
   @media (max-width: 991px) {
-    .home-one-about-us-area .about-info-card .about-info-content {
-      padding-left: 0;
-      padding-top: 200px; } }
-  @media (max-width: 650px) {
-    .home-one-about-us-area .about-info-card .about-info-content {
-      padding-top: 100px; } }
+    .home-one-about-us-area {
+      padding: 100px 0; } }
+  .home-one-about-us-area .about-info-card .about-info-content {
+    padding-left: 60px; }
+    @media (max-width: 1199px) {
+      .home-one-about-us-area .about-info-card .about-info-content {
+        padding-left: 0;
+        padding-top: 200px; } }
+    @media (max-width: 650px) {
+      .home-one-about-us-area .about-info-card .about-info-content {
+        padding-top: 100px; } }
 
 .video-popup-area {
   margin-bottom: -250px; }

@@ -1,10 +1,15 @@
 // About Us Area
 .home-one-about-us-area {
+  padding: 145px 0;
+
+  @include rmaxwd(991) {
+    padding: 100px 0;
+  }
   .about-info-card {
     .about-info-content {
       padding-left: 60px;
 
-      @include rmaxwd(991) {
+      @include rmaxwd(1199) {
         padding-left: 0;
         padding-top: 200px;
       }
