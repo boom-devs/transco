@@ -137,6 +137,9 @@ $text-gray-light: #6a6c73;
 /* Accordion-style-four CSS */
 @import "modules/accordion-style-four";
 
+/* Pricing-page CSS */
+@import "pages/pricing-page";
+
 .common-card-wrapper {
   background: #4566d4;
   padding: 100px 50px;
@@ -202,4 +205,3 @@ $text-gray-light: #6a6c73;
     height: 100%;
   }
 }
-
