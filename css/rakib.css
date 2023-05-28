@@ -3312,6 +3312,12 @@ input:focus {
   filter: none;
   opacity: 1;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .client-logo-wrapper.style-two {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px 30px;
+  }
+}
 
 /* List-item CSS */
 .list-item {
@@ -3340,6 +3346,11 @@ input:focus {
   font-weight: 700;
   color: #5e6f92;
   margin: 0;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .list-item {
+    margin-bottom: 20px;
+  }
 }
 
 /* Team-member-page CSS */
