@@ -27,3 +27,13 @@
   background-size: cover;
   background-position: center center;
 }
+// Our Service Area
+.home-three-our-service-area {
+  padding-top: 145px;
+  padding-bottom: 105px;
+
+  @include rmaxwd(991) {
+    padding-top: 100px;
+    padding-bottom: 80px;
+  }
+}

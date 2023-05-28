@@ -55,7 +55,7 @@
         justify-content: center;
         align-items: center;
         border-radius: 10px;
-        padding: 18px 0;
+        padding: 18px 10px;
       }
       .sub-title {
         color: $orange-color;
@@ -93,14 +93,6 @@
             background-color: $primary-color;
             color: $white;
           }
-        }
-      }
-      @include lg {
-        .content-inner {
-          padding: 18px 10px;
-        }
-        .title {
-          font-size: 20px;
         }
       }
     }

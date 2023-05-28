@@ -3,10 +3,16 @@
   flex-direction: column;
   gap: 40px;
 
-
+  @include rmaxwd(991) {
+    margin-top: 50px;
+  }
   .promotional-bannar-img {
     border-radius: 12px;
     overflow: hidden;
+
+    img {
+      width: 100%;
+    }
   }
   .title-wrapper {
     .title {

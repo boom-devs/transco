@@ -1,6 +1,13 @@
 .slider-area {
   &.style-three {
     position: relative;
+
+    .slider-wrapper {
+      @include rmaxwd(991) {
+        height: 700px;
+      }
+    }
+
     .single-slider {
       .slider-overlay {
         background: rgb(0,91,172);
@@ -12,6 +19,10 @@
         .slider-content {
           width: 100%;
           text-align: center;
+
+          @include rmaxwd(991) {
+            margin-top: -200px;
+          }
         }
       }
     }

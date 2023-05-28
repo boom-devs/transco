@@ -3,17 +3,30 @@
 
   .header-top-info {
     display: flex;
+
+    @include rmaxwd(1199) {
+      justify-content: space-between;
+      width: 100%;
+    }
   }
   .header-contact-info {
     display: flex;
     align-items: center;
     gap: 30px;
     padding: 6px 0;
-    
+
+    @include sm {
+      flex-direction: column;
+      gap: 0;
+    }
     span {
       display: flex;
       align-items: center;
       gap: 20px;
+
+      @include sm {
+        width: 100%;
+      }
 
 
       &:first-child {
@@ -27,6 +40,10 @@
         display: inline-flex;
         height: 12px;
         content: "";
+
+        @include sm {
+          display: none;
+        }
       }
 
       i {

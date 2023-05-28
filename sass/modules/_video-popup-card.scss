@@ -64,6 +64,10 @@
     margin-bottom: -70px;
     box-shadow: none;
 
+    @include rmaxwd(991) {
+      margin-bottom: 80px;
+    }
+
     .video-popup-btn {
       a {
         width: 100px;

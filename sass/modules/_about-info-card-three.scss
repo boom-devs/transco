@@ -6,6 +6,10 @@
       .about-info-wrapper {
         display: flex;
 
+        @include sm {
+          flex-direction: column;
+        }
+
         .about-info-img {
           border-radius: 12px;
           overflow: hidden;
@@ -22,9 +26,15 @@
         padding-left: 50px;
         gap: 30px;
 
+        @include sm {
+          padding-left: 0;
+          padding-top: 50px;
+        }
+
         .icon-card-wrapper {
           display: flex;
           justify-content: space-between;
+          gap: 30px;
 
           .icon-card {
             width: 50%;
@@ -42,6 +52,7 @@
 
               .title {
                 font-size: 18px;
+                line-height: 24px;
               }
             }
           }
