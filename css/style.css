@@ -5185,6 +5185,93 @@ button.testimonial-arrow-btn {
                 filter: none;
         opacity: 1; }
 
+.post-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px 35px 25px 35px;
+  border: 1px solid #778196;
+  border-radius: 12px;
+  gap: 60px;
+  margin-bottom: 25px; }
+  .post-card .image {
+    overflow: hidden;
+    border-radius: 12px; }
+  .post-card .overlay {
+    width: 100%;
+    height: 100%;
+    background: #393d48;
+    opacity: 24%; }
+  .post-card .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .post-card .content .post-meta {
+      color: #ff6731;
+      font-size: 16px;
+      line-height: 28px;
+      font-weight: 700;
+      margin: 0;
+      display: -webkit-inline-box;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      gap: 17px;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .post-card .content .post-meta span {
+        margin: 0; }
+        .post-card .content .post-meta span:before {
+          background-color: #b8bfcc;
+          width: 1px;
+          display: -webkit-inline-box;
+          display: -ms-inline-flexbox;
+          display: inline-flex;
+          height: 12px;
+          content: "";
+          margin-right: 17px; }
+        .post-card .content .post-meta span:last-child {
+          display: none; }
+        .post-card .content .post-meta span:first-child:before {
+          display: none; }
+    .post-card .content .title {
+      font-size: 21px;
+      line-height: 30px;
+      font-weight: 700;
+      margin: 0;
+      color: #393d48; }
+  .post-card .date {
+    margin-bottom: 0; }
+  .post-card .date-bottom {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    margin-bottom: 0;
+    color: #778196; }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .post-card {
+      padding: 20px 25px;
+      gap: 55px; }
+      .post-card .content .post-meta {
+        font-size: 14px; }
+      .post-card .content .title {
+        font-size: 16px;
+        line-height: 26px; } }
+
 .post-card.style-two {
   padding: 0;
   border: none;
@@ -5356,6 +5443,36 @@ button.testimonial-arrow-btn {
       .post-card.style-three .content .title {
         font-size: 24px;
         line-height: 38px; } }
+
+.post-card.style-four {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: none;
+  padding: 0;
+  gap: 28px; }
+  .post-card.style-four:hover .image img {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05); }
+  .post-card.style-four .image img {
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out; }
+  .post-card.style-four .content .title:hover {
+    color: #005bac; }
+  .post-card.style-four .content .post-meta span {
+    color: #ff6731;
+    line-height: 30px;
+    font-weight: 700; }
+    .post-card.style-four .content .post-meta span:last-child {
+      display: block; }
+    .post-card.style-four .content .post-meta span:first-child:before {
+      display: none; }
+  .post-card.style-four .content .post-meta .date {
+    color: #778196;
+    font-weight: 400; }
 
 .skill-progressbar:last-child .progress-inner {
   margin-bottom: 0; }
@@ -5866,6 +5983,10 @@ button.testimonial-arrow-btn {
     font-weight: 700;
     margin-bottom: 10px;
     text-transform: capitalize; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .single-post-item .post-title {
+        font-size: 28px;
+        line-height: 42px; } }
     .single-post-item .post-title:hover a {
       color: #005bac;
       -webkit-transition: all 0.5s ease-out;
@@ -6031,7 +6152,20 @@ button.testimonial-arrow-btn {
         -ms-flex-align: center;
             align-items: center;
     gap: 32px;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .single-post-item .post-meta {
+        gap: 10px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        width: 100%;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start; } }
     .single-post-item .post-meta span {
       font-size: 18px;
       font-weight: 400;
@@ -6175,121 +6309,6 @@ button.testimonial-arrow-btn {
 
 .bakix-navigation h4 a:hover {
   color: #FE4536; }
-
-.post-card.style-four {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  border: none;
-  padding: 0;
-  gap: 28px; }
-  .post-card.style-four:hover .image img {
-    -webkit-transform: scale(1.05);
-            transform: scale(1.05); }
-  .post-card.style-four .image img {
-    width: 100%;
-    height: 100%;
-    border-radius: 12px;
-    -webkit-transition: all 0.5s ease-out;
-    transition: all 0.5s ease-out; }
-  .post-card.style-four .content .title:hover {
-    color: #005bac; }
-  .post-card.style-four .content .post-meta span {
-    color: #ff6731;
-    line-height: 30px;
-    font-weight: 700; }
-    .post-card.style-four .content .post-meta span:last-child {
-      display: block; }
-    .post-card.style-four .content .post-meta span:first-child:before {
-      display: none; }
-  .post-card.style-four .content .post-meta .date {
-    color: #778196;
-    font-weight: 400; }
-
-.post-card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 30px 35px 25px 35px;
-  border: 1px solid #778196;
-  border-radius: 12px;
-  gap: 60px;
-  margin-bottom: 25px; }
-  .post-card .overlay {
-    width: 100%;
-    height: 100%;
-    background: #393d48;
-    opacity: 24%; }
-  .post-card .content {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between; }
-    .post-card .content .post-meta {
-      color: #ff6731;
-      font-size: 16px;
-      line-height: 28px;
-      font-weight: 700;
-      margin: 0;
-      display: -webkit-inline-box;
-      display: -ms-inline-flexbox;
-      display: inline-flex;
-      gap: 17px;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center; }
-      .post-card .content .post-meta span {
-        margin: 0; }
-        .post-card .content .post-meta span:before {
-          background-color: #b8bfcc;
-          width: 1px;
-          display: -webkit-inline-box;
-          display: -ms-inline-flexbox;
-          display: inline-flex;
-          height: 12px;
-          content: "";
-          margin-right: 17px; }
-        .post-card .content .post-meta span:last-child {
-          display: none; }
-        .post-card .content .post-meta span:first-child:before {
-          display: none; }
-    .post-card .content .title {
-      font-size: 21px;
-      line-height: 30px;
-      font-weight: 700;
-      margin: 0;
-      color: #393d48; }
-  .post-card .date {
-    margin-bottom: 0; }
-  .post-card .date-bottom {
-    font-size: 16px;
-    line-height: 18px;
-    font-weight: 400;
-    margin-bottom: 0;
-    color: #778196; }
-  @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .post-card {
-      padding: 20px 25px;
-      gap: 55px; }
-      .post-card .content .post-meta {
-        font-size: 14px; }
-      .post-card .content .title {
-        font-size: 16px;
-        line-height: 26px; } }
 
 .basic-pagination,
 .page-links {
