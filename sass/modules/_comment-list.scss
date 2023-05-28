@@ -16,16 +16,13 @@
 .latest-comments {
   li {
 
-    //&.depth-1 {
-    //  > .comments-box {
-    //    border-top: 0;
-    //    padding-top: 0;
-    //  }
-    //}
-
     .children {
       .comments-box {
         margin-left: 50px;
+
+        @include sm {
+          margin-left: 0;
+        }
       }
       .children {
         .comments-box {
@@ -44,6 +41,10 @@
       .comments-avatar {
         float: left;
 
+        @include sm {
+          float: inherit;
+          margin-bottom: 20px;
+        }
         img {
           margin-right: 30px;
           width: 100px;
@@ -93,6 +94,11 @@
           position: absolute;
           top: 0;
           right: 0;
+
+          @include sm {
+            position: unset;
+            margin-top: 10px;
+          }
 
           &:hover {
             background-color: $orange-color;

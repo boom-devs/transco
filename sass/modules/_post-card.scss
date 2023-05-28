@@ -59,6 +59,8 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+      flex-wrap: wrap;
+      gap: 30px;
     }
   }
   /* Quote Format Post */
@@ -186,6 +188,10 @@
       color: $secondary-color;
       margin-bottom: 0;
       margin-right: 28px;
+
+      @include sm {
+        width: 100%;
+      }
     }
     a {
       color: $text-color;

@@ -1,3 +1,11 @@
+.sidebar {
+  padding-left: 13px;
+
+  @include rmaxwd(991) {
+    padding-left: 0;
+    padding-top: 40px;
+  }
+}
 .page-sidebar {
   margin-bottom: 50px;
   padding-left: 18px;
@@ -125,7 +133,13 @@
       color: $white;
       @include transition;
       border-radius: 50px;
+      flex-shrink: 0;
+      flex-wrap: wrap;
 
+      @include rmaxwd(1199) {
+        width: 40px;
+        height: 40px;
+      }
       &.facebook {
         background-color: #1877f2;
       }

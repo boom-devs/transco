@@ -1919,6 +1919,9 @@ blockquote {
   position: relative;
   z-index: 1;
   padding-left: 60px; }
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    blockquote {
+      padding-left: 30px; } }
   blockquote p {
     font-family: "Roboto", sans-serif;
     font-size: 24px;
@@ -1926,6 +1929,10 @@ blockquote {
     line-height: 32px;
     font-weight: 400;
     font-style: italic; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      blockquote p {
+        font-size: 18px;
+        line-height: 28px; } }
     blockquote p a {
       color: #005bac;
       text-decoration: underline; }
@@ -5952,7 +5959,10 @@ button.testimonial-arrow-btn {
               justify-content: space-between;
       -webkit-box-align: center;
           -ms-flex-align: center;
-              align-items: center; }
+              align-items: center;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      gap: 30px; }
   .single-post-item.format-quote .post-content {
     margin: 0; }
   .single-post-item.format-quote blockquote {
@@ -6056,6 +6066,9 @@ button.testimonial-arrow-btn {
       color: #393d48;
       margin-bottom: 0;
       margin-right: 28px; }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .single-post-item .blog-post-tag span {
+          width: 100%; } }
     .single-post-item .blog-post-tag a {
       color: #5e6f92;
       display: inline-block;
@@ -6392,6 +6405,13 @@ button.testimonial-arrow-btn {
       transition: all 0.5s ease-out; }
 
 /* 17.Sidebar */
+.sidebar {
+  padding-left: 13px; }
+  @media (max-width: 991px) {
+    .sidebar {
+      padding-left: 0;
+      padding-top: 40px; } }
+
 .page-sidebar {
   margin-bottom: 50px;
   padding-left: 18px; }
@@ -6503,7 +6523,15 @@ button.testimonial-arrow-btn {
       color: #ffffff;
       -webkit-transition: all 0.5s ease-out;
       transition: all 0.5s ease-out;
-      border-radius: 50px; }
+      border-radius: 50px;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+      @media (max-width: 1199px) {
+        .widget .social-widget a {
+          width: 40px;
+          height: 40px; } }
       .widget .social-widget a.facebook {
         background-color: #1877f2; }
       .widget .social-widget a.twitter {
@@ -6984,6 +7012,9 @@ button.testimonial-arrow-btn {
 
 .latest-comments li .children .comments-box {
   margin-left: 50px; }
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .latest-comments li .children .comments-box {
+      margin-left: 0; } }
 .latest-comments li .children .children .comments-box {
   margin-left: 100px;
   border-top: 1px solid #D2D2D2; }
@@ -6994,6 +7025,10 @@ button.testimonial-arrow-btn {
   margin-bottom: 24px; }
   .latest-comments li .comments-box .comments-avatar {
     float: left; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .latest-comments li .comments-box .comments-avatar {
+        float: inherit;
+        margin-bottom: 20px; } }
     .latest-comments li .comments-box .comments-avatar img {
       margin-right: 30px;
       width: 100px;
@@ -7044,6 +7079,10 @@ button.testimonial-arrow-btn {
       position: absolute;
       top: 0;
       right: 0; }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .latest-comments li .comments-box .comments-text .comment-reply-link {
+          position: unset;
+          margin-top: 10px; } }
       .latest-comments li .comments-box .comments-text .comment-reply-link:hover {
         background-color: #ff6731;
         color: #ffffff;
@@ -7087,6 +7126,10 @@ ul.children {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between; }
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .post-comments-title h2 {
+      font-size: 28px;
+      margin-bottom: 20px; } }
   .post-comments-title h2 small {
     font-size: 16px;
     font-family: "Roboto", sans-serif;
@@ -7096,6 +7139,9 @@ ul.children {
   background-color: #eef5f8;
   padding: 50px;
   border-radius: 8px; }
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .comment-respond {
+      padding: 30px; } }
   .comment-respond .contacts-email,
   .comment-respond .contacts-name,
   .comment-respond .single-input-field,
