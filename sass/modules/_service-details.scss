@@ -80,4 +80,7 @@
             color: $text-color;
         }
     }
+    @include sm {
+        padding: 65px 0;
+    }
 }
