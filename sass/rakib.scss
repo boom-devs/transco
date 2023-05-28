@@ -30,7 +30,7 @@ $text-gray-light: #6a6c73;
 @import "modules/service";
 
 /* Process CSS */
-@import "modules/process";
+//@import "modules/process";
 
 /* Pricing CSS */
 @import "modules/pricing";
@@ -130,6 +130,12 @@ $text-gray-light: #6a6c73;
 
 /* Team-member-page CSS */
 @import "pages/team-member";
+
+/* Service-page CSS */
+@import "pages/service-page";
+
+/* Accordion-style-four CSS */
+@import "modules/accordion-style-four";
 
 .common-card-wrapper {
   background: #4566d4;

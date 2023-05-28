@@ -8079,7 +8079,7 @@ ul.children {
   -webkit-animation: MoveLeftRight 2s linear infinite alternate;
           animation: MoveLeftRight 2s linear infinite alternate; }
 
-.appointment-area {
+.home-one-appointment-area {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -8087,12 +8087,14 @@ ul.children {
   position: relative;
   z-index: 2; }
   @media (max-width: 991px) {
-    .appointment-area {
+    .home-one-appointment-area {
       padding: 100px 0; } }
-  @media (max-width: 991px) {
-    .appointment-area .accordion-wrapper.pl-90 {
-      padding-left: 0;
-      margin-top: 50px; } }
+  .home-one-appointment-area .accordion-wrapper {
+    padding-left: 90px; }
+    @media (max-width: 1199px) {
+      .home-one-appointment-area .accordion-wrapper {
+        padding-left: 0;
+        margin-top: 50px; } }
 
 .appointment-squre-shape {
   width: 200px;
