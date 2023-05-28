@@ -17,7 +17,7 @@
     background-color: $white;
     top: 50%;
     transform: translateY(-50%);
-    z-index: 1
+    z-index: 1;
   }
   .slick-list {
     overflow: visible;
@@ -58,7 +58,6 @@
       justify-content: center;
       margin-top: 50px;
     }
-
 
     li {
       display: inline-block;
@@ -101,6 +100,10 @@
       right: 30px;
     }
   }
+  &:before,
+  &:after {
+    background: #f3f7fc;
+  }
 }
 
 // Slick Nav Arrow Button
@@ -117,7 +120,7 @@ button.testimonial-arrow-btn {
   bottom: 0;
   overflow: hidden;
 
-  i{
+  i {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -126,12 +129,12 @@ button.testimonial-arrow-btn {
     font-size: 21px;
     @include transition;
   }
-  &:hover{
+  &:hover {
     @include transition;
     @include gradient-color-red;
     border-color: $orange-color;
 
-    i{
+    i {
       color: $white;
       @include transition;
     }
