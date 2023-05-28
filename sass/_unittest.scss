@@ -242,6 +242,9 @@ blockquote {
   position: relative;
   z-index: 1;
   padding-left: 60px;
+  @include sm {
+    padding-left: 30px;
+  }
   //background-color: $white;
 
   //&:before {
@@ -266,6 +269,10 @@ blockquote {
     //margin-top: 10px;
     font-style: italic;
 
+    @include sm {
+      font-size: 18px;
+      line-height: 28px;
+    }
     a {
       color: $primary-color;
       text-decoration: underline;
