@@ -207,12 +207,12 @@
                 "<button type='button' class='testimonial-arrow-btn next-btn'><i class='fa-solid fa-angle-right'></i></button>",
             responsive: [
                 {
-                    breakpoint: 767,
+                    breakpoint: 1200,
                     settings: {
                         autoplay: true,
                         slidesToShow: 1,
                     },
-                },
+                }
             ],
         });
 

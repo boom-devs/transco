@@ -2,6 +2,9 @@
   .main-img-wrapper {
     text-align: right;
 
+    @include lg {
+      text-align: center;
+    }
     @include md {
       text-align: center;
     }
