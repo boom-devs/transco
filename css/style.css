@@ -5120,7 +5120,8 @@ button.testimonial-arrow-btn {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse; }
+          flex-direction: row-reverse;
+  padding: 12px 0; }
   .accordion-wrapper .accordion-list-item .accordion-head .accordion-title {
     font-size: 21px;
     line-height: 32px;
@@ -5159,8 +5160,7 @@ button.testimonial-arrow-btn {
   background-color: #ff6731;
   color: #ffffff; }
 .accordion-wrapper.style-two .accordion-list-item .accordion-head {
-  border-top: 1px solid #395670;
-  padding: 12px 0; }
+  border-top: 1px solid #395670; }
   .accordion-wrapper.style-two .accordion-list-item .accordion-head .icon {
     background-color: #ffffff;
     border-radius: 50px;
@@ -8653,5 +8653,4 @@ ul.children {
     .time-card-wrapper .time-card-arrow i {
       font-size: 16px;
       color: #ffffff; }
-
 /*# sourceMappingURL=style.css.map */
