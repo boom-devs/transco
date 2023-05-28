@@ -43,7 +43,6 @@
     padding: 100px 0;
   }
 
-
 }
 .counter-squre-shape {
   width: 245px;
@@ -165,5 +164,14 @@
 
   .section-title {
     margin-bottom: 70px;
+  }
+}
+
+// Testimonial Area
+.home-one-testimonial-area {
+  padding: 145px 0;
+
+  @include rmaxwd(991) {
+    padding: 100px 0;
   }
 }

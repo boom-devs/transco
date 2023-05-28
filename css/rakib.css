@@ -275,6 +275,17 @@ input:focus {
       transform: translateY(-50%);
       z-index: 2;
       flex-direction: column; }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .slider-area .slider-wrapper .slick-dots {
+          position: relative;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+          bottom: 70px;
+          top: unset;
+          left: unset;
+          right: unset;
+          transform: none; } }
       .slider-area .slider-wrapper .slick-dots li {
         display: inline-block;
         line-height: 0;
@@ -287,8 +298,7 @@ input:focus {
           padding: 0;
           width: 17px;
           height: 17px;
-          background-color: #b2bacb;
-          background-color: #b2bacb;
+          background-color: #c3e4de;
           border-radius: 50px;
           position: relative;
           transition: all 0.5s ease-out; }
