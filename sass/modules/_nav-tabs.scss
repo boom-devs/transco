@@ -1,18 +1,28 @@
 .nav-tab {
     list-style: none;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    padding: 10px 0;
-    gap: 48px;
-    border-bottom: 1px solid $secondary-color;
-    .tab-item {
+    padding-left: 0;
+    //display: flex;
+    //justify-content: start;
+    //align-items: center;
+    //padding: 10px 0;
+    //gap: 48px;
+    //border-bottom: 1px solid $secondary-color;
+    li {
         position: relative;
-        .item-link {
+        display: inline-block;
+        line-height: 0;
+        margin-right: 50px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+        a {
             color: $secondary-color;
             font-family: $heading-font;
+            display: inline-block;
             font-size: 21px;
-            line-height: 60px;
+            line-height: 20px;
+            padding: 18px 0;
             font-weight: 700;
             margin: 0;
         }

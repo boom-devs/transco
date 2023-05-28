@@ -36,6 +36,24 @@
             }
         });
 
+
+
+        /*
+        Jquery Tab
+        ============================*/
+        $('.nav-tab li:first-child').addClass('active');
+        $('.tab-content').hide();
+        $('.tab-content:first').show();
+        $('.nav-tab li').on('click', function(){
+            $('.nav-tab li').removeClass('active');
+            $(this).addClass('active');
+            $('.tab-content').hide();
+            var activeTab = $(this).find('a').attr('href');
+            $(activeTab).fadeIn();
+            return false;
+        });
+
+
         /*
         Jquery Accordion
         ============================*/

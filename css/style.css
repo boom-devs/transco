@@ -8299,4 +8299,63 @@ ul.children {
     .home-three-our-service-area {
       padding-top: 100px;
       padding-bottom: 80px; } }
+
+.about-page-counter-area {
+  padding: 145px 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  -o-object-fit: cover;
+     object-fit: cover; }
+
+.about-page-faq-area {
+  padding: 145px 0; }
+
+.nav-tab {
+  list-style: none;
+  padding-left: 0; }
+  .nav-tab li {
+    position: relative;
+    display: inline-block;
+    line-height: 0;
+    margin-right: 50px; }
+    .nav-tab li:last-child {
+      margin-right: 0; }
+    .nav-tab li a {
+      color: #393d48;
+      font-family: "Poppins", sans-serif;
+      display: inline-block;
+      font-size: 21px;
+      line-height: 20px;
+      padding: 18px 0;
+      font-weight: 700;
+      margin: 0; }
+    .nav-tab li .active:before {
+      content: "";
+      width: 100%;
+      height: 1px;
+      position: absolute;
+      bottom: -10px;
+      background: blue; }
+    .nav-tab li:hover .item-link:before {
+      content: "";
+      width: 100%;
+      height: 1px;
+      position: absolute;
+      bottom: -10px;
+      background: blue; }
+
+.tab-content .tab-text {
+  color: #5e6f92;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  margin: 0; }
+.tab-content .image {
+  width: 100%;
+  height: 100%; }
+  .tab-content .image img {
+    border-radius: 8px;
+    height: 100%; }
+
 /*# sourceMappingURL=style.css.map */
