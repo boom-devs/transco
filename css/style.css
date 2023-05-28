@@ -4785,11 +4785,23 @@ a.meanmenu-reveal {
           flex-direction: column;
   gap: 30px;
   border-radius: 10px; }
+  .testimonial-card .content-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 30px; }
   .testimonial-card .content .text {
     margin: 0;
     font-size: 23px;
     line-height: 36px;
     font-weight: 400; }
+    @media only screen and (min-width: 1200px) and (max-width: 1399px) {
+      .testimonial-card .content .text {
+        font-size: 16px; } }
   .testimonial-card .meta-user {
     width: 100%;
     display: -webkit-box;
@@ -4832,7 +4844,7 @@ a.meanmenu-reveal {
         .testimonial-card .meta-user .user-info .info h2 {
           margin: 0;
           font-size: 21px;
-          line-height: 45px;
+          line-height: 28px;
           font-weight: 700;
           color: #393d48; }
         .testimonial-card .meta-user .user-info .info p {
@@ -4841,26 +4853,12 @@ a.meanmenu-reveal {
           line-height: 30px;
           font-weight: 400;
           color: #778196; }
-  @media only screen and (min-width: 0px) and (max-width: 767px) {
-    .testimonial-card {
-      padding: 25px; }
-      .testimonial-card .content {
-        margin-bottom: 15px; }
-      .testimonial-card .meta-user .user-info {
-        gap: 5px; } }
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .testimonial-card {
-      padding: 25px; }
-      .testimonial-card .content {
-        margin-bottom: 15px; }
-      .testimonial-card .meta-user .user-info {
-        gap: 5px; }
-      .testimonial-card .meta-user .icon {
-        width: 50px;
-        height: 50px; } }
 
 .testimonial-card.style-two {
   padding: 58px; }
+  @media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    .testimonial-card.style-two {
+      padding: 30px; } }
   .testimonial-card.style-two .icon {
     -ms-flex-item-align: self-start;
         align-self: self-start; }
@@ -8024,6 +8022,7 @@ ul.children {
   background: linear-gradient(65deg, #e30008 0%, #faae00 100%);
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
+  right: -90px;
   bottom: -80px;
   position: absolute; }
 

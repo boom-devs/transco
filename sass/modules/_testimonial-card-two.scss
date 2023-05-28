@@ -1,6 +1,9 @@
 .testimonial-card {
     &.style-two {
         padding: 58px;
+        @media only screen and (min-width: 1200px) and (max-width: 1399px) {
+            padding: 30px;
+        }
 
         .icon {
             align-self: self-start;
