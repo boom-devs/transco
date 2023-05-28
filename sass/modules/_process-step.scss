@@ -9,6 +9,9 @@
     background: $white;
     margin-bottom: 78px;
 
+    @include rmaxwd(991) {
+        margin-bottom: 24px;
+    }
     .count {
         display: flex;
         align-items: center;

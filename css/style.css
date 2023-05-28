@@ -4613,6 +4613,9 @@ a.meanmenu-reveal {
   border-radius: 10px;
   background: #ffffff;
   margin-bottom: 78px; }
+  @media (max-width: 991px) {
+    .process-step {
+      margin-bottom: 24px; } }
   .process-step .count {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -8057,9 +8060,16 @@ ul.children {
   .service-area .section-title {
     margin-bottom: 70px; }
 
-.process-step-area {
+.home-one-process-step-area {
   background-color: #31373f;
-  padding-top: 144px; }
+  padding-top: 145px; }
+  @media (max-width: 991px) {
+    .home-one-process-step-area {
+      padding-top: 100px;
+      padding-bottom: 76px; } }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .home-one-process-step-area {
+      padding-bottom: 67px; } }
 
 .process-image {
   margin-bottom: -70px;

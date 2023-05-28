@@ -90,9 +90,18 @@
 }
 
 // Process Step Area
-.process-step-area {
+.home-one-process-step-area {
   background-color: $black-200;
-  padding-top: 144px;
+  padding-top: 145px;
+
+  @include rmaxwd(991) {
+    padding-top: 100px;
+    padding-bottom: 76px;
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    padding-bottom: 67px;
+  }
+
 }
 .process-image {
   margin-bottom: -70px;
