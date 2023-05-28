@@ -4474,6 +4474,19 @@ a.meanmenu-reveal {
       height: 100px;
       background-color: rgba(255, 103, 49, 0.84);
       background-image: none; }
+  .video-popup-card.style-three {
+    overflow: visible;
+    padding: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
+    .video-popup-card.style-three .video-popup-image {
+      border-radius: 12px;
+      overflow: hidden; }
+    .video-popup-card.style-three .video-popup-btn {
+      left: 0; }
+      .video-popup-card.style-three .video-popup-btn a {
+        background: #e30008;
+        background: linear-gradient(65deg, #e30008 0%, #faae00 100%); }
 
 .counter-card {
   z-index: 1;
@@ -4992,6 +5005,8 @@ a.meanmenu-reveal {
       left: 30px; }
     .testimonial-slider-wrapper button.testimonial-arrow-btn.next-btn {
       right: 30px; }
+  .testimonial-slider-wrapper:before, .testimonial-slider-wrapper:after {
+    background: #f3f7fc; }
 
 button.testimonial-arrow-btn {
   position: relative;
@@ -8284,5 +8299,4 @@ ul.children {
     .home-three-our-service-area {
       padding-top: 100px;
       padding-bottom: 80px; } }
-
 /*# sourceMappingURL=style.css.map */

@@ -7,7 +7,6 @@
   overflow: hidden;
 
   .video-popup-image {
-
     img {
       width: 100%;
       height: 100%;
@@ -77,5 +76,19 @@
       }
     }
   }
+  &.style-three {
+    overflow: visible;
+    padding: 0;
+    box-shadow: none;
+    .video-popup-image {
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    .video-popup-btn {
+      left: 0;
+      a {
+        @include gradient-color-red;
+      }
+    }
+  }
 }
-
