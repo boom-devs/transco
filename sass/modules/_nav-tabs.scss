@@ -1,12 +1,7 @@
 .nav-tab {
     list-style: none;
     padding-left: 0;
-    //display: flex;
-    //justify-content: start;
-    //align-items: center;
-    //padding: 10px 0;
-    //gap: 48px;
-    //border-bottom: 1px solid $secondary-color;
+    border-bottom: 1px solid #dfe2e9;
     li {
         position: relative;
         display: inline-block;
@@ -25,46 +20,39 @@
             padding: 18px 0;
             font-weight: 700;
             margin: 0;
-        }
-        .active {
+            position: relative;
+
+            &:hover {
+                color: $orange-color;
+            }
             &:before {
                 content: "";
-                width: 100%;
+                width: 0;
                 height: 1px;
                 position: absolute;
-                bottom: -10px;
-                background: blue;
+                bottom: -1px;
+                left: 0;
+                background-color: $orange-color;
+                opacity: 0;
+                visibility: hidden;
+                @include transition
             }
         }
-        &:hover {
-            .item-link {
+        &.active {
+            a {
                 &:before {
-                    content: "";
                     width: 100%;
-                    height: 1px;
-                    position: absolute;
-                    bottom: -10px;
-                    background: blue;
+                    visibility: visible;
+                    opacity: 1;
+                    @include transition
                 }
             }
+
         }
     }
 }
 .tab-content {
-    .tab-text {
-        color: $text-color;
-        font-family: $body-font;
-        font-size: 18px;
-        line-height: 30px;
-        font-weight: 400;
-        margin: 0;
-    }
-    .image {
-        width: 100%;
-        height: 100%;
-        img {
-            border-radius: 8px;
-            height: 100%;
-        }
+    img {
+        border-radius: 8px;
     }
 }

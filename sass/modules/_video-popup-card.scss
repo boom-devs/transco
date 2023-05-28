@@ -86,6 +86,10 @@
     }
     .video-popup-btn {
       left: 0;
+
+      @include rmaxwd(1199) {
+        left: 50%;
+      }
       a {
         @include gradient-color-red;
       }

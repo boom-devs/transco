@@ -4484,6 +4484,9 @@ a.meanmenu-reveal {
       overflow: hidden; }
     .video-popup-card.style-three .video-popup-btn {
       left: 0; }
+      @media (max-width: 1199px) {
+        .video-popup-card.style-three .video-popup-btn {
+          left: 50%; } }
       .video-popup-card.style-three .video-popup-btn a {
         background: #e30008;
         background: linear-gradient(65deg, #e30008 0%, #faae00 100%); }
@@ -4908,22 +4911,6 @@ a.meanmenu-reveal {
 
 .testimonial-slider-wrapper {
   position: relative; }
-  .testimonial-slider-wrapper:before {
-    left: -200%;
-    margin-left: -15px; }
-  .testimonial-slider-wrapper:after {
-    right: -200%;
-    margin-right: -15px; }
-  .testimonial-slider-wrapper:before, .testimonial-slider-wrapper:after {
-    position: absolute;
-    content: "";
-    width: 200%;
-    height: 200%;
-    background-color: #ffffff;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
-    z-index: 1; }
   .testimonial-slider-wrapper .slick-list {
     overflow: visible; }
     .testimonial-slider-wrapper .slick-list .slick-slide {
@@ -5016,7 +5003,7 @@ button.testimonial-arrow-btn {
   -webkit-transition: 0.3s;
   transition: 0.3s;
   z-index: 99;
-  background-color: #ffffff;
+  background-color: transparent;
   border: 1px solid #dfe2e9;
   cursor: pointer;
   bottom: 0;
@@ -5206,6 +5193,33 @@ button.testimonial-arrow-btn {
         -webkit-filter: none;
                 filter: none;
         opacity: 1; }
+
+.client-logo-wrapper.style-two {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 60px 30px; }
+  .client-logo-wrapper.style-two .client-logo {
+    cursor: pointer;
+    overflow: hidden;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out; }
+    .client-logo-wrapper.style-two .client-logo img {
+      -webkit-filter: grayscale(100%);
+              filter: grayscale(100%);
+      opacity: 0.65;
+      -webkit-transition: all 0.5s ease-out;
+      transition: all 0.5s ease-out; }
+    .client-logo-wrapper.style-two .client-logo:hover {
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1); }
+      .client-logo-wrapper.style-two .client-logo:hover img {
+        -webkit-filter: none;
+                filter: none;
+        opacity: 1; }
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .client-logo-wrapper.style-two {
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 30px 30px; } }
 
 .post-card {
   display: -webkit-box;
@@ -8306,13 +8320,40 @@ ul.children {
   background-position: center;
   -o-object-fit: cover;
      object-fit: cover; }
+  @media (max-width: 991px) {
+    .about-page-counter-area {
+      padding: 100px 0; } }
 
 .about-page-faq-area {
   padding: 145px 0; }
+  @media (max-width: 991px) {
+    .about-page-faq-area {
+      padding: 100px 0; } }
+  .about-page-faq-area .video-popup-card.style-three {
+    margin-left: 160px; }
+    @media (max-width: 1199px) {
+      .about-page-faq-area .video-popup-card.style-three {
+        margin-left: 0;
+        margin-top: 80px; } }
+
+.about-page-timeline-area {
+  background-color: #f3f7fc;
+  padding: 145px 0; }
+
+.about-page-testimonial-area {
+  background-color: #f3f7fc;
+  padding: 145px 0; }
+  @media (max-width: 991px) {
+    .about-page-testimonial-area {
+      padding: 100px 0; } }
+
+.about-page-client-logo-area {
+  padding: 100px 0; }
 
 .nav-tab {
   list-style: none;
-  padding-left: 0; }
+  padding-left: 0;
+  border-bottom: 1px solid #dfe2e9; }
   .nav-tab li {
     position: relative;
     display: inline-block;
@@ -8328,34 +8369,240 @@ ul.children {
       line-height: 20px;
       padding: 18px 0;
       font-weight: 700;
-      margin: 0; }
-    .nav-tab li .active:before {
-      content: "";
+      margin: 0;
+      position: relative; }
+      .nav-tab li a:hover {
+        color: #ff6731; }
+      .nav-tab li a:before {
+        content: "";
+        width: 0;
+        height: 1px;
+        position: absolute;
+        bottom: -1px;
+        left: 0;
+        background-color: #ff6731;
+        opacity: 0;
+        visibility: hidden;
+        -webkit-transition: all 0.5s ease-out;
+        transition: all 0.5s ease-out; }
+    .nav-tab li.active a:before {
       width: 100%;
-      height: 1px;
-      position: absolute;
-      bottom: -10px;
-      background: blue; }
-    .nav-tab li:hover .item-link:before {
-      content: "";
-      width: 100%;
-      height: 1px;
-      position: absolute;
-      bottom: -10px;
-      background: blue; }
+      visibility: visible;
+      opacity: 1;
+      -webkit-transition: all 0.5s ease-out;
+      transition: all 0.5s ease-out; }
 
-.tab-content .tab-text {
-  color: #5e6f92;
-  font-family: "Roboto", sans-serif;
-  font-size: 18px;
-  line-height: 30px;
-  font-weight: 400;
-  margin: 0; }
-.tab-content .image {
-  width: 100%;
-  height: 100%; }
-  .tab-content .image img {
-    border-radius: 8px;
-    height: 100%; }
+.tab-content img {
+  border-radius: 8px; }
+
+.time-card-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #f3f7fc; }
+  .time-card-wrapper .time-card-item {
+    width: 100%;
+    padding: 30px 96px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+    position: relative; }
+    .time-card-wrapper .time-card-item:nth-of-type(even) {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: reverse;
+          -ms-flex-direction: row-reverse;
+              flex-direction: row-reverse; }
+    .time-card-wrapper .time-card-item::after {
+      content: "";
+      width: 3px;
+      height: 100%;
+      right: 0;
+      left: 50%;
+      top: 0;
+      position: absolute;
+      background: #dde4f6; }
+    .time-card-wrapper .time-card-item .time-card-desc {
+      width: 424px;
+      height: 250px;
+      background: #ffffff;
+      border-radius: 8px;
+      position: relative;
+      overflow: hidden; }
+      .time-card-wrapper .time-card-item .time-card-desc .title {
+        padding: 8px 0;
+        background: #ff6731;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center; }
+        .time-card-wrapper .time-card-item .time-card-desc .title h2 {
+          margin: 0;
+          font-family: "Poppins", sans-serif;
+          font-size: 21px;
+          line-height: 60px;
+          font-weight: 700;
+          color: #ffffff; }
+      .time-card-wrapper .time-card-item .time-card-desc .desc {
+        padding: 40px; }
+        .time-card-wrapper .time-card-item .time-card-desc .desc p {
+          margin: 0;
+          font-family: "Roboto", sans-serif;
+          font-size: 18px;
+          line-height: 30px;
+          font-weight: 400;
+          color: #5e6f92; }
+        @media only screen and (min-width: 0px) and (max-width: 767px) {
+          .time-card-wrapper .time-card-item .time-card-desc .desc {
+            padding: 20px; } }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .time-card-wrapper .time-card-item .time-card-desc {
+          width: 300px; } }
+    .time-card-wrapper .time-card-item .circle-wrapper {
+      padding: 30px 117px;
+      position: relative;
+      overflow: hidden; }
+      .time-card-wrapper .time-card-item .circle-wrapper .time-card-circle {
+        min-width: 18px;
+        min-height: 18px;
+        border-radius: 50px;
+        background: #ff6731;
+        -ms-flex-negative: 0;
+            flex-shrink: 0;
+        position: relative;
+        z-index: 3; }
+      .time-card-wrapper .time-card-item .circle-wrapper:after {
+        content: "";
+        width: 100%;
+        height: 3px;
+        right: 0;
+        left: 0;
+        top: 49%;
+        position: absolute;
+        background: #dde4f6; }
+        @media only screen and (min-width: 0px) and (max-width: 767px) {
+          .time-card-wrapper .time-card-item .circle-wrapper:after {
+            width: 3px;
+            height: 100%;
+            top: 0;
+            left: 50%; } }
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+          .time-card-wrapper .time-card-item .circle-wrapper:after {
+            width: 3px;
+            height: 100%;
+            top: 0;
+            left: 50%; } }
+      @media only screen and (min-width: 992px) and (max-width: 1199px) {
+        .time-card-wrapper .time-card-item .circle-wrapper {
+          padding: 30px 33px; } }
+    .time-card-wrapper .time-card-item .time-card-time {
+      min-width: 174px;
+      min-height: 50px;
+      border-radius: 24px;
+      background: #1eae98;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+      z-index: 2;
+      margin-top: 14px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      position: relative; }
+      .time-card-wrapper .time-card-item .time-card-time p {
+        margin: 0;
+        color: #ffffff;
+        font-size: 18px;
+        line-height: 30px;
+        font-weight: 700;
+        color: #ffffff; }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .time-card-wrapper .time-card-item .time-card-time {
+          -ms-flex-negative: 0;
+              flex-shrink: 0; } }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .time-card-wrapper .time-card-item {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+        padding: 0;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        padding-bottom: 30px; }
+        .time-card-wrapper .time-card-item:nth-of-type(even) {
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: reverse;
+              -ms-flex-direction: column-reverse;
+                  flex-direction: column-reverse; }
+        .time-card-wrapper .time-card-item:after {
+          display: none; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .time-card-wrapper .time-card-item {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+        padding: 30px 0;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        padding-bottom: 30px; }
+        .time-card-wrapper .time-card-item:nth-of-type(even) {
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: reverse;
+              -ms-flex-direction: column-reverse;
+                  flex-direction: column-reverse; }
+        .time-card-wrapper .time-card-item:after {
+          display: none; } }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .time-card-wrapper .time-card-item {
+        padding: 30px 0; } }
+    @media only screen and (min-width: 1200px) and (max-width: 1439px) {
+      .time-card-wrapper .time-card-item {
+        padding: 30px 8px; } }
+  .time-card-wrapper .time-card-arrow {
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    width: 42px;
+    height: 42px;
+    border-radius: 50px;
+    background: #ff6731;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .time-card-wrapper .time-card-arrow i {
+      font-size: 16px;
+      color: #ffffff; }
 
 /*# sourceMappingURL=style.css.map */
