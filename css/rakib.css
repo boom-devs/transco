@@ -2733,13 +2733,6 @@ input:focus {
   bottom: -10px;
   background: blue;
 }
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .nav-tab {
-    flex-direction: row;
-    align-items: start;
-    gap: 10px;
-  }
-}
 
 .tab-content .tab-text {
   color: #5e6f92;
