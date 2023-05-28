@@ -1,5 +1,4 @@
 .accordion-wrapper {
-
   &.style-two {
     .accordion-list-item {
       &.open {
@@ -12,7 +11,6 @@
       }
       .accordion-head {
         border-top: 1px solid #395670;
-        padding: 12px 0;
 
         .icon {
           background-color: $white;
