@@ -95,12 +95,11 @@
 
 // Accordion Area
 .home-two-accordion-area {
+  padding: 145px 0;
   z-index: 2;
 
-  &.py-145 {
-    @include rmaxwd(991) {
-      padding: 100px 0;
-    }
+  @include rmaxwd(991) {
+    padding: 100px 0;
   }
   .accordion-wrapper {
     @include rmaxwd(991) {
@@ -112,7 +111,7 @@
 .triangle-image-shape-wrapper {
   position: absolute;
   width: 760px;
-  top: -140px;
+  top: -200px;
   left: 0;
   z-index: -1;
 

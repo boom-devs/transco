@@ -2,22 +2,15 @@
   position: relative;
 
   .slick-list {
-    overflow: visible;
+    padding-bottom: 100px;
 
+    @include sm {
+      padding-bottom: 60px;
+    }
     .slick-slide {
       margin: 0 50px;
-      visibility: hidden;
-      opacity: 0;
-      @include transition;
-
       @include rmaxwd(1199) {
         margin: 0 14px;
-      }
-
-      &.slick-active {
-        @include transition;
-        visibility: visible;
-        opacity: 1;
       }
     }
   }
@@ -27,7 +20,6 @@
     gap: 20px;
     flex-direction: row;
     justify-content: center;
-    margin-top: 85px;
 
     li {
       display: inline-block;
