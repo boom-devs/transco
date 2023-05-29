@@ -158,13 +158,18 @@
 
 // About Us Area
 .home-two-about-us-area {
+  padding: 145px 0;
+
+  @include rmaxwd(991) {
+    padding: 100px 0;
+  }
   .about-info-card {
     .about-info-content {
       padding-left: 60px;
 
-      @include rmaxwd(991) {
+      @include rmaxwd(1199) {
         padding-left: 0;
-        padding-top: 300px;
+        padding-top: 330px;
       }
       @include rmaxwd(650) {
         padding-top: 100px;

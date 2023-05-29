@@ -3,6 +3,9 @@
     .main-img-wrapper {
       text-align: left;
 
+      @include lg {
+        text-align: center;
+      }
       @include md {
         text-align: center;
       }
