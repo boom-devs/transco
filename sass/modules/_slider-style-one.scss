@@ -52,10 +52,12 @@
       flex-direction: column;
 
       @include sm {
+        display: none !important;
         position: relative;
         flex-direction: row;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-end;
+        margin-right: 30px;
         bottom: 70px;
         top: unset;
         left: unset;
@@ -165,7 +167,7 @@
         @include sm {
           flex-direction: column-reverse;
           justify-content: center;
-          gap: 90px;
+          gap: 60px;
         }
         .slider-content {
           width: 50%;
@@ -239,35 +241,35 @@
           @include sm {
             width: 100%;
           }
-          &:before {
-            position: absolute;
-            content: "";
-            width: 640px;
-            height: 640px;
-            background-color: $orange-color;
-            border-radius: 500px;
-            top: 50%;
-            transform: translateY(-50%);
-            z-index: -1;
-            right: -125px;
-
-            @include lg {
-              width: 440px;
-              height: 440px;
-              right: 0;
-            }
-            @include md {
-              width: 340px;
-              height: 340px;
-              right: 0;
-            }
-            @include sm {
-              width: 340px;
-              height: 340px;
-              right: 0;
-              left: 0;
-            }
-          }
+          //&:before {
+          //  position: absolute;
+          //  content: "";
+          //  width: 640px;
+          //  height: 640px;
+          //  background-color: $orange-color;
+          //  border-radius: 500px;
+          //  top: 50%;
+          //  transform: translateY(-50%);
+          //  z-index: -1;
+          //  right: -125px;
+          //
+          //  @include lg {
+          //    width: 440px;
+          //    height: 440px;
+          //    right: 0;
+          //  }
+          //  @include md {
+          //    width: 340px;
+          //    height: 340px;
+          //    right: 0;
+          //  }
+          //  @include sm {
+          //    width: 340px;
+          //    height: 340px;
+          //    right: 0;
+          //    left: 0;
+          //  }
+          //}
         }
       }
   }
