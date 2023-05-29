@@ -44,3 +44,12 @@
     border-top: 408px solid $secondary-color;
     border-right: 165px solid transparent;
 }
+// Four
+.triangle-shape-card-four {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    border-bottom: 330px solid $orange-color;
+    border-left: 130px solid transparent;
+}

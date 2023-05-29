@@ -5865,6 +5865,14 @@ button.testimonial-arrow-btn {
   border-top: 408px solid #393d48;
   border-right: 165px solid transparent; }
 
+.triangle-shape-card-four {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  border-bottom: 330px solid #ff6731;
+  border-left: 130px solid transparent; }
+
 /* 8.Title Section */
 .section-title {
   display: -webkit-box;
