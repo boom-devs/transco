@@ -21,6 +21,9 @@
         left: -66px;
         transform: translateY(50%);
 
+        @media only screen and (min-width: 1200px) and (max-width: 1399px){
+          left: 50px;
+        }
         @include sm {
           left: 66px;
         }
@@ -34,6 +37,7 @@
         bottom: -170px;
         @include sm {
           left: -50px;
+          bottom: -50px;
         }
         @include md {
           left: -130px;
@@ -45,6 +49,9 @@
         border-radius: 12px;
         overflow: hidden;
 
+        @media only screen and (min-width: 1200px) and (max-width: 1399px){
+          right: -130px;
+        }
         @include sm {
           right: 30px;
           width: 200px;

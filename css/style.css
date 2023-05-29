@@ -4098,6 +4098,9 @@ a.meanmenu-reveal {
   left: -66px;
   -webkit-transform: translateY(50%);
           transform: translateY(50%); }
+  @media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    .about-image-card.style-two .img-card-wrapper.image-three {
+      left: 50px; } }
   @media only screen and (min-width: 0px) and (max-width: 767px) {
     .about-image-card.style-two .img-card-wrapper.image-three {
       left: 66px; } }
@@ -4110,7 +4113,8 @@ a.meanmenu-reveal {
   bottom: -170px; }
   @media only screen and (min-width: 0px) and (max-width: 767px) {
     .about-image-card.style-two .img-card-wrapper.image-four {
-      left: -50px; } }
+      left: -50px;
+      bottom: -50px; } }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .about-image-card.style-two .img-card-wrapper.image-four {
       left: -130px; } }
@@ -4119,6 +4123,9 @@ a.meanmenu-reveal {
   right: -200px;
   border-radius: 12px;
   overflow: hidden; }
+  @media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    .about-image-card.style-two .img-card-wrapper.image-five {
+      right: -130px; } }
   @media only screen and (min-width: 0px) and (max-width: 767px) {
     .about-image-card.style-two .img-card-wrapper.image-five {
       right: 30px;
@@ -8288,7 +8295,7 @@ ul.children {
       .home-two-about-us-area .about-info-card .about-info-content {
         padding-left: 0;
         padding-top: 330px; } }
-    @media (max-width: 650px) {
+    @media (max-width: 767px) {
       .home-two-about-us-area .about-info-card .about-info-content {
         padding-top: 100px; } }
 
