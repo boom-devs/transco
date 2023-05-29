@@ -3203,23 +3203,6 @@ input:focus {
   color: #5e6f92;
 }
 
-.list-item {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-.list-item li {
-  display: inline-flex;
-  gap: 15px;
-}
-.list-item li i {
-  color: #ff6731;
-  line-height: 30px;
-}
-.list-item li p {
-  margin: 0;
-}
-
 /* Client-logo CSS */
 .client-logo-wrapper.style-two {
   display: grid;
@@ -3282,6 +3265,25 @@ input:focus {
   .list-item {
     margin-bottom: 20px;
   }
+}
+.list-item.style-two {
+  gap: 18px;
+  align-items: start;
+  margin-bottom: 20px;
+}
+.list-item.style-two .icon {
+  background: transparent;
+  align-items: start;
+  width: auto;
+  height: auto;
+}
+.list-item.style-two .icon i {
+  color: #ff6731;
+  line-height: 30px;
+}
+.list-item.style-two .text {
+  margin: 0;
+  font-weight: 400;
 }
 
 /* Team-member-page CSS */

@@ -27,4 +27,23 @@
     @include sm {
         margin-bottom: 20px;
     }
+    &.style-two {
+        gap: 18px;
+        align-items: start;
+        margin-bottom: 20px;
+        .icon {
+            background: transparent;
+            align-items: start;
+            width: auto;
+            height: auto;
+            i {
+                color: $orange-color;
+                line-height: 30px;
+            }
+        }
+        .text {
+            margin: 0;
+            font-weight: 400;
+        }
+    }
 }
