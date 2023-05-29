@@ -1,8 +1,12 @@
 // Counter Area Two
-.counter-area-two {
+.home-two-counter-area {
   position: relative;
   padding: 140px 0;
   overflow: hidden;
+
+  @include rmaxwd(991) {
+    padding: 100px 0;
+  }
 
   &:before {
     position: absolute;
@@ -21,6 +25,10 @@
     background-color: $primary-color;
     border-radius: 0 18px 18px 0;
 
+    @include rmaxwd(991) {
+      padding: 100px 0;
+    }
+
     &:before {
       position: absolute;
       content: "";
@@ -34,9 +42,14 @@
 }
 
 // Process Step Two Area
-.process-step-two-area {
+.home-two-process-step-two-area {
   padding-top: 395px;
-  padding-bottom: 145px;
+  padding-bottom: 67px;
+
+  @include rmaxwd(1199) {
+    padding-bottom: 40px;
+  }
+
 }
 .triangle-shape-top {
   position: absolute;
@@ -180,6 +193,11 @@
 
 // Form Image Wrapper
 .form-image-wrapper {
+
+  @include rmaxwd(991) {
+    height: 350px;
+    overflow: hidden;
+  }
   img {
     width: 100%;
   }

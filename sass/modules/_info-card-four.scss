@@ -3,6 +3,7 @@
         position: relative;
         padding: 0;
         border-radius: 14px;
+
         .image-wrapper {
             position: relative;
             opacity: 1;
@@ -37,6 +38,11 @@
                     width: 60px;
                     height: 60px;
                     color: $white;
+
+                    @include rmaxwd(1199) {
+                        width: 40px;
+                        height: 40px;
+                    }
                 }
                 .title {
                     font-size: 30px;
@@ -44,6 +50,11 @@
                     font-weight: 700;
                     margin: 0;
                     color: $white;
+
+                    @include rmaxwd(1199) {
+                        font-size: 24px;
+                        line-height: 32px;
+                    }
                 }
             }
             .content-area {
@@ -70,8 +81,7 @@
         }
         &:hover {
             .title-wrapper {
-                // padding-bottom: 30px;
-                border-bottom: 1px solid #ffffff;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.60);
             }
             .content-wrapper {
                 // margin-bottom: 85px;

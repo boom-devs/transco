@@ -86,6 +86,11 @@
   .comment-form-cookies-consent {
     display: none;
   }
+  input[type="number"] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+  }
   input,
   select {
     padding: 0 20px;

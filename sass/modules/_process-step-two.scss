@@ -4,8 +4,13 @@
         flex-direction: column;
         justify-content: start;
         background: transparent;
-        gap: 37px;
+        gap: 35px;
         padding: 0;
+
+        @include rmaxwd(1199) {
+            margin-bottom: 60px !important;
+        }
+
         .icon {
             width: 85px;
             height: 85px;
@@ -15,6 +20,10 @@
             background: $white;
             border-radius: 50px;
             position: relative;
+
+            @include rmaxwd(1199) {
+                margin-bottom: 0 !important;
+            }
             .count {
                 display: flex;
                 align-items: center;
