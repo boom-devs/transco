@@ -1,6 +1,6 @@
 .section-title {
   display: flex;
-  gap: 10px;
+  gap: 20px;
   flex-direction: column;
   z-index: 2;
   position: relative;
@@ -13,6 +13,7 @@
   }
   .title {
     font-size: 48px;
+    line-height: 60px;
     font-weight: 700;
     font-family: $heading-font;
     color: $secondary-color;
@@ -44,6 +45,7 @@
   .divider {
     width: 72px;
     height: 6px;
+    margin-top: 10px;
     background-color: $primary-color;
   }
 }

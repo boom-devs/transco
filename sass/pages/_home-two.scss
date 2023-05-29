@@ -133,10 +133,10 @@
 // Client Logo Area
 
 // Testimonial Area
-.home-two-testimonial-area-area {
+.home-two-testimonial-area {
   padding-top: 145px;
 
-  @include rmaxwd(991) {
+  @include rmaxwd(1199) {
     padding-top: 0;
     padding-bottom: 100px;
   }
@@ -147,8 +147,11 @@
   position: absolute;
   top: 0;
   left: 0;
-  
-  @include rmaxwd(991) {
+
+  @media only screen and (min-width: 1200px) and (max-width: 1399px){
+    width: 620px;
+  }
+  @include rmaxwd(1199) {
     width: 100%;
     position: relative;
     margin-bottom: 100px;
@@ -208,7 +211,7 @@
   padding-bottom: 270px;
 
   @include rmaxwd(991) {
-    padding-top: 270px;
+    padding-top: 100px;
   }
 
   .section-title {
@@ -216,6 +219,13 @@
 
     @include rmaxwd(991) {
       margin-bottom: 50px;
+    }
+  }
+  .home-two-post-card-padding {
+    padding-left: 50px;
+
+    @include rmaxwd(1199) {
+      padding-left: 0;
     }
   }
 }

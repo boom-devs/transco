@@ -20,20 +20,20 @@
   //  z-index: 1;
   //}
   .slick-list {
-    overflow: visible;
+    //overflow: visible;
 
     .slick-slide {
       margin: 0 12px;
       border-radius: 20px;
-      visibility: hidden;
-      opacity: 0;
+      //visibility: hidden;
+      //opacity: 0;
       @include transition;
 
       &.slick-active {
         @include transition;
         box-shadow: 1px 8px 44px rgba(20, 20, 43, 0.03);
-        visibility: visible;
-        opacity: 1;
+        //visibility: visible;
+        //opacity: 1;
       }
     }
   }
@@ -156,14 +156,14 @@ button.testimonial-arrow-btn {
 // Testimonial Slider Control Three
 .testimonial-slider-wrapper {
   &.style-three {
-    &:before,
-    &:after {
-      display: none;
-    }
-
+    //&:before,
+    //&:after {
+    //  display: none;
+    //}
+    //
     .slick-list {
-      overflow: hidden;
-
+      //overflow: hidden;
+      padding-bottom: 50px;
       .slick-slide {
         border-radius: 0;
 
@@ -187,10 +187,10 @@ button.testimonial-arrow-btn {
 
 .testimonial-slider-wrapper {
   &.has-backgorund-slider {
-    &:before,
-    &:after {
-      display: none;
-    }
+    //&:before,
+    //&:after {
+    //  display: none;
+    //}
     // Slick Dots
     .slick-dots {
       margin-top: 65px;

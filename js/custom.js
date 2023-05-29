@@ -138,13 +138,13 @@
                 "<button type='button' class='info-card-arrow-btn next-btn'><i class='fa-solid fa-angle-right'></i></button>",
             responsive: [
                 {
-                    breakpoint: 991,
+                    breakpoint: 992,
                     settings: {
                         slidesToShow: 2,
                     },
                 },
                 {
-                    breakpoint: 767,
+                    breakpoint: 768,
                     settings: {
                         slidesToShow: 1,
                     },
