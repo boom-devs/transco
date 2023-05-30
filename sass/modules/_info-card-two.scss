@@ -70,6 +70,18 @@
             .desc {
                 line-height: 26px;
             }
+            .read-more {
+                a {
+                    .icon {
+                        &:before {
+                            display: none;
+                        }
+                        i {
+                            color: $white;
+                        }
+                    }
+                }
+            }
         }
         @include sm {
             padding: 35px;

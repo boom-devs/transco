@@ -1,9 +1,10 @@
 .footer {
   position: relative;
   z-index: 2;
+  overflow: hidden;
 
   .footer-sec {
-    padding-top: 120px;
+    padding-top: 250px;
     padding-bottom: 40px;
   }
   //footer Background
@@ -275,10 +276,9 @@
 
 // Footer Subscribe
 .footer-subscribe-area {
-  position: absolute;
-  width: 100%;
-  top: 0;
-  transform: translateY(-50%);
+  position: relative;
+  z-index: 99;
+  margin-bottom: -145px;
 }
 .subscribe-area {
   background-color: $orange-color;
