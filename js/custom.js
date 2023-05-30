@@ -103,7 +103,6 @@
             slidesToShow: 1,
             infinite: true,
             autoplay: true,
-            fade: true,
             draggable: true,
             arrows: true,
             slidesToScroll: 1,
@@ -344,8 +343,10 @@
             fixedContentPos: false,
         });
 
-
-
+        /*
+        Jquery Wow Js
+        ============================*/
+        new WOW().init();
 
     });
 })(jQuery);
