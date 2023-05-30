@@ -15,7 +15,6 @@
        ============================*/
         $('select').niceSelect();
 
-
         /*
        Jquery Mobile Menu
        ============================*/
@@ -41,7 +40,6 @@
                 scrolled = false;
             }
         });
-
 
 
         /*
@@ -344,5 +342,12 @@
             preloader: false,
             fixedContentPos: false,
         });
+
+        /*
+        Jquery Wow Js
+        ============================*/
+        new WOW().init();
+
+
     });
 })(jQuery);

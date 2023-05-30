@@ -39,6 +39,39 @@
   .slider-wrapper {
     height: 920px;
 
+
+    // Active Slider Animate
+    .slick-active {
+
+      .single-slider {
+        background-color: rebeccapurple;
+        background-image: none !important;
+        .slider-short-title {
+          -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+          -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+        }
+        .slider-title {
+          -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+          -webkit-animation-duration: 0.6s;
+          animation-duration: 0.6s;
+        }
+        .slider-short-desc {
+          -webkit-animation-delay: 0.9s;
+          animation-delay: 0.9s;
+          -webkit-animation-duration: 0.9s;
+          animation-duration: 0.9s;
+        }
+        .slider-btn-wrapper {
+          -webkit-animation-delay: 0.12s;
+          animation-delay: 0.12s;
+          -webkit-animation-duration: 0.12s;
+          animation-duration: 0.12s;
+        }
+      }
+    }
     // Slick Dots
     .slick-dots {
       display: flex;
@@ -237,39 +270,11 @@
           position: relative;
           z-index: 2;
           width: 50%;
+          animation: MoveUpDown 2s linear infinite alternate;
 
           @include sm {
             width: 100%;
           }
-          //&:before {
-          //  position: absolute;
-          //  content: "";
-          //  width: 640px;
-          //  height: 640px;
-          //  background-color: $orange-color;
-          //  border-radius: 500px;
-          //  top: 50%;
-          //  transform: translateY(-50%);
-          //  z-index: -1;
-          //  right: -125px;
-          //
-          //  @include lg {
-          //    width: 440px;
-          //    height: 440px;
-          //    right: 0;
-          //  }
-          //  @include md {
-          //    width: 340px;
-          //    height: 340px;
-          //    right: 0;
-          //  }
-          //  @include sm {
-          //    width: 340px;
-          //    height: 340px;
-          //    right: 0;
-          //    left: 0;
-          //  }
-          //}
         }
       }
   }

@@ -40,6 +40,7 @@
           z-index: 2;
           width: 58%;
           align-self: end;
+          animation: MoveLeftRight 2s linear infinite alternate;
 
           @include rmaxwd(991) {
            width: 100%;

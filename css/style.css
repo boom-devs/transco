@@ -2906,6 +2906,29 @@ a.meanmenu-reveal {
                   transform: unset; } }
   .slider-area .slider-wrapper {
     height: 920px; }
+    .slider-area .slider-wrapper .slick-active .single-slider {
+      background-color: rebeccapurple;
+      background-image: none !important; }
+      .slider-area .slider-wrapper .slick-active .single-slider .slider-short-title {
+        -webkit-animation-delay: 0.3s;
+        animation-delay: 0.3s;
+        -webkit-animation-duration: 0.3s;
+        animation-duration: 0.3s; }
+      .slider-area .slider-wrapper .slick-active .single-slider .slider-title {
+        -webkit-animation-delay: 0.6s;
+        animation-delay: 0.6s;
+        -webkit-animation-duration: 0.6s;
+        animation-duration: 0.6s; }
+      .slider-area .slider-wrapper .slick-active .single-slider .slider-short-desc {
+        -webkit-animation-delay: 0.9s;
+        animation-delay: 0.9s;
+        -webkit-animation-duration: 0.9s;
+        animation-duration: 0.9s; }
+      .slider-area .slider-wrapper .slick-active .single-slider .slider-btn-wrapper {
+        -webkit-animation-delay: 0.12s;
+        animation-delay: 0.12s;
+        -webkit-animation-duration: 0.12s;
+        animation-duration: 0.12s; }
     .slider-area .slider-wrapper .slick-dots {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -3104,7 +3127,9 @@ a.meanmenu-reveal {
       .slider-area .single-slider .slider-content-wrapper .slider-image {
         position: relative;
         z-index: 2;
-        width: 50%; }
+        width: 50%;
+        -webkit-animation: MoveUpDown 2s linear infinite alternate;
+                animation: MoveUpDown 2s linear infinite alternate; }
         @media only screen and (min-width: 0px) and (max-width: 767px) {
           .slider-area .single-slider .slider-content-wrapper .slider-image {
             width: 100%; } }
@@ -3144,7 +3169,9 @@ a.meanmenu-reveal {
       z-index: 2;
       width: 58%;
       -ms-flex-item-align: end;
-          align-self: end; }
+          align-self: end;
+      -webkit-animation: MoveLeftRight 2s linear infinite alternate;
+              animation: MoveLeftRight 2s linear infinite alternate; }
       @media (max-width: 991px) {
         .slider-area.style-two .slider-wrapper .slider-content-wrapper .slider-image {
           width: 100%; } }
