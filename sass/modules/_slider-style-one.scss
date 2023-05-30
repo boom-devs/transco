@@ -41,37 +41,43 @@
 
 
     // Active Slider Animate
-    .slick-active {
-
-      .single-slider {
-        background-color: rebeccapurple;
-        background-image: none !important;
-        .slider-short-title {
-          -webkit-animation-delay: 0.3s;
-          animation-delay: 0.3s;
-          -webkit-animation-duration: 0.3s;
-          animation-duration: 0.3s;
-        }
-        .slider-title {
-          -webkit-animation-delay: 0.6s;
-          animation-delay: 0.6s;
-          -webkit-animation-duration: 0.6s;
-          animation-duration: 0.6s;
-        }
-        .slider-short-desc {
-          -webkit-animation-delay: 0.9s;
-          animation-delay: 0.9s;
-          -webkit-animation-duration: 0.9s;
-          animation-duration: 0.9s;
-        }
-        .slider-btn-wrapper {
-          -webkit-animation-delay: 0.12s;
-          animation-delay: 0.12s;
-          -webkit-animation-duration: 0.12s;
-          animation-duration: 0.12s;
-        }
-      }
+    .slick-active .slider-short-title,
+    .slick-active .slider-title,
+    .slick-active .slider-short-desc,
+    .slick-active .slider-btn-wrapper {
+      -webkit-animation-name: MovefadeUp;
+      animation-name: MovefadeUp;
+      -webkit-animation-fill-mode: both;
     }
+
+
+    .slick-active .slider-short-title {
+      -webkit-animation-delay: 0.3s;
+      animation-delay: 0.3s;
+      -webkit-animation-duration: 0.3s;
+      animation-duration: 0.3s;
+    }
+    .slick-active .slider-title {
+      -webkit-animation-delay: 0.5s;
+      animation-delay: 0.5s;
+      -webkit-animation-duration: 0.5s;
+      animation-duration: 0.5s;
+    }
+
+    .slick-active .slider-short-desc {
+      -webkit-animation-delay: 0.7s;
+      animation-delay: 0.7s;
+      -webkit-animation-duration: 0.7s;
+      animation-duration: 0.7s;
+    }
+
+    .slick-active .slider-btn-wrapper {
+      -webkit-animation-delay: 0.9s;
+      animation-delay: 0.9s;
+      -webkit-animation-duration: 0.9s;
+      animation-duration: 0.9s;
+    }
+
     // Slick Dots
     .slick-dots {
       display: flex;

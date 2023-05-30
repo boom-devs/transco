@@ -1,3 +1,22 @@
+@keyframes MovefadeUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(60px);
+    transform: translateY(60px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.MovefadeUp {
+  -webkit-animation-name: MovefadeUp;
+  animation-name: MovefadeUp;
+}
+
 // Ripple Animate
 @-webkit-keyframes ripple {
   70% {
