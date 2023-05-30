@@ -21,17 +21,20 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 100%;
+
     .post-meta {
-      color: $orange-color;
-      font-size: 16px;
-      line-height: 28px;
-      font-weight: 700;
-      margin: 0;
       display: inline-flex;
       gap: 17px;
       align-items: center;
+
       span {
+        color: $text-color;
+        font-size: 16px;
+        line-height: 28px;
+        font-weight: 700;
         margin: 0;
+
         &:before {
           background-color: #b8bfcc;
           width: 1px;
@@ -40,10 +43,9 @@
           content: "";
           margin-right: 17px;
         }
-        &:last-child {
-          display: none;
-        }
+
         &:first-child {
+          color: $orange-color;
           &:before {
             display: none;
           }
@@ -52,8 +54,9 @@
     }
     .title {
       font-size: 21px;
-      line-height: 30px;
+      line-height: 28px;
       font-weight: 700;
+      font-family: $heading-font;
       margin: 0;
       color: $secondary-color;
     }

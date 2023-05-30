@@ -1,5 +1,7 @@
 .testimonial-slider-wrapper {
   position: relative;
+
+
   //&:before {
   //  left: -200%;
   //  margin-left: -15px;
@@ -20,7 +22,8 @@
   //  z-index: 1;
   //}
   .slick-list {
-    //overflow: visible;
+    padding: 40px 30px;
+    margin-top: -40px;
 
     .slick-slide {
       margin: 0 12px;

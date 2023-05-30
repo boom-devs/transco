@@ -172,7 +172,7 @@
   .form-select:focus{
     outline: none !important;
     box-shadow: none;
-    border-color: $primary-color;
+    border-color: $primary-color !important;
     transition: all 0.4s ease 0s;
   }
 }
@@ -192,7 +192,7 @@
       input,
       select {
         background-color: transparent;
-        border-color: #739bbf;
+        border-color: #739bbf !important;
         color: $white-100;
       }
       *::-webkit-input-placeholder {
