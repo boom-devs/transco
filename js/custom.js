@@ -11,6 +11,12 @@
         });
 
         /*
+       Jquery Nice Select Js
+       ============================*/
+        $('select').niceSelect();
+
+
+        /*
        Jquery Mobile Menu
        ============================*/
         $("#main-menu").meanmenu({
