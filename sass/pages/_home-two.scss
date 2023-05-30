@@ -207,11 +207,10 @@
 
 // News Area
 .home-two-news-area {
-  padding-top: 145px;
-  padding-bottom: 270px;
+  padding: 145px 0;
 
   @include rmaxwd(991) {
-    padding-top: 100px;
+    padding: 100px 0;
   }
 
   .section-title {

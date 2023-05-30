@@ -97,6 +97,7 @@
     height: 60px;
     width: 100%;
     color: $black-300;
+    opacity: 1;
     border: 1px solid $gray-300;
     border-radius: 5px;
     font-size: 16px;
@@ -194,6 +195,10 @@
         background-color: transparent;
         border-color: #739bbf !important;
         color: $white-100;
+      }
+      .nice-select {
+        color: $white-100;
+        border-color: #739bbf !important;
       }
       *::-webkit-input-placeholder {
         color: $white-100;

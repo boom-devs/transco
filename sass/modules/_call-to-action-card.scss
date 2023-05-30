@@ -1,8 +1,7 @@
 .call-to-action-area {
-  position: absolute;
-  width: 100%;
-  top: 0;
-  transform: translateY(-50%);
+  position: relative;
+  margin-bottom: -110px;
+  z-index: 99;
 }
 .call-to-action-card {
   display: flex;

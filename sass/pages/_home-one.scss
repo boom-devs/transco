@@ -159,8 +159,11 @@
 // Client Logo Area
 // News Area
 .home-one-news-area {
-  padding-top: 144px;
-  padding-bottom: 270px;
+  padding: 145px 0;
+
+  @include rmaxwd(991) {
+    padding: 100px 0;
+  }
 
   .section-title {
     margin-bottom: 70px;
