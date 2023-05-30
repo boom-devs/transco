@@ -17,7 +17,7 @@
       display: none;
     }
 
-    @include rmaxwd(1199) {
+    @include rmaxwd(1299) {
       top: unset;
       left: 50%;
       transform: translateY(0);
@@ -30,7 +30,7 @@
       font-size: 24px;
       color: $white;
       transform: rotate(-90deg);
-      @include rmaxwd(1199) {
+      @include rmaxwd(1299) {
         transform: unset;
       }
     }

@@ -114,6 +114,7 @@
       background-color: transparent !important; }
   .nice-select .option {
     cursor: pointer;
+    color: #393d48;
     font-weight: 400;
     line-height: 40px;
     list-style: none;

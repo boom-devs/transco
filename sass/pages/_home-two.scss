@@ -224,7 +224,7 @@
     padding-left: 50px;
 
     @include rmaxwd(1199) {
-      padding-left: 0;
+      padding-left: 12px;
     }
   }
 }
@@ -256,9 +256,20 @@
     padding-top: 100px;
   }
 
+
   .section-title {
+    padding-right: 100px;
+    @include rmaxwd(1399) {
+      padding-right: 12px;
+    }
     @include rmaxwd(991) {
       margin-bottom: 70px;
+    }
+  }
+  .icon-card-left-padding {
+    padding-left: 100px;
+    @include rmaxwd(1399) {
+      padding-left: 12px;
     }
   }
 }

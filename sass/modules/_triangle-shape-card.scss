@@ -12,7 +12,8 @@
     animation: MoveUpDown 2s linear infinite alternate;
 
     @include rmaxwd(991) {
-        height: 200px;
+        width: 150px;
+        height: 150px;
     }
 }
 // Two
@@ -25,12 +26,12 @@
     position: absolute;
     bottom: -210px;
     right: 0;
-    animation: MoveLeftRight 2s linear infinite alternate;
     overflow: hidden;
     z-index: 1;
 
     @include rmaxwd(991) {
-        height: 200px;
+        width: 150px;
+        height: 150px;
         bottom: -70px;
     }
 }
