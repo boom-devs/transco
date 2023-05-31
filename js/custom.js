@@ -1,19 +1,6 @@
 (function ($) {
     "use strict";
     $(document).ready(function () {
-        /*
-       Preeloader
-       ============================*/
-        $(window).on("load", function () {
-            $("#preloader").fadeOut();
-            $("#preloader-status").delay(200).fadeOut("slow");
-            $("body").delay(200).css({"overflow-x": "hidden"});
-        });
-
-        /*
-       Jquery Nice Select Js
-       ============================*/
-        $('select').niceSelect();
 
         /*
        Jquery Mobile Menu
@@ -314,17 +301,9 @@
                 },
             ],
         });
+
         /*
-       scrollUp
-       ============================*/
-        $.scrollUp({
-            scrollText: '<i class="fa-light fa-arrow-up-long"></i>',
-            easingType: "linear",
-            scrollSpeed: 900,
-            animation: "fade",
-        });
-        /*
-        ounter Js
+        Counter Js
         ============================*/
         $(".counter").counterUp({
             delay: 10,
@@ -347,6 +326,29 @@
         Jquery Wow Js
         ============================*/
         new WOW().init();
+
+        /*
+       Jquery Nice Select Js
+       ============================*/
+        $('select').niceSelect();
+
+        /*
+        scrollUp
+        ============================*/
+        $.scrollUp({
+            scrollText: '<i class="fa-light fa-arrow-up-long"></i>',
+            easingType: "linear",
+            scrollSpeed: 900,
+            animation: "fade",
+        });
+        /*
+        Preeloader
+        ============================*/
+        $(window).on("load", function () {
+            $("#preloader").fadeOut();
+            $("#preloader-status").delay(200).fadeOut("slow");
+            $("body").delay(200).css({"overflow-x": "hidden"});
+        });
 
     });
 })(jQuery);

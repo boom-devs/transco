@@ -11,7 +11,7 @@
   padding: 145px 0;
   background-repeat: no-repeat;
   background-position: center;
-  object-fit: cover;
+  background-size: cover;
 
   @include rmaxwd(991) {
     padding: 100px 0;
@@ -40,6 +40,10 @@
 .about-page-timeline-area {
   background-color: #f3f7fc;
   padding: 145px 0;
+
+  @include rmaxwd(991) {
+    padding: 100px 0;
+  }
 }
 
 // Testimonial Area

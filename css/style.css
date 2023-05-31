@@ -2401,13 +2401,10 @@ html {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    gap: 30px;
+    gap: 0 30px;
     padding: 6px 0;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap; }
-    @media only screen and (min-width: 0px) and (max-width: 767px) {
-      .header-top .header-contact-info {
-        gap: 10px; } }
     .header-top .header-contact-info span {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -2732,6 +2729,9 @@ html {
   padding: 6px 30px; }
   .header-area.style-three .header-top .header-top-btn a:before {
     border-radius: 8px; }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .header-area.style-three .header-top .header-top-btn {
+    display: none; } }
 .header-area.style-three .header-sec .logo:before {
   display: none; }
 
@@ -2748,7 +2748,8 @@ a.meanmenu-reveal {
 .mean-container .mean-bar {
   width: 100%;
   position: absolute;
-  z-index: 999999; }
+  z-index: 999999;
+  left: 0; }
 
 .mean-container a.meanmenu-reveal {
   width: 22px;
@@ -5052,7 +5053,8 @@ a.meanmenu-reveal {
         -webkit-transition: all 0.5s ease-out;
         transition: all 0.5s ease-out;
         -webkit-box-shadow: 1px 8px 44px rgba(20, 20, 43, 0.03);
-                box-shadow: 1px 8px 44px rgba(20, 20, 43, 0.03); }
+                box-shadow: 1px 8px 44px rgba(20, 20, 43, 0.03);
+        background-color: #ffffff; }
   .testimonial-slider-wrapper .slick-dots {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -5064,7 +5066,7 @@ a.meanmenu-reveal {
             flex-direction: column;
     position: absolute;
     top: 50%;
-    right: -65px;
+    right: -35px;
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
     z-index: 2; }
@@ -5099,7 +5101,6 @@ a.meanmenu-reveal {
         padding: 0;
         width: 17px;
         height: 17px;
-        background-color: #b2bacb;
         background-color: #b2bacb;
         border-radius: 50px;
         position: relative;
@@ -7612,7 +7613,7 @@ ul.children {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 40px;
+  gap: 0 40px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -8548,8 +8549,7 @@ ul.children {
   padding: 145px 0;
   background-repeat: no-repeat;
   background-position: center;
-  -o-object-fit: cover;
-     object-fit: cover; }
+  background-size: cover; }
   @media (max-width: 991px) {
     .about-page-counter-area {
       padding: 100px 0; } }
@@ -8569,6 +8569,9 @@ ul.children {
 .about-page-timeline-area {
   background-color: #f3f7fc;
   padding: 145px 0; }
+  @media (max-width: 991px) {
+    .about-page-timeline-area {
+      padding: 100px 0; } }
 
 .about-page-testimonial-area {
   background-color: #f3f7fc;
@@ -8844,4 +8847,5 @@ ul.children {
     .time-card-wrapper .time-card-arrow i {
       font-size: 16px;
       color: #ffffff; }
+
 /*# sourceMappingURL=style.css.map */

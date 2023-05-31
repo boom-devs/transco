@@ -13,6 +13,11 @@
           }
         }
       }
+      .header-top-btn {
+        @include lg {
+          display: none;
+        }
+      }
     }
 
     // Header Menu Area
