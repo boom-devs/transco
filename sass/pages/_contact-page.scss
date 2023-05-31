@@ -1,3 +1,10 @@
+.contact-page-sec-area {
+    padding: 145px 0;
+
+    @include rmaxwd(991) {
+        padding: 100px 0;
+    }
+}
 // contact-page
 .contact-title {
     text-align: center;

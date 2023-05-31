@@ -4061,6 +4061,48 @@ a.meanmenu-reveal {
       .icon-card.style-three .content {
         gap: 18px; } }
 
+.icon-card.style-four {
+  padding: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 0; }
+  .icon-card.style-four .icon {
+    width: 72px;
+    height: 72px;
+    background: #1eae98;
+    border-radius: 50px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transform: translate(0, 50%);
+            transform: translate(0, 50%); }
+    .icon-card.style-four .icon i {
+      color: #ffffff; }
+  .icon-card.style-four .content {
+    width: 100%;
+    padding: 55px 30px 30px 30px;
+    background: #eef5f8;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 10px;
+    border-radius: 8px; }
+
 .about-image-card .main-img-wrapper {
   text-align: right; }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -8584,6 +8626,12 @@ ul.children {
 
 .about-page-client-logo-area {
   padding: 100px 0; }
+
+.contact-page-sec-area {
+  padding: 145px 0; }
+  @media (max-width: 991px) {
+    .contact-page-sec-area {
+      padding: 100px 0; } }
 
 .contact-title {
   text-align: center; }
