@@ -1,12 +1,30 @@
 .pricing-card-wrapper {
     background: $gray-50;
-}
-.why-choose-card-wrapper {
-    padding-left: 110px;
-    @include sm {
-        padding-left: 0;
+    padding: 145px 0;
+
+    @include rmaxwd(991) {
+        padding: 100px 0;
     }
 }
+
+// Why Choose Us Area
+.pricing-page-why-choose-us {
+    padding-top: 145px;
+
+    @include rmaxwd(1199) {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .why-choose-card-wrapper {
+        padding-left: 110px;
+
+        @include rmaxwd(991) {
+            padding-left: 0;
+        }
+    }
+}
+
 .accordion-section {
     padding: 200px 0;
     @include sm {
@@ -20,30 +38,31 @@
         margin-top: 30px;
     }
 }
+
 .faq-tab {
     display: flex;
     flex-direction: column;
     gap: 12px;
-    .faq-single-tab {
-        border-radius: 6px;
-        padding: 26px 35px;
-        background: $gray-50;
-        @include transition;
+    padding-left: 0;
+    list-style: none;
+    li {
+        display: inline-block;
+
         a {
-            h3 {
-                margin: 0;
-                font-size: 18px;
-                line-height: 18px;
-                font-weight: 700;
-                color: $secondary-color;
-            }
-        }
-        &:hover {
-            background: $orange-color;
-            a {
-                h3 {
-                    color: $white;
-                }
+            font-size: 18px;
+            line-height: 18px;
+            font-weight: 700;
+            color: $secondary-color;
+            border-radius: 6px;
+            padding: 26px 35px;
+            background: $gray-50;
+            display: inline-block;
+            width: 100%;
+            @include transition;
+
+            &:hover {
+                color: $white;
+                background: $orange-color;
             }
         }
     }
