@@ -92,6 +92,8 @@ Footer Section
 @import "modules/price-card";
 @import "modules/call-to-action-card";
 @import "modules/triangle-shape-card";
+@import "modules/project-details";
+@import "modules/list-item";
 
 /* 8.Title Section */
 @import "modules/title-section";
@@ -105,6 +107,7 @@ Footer Section
 
 /* 17.Sidebar */
 @import "partials/sidebar";
+@import "partials/sidebar-two";
 @import "modules/comment-list";
 @import "modules/comment-form";
 /* Footer Section */
@@ -121,6 +124,8 @@ Footer Section
 @import "pages/about-page";
 @import "pages/contact-page";
 @import "pages/pricing-page";
+@import "pages/service-page";
+@import "pages/team-member";
 @import "pages/blog-page";
 @import "modules/nav-tabs";
 @import "modules/time-card";
