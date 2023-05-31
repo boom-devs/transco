@@ -8595,6 +8595,23 @@ ul.children {
       .contact-title h2 {
         font-size: 48px; } }
 
+.blog-grid-area {
+  padding: 145px 0; }
+  @media (max-width: 991px) {
+    .blog-grid-area {
+      padding: 100px 0; } }
+
+.blog-load-btn {
+  padding: 20px 35px;
+  background: #ff6731;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 700;
+  border-radius: 6px; }
+  .blog-load-btn:hover {
+    background-color: #1eae98; }
+
 .nav-tab {
   list-style: none;
   padding-left: 0;
