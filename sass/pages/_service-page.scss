@@ -1,4 +1,9 @@
-.service-sidebar {
+.Service-details-wrapper {
+    padding: 145px 0;
+
+    @include rmaxwd(991) {
+        padding: 100px 0;
+    }
 }
 .service-page-service-list-area {
     padding: 165px 0;

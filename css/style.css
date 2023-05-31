@@ -4762,6 +4762,45 @@ a.meanmenu-reveal {
         font-size: 48px;
         line-height: 50px; } }
 
+.counter-card.style-three {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px; }
+  .counter-card.style-three .counter-item {
+    text-align: left;
+    padding: 60px 40px;
+    background: #005bac;
+    border-radius: 8px; }
+    .counter-card.style-three .counter-item .counter-title {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      gap: 30px; }
+      .counter-card.style-three .counter-item .counter-title .title {
+        margin: 0;
+        color: #ffffff;
+        font-size: 18px;
+        line-height: 30px;
+        font-weight: 700; }
+    .counter-card.style-three .counter-item .number {
+      margin: 0;
+      color: #ffffff;
+      font-size: 60px;
+      line-height: 60px;
+      font-weight: 700; }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .counter-card.style-three .counter-item .number {
+          font-size: 56px; } }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .counter-card.style-three .counter-item {
+        padding: 40px 30px; } }
+
 .process-steps-wrapper {
   padding: 70px 0px 10px 50px;
   background: #31373f; }
@@ -6142,6 +6181,22 @@ button.testimonial-arrow-btn {
     .list-item.style-two .text {
       margin: 0;
       font-weight: 400; }
+  .list-item ul {
+    padding-left: 0; }
+    .list-item ul li {
+      list-style: none;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      gap: 0 18px;
+      padding-top: 10px; }
+      .list-item ul li:last-child {
+        padding-bottom: 0; }
+      .list-item ul li i {
+        color: #1eae98;
+        font-size: 20px;
+        position: relative;
+        top: 5px; }
 
 /* 8.Title Section */
 .section-title {
@@ -7363,31 +7418,16 @@ button.testimonial-arrow-btn {
     color: rgba(255, 255, 255, 0.53);
     margin-bottom: 32px; }
 
-.widget {
-  background-color: #ffffff;
-  border-radius: 14px;
-  margin-bottom: 50px;
-  padding: 0; }
-
-.widget_service_categories ul {
-  list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  gap: 12px;
+.widget_service_categories {
+  background-color: transparent;
   padding: 0; }
   .widget_service_categories ul li {
-    background: #ebf4f8;
-    border-radius: 8px; }
-    .widget_service_categories ul li:first-child {
-      padding-top: 10px; }
+    border: 0;
+    padding-bottom: 5px !important; }
     .widget_service_categories ul li a {
-      padding: 22px 24px;
+      background: #ebf4f8;
+      border-radius: 8px;
+      padding: 21px 24px;
       display: -webkit-inline-box;
       display: -ms-inline-flexbox;
       display: inline-flex;
@@ -7400,8 +7440,8 @@ button.testimonial-arrow-btn {
       color: #393d48;
       font-family: "Roboto", sans-serif;
       font-size: 18px;
-      line-height: 60px;
-      font-weight: 700; }
+      font-weight: 700;
+      width: 100%; }
       .widget_service_categories ul li a i {
         color: #1eae98;
         font-size: 24px;
@@ -7409,18 +7449,16 @@ button.testimonial-arrow-btn {
       @media only screen and (min-width: 0px) and (max-width: 767px) {
         .widget_service_categories ul li a {
           padding: 10px; } }
-    .widget_service_categories ul li.active {
-      background: #ff6731; }
-      .widget_service_categories ul li.active a {
+      .widget_service_categories ul li a:hover {
+        background: #ff6731;
         color: #ffffff; }
-        .widget_service_categories ul li.active a i {
+        .widget_service_categories ul li a:hover i {
           color: #ffffff; }
-    .widget_service_categories ul li:hover {
-      background: #ff6731; }
-      .widget_service_categories ul li:hover a {
+    .widget_service_categories ul li.active a {
+      background: #ff6731;
+      color: #ffffff; }
+      .widget_service_categories ul li.active a i {
         color: #ffffff; }
-        .widget_service_categories ul li:hover a i {
-          color: #ffffff; }
 
 .widget_service_promotion {
   padding: 44px 40px;
@@ -7485,7 +7523,9 @@ button.testimonial-arrow-btn {
                 align-items: center;
         -webkit-box-pack: center;
             -ms-flex-pack: center;
-                justify-content: center; }
+                justify-content: center;
+        -ms-flex-negative: 0;
+            flex-shrink: 0; }
         .widget_service_promotion .promotion-card .secondary-btn .icon i {
           color: #ffffff; }
       .widget_service_promotion .promotion-card .secondary-btn .btn-text {
@@ -7531,7 +7571,8 @@ button.testimonial-arrow-btn {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 5px; }
+  gap: 5px;
+  background-color: #ffffff; }
   .widget_service_brochura .widget-title-wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -9071,6 +9112,12 @@ ul.children {
       .faq-tab li a:hover {
         color: #ffffff;
         background: #ff6731; }
+
+.Service-details-wrapper {
+  padding: 145px 0; }
+  @media (max-width: 991px) {
+    .Service-details-wrapper {
+      padding: 100px 0; } }
 
 .service-page-service-list-area {
   padding: 165px 0; }
