@@ -6288,8 +6288,7 @@ button.testimonial-arrow-btn {
   margin-bottom: 20px;
   text-transform: capitalize;
   line-height: 84px;
-  font-weight: 700;
-  margin: 0; }
+  font-weight: 700; }
   @media only screen and (min-width: 0px) and (max-width: 767px) {
     .page-heading h1 {
       font-size: 42px;
@@ -6305,38 +6304,48 @@ button.testimonial-arrow-btn {
 .breadcrumb-list {
   text-align: center; }
   .breadcrumb-list ul {
-    margin-bottom: 10px;
-    padding-left: 0; }
-    .breadcrumb-list ul i {
-      color: #ffffff;
-      font-size: 12px; }
+    margin-bottom: 0;
+    padding-left: 0;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    gap: 0 12px; }
     .breadcrumb-list ul li {
-      display: inline-block;
-      position: relative;
-      padding: 0px 14px; }
+      list-style: none;
+      display: -webkit-inline-box;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      gap: 0 12px;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
       .breadcrumb-list ul li.active a {
         color: #ff6731; }
       .breadcrumb-list ul li a {
         font-family: "Roboto", sans-serif;
-        font-size: 14px;
+        font-size: 16px;
         text-align: center;
         color: #ffffff;
         text-transform: capitalize;
-        line-height: 54px;
+        line-height: 32px;
         font-weight: 400;
         margin-bottom: 0;
         -webkit-transition: all 0.5s ease-out;
         transition: all 0.5s ease-out; }
-        @media only screen and (min-width: 992px) {
-          .breadcrumb-list ul li a {
-            font-size: 16px;
-            line-height: 54px; } }
         .breadcrumb-list ul li a:hover {
           -webkit-transition: all 0.5s ease-out;
-          transition: all 0.5s ease-out; }
-      .breadcrumb-list ul li:last-child::before {
-        display: none;
-        display: none; }
+          transition: all 0.5s ease-out;
+          color: #ff6731; }
+      .breadcrumb-list ul li:before {
+        content: "\f054";
+        font-size: 12px;
+        color: #fff;
+        font-family: "Font Awesome 6 Pro";
+        display: -webkit-inline-box;
+        display: -ms-inline-flexbox;
+        display: inline-flex; }
+      .breadcrumb-list ul li:first-child:before {
+        color: transparent; }
 
 /* 16.Blog Section */
 .blog-area ol,

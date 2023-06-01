@@ -29,7 +29,6 @@
   text-transform: capitalize;
   line-height: 84px;
   font-weight: 700;
-  margin: 0;
   @include sm {
     font-size: 42px;
     line-height: 72px;
@@ -46,16 +45,15 @@
   text-align: center;
 
   ul {
-    margin-bottom: 10px;
+    margin-bottom: 0;
     padding-left: 0;
-    i {
-      color: $white;
-      font-size: 12px;
-    }
+    display: inline-flex;
+    gap:0 12px;
     li {
-      display: inline-block;
-      position: relative;
-      padding: 0px 14px;
+      list-style: none;
+      display: inline-flex;
+      gap:0 12px;
+      align-items: center;
 
       &.active {
         a {
@@ -64,38 +62,34 @@
       }
       a {
         font-family: $body-font;
-        font-size: 14px;
+        font-size: 16px;
         text-align: center;
         color: $white;
         text-transform: capitalize;
-        line-height: 54px;
+        line-height: 32px;
         font-weight: 400;
         margin-bottom: 0;
         @include transition;
 
-        @media only screen and (min-width: 992px) {
-          font-size: 16px;
-          line-height: 54px;
-        }
 
         &:hover {
           @include transition;
-          // color: $primary-color;
+           color: $orange-color;
         }
       }
 
-      // &::before {
-      //   content: "-";
-      //   position: absolute;
-      //   right: -8px;
-      //   font-size: 16px;
-      //   color: #fff;
-      //   font-family: Icofont;
-      // }
+       &:before {
+         content: "\f054";
+         font-size: 12px;
+         color: #fff;
+         font-family: $font-awesome;
+         display: inline-flex;
+       }
 
-      &:last-child::before {
-        display: none;
-        display: none;
+      &:first-child {
+       &:before {
+         color: transparent;
+       }
       }
     }
   }
