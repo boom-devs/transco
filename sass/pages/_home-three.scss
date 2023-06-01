@@ -19,7 +19,17 @@
   background-size: cover;
   background-position: center center;
 }
+// Project Area & Blog Area
+.home-three-project-area,
+.home-three-blog-post-area {
+  padding-top: 145px;
+  padding-bottom: 120px;
 
+  @include rmaxwd(991) {
+    padding-top: 100px;
+    padding-bottom: 80px;
+  }
+}
 // Pricing Area
 .pricing-area {
   background-color: $blue-color;
@@ -37,3 +47,15 @@
     padding-bottom: 80px;
   }
 }
+
+// Accordion Area
+.home-three-accordion-area,
+.home-three-testimonial-area{
+  padding: 145px 0;
+
+  @include rmaxwd(991) {
+    padding: 100px 0;
+  }
+}
+
+

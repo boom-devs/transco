@@ -3684,11 +3684,19 @@ a.meanmenu-reveal {
             flex-shrink: 0;
         width: 60px;
         height: 60px; }
+        @media (max-width: 991px) {
+          .info-card.style-three .content-wrapper .title-wrapper .icon {
+            width: 40px;
+            height: 40px; } }
       .info-card.style-three .content-wrapper .title-wrapper .title {
         font-size: 30px;
         line-height: 42px;
         font-weight: 700;
         margin: 0; }
+        @media (max-width: 991px) {
+          .info-card.style-three .content-wrapper .title-wrapper .title {
+            font-size: 28px;
+            line-height: 32px; } }
     .info-card.style-three .content-wrapper .content-area {
       overflow: hidden;
       visibility: hidden;
@@ -4433,6 +4441,9 @@ a.meanmenu-reveal {
     overflow: hidden;
     -ms-flex-negative: 0;
         flex-shrink: 0; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .about-info-card.style-three .about-info-wrapper .about-info-img {
+        height: 350px; } }
     .about-info-card.style-three .about-info-wrapper .about-info-img img {
       -o-object-fit: cover;
          object-fit: cover;
@@ -8982,6 +8993,16 @@ ul.children {
   background-size: cover;
   background-position: center center; }
 
+.home-three-project-area,
+.home-three-blog-post-area {
+  padding-top: 145px;
+  padding-bottom: 120px; }
+  @media (max-width: 991px) {
+    .home-three-project-area,
+    .home-three-blog-post-area {
+      padding-top: 100px;
+      padding-bottom: 80px; } }
+
 .pricing-area {
   background-color: #003869;
   background-repeat: no-repeat;
@@ -8995,6 +9016,14 @@ ul.children {
     .home-three-our-service-area {
       padding-top: 100px;
       padding-bottom: 80px; } }
+
+.home-three-accordion-area,
+.home-three-testimonial-area {
+  padding: 145px 0; }
+  @media (max-width: 991px) {
+    .home-three-accordion-area,
+    .home-three-testimonial-area {
+      padding: 100px 0; } }
 
 .about-page-about-us-area {
   padding: 145px 0; }
