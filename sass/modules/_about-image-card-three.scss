@@ -3,9 +3,6 @@
     .main-img-wrapper {
       text-align: center;
 
-      @include sm {
-       margin-top: 80px;
-      }
       .main-img-inner {
         @include sm {
           width: 100%;

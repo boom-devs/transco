@@ -4274,9 +4274,6 @@ a.meanmenu-reveal {
 .about-image-card.style-three .main-img-wrapper {
   text-align: center; }
   @media only screen and (min-width: 0px) and (max-width: 767px) {
-    .about-image-card.style-three .main-img-wrapper {
-      margin-top: 80px; } }
-  @media only screen and (min-width: 0px) and (max-width: 767px) {
     .about-image-card.style-three .main-img-wrapper .main-img-inner {
       width: 100%; } }
   @media only screen and (min-width: 0px) and (max-width: 767px) {
@@ -9024,6 +9021,11 @@ ul.children {
     .home-three-accordion-area,
     .home-three-testimonial-area {
       padding: 100px 0; } }
+  @media (max-width: 1199px) {
+    .home-three-accordion-area .accordion-wrapper,
+    .home-three-testimonial-area .accordion-wrapper {
+      padding-right: 0 !important;
+      padding-bottom: 80px; } }
 
 .about-page-about-us-area {
   padding: 145px 0; }
