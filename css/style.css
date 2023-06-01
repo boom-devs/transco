@@ -6076,11 +6076,19 @@ button.testimonial-arrow-btn {
   @media (max-width: 991px) {
     .project-detail-area {
       padding: 100px 0; } }
+  .project-detail-area .project-details-padding-left {
+    padding-left: 60px; }
+    @media (max-width: 1199px) {
+      .project-detail-area .project-details-padding-left {
+        padding-left: 12px;
+        margin-top: 50px; } }
+  .project-detail-area img {
+    border-radius: 12px; }
 
-.image {
+.project-gallery-image {
   border-radius: 12px;
   overflow: hidden; }
-  .image img {
+  .project-gallery-image img {
     width: 100%;
     height: 100%;
     -o-object-fit: cover;

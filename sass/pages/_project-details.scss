@@ -4,8 +4,19 @@
     @include rmaxwd(991) {
         padding: 100px 0;
     }
+    .project-details-padding-left {
+        padding-left: 60px;
+
+        @include rmaxwd(1199) {
+            padding-left: 12px;
+            margin-top: 50px;
+        }
+    }
+    img {
+        border-radius: 12px;
+    }
 }
-.image {
+.project-gallery-image {
     border-radius: 12px;
     overflow: hidden;
     img {
