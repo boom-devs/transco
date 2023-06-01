@@ -9162,6 +9162,15 @@ ul.children {
   @media (max-width: 991px) {
     .Service-details-wrapper {
       padding: 100px 0; } }
+  .Service-details-wrapper .details-main {
+    padding-left: 25px; }
+    @media (max-width: 1199px) {
+      .Service-details-wrapper .details-main {
+        padding-left: 0; } }
+    .Service-details-wrapper .details-main img {
+      border-radius: 12px; }
+    .Service-details-wrapper .details-main .accordion-list-item {
+      margin-bottom: 0; }
 
 .service-page-service-list-area {
   padding: 165px 0; }

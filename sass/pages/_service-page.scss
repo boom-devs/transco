@@ -4,6 +4,20 @@
     @include rmaxwd(991) {
         padding: 100px 0;
     }
+
+    .details-main {
+        padding-left: 25px;
+
+        @include rmaxwd(1199) {
+            padding-left: 0;
+        }
+        img {
+            border-radius: 12px;
+        }
+        .accordion-list-item {
+            margin-bottom: 0;
+        }
+    }
 }
 .service-page-service-list-area {
     padding: 165px 0;
