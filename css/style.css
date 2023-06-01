@@ -5038,7 +5038,11 @@ a.meanmenu-reveal {
             -ms-flex-pack: center;
                 justify-content: center;
         -ms-flex-negative: 0;
-            flex-shrink: 0; }
+            flex-shrink: 0;
+        width: 72px;
+        height: 72px;
+        border-radius: 50px;
+        overflow: hidden; }
       .testimonial-card .meta-user .user-info .info {
         display: -webkit-box;
         display: -ms-flexbox;
