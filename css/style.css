@@ -3077,8 +3077,8 @@ a.meanmenu-reveal {
       .slider-area .single-slider {
         height: 700px; } }
     .slider-area .single-slider .slider-overlay {
-      background: #005bac;
-      background: linear-gradient(135deg, rgba(0, 91, 172, 0.83) 0%, #1eae98 100%);
+      background: linear-gradient(-135deg, #1eae98 0%, #005bac 100%);
+      opacity: 0.831;
       position: absolute;
       left: 0;
       top: 0;
