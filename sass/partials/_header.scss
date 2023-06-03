@@ -3,7 +3,7 @@
 
   .header-top-info {
     display: flex;
-
+    gap: 0 24px;
     @include rmaxwd(1199) {
       justify-content: space-between;
       width: 100%;
@@ -12,14 +12,14 @@
   .header-contact-info {
     display: flex;
     align-items: center;
-    gap: 0 23px;
+    gap: 0 24px;
     padding: 6px 0;
     flex-wrap: wrap;
 
     span {
       display: flex;
       align-items: center;
-      gap: 22px;
+      gap: 24px;
       color: $white;
       font-size: 16px;
       font-weight: 400;
@@ -45,7 +45,7 @@
       a {
         display: flex;
         align-items: center;
-        gap: 13px;
+        gap: 10px;
         color: $white;
         font-size: 16px;
         font-weight: 400;
@@ -69,7 +69,6 @@
       color: $white;
       margin-bottom: -100px;
       display: inline-block;
-      margin-left: 30px;
       font-weight: 700;
       z-index: 2;
 
@@ -142,9 +141,9 @@
     position: absolute;
     content: "";
     width: 350px;
-    height: 240px;
-    left: -22px;
-    bottom: -40px;
+    height: 238px;
+    left: -30px;
+    bottom: -41px;
     background: linear-gradient( -65deg, rgb(227,0,8) 0%, rgb(250,174,0) 100%);
     border-radius: 15px;
     z-index: -1;
@@ -372,10 +371,10 @@
 
 // Header Button Area
 .header-btn {
-  margin-left: 35px;
+  margin-left: 26px;
   display: flex;
   align-items: center;
-  gap: 13px;
+  gap: 15px;
 
   @media only screen and (max-width: 1399px) {
     display: none;
