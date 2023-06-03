@@ -588,9 +588,11 @@
 
 // Instagram Widget
 .widget-instagram-feed {
-  display: flex;
+  display: grid;
   flex-wrap: wrap;
-  gap: 12px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 12px;
+  width: 240px;
 
   .single-instagram-feed {
     border-radius: 5px;

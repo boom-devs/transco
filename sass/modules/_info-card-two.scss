@@ -67,6 +67,8 @@
         .content {
             margin-top: 38px;
             gap: 37px;
+
+
             .desc {
                 line-height: 26px;
             }
@@ -140,6 +142,10 @@
                     font-size: 22px;
                     line-height: 30px;
                 }
+            }
+            .content {
+                margin-top: 30px;
+                gap: 30px;
             }
         }
     }

@@ -3619,7 +3619,10 @@ a.meanmenu-reveal {
             height: 30px; }
         .info-card.style-two .title-wrapper .title {
           font-size: 22px;
-          line-height: 30px; } }
+          line-height: 30px; }
+      .info-card.style-two .content {
+        margin-top: 30px;
+        gap: 30px; } }
 
 .info-card.style-three {
   position: relative;
@@ -7384,12 +7387,12 @@ button.testimonial-arrow-btn {
     color: #9ba8c3; }
 
 .widget-instagram-feed {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: grid;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 12px; }
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 12px;
+  width: 240px; }
   .widget-instagram-feed .single-instagram-feed {
     border-radius: 5px;
     width: 72px;
@@ -7801,7 +7804,8 @@ ul.children {
 .comment-respond {
   background-color: #eef5f8;
   padding: 50px;
-  border-radius: 18px; }
+  border-radius: 18px;
+  position: relative; }
   @media only screen and (min-width: 0px) and (max-width: 767px) {
     .comment-respond {
       padding: 30px; } }
@@ -8742,7 +8746,7 @@ ul.children {
       padding: 100px 0; } }
   .home-one-appointment-area .accordion-wrapper {
     padding-left: 120px; }
-    @media (max-width: 1199px) {
+    @media (max-width: 1399px) {
       .home-one-appointment-area .accordion-wrapper {
         padding-left: 0;
         margin-top: 50px; } }
@@ -8788,6 +8792,12 @@ ul.children {
       padding: 100px 0; } }
   .home-one-testimonial-area .testimonial-slider-wrapper {
     padding-left: 94px; }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .home-one-testimonial-area .testimonial-slider-wrapper {
+        padding-left: 0; } }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .home-one-testimonial-area .testimonial-slider-wrapper {
+        padding-left: 0; } }
 
 .home-two-counter-area {
   position: relative;
@@ -9485,4 +9495,5 @@ ul.children {
     .time-card-wrapper .time-card-arrow i {
       font-size: 16px;
       color: #ffffff; }
+
 /*# sourceMappingURL=style.css.map */

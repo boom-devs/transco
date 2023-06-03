@@ -134,7 +134,7 @@
   .accordion-wrapper {
     padding-left: 120px;
 
-    @include rmaxwd(1199) {
+    @include rmaxwd(1399) {
       padding-left: 0;
       margin-top: 50px;
     }
@@ -189,5 +189,12 @@
 
   .testimonial-slider-wrapper {
     padding-left: 94px;
+
+    @include md {
+      padding-left: 0;
+    }
+    @include sm {
+      padding-left: 0;
+    }
   }
 }
