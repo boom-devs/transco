@@ -7,7 +7,7 @@
   }
   .about-info-card {
     .about-info-content {
-      padding-left: 60px;
+      padding-left: 110px;
 
       @include rmaxwd(1199) {
         padding-left: 0;
@@ -21,7 +21,7 @@
 }
 // Video Popup Area
 .video-popup-area {
-  margin-bottom: -250px;
+  margin-bottom: -234px;
 
   @include rmaxwd(991) {
     margin-bottom: 0;
@@ -31,8 +31,8 @@
 
 // Counter Up Area
 .counter-area {
-  padding-top: 390px;
-  padding-bottom: 145px;
+  padding-top: 368px;
+  padding-bottom: 136px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -64,11 +64,12 @@
     padding-top: 100px;
   }
 
+
   .why-choose-us-wrapper {
     background-color: $white;
     position: relative;
     border-radius: 10px;
-    box-shadow: 5px 0 90px rgba(245, 246, 249, 0.8);
+    box-shadow: 5px 0 90px rgba(2, 24, 93, 0.1);
 
     @include sm {
       box-shadow: none;
@@ -82,14 +83,14 @@
 // Service Area
 .home-one-service-area {
   padding-top: 144px;
-  padding-bottom: 120px;
+  padding-bottom: 125px;
 
   @include rmaxwd(991) {
     padding-top: 100px;
     padding-bottom: 76px;
   }
   .section-title {
-    margin-bottom: 70px;
+    margin-bottom: 60px;
   }
 }
 
@@ -106,6 +107,9 @@
     padding-bottom: 67px;
   }
 
+  .section-title {
+    margin-bottom: 95px;
+  }
 }
 .process-image {
   margin-bottom: -70px;
@@ -120,7 +124,7 @@
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  padding: 144px 0;
+  padding: 132px 0;
   position: relative;
   z-index: 2;
 
@@ -128,7 +132,7 @@
     padding: 100px 0;
   }
   .accordion-wrapper {
-    padding-left: 90px;
+    padding-left: 120px;
 
     @include rmaxwd(1199) {
       padding-left: 0;
@@ -157,6 +161,10 @@
 }
 
 // Client Logo Area
+.home-one-client-logo-area {
+  padding-top: 100px;
+  padding-bottom: 86px;
+}
 // News Area
 .home-one-news-area {
   padding: 145px 0;
@@ -172,9 +180,13 @@
 
 // Testimonial Area
 .home-one-testimonial-area {
-  padding: 145px 0;
+  padding: 132px 0;
 
   @include rmaxwd(991) {
     padding: 100px 0;
+  }
+
+  .testimonial-slider-wrapper {
+    padding-left: 94px;
   }
 }

@@ -12,14 +12,14 @@
   .header-contact-info {
     display: flex;
     align-items: center;
-    gap: 0 30px;
+    gap: 0 23px;
     padding: 6px 0;
     flex-wrap: wrap;
 
     span {
       display: flex;
       align-items: center;
-      gap: 20px;
+      gap: 22px;
       color: $white;
       font-size: 16px;
       font-weight: 400;
@@ -63,7 +63,7 @@
     }
     a {
       position: relative;
-      padding: 11px 46px;
+      padding: 12px 46px;
       font-size: 18px;
       font-family: $heading-font;
       color: $white;
@@ -143,12 +143,12 @@
     content: "";
     width: 350px;
     height: 240px;
-    left: -30px;
+    left: -22px;
     bottom: -40px;
-    @include gradient-color-red;
+    background: linear-gradient( -65deg, rgb(227,0,8) 0%, rgb(250,174,0) 100%);
     border-radius: 15px;
     z-index: -1;
-    transform: rotate(20deg);
+    transform: rotate(19deg);
 
     @media only screen and (max-width: 1199px) {
       display: none;
@@ -195,7 +195,7 @@
             width: 18px;
             background-color: $orange-color;
             bottom: 40px;
-            left: 15px;
+            left: 20px;
           }
         }
       }
@@ -244,7 +244,7 @@
       }
       a {
         display: block;
-        padding: 45px 20px;
+        padding: 44px 20px;
         text-decoration: none;
         text-transform: capitalize;
         @include transition;
@@ -375,7 +375,7 @@
   margin-left: 35px;
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 13px;
 
   @media only screen and (max-width: 1399px) {
     display: none;
@@ -391,8 +391,8 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      width: 60px;
-      height: 60px;
+      width: 48px;
+      height: 48px;
       border-radius: 50px;
       @include gradient-color-red;
       flex-shrink: 0;
