@@ -37,11 +37,18 @@
           gap: 30px;
           align-items: center;
 
+          @include sm {
+            flex-direction: column-reverse;
+          }
+
           .video-popup-card {
             width: 43%;
             box-shadow: none;
             padding: 0;
 
+            @include sm {
+              width: 100%;
+            }
             &:before {
               position: absolute;
               width: 100%;

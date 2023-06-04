@@ -184,6 +184,12 @@
     background-color: transparent;
     padding: 82px 88px 82px 6px;
 
+    @include md {
+      padding: 50px;
+    }
+    @include sm {
+      padding: 30px;
+    }
     .post-comments-title {
       h2 {
         color: $white;

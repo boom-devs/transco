@@ -4,6 +4,10 @@
   flex-direction: column;
   justify-content: flex-end;
   gap: 14px;
+
+  @include sm {
+    width: 100%;
+  }
 }
 .skill-progressbar {
 
