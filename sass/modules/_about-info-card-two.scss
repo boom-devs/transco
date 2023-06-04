@@ -1,10 +1,13 @@
 .about-info-card {
     &.style-two {
       .about-info-content {
+        gap: 16px;
+
         .icon-card-wrapper {
           display: flex;
           justify-content: space-between;
           gap: 0 30px;
+          margin-bottom: 5px;
 
           .icon-card {
             width: 50%;
@@ -15,6 +18,7 @@
             .icon {
               width: 50px;
               height: 50px;
+              margin-top: 13px;
             }
             .content {
               gap: 4px;
@@ -25,14 +29,14 @@
             }
           }
         }
+        .btn-wrapper {
+          margin-top: 27px;
+        }
         .skill-and-video-wrapper {
           display: flex;
           gap: 30px;
           align-items: center;
 
-          .skill-progressbar-wrapper {
-            width: 57%;
-          }
           .video-popup-card {
             width: 43%;
             box-shadow: none;

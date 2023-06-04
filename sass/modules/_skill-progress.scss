@@ -1,18 +1,26 @@
+.skill-progressbar-wrapper {
+  width: 57%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 14px;
+}
 .skill-progressbar {
 
-  &:last-child {
-    .progress-inner {
-      margin-bottom: 0;
-    }
-
-    }
-  .progress-inner {
-    margin: 0 0 20px;
-    overflow: hidden;
-  }
+  //&:last-child {
+  //  .progress-inner {
+  //    margin-bottom: 0;
+  //  }
+  //
+  //  }
+  //.progress-inner {
+  //  margin: 0 0 20px;
+  //  overflow: hidden;
+  //}
   .progress-inner-item {
     position: relative;
     margin:0;
+    line-height: inherit;
   }
   .skill-title {
     z-index: 100;
