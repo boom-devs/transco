@@ -206,6 +206,9 @@
       }
 
       .slider-content-wrapper {
+        position: relative;
+        z-index: 99;
+
         .slider-content {
           @include sm {
             text-align: center;

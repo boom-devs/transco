@@ -15,6 +15,15 @@
       border-bottom: 290px solid $primary-color;
       border-left: 117px solid transparent;
       z-index: 1;
+
+      @include sm {
+        display: none;
+      }
+    }
+    .single-slider {
+      @include sm {
+        height: 500px;
+      }
     }
     .slider-wrapper {
       .container {
@@ -36,8 +45,8 @@
         height: 130px;
         background: $sky-color;
         bottom: 0;
-        left: -190px;
-        transform: skewX(-20deg);
+        left: -140px;
+        transform: skewX(-22deg);
       }
       //.slider-content-wrapper {
       //

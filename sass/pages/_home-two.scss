@@ -92,8 +92,15 @@
   position: relative;
   z-index: 2;
 
+  .form-image-mr {
+    padding-right: 56px !important;
+  }
   .form-image-wrapper {
-    padding-right: 68px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
   }
 }
 
