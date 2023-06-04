@@ -16,7 +16,7 @@
       display: flex;
       justify-content: flex-end;
       align-items: center;
-      gap: 32px;
+      gap: 20px;
       cursor: pointer;
       flex-direction: row-reverse;
       padding: 12px 0;
@@ -51,7 +51,7 @@
     }
     .accordion-item-body {
       color: $white-100;
-      padding-left: 60px;
+      padding-left: 50px;
       padding-bottom: 25px;
     }
   }

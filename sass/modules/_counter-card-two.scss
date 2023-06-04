@@ -1,9 +1,7 @@
 .counter-card {
   &.style-two {
-    @include md {
-      grid-template-columns: repeat(3, 1fr);
-      gap: 30px;
-    }
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
 
     .counter-item {
       text-align: left;
@@ -20,6 +18,9 @@
         @include md {
           flex-direction: column;
         }
+      }
+      .counter-content {
+        width: 100%;
       }
       .number {
         font-size: 90px;

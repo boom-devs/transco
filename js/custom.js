@@ -89,7 +89,7 @@
         $(".slider-wrapper").slick({
             slidesToShow: 1,
             infinite: true,
-            autoplay: true,
+            autoplay: false,
             draggable: true,
             arrows: true,
             slidesToScroll: 1,

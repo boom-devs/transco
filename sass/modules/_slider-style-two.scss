@@ -83,6 +83,11 @@
       .slider-image {
         position: relative;
         z-index: 2;
+        //width: inherit;
+        //height: inherit;
+        //margin: inherit;
+        float: right;
+        margin-top: inherit;
         //width: 58%;
         //align-self: end;
         animation: MoveLeftRight 2s linear infinite alternate;

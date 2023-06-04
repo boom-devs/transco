@@ -1,8 +1,9 @@
 // Counter Area Two
 .home-two-counter-area {
   position: relative;
-  padding: 140px 0;
+  padding: 150px 0;
   overflow: hidden;
+  margin-top: -50px;
 
   @include rmaxwd(991) {
     padding: 100px 0;
@@ -16,11 +17,11 @@
     background-color: $orange-color;
     top: 0;
     right: -75%;
-    transform: skewX(-20deg);
+    transform: skewX(-22deg);
   }
 
   .counter-area-two-inner {
-    padding: 140px 0;
+    padding: 145px 0;
     position: relative;
     background-color: $primary-color;
     border-radius: 0 18px 18px 0;
@@ -91,6 +92,10 @@
   margin-bottom: -270px;
   position: relative;
   z-index: 2;
+
+  .form-image-wrapper {
+    padding-right: 68px;
+  }
 }
 
 // Accordion Area
@@ -102,6 +107,8 @@
     padding: 100px 0;
   }
   .accordion-wrapper {
+    padding-left: 120px;
+
     @include rmaxwd(991) {
       padding-left: 0;
       padding-bottom: 80px;
@@ -173,14 +180,14 @@
 
 // About Us Area
 .home-two-about-us-area {
-  padding: 145px 0;
+  padding-top: 140px;
 
   @include rmaxwd(991) {
-    padding: 100px 0;
+    padding-top: 100px;
   }
   .about-info-card {
     .about-info-content {
-      padding-left: 60px;
+      padding-left: 120px;
 
       @include rmaxwd(1199) {
         padding-left: 0;
@@ -267,7 +274,8 @@
     }
   }
   .icon-card-left-padding {
-    padding-left: 100px;
+    padding-left: 134px;
+
     @include rmaxwd(1399) {
       padding-left: 12px;
     }
