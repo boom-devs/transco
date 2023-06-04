@@ -3,6 +3,7 @@
     .accordion-list-item {
       &.open {
         .accordion-head {
+
           .icon {
             background-color: $orange-color;
             color: $white;
@@ -11,6 +12,11 @@
       }
       .accordion-head {
         border-top: 1px solid #395670;
+        padding: 26px 0;
+
+        .accordion-title {
+          font-size: 24px;
+        }
 
         .icon {
           background-color: $white;

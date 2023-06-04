@@ -100,7 +100,7 @@
 // Accordion Area
 .home-two-accordion-area {
   padding-top: 140px;
-  padding-bottom: 243px;
+  padding-bottom: 151px;
   z-index: 2;
 
   @include rmaxwd(991) {
@@ -117,8 +117,8 @@
 }
 .triangle-image-shape-wrapper {
   position: absolute;
-  width: 760px;
-  top: -200px;
+  width: 830px;
+  top: -155px;
   left: 0;
   z-index: -1;
 
@@ -138,7 +138,10 @@
 }
 
 // Client Logo Area
-
+.home-two-client-logo-area {
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
 // Testimonial Area
 .home-two-testimonial-area {
   padding-top: 145px;
@@ -214,7 +217,8 @@
 
 // News Area
 .home-two-news-area {
-  padding: 145px 0;
+  padding-top: 109px;
+  padding-bottom: 106px;
 
   @include rmaxwd(991) {
     padding: 100px 0;
@@ -228,7 +232,7 @@
     }
   }
   .home-two-post-card-padding {
-    padding-left: 50px;
+    padding-left: 68px;
 
     @include rmaxwd(1199) {
       padding-left: 12px;
@@ -238,7 +242,7 @@
 
 // Team Member Area
 .home-two-team-member-area {
- padding: 145px 0;
+ padding: 139px 0;
 
   @include rmaxwd(991) {
     padding: 100px 0;
