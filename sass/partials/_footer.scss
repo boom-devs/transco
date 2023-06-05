@@ -295,14 +295,14 @@
   }
 
   .triangle-shape {
-    width: 250px;
-    height: 250px;
+    width: 280px;
+    height: 280px;
     background-color: $primary-color;
-    border-radius: 18px;
+    border-radius: 28px;
     position: absolute;
-    right: -60px;
-    bottom: -20px;
-    transform: rotate(20deg);
+    right: -32px;
+    bottom: -80px;
+    transform: rotate(39deg);
     z-index: -1;
   }
   .shape-bg {
