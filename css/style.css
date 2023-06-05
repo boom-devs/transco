@@ -415,7 +415,7 @@ input:focus {
   display: -ms-inline-flexbox;
   display: inline-flex;
   background: #e30008;
-  background: linear-gradient(-45deg, #e30008 0%, #faae00 100%);
+  background: linear-gradient(45deg, #e30008 0%, #faae00 100%);
   color: #fff;
   padding: 11px 10px 11px 36px;
   text-align: center;
@@ -2530,9 +2530,9 @@ html {
     content: "";
     width: 350px;
     height: 238px;
-    left: -30px;
+    left: -40px;
     bottom: -41px;
-    background: linear-gradient(-65deg, #e30008 0%, #faae00 100%);
+    background: linear-gradient(65deg, #e30008 0%, #faae00 100%);
     border-radius: 15px;
     z-index: -1;
     -webkit-transform: rotate(19deg);
@@ -2694,7 +2694,7 @@ html {
       height: 48px;
       border-radius: 50px;
       background: #e30008;
-      background: linear-gradient(-45deg, #e30008 0%, #faae00 100%);
+      background: linear-gradient(45deg, #e30008 0%, #faae00 100%);
       -ms-flex-negative: 0;
           flex-shrink: 0; }
   .header-btn .content-wrapper {
@@ -3065,7 +3065,7 @@ a.meanmenu-reveal {
       -webkit-transition: all 0.5s ease-out;
       transition: all 0.5s ease-out;
       background: #e30008;
-      background: linear-gradient(-45deg, #e30008 0%, #faae00 100%);
+      background: linear-gradient(45deg, #e30008 0%, #faae00 100%);
       border-color: #ff6731; }
       .slider-area button.slider-arrow-btn:hover i {
         color: #ffffff;
@@ -3155,23 +3155,22 @@ a.meanmenu-reveal {
     .slider-area .single-slider .slider-image {
       position: relative;
       z-index: 2;
-      width: 850px;
-      height: 850px;
+      width: 860px;
       -webkit-animation: MoveUpDown 2s linear infinite alternate;
               animation: MoveUpDown 2s linear infinite alternate;
-      margin-right: -110px;
-      margin-top: 140px; }
+      right: 47px;
+      top: 24px; }
       @media only screen and (min-width: 0px) and (max-width: 767px) {
         .slider-area .single-slider .slider-image {
           -webkit-animation: none;
                   animation: none;
-          margin-bottom: -150px; } }
+          margin-bottom: -150px;
+          right: unset;
+          text-align: center; } }
       @media (max-width: 1799px) {
         .slider-area .single-slider .slider-image {
           width: auto;
-          height: auto;
-          margin-top: inherit;
-          margin-right: inherit; } }
+          margin-top: inherit; } }
 
 .slider-area.style-two {
   position: relative; }
@@ -3920,7 +3919,7 @@ a.meanmenu-reveal {
       -webkit-transition: all 0.5s ease-out;
       transition: all 0.5s ease-out;
       background: #e30008;
-      background: linear-gradient(-45deg, #e30008 0%, #faae00 100%);
+      background: linear-gradient(45deg, #e30008 0%, #faae00 100%);
       border-color: #ff6731; }
       .info-card-slider-wrapper button.info-card-arrow-btn:hover i {
         color: #ffffff;
@@ -4228,7 +4227,7 @@ a.meanmenu-reveal {
   height: 170px;
   border-radius: 12px;
   background: #e30008;
-  background: linear-gradient(-45deg, #e30008 0%, #faae00 100%);
+  background: linear-gradient(45deg, #e30008 0%, #faae00 100%);
   top: unset;
   bottom: 0;
   left: -59px;
@@ -4373,6 +4372,8 @@ a.meanmenu-reveal {
         font-family: "Roboto", sans-serif;
         font-size: 16px;
         font-weight: 400; }
+  .about-info-card .about-info-content .btn-wrapper {
+    margin-top: 20px; }
 
 .about-info-card.style-two .about-info-content {
   gap: 16px; }
@@ -4585,7 +4586,7 @@ a.meanmenu-reveal {
   gap: 20px; }
   .promotional-banner-widget.style-two .promotional-bananer-content .icon {
     background: #e30008;
-    background: linear-gradient(-45deg, #e30008 0%, #faae00 100%); }
+    background: linear-gradient(45deg, #e30008 0%, #faae00 100%); }
   .promotional-banner-widget.style-two .promotional-bananer-content .content span {
     display: inline-block;
     width: 100%;
@@ -4678,7 +4679,7 @@ a.meanmenu-reveal {
           left: 50%; } }
       .video-popup-card.style-three .video-popup-btn a {
         background: #e30008;
-        background: linear-gradient(-45deg, #e30008 0%, #faae00 100%); }
+        background: linear-gradient(45deg, #e30008 0%, #faae00 100%); }
 
 .counter-card {
   z-index: 1;
@@ -5269,7 +5270,7 @@ button.testimonial-arrow-btn {
     -webkit-transition: all 0.5s ease-out;
     transition: all 0.5s ease-out;
     background: #e30008;
-    background: linear-gradient(-45deg, #e30008 0%, #faae00 100%);
+    background: linear-gradient(45deg, #e30008 0%, #faae00 100%);
     border-color: #ff6731; }
     button.testimonial-arrow-btn:hover i {
       color: #ffffff;
@@ -5377,7 +5378,7 @@ button.testimonial-arrow-btn {
 .accordion-wrapper .accordion-list-item .accordion-item-body {
   color: #c7cdda;
   padding-left: 50px;
-  padding-bottom: 25px; }
+  padding-bottom: 3px; }
 
 .accordion-wrapper.style-two .accordion-list-item.open .accordion-head .icon {
   background-color: #ff6731;
@@ -5498,7 +5499,7 @@ button.testimonial-arrow-btn {
   padding: 37px;
   border: 1px solid #778196;
   border-radius: 12px;
-  gap: 60px;
+  gap: 40px;
   margin-bottom: 25px; }
   .post-card .image {
     overflow: hidden;
@@ -7699,7 +7700,7 @@ button.testimonial-arrow-btn {
       padding: 18px;
       border-radius: 6px;
       background: #e30008;
-      background: linear-gradient(-45deg, #e30008 0%, #faae00 100%); }
+      background: linear-gradient(45deg, #e30008 0%, #faae00 100%); }
     .widget_service_brochura .button-wrapper .doc {
       padding: 18px;
       border-radius: 6px;
@@ -7977,7 +7978,7 @@ ul.children {
   z-index: 2;
   overflow: hidden; }
   .footer .footer-sec {
-    padding-top: 224px; }
+    padding-top: 260px; }
   .footer .footer-bg {
     position: absolute;
     bottom: 30px;
@@ -8005,7 +8006,7 @@ ul.children {
     color: #c7cdda;
     margin-bottom: 30px; }
   .footer-widget .footer-widget-info .footer-logo {
-    margin-bottom: 35px;
+    margin-bottom: 30px;
     display: inline-block; }
   .footer-widget .footer-widget-info .info-form-and-social-icon {
     display: -webkit-box;
@@ -8204,12 +8205,12 @@ ul.children {
 .footer-subscribe-area {
   position: relative;
   z-index: 99;
-  margin-bottom: -141px; }
+  margin-bottom: -136px; }
 
 .subscribe-area {
   background-color: #ff6731;
   border-radius: 18px;
-  padding: 60px 90px 60px 70px;
+  padding: 64px 90px 64px 70px;
   z-index: 2;
   position: relative;
   overflow: hidden; }
@@ -8251,7 +8252,6 @@ ul.children {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    gap: 10px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -8278,7 +8278,8 @@ ul.children {
     .subscribe-area .content-wrapper .text {
       font-size: 22px;
       color: #ffffff;
-      margin-bottom: 0; }
+      margin-bottom: 0;
+      margin-top: 12px; }
   .subscribe-area .subscribe-inner-area {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -8293,6 +8294,8 @@ ul.children {
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
                 flex-direction: column; } }
+    .subscribe-area .subscribe-inner-area .subscribe-form-wrapper {
+      margin-top: -12px; }
     .subscribe-area .subscribe-inner-area .content-wrapper,
     .subscribe-area .subscribe-inner-area .subscribe-form-wrapper {
       width: 50%; }
@@ -8700,7 +8703,7 @@ ul.children {
         padding-top: 100px; } }
 
 .video-popup-area {
-  margin-bottom: -220px; }
+  margin-bottom: -237px; }
   @media (max-width: 991px) {
     .video-popup-area {
       margin-bottom: 0;
@@ -8726,7 +8729,7 @@ ul.children {
   -webkit-transform: rotate(-124deg);
           transform: rotate(-124deg);
   right: -135px;
-  bottom: -123px;
+  bottom: -110px;
   position: absolute; }
 
 .why-choose-us-area {
@@ -8803,11 +8806,11 @@ ul.children {
   height: 200px;
   border-radius: 18px;
   background: #e30008;
-  background: linear-gradient(-45deg, #e30008 0%, #faae00 100%);
+  background: linear-gradient(45deg, #e30008 0%, #faae00 100%);
   -webkit-transform: rotate(27deg);
           transform: rotate(27deg);
   left: -36px;
-  top: -72px;
+  top: -90px;
   position: absolute; }
 
 .blue-overlay {
@@ -8825,7 +8828,7 @@ ul.children {
 
 .home-one-news-area {
   padding-top: 145px;
-  padding-bottom: 120px; }
+  padding-bottom: 113px; }
   @media (max-width: 991px) {
     .home-one-news-area {
       padding: 100px 0; } }

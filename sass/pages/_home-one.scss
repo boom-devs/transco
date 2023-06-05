@@ -21,7 +21,7 @@
 }
 // Video Popup Area
 .video-popup-area {
-  margin-bottom: -220px;
+  margin-bottom: -237px;
 
   @include rmaxwd(991) {
     margin-bottom: 0;
@@ -51,7 +51,7 @@
   background: linear-gradient( -45deg, rgb(227,0,8) 0%, rgb(250,174,0) 100%);
   transform: rotate(-124deg);
   right: -135px;
-  bottom: -123px;
+  bottom: -110px;
   position: absolute;
 }
 
@@ -147,7 +147,7 @@
   @include gradient-color-red;
   transform: rotate(27deg);
   left: -36px;
-  top: -72px;
+  top: -90px;
   position: absolute;
 }
 .blue-overlay {
@@ -168,7 +168,7 @@
 // News Area
 .home-one-news-area {
   padding-top: 145px;
-  padding-bottom: 120px;
+  padding-bottom: 113px;
 
   @include rmaxwd(991) {
     padding: 100px 0;

@@ -4,7 +4,7 @@
   overflow: hidden;
 
   .footer-sec {
-    padding-top: 224px;
+    padding-top: 260px;
   }
   //footer Background
   .footer-bg {
@@ -39,7 +39,7 @@
       margin-bottom: 30px;
     }
     .footer-logo {
-      margin-bottom: 35px;
+      margin-bottom: 30px;
       display: inline-block;
     }
     .info-form-and-social-icon {
@@ -277,15 +277,16 @@
 .footer-subscribe-area {
   position: relative;
   z-index: 99;
-  margin-bottom: -141px;
+  margin-bottom: -136px;
 }
 .subscribe-area {
   background-color: $orange-color;
   border-radius: 18px;
-  padding: 60px 90px 60px 70px;
+  padding: 64px 90px 64px 70px;
   z-index: 2;
   position: relative;
   overflow: hidden;
+
   @include md {
     padding: 40px;
   }
@@ -325,7 +326,6 @@
   }
   .content-wrapper {
     display: flex;
-    gap: 10px;
     flex-direction: column;
 
     .short-title {
@@ -354,6 +354,7 @@
       font-size: 22px;
       color: $white;
       margin-bottom: 0;
+      margin-top: 12px;
     }
   }
 
@@ -363,6 +364,9 @@
     gap: 30px;
     @include sm {
       flex-direction: column;
+    }
+    .subscribe-form-wrapper {
+      margin-top: -12px;
     }
     .content-wrapper,
     .subscribe-form-wrapper {

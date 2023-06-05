@@ -284,21 +284,21 @@
     .slider-image {
       position: relative;
       z-index: 2;
-      width: 850px;
-      height: 850px;
+      width: 860px;
       animation: MoveUpDown 2s linear infinite alternate;
-      margin-right: -110px;
-      margin-top: 140px;
+      right: 47px;
+      top: 24px;
+
 
       @include sm {
         animation: none;
         margin-bottom: -150px;
+        right: unset;
+        text-align: center;
       }
       @include rmaxwd(1799) {
         width: auto;
-        height: auto;
         margin-top: inherit;
-        margin-right: inherit;
       }
 
     }
