@@ -54,6 +54,10 @@
         float: right;
         margin-top: inherit;
         animation: MoveLeftRight 2s linear infinite alternate;
+        right: -50px;
+        img {
+          float: right;
+        }
         &:before {
           position: absolute;
           content: "";
@@ -62,9 +66,9 @@
           background-color: $orange-color;
           border-radius: 0;
           top: -1000px;
-          transform: skewX(-20deg);
+          transform: skewX(-22deg);
           z-index: -1;
-          right: -125px;
+          right: -160px;
         }
       }
     }

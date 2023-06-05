@@ -3218,7 +3218,10 @@ a.meanmenu-reveal {
     float: right;
     margin-top: inherit;
     -webkit-animation: MoveLeftRight 2s linear infinite alternate;
-            animation: MoveLeftRight 2s linear infinite alternate; }
+            animation: MoveLeftRight 2s linear infinite alternate;
+    right: -50px; }
+    .slider-area.style-two .slider-wrapper .slider-image img {
+      float: right; }
     .slider-area.style-two .slider-wrapper .slider-image:before {
       position: absolute;
       content: "";
@@ -3227,10 +3230,10 @@ a.meanmenu-reveal {
       background-color: #ff6731;
       border-radius: 0;
       top: -1000px;
-      -webkit-transform: skewX(-20deg);
-              transform: skewX(-20deg);
+      -webkit-transform: skewX(-22deg);
+              transform: skewX(-22deg);
       z-index: -1;
-      right: -125px; }
+      right: -160px; }
 
 .slider-area.style-three {
   position: relative; }
@@ -6574,15 +6577,18 @@ button.testimonial-arrow-btn {
         border-color: #005bac;
         -webkit-transition: all 0.5s ease-out;
         transition: all 0.5s ease-out; }
-  .single-post-item .post-thumbnail {
+  .single-post-item .post-thumbnail,
+  .single-post-item .post-video {
     position: relative; }
-    .single-post-item .post-thumbnail .popup-video-wrapper {
+    .single-post-item .post-thumbnail .popup-video-wrapper,
+    .single-post-item .post-video .popup-video-wrapper {
       position: absolute;
       top: 50%;
       left: 50%;
       -webkit-transform: translate(-50%, -50%);
               transform: translate(-50%, -50%); }
-    .single-post-item .post-thumbnail .video-btn a {
+    .single-post-item .post-thumbnail .video-btn a,
+    .single-post-item .post-video .video-btn a {
       width: 70px;
       height: 70px;
       -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
@@ -6602,10 +6608,12 @@ button.testimonial-arrow-btn {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center; }
-      .single-post-item .post-thumbnail .video-btn a i {
+      .single-post-item .post-thumbnail .video-btn a i,
+      .single-post-item .post-video .video-btn a i {
         color: #005bac;
         font-size: 18px; }
-      .single-post-item .post-thumbnail .video-btn a:hover {
+      .single-post-item .post-thumbnail .video-btn a:hover,
+      .single-post-item .post-video .video-btn a:hover {
         -webkit-animation: none;
         animation: none; }
   .single-post-item button.post-gallery-btn {
