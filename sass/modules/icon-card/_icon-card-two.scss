@@ -4,7 +4,7 @@
         flex-direction: row;
         justify-content: space-between;
         gap: 34px;
-        padding: 70px;
+        padding: 64px 70px;
         position: relative;
         margin-bottom: 0;
 
@@ -25,7 +25,7 @@
             }
         }
         .content {
-            gap: 34px;
+            gap: 26px;
             .title {
                 color: $white;
             }

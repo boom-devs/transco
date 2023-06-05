@@ -2478,7 +2478,7 @@ html {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    gap: 30px;
+    gap: 25px;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end; }
@@ -3239,8 +3239,9 @@ a.meanmenu-reveal {
     .slider-area.style-three .slider-wrapper {
       height: 700px; } }
   .slider-area.style-three .single-slider .slider-overlay {
+    opacity: 0.659;
     background: #005bac;
-    background: linear-gradient(135deg, rgba(30, 174, 152, 0.66) 0%, rgba(0, 91, 172, 0.66) 100%); }
+    background: linear-gradient(135deg, #1eae98 0%, #005bac 100%); }
   .slider-area.style-three .single-slider .slider-content-wrapper {
     gap: 100px; }
     .slider-area.style-three .single-slider .slider-content-wrapper .slider-content {
@@ -3620,7 +3621,7 @@ a.meanmenu-reveal {
 .info-card.style-three {
   position: relative;
   padding: 0;
-  margin-bottom: 95px; }
+  margin-bottom: 100px; }
   .info-card.style-three:hover .image-wrapper img {
     -webkit-transform: scale(1.1);
             transform: scale(1.1); }
@@ -3994,7 +3995,7 @@ a.meanmenu-reveal {
       -ms-flex-pack: justify;
           justify-content: space-between;
   gap: 34px;
-  padding: 70px;
+  padding: 64px 70px;
   position: relative;
   margin-bottom: 0; }
   .icon-card.style-two .divider {
@@ -4011,7 +4012,7 @@ a.meanmenu-reveal {
     .icon-card.style-two .icon img {
       width: 100%; }
   .icon-card.style-two .content {
-    gap: 34px; }
+    gap: 26px; }
     .icon-card.style-two .content .title {
       color: #ffffff; }
     .icon-card.style-two .content .desc {
@@ -4468,6 +4469,8 @@ a.meanmenu-reveal {
     .about-info-card.style-three .about-info-content {
       padding-left: 0;
       padding-top: 50px; } }
+  .about-info-card.style-three .about-info-content .skill-progressbar-wrapper {
+    width: 100%; }
   .about-info-card.style-three .about-info-content .icon-card-wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -9084,6 +9087,10 @@ ul.children {
     border-radius: 8px;
     overflow: hidden; }
 
+.home-three-about-us-area {
+  padding-top: 125px;
+  padding-bottom: 150px; }
+
 .why-choose-three-area {
   background-color: #393d48;
   background-repeat: no-repeat;
@@ -9107,8 +9114,8 @@ ul.children {
   background-position: center center; }
 
 .home-three-our-service-area {
-  padding-top: 145px;
-  padding-bottom: 105px; }
+  padding-top: 130px;
+  padding-bottom: 88px; }
   @media (max-width: 991px) {
     .home-three-our-service-area {
       padding-top: 100px;

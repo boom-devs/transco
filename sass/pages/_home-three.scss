@@ -11,7 +11,11 @@
     overflow: hidden;
   }
 }
-
+// About Us Area
+.home-three-about-us-area {
+  padding-top: 125px;
+  padding-bottom: 150px;
+}
 // Why Choose Area Three
 .why-choose-three-area {
   background-color: $secondary-color;
@@ -39,8 +43,8 @@
 }
 // Our Service Area
 .home-three-our-service-area {
-  padding-top: 145px;
-  padding-bottom: 105px;
+  padding-top: 130px;
+  padding-bottom: 88px;
 
   @include rmaxwd(991) {
     padding-top: 100px;

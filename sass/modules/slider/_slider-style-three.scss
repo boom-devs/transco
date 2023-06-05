@@ -10,8 +10,9 @@
 
     .single-slider {
       .slider-overlay {
+        opacity: 0.659;
         background: rgb(0,91,172);
-        background: linear-gradient(135deg, rgba(30,174,152,0.66) 0%, rgba(0,91,172,0.66) 100%);
+        background: linear-gradient( 135deg, rgb(30,174,152) 0%, rgb(0,91,172) 100%);
       }
       .slider-content-wrapper {
         gap: 100px;
