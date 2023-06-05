@@ -11,10 +11,28 @@
     overflow: hidden;
   }
 }
+
+// Why Choose Us Area
+.home-three-why-choose-us {
+  padding-top: 123px;
+
+  @include rmaxwd(1199) {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .why-choose-card-wrapper {
+    padding-left: 110px;
+
+    @include rmaxwd(991) {
+      padding-left: 0;
+    }
+  }
+}
 // About Us Area
 .home-three-about-us-area {
   padding-top: 125px;
-  padding-bottom: 150px;
+  padding-bottom: 144px;
 }
 // Why Choose Area Three
 .why-choose-three-area {
@@ -24,7 +42,15 @@
   background-position: center center;
 }
 // Project Area & Blog Area
-.home-three-project-area,
+.home-three-project-area {
+  padding-top: 136px;
+  padding-bottom: 130px;
+
+  @include rmaxwd(991) {
+    padding-top: 100px;
+    padding-bottom: 80px;
+  }
+}
 .home-three-blog-post-area {
   padding-top: 145px;
   padding-bottom: 120px;
@@ -35,8 +61,7 @@
   }
 }
 // Pricing Area
-.pricing-area {
-  background-color: $blue-color;
+.home-three-pricing {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -53,7 +78,22 @@
 }
 
 // Accordion Area
-.home-three-accordion-area,
+.home-three-accordion-area {
+  padding-top: 212px;
+  padding-bottom: 144px;
+
+  @include rmaxwd(991) {
+    padding: 100px 0;
+  }
+
+  .accordion-wrapper {
+    @include rmaxwd(1199) {
+      padding-right: 0 !important;
+      padding-bottom: 80px;
+    }
+  }
+}
+
 .home-three-testimonial-area{
   padding: 145px 0;
 
@@ -61,12 +101,12 @@
     padding: 100px 0;
   }
 
-.accordion-wrapper {
-  @include rmaxwd(1199) {
-    padding-right: 0 !important;
-    padding-bottom: 80px;
+  .accordion-wrapper {
+    @include rmaxwd(1199) {
+      padding-right: 0 !important;
+      padding-bottom: 80px;
+    }
   }
-}
 }
 
 

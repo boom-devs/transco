@@ -16,6 +16,7 @@
       }
       .slider-content-wrapper {
         gap: 100px;
+        margin-top: -60px;
 
         .slider-content {
           width: 100%;
@@ -24,6 +25,15 @@
           @include rmaxwd(991) {
             margin-top: -200px;
           }
+
+          .slider-short-title {
+            font-size: 36px;
+          }
+          .slider-title {
+            font-size: 120px;
+            line-height: 132px;
+          }
+
         }
       }
     }

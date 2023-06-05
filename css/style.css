@@ -3245,13 +3245,19 @@ a.meanmenu-reveal {
     background: #005bac;
     background: linear-gradient(135deg, #1eae98 0%, #005bac 100%); }
   .slider-area.style-three .single-slider .slider-content-wrapper {
-    gap: 100px; }
+    gap: 100px;
+    margin-top: -60px; }
     .slider-area.style-three .single-slider .slider-content-wrapper .slider-content {
       width: 100%;
       text-align: center; }
       @media (max-width: 991px) {
         .slider-area.style-three .single-slider .slider-content-wrapper .slider-content {
           margin-top: -200px; } }
+      .slider-area.style-three .single-slider .slider-content-wrapper .slider-content .slider-short-title {
+        font-size: 36px; }
+      .slider-area.style-three .single-slider .slider-content-wrapper .slider-content .slider-title {
+        font-size: 120px;
+        line-height: 132px; }
   .slider-area.style-three button.slider-arrow-btn {
     display: block !important; }
   .slider-area.style-three .slider-wrapper .slick-dots {
@@ -4500,6 +4506,8 @@ a.meanmenu-reveal {
         .about-info-card.style-three .about-info-content .icon-card-wrapper .icon-card .content .title {
           font-size: 18px;
           line-height: 24px; }
+  .about-info-card.style-three .about-info-content .btn-wrapper {
+    margin-top: 7px; }
 
 .promotional-banner-widget {
   display: -webkit-box;
@@ -5406,7 +5414,7 @@ button.testimonial-arrow-btn {
   color: #ffffff; }
 .accordion-wrapper.style-two.accordion-style-three .accordion-list-item .accordion-head {
   border-top: 1px solid #dfe2e9;
-  padding: 12px 0; }
+  padding: 28px 0; }
   .accordion-wrapper.style-two.accordion-style-three .accordion-list-item .accordion-head .accordion-title {
     color: #393d48; }
   .accordion-wrapper.style-two.accordion-style-three .accordion-list-item .accordion-head .icon {
@@ -5992,8 +6000,8 @@ button.testimonial-arrow-btn {
         font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-size: 18px;
-        line-height: 36px;
-        color: #393d48;
+        line-height: 32px;
+        color: #5e6f92;
         margin: 0; }
   .price-card .card-btn {
     width: 100%;
@@ -9102,9 +9110,21 @@ ul.children {
     border-radius: 8px;
     overflow: hidden; }
 
+.home-three-why-choose-us {
+  padding-top: 123px; }
+  @media (max-width: 1199px) {
+    .home-three-why-choose-us {
+      padding-top: 100px;
+      padding-bottom: 100px; } }
+  .home-three-why-choose-us .why-choose-card-wrapper {
+    padding-left: 110px; }
+    @media (max-width: 991px) {
+      .home-three-why-choose-us .why-choose-card-wrapper {
+        padding-left: 0; } }
+
 .home-three-about-us-area {
   padding-top: 125px;
-  padding-bottom: 150px; }
+  padding-bottom: 144px; }
 
 .why-choose-three-area {
   background-color: #393d48;
@@ -9112,18 +9132,23 @@ ul.children {
   background-size: cover;
   background-position: center center; }
 
-.home-three-project-area,
+.home-three-project-area {
+  padding-top: 136px;
+  padding-bottom: 130px; }
+  @media (max-width: 991px) {
+    .home-three-project-area {
+      padding-top: 100px;
+      padding-bottom: 80px; } }
+
 .home-three-blog-post-area {
   padding-top: 145px;
   padding-bottom: 120px; }
   @media (max-width: 991px) {
-    .home-three-project-area,
     .home-three-blog-post-area {
       padding-top: 100px;
       padding-bottom: 80px; } }
 
-.pricing-area {
-  background-color: #003869;
+.home-three-pricing {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; }
@@ -9136,15 +9161,23 @@ ul.children {
       padding-top: 100px;
       padding-bottom: 80px; } }
 
-.home-three-accordion-area,
+.home-three-accordion-area {
+  padding-top: 212px;
+  padding-bottom: 144px; }
+  @media (max-width: 991px) {
+    .home-three-accordion-area {
+      padding: 100px 0; } }
+  @media (max-width: 1199px) {
+    .home-three-accordion-area .accordion-wrapper {
+      padding-right: 0 !important;
+      padding-bottom: 80px; } }
+
 .home-three-testimonial-area {
   padding: 145px 0; }
   @media (max-width: 991px) {
-    .home-three-accordion-area,
     .home-three-testimonial-area {
       padding: 100px 0; } }
   @media (max-width: 1199px) {
-    .home-three-accordion-area .accordion-wrapper,
     .home-three-testimonial-area .accordion-wrapper {
       padding-right: 0 !important;
       padding-bottom: 80px; } }

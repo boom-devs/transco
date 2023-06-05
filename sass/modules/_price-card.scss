@@ -4,6 +4,7 @@
     z-index: 2;
     position: relative;
     border-radius: 14px;
+
     .card-title {
         display: flex;
         justify-content: center;
@@ -106,8 +107,8 @@
                 font-family: $body-font;
                 font-weight: 400;
                 font-size: 18px;
-                line-height: 36px;
-                color: $secondary-color;
+                line-height: 32px;
+                color: #5e6f92;
                 margin: 0;
             }
         }
