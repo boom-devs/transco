@@ -5398,6 +5398,8 @@ button.testimonial-arrow-btn {
     font-size: 12px; }
 .accordion-wrapper.style-two .accordion-list-item:last-child {
   border-bottom: 1px solid #395670; }
+.accordion-wrapper.style-two .accordion-list-item .accordion-item-body {
+  padding-bottom: 28px; }
 
 .accordion-wrapper.style-two.accordion-style-three .accordion-list-item.open .accordion-head .icon {
   background-color: #ff6731;
@@ -8389,6 +8391,8 @@ ul.children {
   height: 380px;
   border-radius: 12px; }
 
+.footer.style-two .footer-sec {
+  padding-top: 218px; }
 .footer.style-two .subscribe-form-wrapper p {
   color: #c7cdda;
   margin-bottom: 35px; }
@@ -8929,7 +8933,7 @@ ul.children {
           transform: skewX(-22deg); }
 
 .appointment-booking-area {
-  margin-bottom: -270px;
+  margin-bottom: -258px;
   position: relative;
   z-index: 2; }
   @media (max-width: 991px) {
@@ -9058,7 +9062,7 @@ ul.children {
         padding-left: 12px; } }
 
 .home-two-team-member-area {
-  padding: 139px 0; }
+  padding: 138px 0; }
   @media (max-width: 991px) {
     .home-two-team-member-area {
       padding: 100px 0; } }
