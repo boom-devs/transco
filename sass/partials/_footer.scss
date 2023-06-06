@@ -3,6 +3,11 @@
   z-index: 2;
   overflow: hidden;
 
+  .mt-50.mb-50 {
+    @include rmaxwd(1199) {
+      margin: 0;
+    }
+  }
   .footer-sec {
     padding-top: 260px;
   }

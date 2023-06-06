@@ -8010,6 +8010,9 @@ ul.children {
   position: relative;
   z-index: 2;
   overflow: hidden; }
+  @media (max-width: 1199px) {
+    .footer .mt-50.mb-50 {
+      margin: 0; } }
   .footer .footer-sec {
     padding-top: 260px; }
   .footer .footer-bg {
@@ -8468,6 +8471,9 @@ ul.children {
 
 .footer.style-three .footer-sec {
   padding-top: 120px; }
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .footer.style-three .footer-sec {
+      padding-top: 100px; } }
 
 /* Team Member */
 .team-member-card {
@@ -9068,8 +9074,8 @@ ul.children {
   width: 100%; }
 
 .home-two-news-area {
-  padding-top: 109px;
-  padding-bottom: 106px; }
+  padding-top: 68px;
+  padding-bottom: 107px; }
   @media (max-width: 991px) {
     .home-two-news-area {
       padding: 100px 0; } }
@@ -9129,11 +9135,14 @@ ul.children {
     overflow: hidden; }
 
 .home-three-why-choose-us {
-  padding-top: 123px; }
+  padding-top: 123px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
   @media (max-width: 1199px) {
     .home-three-why-choose-us {
       padding-top: 100px;
-      padding-bottom: 100px; } }
+      padding-bottom: 50px; } }
   .home-three-why-choose-us .why-choose-card-wrapper {
     padding-left: 110px; }
     @media (max-width: 991px) {
@@ -9143,6 +9152,9 @@ ul.children {
 .home-three-about-us-area {
   padding-top: 125px;
   padding-bottom: 144px; }
+  @media (max-width: 991px) {
+    .home-three-about-us-area {
+      padding: 100px 0; } }
 
 .why-choose-three-area {
   background-color: #393d48;
@@ -9172,6 +9184,16 @@ ul.children {
   background-position: center center;
   padding-top: 132px;
   padding-bottom: 144px; }
+  @media (max-width: 991px) {
+    .home-three-pricing-area {
+      padding-top: 100px;
+      padding-bottom: 70px; } }
+
+.price-card-padding {
+  padding: 0 50px; }
+  @media (max-width: 1399px) {
+    .price-card-padding {
+      padding: 0 12px; } }
 
 .home-three-our-service-area {
   padding-top: 130px;
@@ -9179,12 +9201,12 @@ ul.children {
   @media (max-width: 991px) {
     .home-three-our-service-area {
       padding-top: 100px;
-      padding-bottom: 80px; } }
+      padding-bottom: 50px; } }
 
 .home-three-accordion-area {
   padding-top: 212px;
   padding-bottom: 144px; }
-  @media (max-width: 991px) {
+  @media (max-width: 1199px) {
     .home-three-accordion-area {
       padding: 100px 0; } }
   @media (max-width: 1199px) {

@@ -2,6 +2,10 @@
   &.style-three {
     .footer-sec {
       padding-top: 120px;
+
+      @include sm {
+        padding-top: 100px;
+      }
     }
   }
 }
