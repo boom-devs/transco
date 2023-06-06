@@ -83,7 +83,7 @@
 // Service Area
 .home-one-service-area {
   padding-top: 144px;
-  padding-bottom: 125px;
+  padding-bottom: 124px;
 
   @include rmaxwd(991) {
     padding-top: 100px;
@@ -97,7 +97,7 @@
 // Process Step Area
 .home-one-process-step-area {
   background-color: $black-200;
-  padding-top: 145px;
+  padding-top: 144px;
 
   @include rmaxwd(991) {
     padding-top: 100px;
@@ -124,7 +124,7 @@
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  padding: 132px 0;
+  padding: 133px 0;
   position: relative;
   z-index: 2;
 
@@ -167,8 +167,8 @@
 }
 // News Area
 .home-one-news-area {
-  padding-top: 145px;
-  padding-bottom: 113px;
+  padding-top: 136px;
+  padding-bottom: 122px;
 
   @include rmaxwd(991) {
     padding: 100px 0;
@@ -181,7 +181,8 @@
 
 // Testimonial Area
 .home-one-testimonial-area {
-  padding: 132px 0;
+  padding-top: 132px;
+  padding-bottom: 120px;
 
   @include rmaxwd(991) {
     padding: 100px 0;

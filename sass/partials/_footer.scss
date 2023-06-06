@@ -9,7 +9,7 @@
     }
   }
   .footer-sec {
-    padding-top: 260px;
+    padding-top: 265px;
   }
   //footer Background
   .footer-bg {
@@ -22,11 +22,12 @@
 }
 .footer-widget-title {
   font-family: $heading-font;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 21px;
+  line-height: 26px;
   color: $white;
   position: relative;
   margin-bottom: 26px;
+  font-weight: 700;
 }
 .footer-widget {
   margin-bottom: 30px;
@@ -103,7 +104,7 @@
       a {
         color: $white-100;
         text-transform: capitalize;
-        font-size: 16px;
+        font-size: 18px;
         @include transition;
         position: relative;
 
@@ -150,11 +151,13 @@
         .contact-text {
           color: $white-100;
           font-size: 18px;
+          line-height: 24px;
           overflow: hidden;
 
           span {
             color: $white-100;
             font-size: 18px;
+            line-height: 24px;
             display: inline-block;
             width: 100%;
           }
@@ -243,7 +246,7 @@
 }
 
 .footer-bottom-area {
-  padding: 60px 0;
+  padding: 57px 0;
 
   @include rmaxwd(991) {
     padding: 30px 0;

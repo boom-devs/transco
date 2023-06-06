@@ -5132,7 +5132,7 @@ a.meanmenu-reveal {
           color: #778196; }
 
 .testimonial-card.style-two {
-  padding: 58px; }
+  padding: 44px; }
   @media only screen and (min-width: 1200px) and (max-width: 1399px) {
     .testimonial-card.style-two {
       padding: 30px; } }
@@ -8014,7 +8014,7 @@ ul.children {
     .footer .mt-50.mb-50 {
       margin: 0; } }
   .footer .footer-sec {
-    padding-top: 260px; }
+    padding-top: 265px; }
   .footer .footer-bg {
     position: absolute;
     bottom: 30px;
@@ -8025,11 +8025,12 @@ ul.children {
 
 .footer-widget-title {
   font-family: "Poppins", sans-serif;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 21px;
+  line-height: 26px;
   color: #ffffff;
   position: relative;
-  margin-bottom: 26px; }
+  margin-bottom: 26px;
+  font-weight: 700; }
 
 .footer-widget {
   margin-bottom: 30px; }
@@ -8092,7 +8093,7 @@ ul.children {
     .footer-widget .footer-widget-menu li a {
       color: #c7cdda;
       text-transform: capitalize;
-      font-size: 16px;
+      font-size: 18px;
       -webkit-transition: all 0.5s ease-out;
       transition: all 0.5s ease-out;
       position: relative; }
@@ -8137,10 +8138,12 @@ ul.children {
       .footer-widget .footer-widget-contact .footer-contact ul li .contact-text {
         color: #c7cdda;
         font-size: 18px;
+        line-height: 24px;
         overflow: hidden; }
         .footer-widget .footer-widget-contact .footer-contact ul li .contact-text span {
           color: #c7cdda;
           font-size: 18px;
+          line-height: 24px;
           display: inline-block;
           width: 100%; }
   .footer-widget .widget_latest_post ul li .latest-post-thumb img {
@@ -8210,7 +8213,7 @@ ul.children {
       color: #1eae98; }
 
 .footer-bottom-area {
-  padding: 60px 0; }
+  padding: 57px 0; }
   @media (max-width: 991px) {
     .footer-bottom-area {
       padding: 30px 0; } }
@@ -8418,10 +8421,10 @@ ul.children {
   border-radius: 12px; }
 
 .footer.style-two .footer-sec {
-  padding-top: 218px; }
+  padding-top: 225px; }
 .footer.style-two .subscribe-form-wrapper p {
   color: #c7cdda;
-  margin-bottom: 35px; }
+  margin-bottom: 30px; }
 .footer.style-two .subscribe-form-wrapper .subscribe-form-widget {
   border-radius: 6px; }
   .footer.style-two .subscribe-form-wrapper .subscribe-form-widget .single-field input {
@@ -8796,7 +8799,7 @@ ul.children {
 
 .home-one-service-area {
   padding-top: 144px;
-  padding-bottom: 125px; }
+  padding-bottom: 124px; }
   @media (max-width: 991px) {
     .home-one-service-area {
       padding-top: 100px;
@@ -8806,7 +8809,7 @@ ul.children {
 
 .home-one-process-step-area {
   background-color: #31373f;
-  padding-top: 145px; }
+  padding-top: 144px; }
   @media (max-width: 991px) {
     .home-one-process-step-area {
       padding-top: 100px;
@@ -8829,7 +8832,7 @@ ul.children {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  padding: 132px 0;
+  padding: 133px 0;
   position: relative;
   z-index: 2; }
   @media (max-width: 991px) {
@@ -8868,8 +8871,8 @@ ul.children {
   padding-bottom: 86px; }
 
 .home-one-news-area {
-  padding-top: 145px;
-  padding-bottom: 113px; }
+  padding-top: 136px;
+  padding-bottom: 122px; }
   @media (max-width: 991px) {
     .home-one-news-area {
       padding: 100px 0; } }
@@ -8877,7 +8880,8 @@ ul.children {
     margin-bottom: 70px; }
 
 .home-one-testimonial-area {
-  padding: 132px 0; }
+  padding-top: 132px;
+  padding-bottom: 120px; }
   @media (max-width: 991px) {
     .home-one-testimonial-area {
       padding: 100px 0; } }
@@ -8962,7 +8966,7 @@ ul.children {
           transform: skewX(-22deg); }
 
 .appointment-booking-area {
-  margin-bottom: -258px;
+  margin-bottom: -272px;
   position: relative;
   z-index: 2; }
   @media (max-width: 991px) {
@@ -8979,7 +8983,7 @@ ul.children {
 
 .home-two-accordion-area {
   padding-top: 140px;
-  padding-bottom: 151px;
+  padding-bottom: 148px;
   z-index: 2; }
   @media (max-width: 991px) {
     .home-two-accordion-area {
@@ -9091,13 +9095,13 @@ ul.children {
         padding-left: 12px; } }
 
 .home-two-team-member-area {
-  padding: 138px 0; }
+  padding: 139px 0; }
   @media (max-width: 991px) {
     .home-two-team-member-area {
       padding: 100px 0; } }
 
 .home-two-project-area {
-  padding-bottom: 100px; }
+  padding-bottom: 114px; }
   @media (max-width: 767px) {
     .home-two-project-area {
       padding-top: 100px; } }
