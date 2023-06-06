@@ -432,6 +432,12 @@ input:focus {
           align-items: center;
   gap: 36px;
   border-radius: 6px; }
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .theme-btn,
+    .wp-block-loginout a {
+      padding: 5px 6px 5px 26px;
+      gap: 30px;
+      font-size: 16px; } }
   .theme-btn i,
   .wp-block-loginout a i {
     display: -webkit-inline-box;
@@ -3237,9 +3243,9 @@ a.meanmenu-reveal {
 
 .slider-area.style-three {
   position: relative; }
-  @media (max-width: 991px) {
-    .slider-area.style-three .slider-wrapper {
-      height: 700px; } }
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .slider-area.style-three .single-slider {
+      height: 450px; } }
   .slider-area.style-three .single-slider .slider-overlay {
     opacity: 0.659;
     background: #005bac;
@@ -3247,17 +3253,33 @@ a.meanmenu-reveal {
   .slider-area.style-three .single-slider .slider-content-wrapper {
     gap: 100px;
     margin-top: -60px; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .slider-area.style-three .single-slider .slider-content-wrapper {
+        margin-top: inherit; } }
     .slider-area.style-three .single-slider .slider-content-wrapper .slider-content {
       width: 100%;
       text-align: center; }
-      @media (max-width: 991px) {
-        .slider-area.style-three .single-slider .slider-content-wrapper .slider-content {
-          margin-top: -200px; } }
       .slider-area.style-three .single-slider .slider-content-wrapper .slider-content .slider-short-title {
         font-size: 36px; }
       .slider-area.style-three .single-slider .slider-content-wrapper .slider-content .slider-title {
         font-size: 120px;
         line-height: 132px; }
+        @media only screen and (min-width: 992px) and (max-width: 1199px) {
+          .slider-area.style-three .single-slider .slider-content-wrapper .slider-content .slider-title {
+            font-size: 78px;
+            line-height: 90px; } }
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+          .slider-area.style-three .single-slider .slider-content-wrapper .slider-content .slider-title {
+            font-size: 60px;
+            line-height: 72px; } }
+        @media only screen and (min-width: 0px) and (max-width: 767px) {
+          .slider-area.style-three .single-slider .slider-content-wrapper .slider-content .slider-title {
+            font-size: 42px;
+            line-height: 52px; } }
+        @media only screen and (min-width: 0px) and (max-width: 350px) {
+          .slider-area.style-three .single-slider .slider-content-wrapper .slider-content .slider-title {
+            font-size: 38px;
+            line-height: 50px; } }
   .slider-area.style-three button.slider-arrow-btn {
     display: block !important; }
   .slider-area.style-three .slider-wrapper .slick-dots {
@@ -9098,6 +9120,9 @@ ul.children {
   margin-top: -65px;
   position: relative;
   z-index: 2; }
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .why-us-area {
+      margin-top: 100px; } }
   .why-us-area .why-us-area-inner {
     background-color: #2c3237;
     border-radius: 8px;
