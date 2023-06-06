@@ -1,11 +1,12 @@
 .testimonial-card {
-    padding: 40px 50px;
+    padding: 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
     gap: 30px;
-    border-radius: 10px;
+    border-radius: 12px;
+
     .content-wrapper {
         display: flex;
         flex-direction: column;

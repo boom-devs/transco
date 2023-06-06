@@ -3,7 +3,8 @@
 
   .slick-list {
     padding: 40px 30px;
-    margin-top: -40px;
+    //margin-top: -40px;
+    margin: 0 -12px;
 
     .slick-slide {
       margin: 0 12px;
@@ -167,13 +168,7 @@ button.testimonial-arrow-btn {
 
 .testimonial-slider-wrapper {
   &.has-backgorund-slider {
-    //&:before,
-    //&:after {
-    //  display: none;
-    //}
-    // Slick Dots
     .slick-dots {
-      margin-top: 65px;
       margin-bottom: 0;
       position: unset;
       padding-left: 0;

@@ -52,8 +52,8 @@
   }
 }
 .home-three-blog-post-area {
-  padding-top: 145px;
-  padding-bottom: 120px;
+  padding-top: 136px;
+  padding-bottom: 93px;
 
   @include rmaxwd(991) {
     padding-top: 100px;
@@ -61,10 +61,12 @@
   }
 }
 // Pricing Area
-.home-three-pricing {
+.home-three-pricing-area {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  padding-top: 132px;
+  padding-bottom: 144px;
 }
 // Our Service Area
 .home-three-our-service-area {
@@ -95,7 +97,8 @@
 }
 
 .home-three-testimonial-area{
-  padding: 145px 0;
+  padding-top: 144px;
+  padding-bottom: 128px;
 
   @include rmaxwd(991) {
     padding: 100px 0;

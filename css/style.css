@@ -5020,7 +5020,7 @@ a.meanmenu-reveal {
       color: #c7cdda; }
 
 .testimonial-card {
-  padding: 40px 50px;
+  padding: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -5035,7 +5035,7 @@ a.meanmenu-reveal {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 30px;
-  border-radius: 10px; }
+  border-radius: 12px; }
   .testimonial-card .content-wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -5175,7 +5175,7 @@ a.meanmenu-reveal {
   position: relative; }
   .testimonial-slider-wrapper .slick-list {
     padding: 40px 30px;
-    margin-top: -40px; }
+    margin: 0 -12px; }
     .testimonial-slider-wrapper .slick-list .slick-slide {
       margin: 0 12px;
       border-radius: 20px;
@@ -5324,7 +5324,6 @@ button.testimonial-arrow-btn {
           justify-content: center; }
 
 .testimonial-slider-wrapper.has-backgorund-slider .slick-dots {
-  margin-top: 65px;
   margin-bottom: 0;
   position: unset;
   padding-left: 0;
@@ -5863,7 +5862,7 @@ button.testimonial-arrow-btn {
   border-radius: 50px; }
 
 .price-card {
-  padding: 30px;
+  padding: 30px 18px 48px 18px;
   background: white;
   z-index: 2;
   position: relative;
@@ -5878,7 +5877,7 @@ button.testimonial-arrow-btn {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-bottom: 35px;
+    margin-bottom: 15px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -5911,11 +5910,11 @@ button.testimonial-arrow-btn {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background: #1eae98;
+    background: linear-gradient(-135deg, #1eae98 0%, #005bac 100%);
     border-radius: 7px;
     padding-top: 28px;
     padding-bottom: 28px;
-    gap: 10px; }
+    gap: 8px; }
     .price-card .price .price-heading {
       font-family: "Poppins", sans-serif;
       font-style: normal;
@@ -5968,7 +5967,7 @@ button.testimonial-arrow-btn {
             justify-content: center; }
   .price-card .list {
     margin-top: 0;
-    padding: 40px 0;
+    padding: 30px 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -5979,7 +5978,7 @@ button.testimonial-arrow-btn {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    gap: 12px; }
+    gap: 6px; }
     .price-card .list .price-list-item {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -6000,18 +5999,12 @@ button.testimonial-arrow-btn {
         font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-size: 18px;
-        line-height: 32px;
         color: #5e6f92;
         margin: 0; }
-  .price-card .card-btn {
-    width: 100%;
-    text-align: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
-  @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .price-card {
-      padding: 24px; } }
+  .price-card .theme-btn {
+    padding: 5px 6px 5px 26px;
+    gap: 30px;
+    font-size: 16px; }
 
 .call-to-action-area {
   position: relative;
@@ -8396,7 +8389,7 @@ ul.children {
 
 .map-wodget iframe {
   width: 100%;
-  height: 380px;
+  height: 320px;
   border-radius: 12px; }
 
 .footer.style-two .footer-sec {
@@ -9141,17 +9134,19 @@ ul.children {
       padding-bottom: 80px; } }
 
 .home-three-blog-post-area {
-  padding-top: 145px;
-  padding-bottom: 120px; }
+  padding-top: 136px;
+  padding-bottom: 93px; }
   @media (max-width: 991px) {
     .home-three-blog-post-area {
       padding-top: 100px;
       padding-bottom: 80px; } }
 
-.home-three-pricing {
+.home-three-pricing-area {
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center; }
+  background-position: center center;
+  padding-top: 132px;
+  padding-bottom: 144px; }
 
 .home-three-our-service-area {
   padding-top: 130px;
@@ -9173,7 +9168,8 @@ ul.children {
       padding-bottom: 80px; } }
 
 .home-three-testimonial-area {
-  padding: 145px 0; }
+  padding-top: 144px;
+  padding-bottom: 128px; }
   @media (max-width: 991px) {
     .home-three-testimonial-area {
       padding: 100px 0; } }
