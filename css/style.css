@@ -8473,7 +8473,7 @@ ul.children {
     height: 100%; }
 
 .footer.style-three .footer-sec {
-  padding-top: 120px; }
+  padding-top: 130px; }
   @media only screen and (min-width: 0px) and (max-width: 767px) {
     .footer.style-three .footer-sec {
       padding-top: 100px; } }
@@ -9186,7 +9186,7 @@ ul.children {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  padding-top: 132px;
+  padding-top: 137px;
   padding-bottom: 144px; }
   @media (max-width: 991px) {
     .home-three-pricing-area {
@@ -9209,7 +9209,7 @@ ul.children {
 
 .home-three-accordion-area {
   padding-top: 212px;
-  padding-bottom: 144px; }
+  padding-bottom: 139px; }
   @media (max-width: 1199px) {
     .home-three-accordion-area {
       padding: 100px 0; } }
