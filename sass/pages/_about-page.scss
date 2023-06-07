@@ -1,14 +1,28 @@
 // About Us Area
 .about-page-about-us-area {
-  padding: 145px 0;
+  padding-top: 140px;
+  padding-bottom: 144px;
 
   @include rmaxwd(991) {
-    padding: 100px 0;
+   padding: 100px 0;
+  }
+  .about-info-card {
+    .about-info-content {
+      padding-left: 120px;
+
+      @include rmaxwd(1199) {
+        padding-left: 0;
+        padding-top: 330px;
+      }
+      @include rmaxwd(767) {
+        padding-top: 100px;
+      }
+    }
   }
 }
 // Counter Area
 .about-page-counter-area {
-  padding: 145px 0;
+  padding: 133px 0;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -20,7 +34,7 @@
 
 // FAQ Area
 .about-page-faq-area {
-  padding: 145px 0;
+  padding: 102px 0;
 
   @include rmaxwd(991) {
     padding: 100px 0;
@@ -38,8 +52,9 @@
 
 // Timeline Area
 .about-page-timeline-area {
-  background-color: #f3f7fc;
-  padding: 145px 0;
+  background-color: #f3f8fc;
+  padding-top: 169px;
+  padding-bottom: 129px;
 
   @include rmaxwd(991) {
     padding: 100px 0;
@@ -49,7 +64,8 @@
 // Testimonial Area
 .about-page-testimonial-area {
   background-color: #f3f7fc;
-  padding: 145px 0;
+  padding-top: 140px;
+  padding-bottom: 142px;
 
   @include rmaxwd(991) {
     padding: 100px 0;
@@ -58,5 +74,15 @@
 
 // Client Logo
 .about-page-client-logo-area {
-  padding: 100px 0;
+  padding-top: 130px;
+  padding-bottom: 151px;
+
+  @include rmaxwd(991) {
+    padding: 100px 0;
+  }
+}
+// Team Member Area
+.about-page-team-member-area {
+  padding-top: 137px;
+  padding-bottom: 129px;
 }

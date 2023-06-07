@@ -4751,7 +4751,7 @@ a.meanmenu-reveal {
           -ms-flex-align: center;
               align-items: center;
       width: 100%;
-      gap: 13px;
+      gap: 12px;
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
           -ms-flex-direction: column;
@@ -6341,7 +6341,7 @@ button.testimonial-arrow-btn {
 
 /* 15.Page Breadcrumb Section */
 .page-breadcrumb-sec {
-  padding: 125px 0;
+  padding: 127px 0;
   position: relative;
   z-index: 2;
   background-repeat: no-repeat;
@@ -6407,7 +6407,7 @@ button.testimonial-arrow-btn {
         text-align: center;
         color: #ffffff;
         text-transform: capitalize;
-        line-height: 32px;
+        line-height: 30px;
         font-weight: 400;
         margin-bottom: 0;
         -webkit-transition: all 0.5s ease-out;
@@ -9230,13 +9230,23 @@ ul.children {
       padding-bottom: 80px; } }
 
 .about-page-about-us-area {
-  padding: 145px 0; }
+  padding-top: 140px;
+  padding-bottom: 144px; }
   @media (max-width: 991px) {
     .about-page-about-us-area {
       padding: 100px 0; } }
+  .about-page-about-us-area .about-info-card .about-info-content {
+    padding-left: 120px; }
+    @media (max-width: 1199px) {
+      .about-page-about-us-area .about-info-card .about-info-content {
+        padding-left: 0;
+        padding-top: 330px; } }
+    @media (max-width: 767px) {
+      .about-page-about-us-area .about-info-card .about-info-content {
+        padding-top: 100px; } }
 
 .about-page-counter-area {
-  padding: 145px 0;
+  padding: 133px 0;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; }
@@ -9245,7 +9255,7 @@ ul.children {
       padding: 100px 0; } }
 
 .about-page-faq-area {
-  padding: 145px 0; }
+  padding: 102px 0; }
   @media (max-width: 991px) {
     .about-page-faq-area {
       padding: 100px 0; } }
@@ -9257,21 +9267,31 @@ ul.children {
         margin-top: 80px; } }
 
 .about-page-timeline-area {
-  background-color: #f3f7fc;
-  padding: 145px 0; }
+  background-color: #f3f8fc;
+  padding-top: 169px;
+  padding-bottom: 129px; }
   @media (max-width: 991px) {
     .about-page-timeline-area {
       padding: 100px 0; } }
 
 .about-page-testimonial-area {
   background-color: #f3f7fc;
-  padding: 145px 0; }
+  padding-top: 140px;
+  padding-bottom: 142px; }
   @media (max-width: 991px) {
     .about-page-testimonial-area {
       padding: 100px 0; } }
 
 .about-page-client-logo-area {
-  padding: 100px 0; }
+  padding-top: 130px;
+  padding-bottom: 151px; }
+  @media (max-width: 991px) {
+    .about-page-client-logo-area {
+      padding: 100px 0; } }
+
+.about-page-team-member-area {
+  padding-top: 137px;
+  padding-bottom: 129px; }
 
 .contact-page-sec-area {
   padding: 145px 0; }
@@ -9468,7 +9488,7 @@ ul.children {
   background: #f3f7fc; }
   .time-card-wrapper .time-card-item {
     width: 100%;
-    padding: 30px 96px;
+    padding: 30px 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -9476,9 +9496,6 @@ ul.children {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: start;
     position: relative; }
     .time-card-wrapper .time-card-item:nth-of-type(even) {
       -webkit-box-orient: horizontal;
@@ -9492,17 +9509,24 @@ ul.children {
       right: 0;
       left: 50%;
       top: 0;
+      -webkit-transform: translateX(-50%);
+              transform: translateX(-50%);
       position: absolute;
       background: #dde4f6; }
+      @media only screen and (min-width: 992px) and (max-width: 1399px) {
+        .time-card-wrapper .time-card-item::after {
+          display: none; } }
     .time-card-wrapper .time-card-item .time-card-desc {
       width: 424px;
-      height: 250px;
       background: #ffffff;
       border-radius: 8px;
       position: relative;
       overflow: hidden; }
+      @media (max-width: 450px) {
+        .time-card-wrapper .time-card-item .time-card-desc {
+          width: 100%; } }
       .time-card-wrapper .time-card-item .time-card-desc .title {
-        padding: 8px 0;
+        padding: 6px 0;
         background: #ff6731;
         display: -webkit-box;
         display: -ms-flexbox;
@@ -9529,76 +9553,62 @@ ul.children {
         @media only screen and (min-width: 0px) and (max-width: 767px) {
           .time-card-wrapper .time-card-item .time-card-desc .desc {
             padding: 20px; } }
-      @media only screen and (min-width: 0px) and (max-width: 767px) {
-        .time-card-wrapper .time-card-item .time-card-desc {
-          width: 300px; } }
     .time-card-wrapper .time-card-item .circle-wrapper {
-      padding: 30px 117px;
       position: relative;
-      overflow: hidden; }
-      .time-card-wrapper .time-card-item .circle-wrapper .time-card-circle {
-        min-width: 18px;
-        min-height: 18px;
-        border-radius: 50px;
-        background: #ff6731;
-        -ms-flex-negative: 0;
-            flex-shrink: 0;
-        position: relative;
-        z-index: 3; }
-      .time-card-wrapper .time-card-item .circle-wrapper:after {
-        content: "";
-        width: 100%;
-        height: 3px;
-        right: 0;
-        left: 0;
-        top: 49%;
-        position: absolute;
-        background: #dde4f6; }
-        @media only screen and (min-width: 0px) and (max-width: 767px) {
-          .time-card-wrapper .time-card-item .circle-wrapper:after {
-            width: 3px;
-            height: 100%;
-            top: 0;
-            left: 50%; } }
-        @media only screen and (min-width: 768px) and (max-width: 991px) {
-          .time-card-wrapper .time-card-item .circle-wrapper:after {
-            width: 3px;
-            height: 100%;
-            top: 0;
-            left: 50%; } }
-      @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      width: 248px;
+      padding-top: 35px; }
+      @media (max-width: 991px) {
         .time-card-wrapper .time-card-item .circle-wrapper {
-          padding: 30px 33px; } }
+          padding: 0; } }
+      .time-card-wrapper .time-card-item .circle-wrapper .time-card-circle {
+        position: relative; }
+        @media (max-width: 991px) {
+          .time-card-wrapper .time-card-item .circle-wrapper .time-card-circle {
+            height: 85px; } }
+        .time-card-wrapper .time-card-item .circle-wrapper .time-card-circle:before {
+          content: "";
+          min-width: 18px;
+          min-height: 18px;
+          border-radius: 50px;
+          background: #ff6731;
+          -ms-flex-negative: 0;
+              flex-shrink: 0;
+          position: absolute;
+          z-index: 3;
+          -webkit-transform: translate(-50%, -50%);
+                  transform: translate(-50%, -50%);
+          left: 50%;
+          top: 50%; }
+        .time-card-wrapper .time-card-item .circle-wrapper .time-card-circle:after {
+          content: "";
+          width: 100%;
+          height: 3px;
+          right: 0;
+          left: 0;
+          top: 50%;
+          position: absolute;
+          background: #dde4f6;
+          -webkit-transform: translateY(-50%);
+                  transform: translateY(-50%); }
+          @media (max-width: 991px) {
+            .time-card-wrapper .time-card-item .circle-wrapper .time-card-circle:after {
+              left: 50%;
+              top: 50%;
+              -webkit-transform: translate(-50%, -50%);
+                      transform: translate(-50%, -50%);
+              width: 3px;
+              height: 100%; } }
     .time-card-wrapper .time-card-item .time-card-time {
-      min-width: 174px;
-      min-height: 50px;
-      border-radius: 24px;
-      background: #1eae98;
-      -ms-flex-negative: 0;
-          flex-shrink: 0;
-      z-index: 2;
-      margin-top: 14px;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-      position: relative; }
-      .time-card-wrapper .time-card-item .time-card-time p {
-        margin: 0;
-        color: #ffffff;
+      margin-top: 10px; }
+      .time-card-wrapper .time-card-item .time-card-time .time-card-date {
+        color: #f3f8fc;
         font-size: 18px;
         line-height: 30px;
         font-weight: 700;
-        color: #ffffff; }
-      @media only screen and (min-width: 0px) and (max-width: 767px) {
-        .time-card-wrapper .time-card-item .time-card-time {
-          -ms-flex-negative: 0;
-              flex-shrink: 0; } }
+        background-color: #1eae98;
+        display: inline-block;
+        border-radius: 50px;
+        padding: 9px 35px; }
     @media only screen and (min-width: 0px) and (max-width: 767px) {
       .time-card-wrapper .time-card-item {
         -webkit-box-orient: vertical;

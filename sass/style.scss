@@ -61,9 +61,9 @@ Footer Section
 @import "modules/icon-card/icon-card-two";
 @import "modules/icon-card/icon-card-three";
 @import "modules/icon-card/icon-card-four";
-@import "modules/about-image-card";
-@import "modules/about-image-card-two";
-@import "modules/about-image-card-three";
+@import "modules/about-image-card/about-image-card";
+@import "modules/about-image-card/about-image-card-two";
+@import "modules/about-image-card/about-image-card-three";
 @import "modules/about-info-card/about-info-card";
 @import "modules/about-info-card/about-info-card-two";
 @import "modules/about-info-card/about-info-card-three";
@@ -100,7 +100,7 @@ Footer Section
 @import "modules/title-section";
 
 /* 15.Page Breadcrumb Section */
-@import "modules/breadcrumb";
+@import "modules/breadcrumb/breadcrumb";
 
 /* 16.Blog Section */
 @import "modules/post-card";

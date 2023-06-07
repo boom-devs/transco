@@ -7,11 +7,11 @@
 
     .time-card-item {
         width: 100%;
-        padding: 30px 96px;
+        padding: 30px 0;
         display: flex;
         flex-direction: row;
-        align-items: start;
         position: relative;
+
         &:nth-of-type(even) {
             flex-direction: row-reverse;
         }
@@ -22,18 +22,26 @@
             right: 0;
             left: 50%;
             top: 0;
+            transform: translateX(-50%);
             position: absolute;
             background: #dde4f6;
+
+            @media only screen and (min-width: 992px) and (max-width: 1399px) {
+                display: none;
+            }
         }
         .time-card-desc {
             width: 424px;
-            height: 250px;
             background: $white;
             border-radius: 8px;
             position: relative;
             overflow: hidden;
+
+            @include rmaxwd(450) {
+                width: 100%;
+            }
             .title {
-                padding: 8px 0;
+                padding: 6px 0;
                 background: $orange-color;
                 display: flex;
                 justify-content: center;
@@ -60,98 +68,78 @@
                     padding: 20px;
                 }
             }
-            @include sm {
-                width: 300px;
-            }
         }
         .circle-wrapper {
-            padding: 30px 117px;
             position: relative;
-            overflow: hidden;
+            width: 248px;
+            padding-top: 35px;
+
+            @include rmaxwd(991) {
+                padding: 0;
+            }
             .time-card-circle {
-                min-width: 18px;
-                min-height: 18px;
-                border-radius: 50px;
-                background: $orange-color;
-                flex-shrink: 0;
                 position: relative;
-                z-index: 3;
-            }
-            &:after {
-                content: "";
-                width: 100%;
-                height: 3px;
-                right: 0;
-                left: 0;
-                top: 49%;
-                position: absolute;
-                background: #dde4f6;
-                @include sm {
-                    width: 3px;
-                    height: 100%;
-                    top: 0;
-                    left: 50%;
+                @include rmaxwd(991) {
+                    height: 85px;
                 }
-                @include md {
-                    width: 3px;
-                    height: 100%;
-                    top: 0;
+                &:before {
+                    content: "";
+                    min-width: 18px;
+                    min-height: 18px;
+                    border-radius: 50px;
+                    background: $orange-color;
+                    flex-shrink: 0;
+                    position: absolute;
+                    z-index: 3;
+                    transform: translate(-50%, -50%);
                     left: 50%;
+                    top: 50%;
+                }
+                &:after {
+                    content: "";
+                    width: 100%;
+                    height: 3px;
+                    right: 0;
+                    left: 0;
+                    top: 50%;
+                    position: absolute;
+                    background: #dde4f6;
+                    transform: translateY(-50%);
+                    @include rmaxwd(991) {
+                        left: 50%;
+                        top: 50%;
+                       transform: translate(-50%, -50%);
+                        width: 3px;
+                        height: 100%;
+                    }
+                    //@include sm {
+                    //    width: 3px;
+                    //    height: 100%;
+                    //    top: 0;
+                    //    left: 50%;
+                    //}
+                    //@include md {
+                    //    width: 3px;
+                    //    height: 100%;
+                    //    top: 0;
+                    //    left: 50%;
+                    //}
                 }
             }
-            @include lg {
-                padding: 30px 33px;
-            }
+
         }
         .time-card-time {
-            min-width: 174px;
-            min-height: 50px;
-            border-radius: 24px;
-            background: $sky-color;
-            flex-shrink: 0;
-            z-index: 2;
-            margin-top: 14px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            position: relative;
-
-            p {
-                margin: 0;
-                color: $white;
+            margin-top: 10px;
+            .time-card-date {
+                color: #f3f8fc;
                 font-size: 18px;
                 line-height: 30px;
                 font-weight: 700;
-                color: $white;
+                background-color: #1eae98;
+                display: inline-block;
+                border-radius: 50px;
+                padding: 9px 35px;
             }
-            @include sm {
-                flex-shrink: 0;
-                // &:after {
-                //     content: "";
-                //     width: 50%;
-                //     height: 3px;
-                //     right: 0;
-                //     left: 100%;
-                //     top: 50%;
-                //     position: absolute;
-                //     background: #dde4f6;
-                //     z-index: 1;
-                // }
-            }
-            // @include md {
-            //     flex-shrink: 0;
-            //     &:after {
-            //         content: "";
-            //         width: 100%;
-            //         height: 3px;
-            //         right: 0;
-            //         left: 100%;
-            //         top: 50%;
-            //         position: absolute;
-            //         background: #dde4f6;
-            //         z-index: 1;
-            //     }
-            // }
         }
 
         @include sm {
