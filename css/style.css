@@ -8146,7 +8146,11 @@ ul.children {
         font-size: 18px;
         line-height: 24px;
         overflow: hidden; }
-        .footer-widget .footer-widget-contact .footer-contact ul li .contact-text span {
+        .footer-widget .footer-widget-contact .footer-contact ul li .contact-text a:hover span {
+          color: #1eae98; }
+        .footer-widget .footer-widget-contact .footer-contact ul li .contact-text span,
+        .footer-widget .footer-widget-contact .footer-contact ul li .contact-text p,
+        .footer-widget .footer-widget-contact .footer-contact ul li .contact-text a {
           color: #c7cdda;
           font-size: 18px;
           line-height: 24px;
