@@ -5395,7 +5395,6 @@ button.testimonial-arrow-btn {
     height: 24px;
     position: relative;
     color: #ffffff;
-    font-size: 24px;
     font-weight: 700;
     -ms-flex-negative: 0;
         flex-shrink: 0; }
@@ -6372,7 +6371,7 @@ button.testimonial-arrow-btn {
   @media only screen and (min-width: 0px) and (max-width: 767px) {
     .page-heading h1 {
       font-size: 42px;
-      line-height: 72px; } }
+      line-height: 52px; } }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .page-heading h1 {
       font-size: 60px;
@@ -9385,21 +9384,6 @@ ul.children {
       padding-top: 100px;
       padding-bottom: 50px; } }
 
-.service-details-wrapper {
-  padding: 145px 0; }
-  @media (max-width: 991px) {
-    .service-details-wrapper {
-      padding: 100px 0; } }
-  .service-details-wrapper .details-main {
-    padding-left: 25px; }
-    @media (max-width: 1199px) {
-      .service-details-wrapper .details-main {
-        padding-left: 0; } }
-    .service-details-wrapper .details-main img {
-      border-radius: 12px; }
-    .service-details-wrapper .details-main .accordion-list-item {
-      margin-bottom: 0; }
-
 .service-page-service-list-area {
   padding-top: 170px;
   padding-bottom: 116px; }
@@ -9416,6 +9400,28 @@ ul.children {
   @media only screen and (min-width: 0px) and (max-width: 767px) {
     .service-page-service-list-area {
       padding: 65px 0; } }
+
+.service-details-wrapper {
+  padding-top: 145px;
+  padding-bottom: 111px; }
+  @media (max-width: 991px) {
+    .service-details-wrapper {
+      padding: 100px 0; } }
+  .service-details-wrapper .details-main {
+    padding-left: 25px; }
+    @media (max-width: 1199px) {
+      .service-details-wrapper .details-main {
+        padding-left: 0; } }
+    .service-details-wrapper .details-main img {
+      border-radius: 12px; }
+    .service-details-wrapper .details-main .accordion-list-item {
+      margin-bottom: 0; }
+    .service-details-wrapper .details-main .list-item {
+      margin-bottom: 0; }
+  .service-details-wrapper .faq-title {
+    font-size: 30px; }
+  .service-details-wrapper .benefits-image {
+    margin-bottom: 30px; }
 
 .team-space {
   padding: 0 37px;

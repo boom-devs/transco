@@ -17,28 +17,7 @@
         padding-bottom: 50px;
     }
 }
-// Service Details Page
-.service-details-wrapper {
-    padding: 145px 0;
-
-    @include rmaxwd(991) {
-        padding: 100px 0;
-    }
-
-    .details-main {
-        padding-left: 25px;
-
-        @include rmaxwd(1199) {
-            padding-left: 0;
-        }
-        img {
-            border-radius: 12px;
-        }
-        .accordion-list-item {
-            margin-bottom: 0;
-        }
-    }
-}
+// Service List Area
 .service-page-service-list-area {
     padding-top: 170px;
     padding-bottom: 116px;
@@ -56,5 +35,38 @@
     }
     @include sm {
         padding: 65px 0;
+    }
+}
+
+// Service Details Page
+.service-details-wrapper {
+    padding-top: 145px;
+    padding-bottom: 111px;
+
+    @include rmaxwd(991) {
+        padding: 100px 0;
+    }
+
+    .details-main {
+        padding-left: 25px;
+
+        @include rmaxwd(1199) {
+            padding-left: 0;
+        }
+        img {
+            border-radius: 12px;
+        }
+        .accordion-list-item {
+            margin-bottom: 0;
+        }
+        .list-item {
+            margin-bottom: 0;
+        }
+    }
+    .faq-title {
+        font-size: 30px;
+    }
+    .benefits-image {
+        margin-bottom: 30px;
     }
 }
