@@ -8155,7 +8155,8 @@ ul.children {
           font-size: 18px;
           line-height: 24px;
           display: inline-block;
-          width: 100%; }
+          width: 100%;
+          margin-bottom: 0; }
   .footer-widget .widget_latest_post ul li .latest-post-thumb img {
     width: 60px;
     height: 60px; }
