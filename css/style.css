@@ -8779,6 +8779,67 @@ ul.children {
             background-color: #005bac;
             color: #ffffff; }
 
+.portfolio-slider-wrapper {
+  position: relative; }
+  .portfolio-slider-wrapper .slick-list {
+    margin: 0 -12px; }
+    .portfolio-slider-wrapper .slick-list .slick-slide {
+      margin: 0 12px;
+      -webkit-transition: all 0.5s ease-out;
+      transition: all 0.5s ease-out; }
+      .portfolio-slider-wrapper .slick-list .slick-slide.slick-active {
+        -webkit-transition: all 0.5s ease-out;
+        transition: all 0.5s ease-out; }
+  .portfolio-slider-wrapper button.portfolio-arrow-btn {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    z-index: 99;
+    background-color: #ffffff;
+    border: 1px solid #ff6731;
+    cursor: pointer;
+    top: -90px;
+    overflow: hidden;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out; }
+    @media (max-width: 991px) {
+      .portfolio-slider-wrapper button.portfolio-arrow-btn {
+        top: unset;
+        bottom: -80px; } }
+    .portfolio-slider-wrapper button.portfolio-arrow-btn.prev-btn {
+      right: 50px; }
+      @media (max-width: 767px) {
+        .portfolio-slider-wrapper button.portfolio-arrow-btn.prev-btn {
+          right: unset;
+          left: 30px; } }
+    .portfolio-slider-wrapper button.portfolio-arrow-btn.next-btn {
+      right: 12px; }
+      @media (max-width: 767px) {
+        .portfolio-slider-wrapper button.portfolio-arrow-btn.next-btn {
+          right: 30px;
+          left: unset; } }
+    .portfolio-slider-wrapper button.portfolio-arrow-btn i {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+      color: #393d48;
+      font-size: 21px;
+      -webkit-transition: all 0.5s ease-out;
+      transition: all 0.5s ease-out; }
+    .portfolio-slider-wrapper button.portfolio-arrow-btn:hover {
+      -webkit-transition: all 0.5s ease-out;
+      transition: all 0.5s ease-out;
+      background: #e30008;
+      background: linear-gradient(45deg, #e30008 0%, #faae00 100%);
+      border-color: #ff6731; }
+      .portfolio-slider-wrapper button.portfolio-arrow-btn:hover i {
+        color: #ffffff;
+        -webkit-transition: all 0.5s ease-out;
+        transition: all 0.5s ease-out; }
+
 .home-one-about-us-area {
   padding: 145px 0; }
   @media (max-width: 991px) {
@@ -9357,15 +9418,16 @@ ul.children {
       .contact-title h2 {
         font-size: 48px; } }
 
-.pricing-card-wrapper {
-  background: #eef5f8;
-  padding: 145px 0; }
+.pricing-page-price-card-wrapper {
+  background-color: #eef5f8;
+  padding-top: 132px;
+  padding-bottom: 149px; }
   @media (max-width: 991px) {
-    .pricing-card-wrapper {
+    .pricing-page-price-card-wrapper {
       padding: 100px 0; } }
 
 .pricing-page-why-choose-us {
-  padding-top: 145px; }
+  padding-top: 122px; }
   @media (max-width: 1199px) {
     .pricing-page-why-choose-us {
       padding-top: 100px;
@@ -9377,7 +9439,8 @@ ul.children {
         padding-left: 0; } }
 
 .accordion-section {
-  padding: 200px 0; }
+  padding-top: 198px;
+  padding-bottom: 108px; }
   @media only screen and (min-width: 0px) and (max-width: 767px) {
     .accordion-section {
       padding: 70px 0; } }
@@ -9751,5 +9814,4 @@ ul.children {
     .time-card-wrapper .time-card-arrow i {
       font-size: 16px;
       color: #ffffff; }
-
 /*# sourceMappingURL=style.css.map */

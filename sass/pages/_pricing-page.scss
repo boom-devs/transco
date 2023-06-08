@@ -1,6 +1,7 @@
-.pricing-card-wrapper {
-    background: $gray-50;
-    padding: 145px 0;
+.pricing-page-price-card-wrapper {
+    background-color: $gray-50;
+    padding-top: 132px;
+    padding-bottom: 149px;
 
     @include rmaxwd(991) {
         padding: 100px 0;
@@ -9,7 +10,7 @@
 
 // Why Choose Us Area
 .pricing-page-why-choose-us {
-    padding-top: 145px;
+    padding-top: 122px;
 
     @include rmaxwd(1199) {
         padding-top: 100px;
@@ -26,7 +27,9 @@
 }
 
 .accordion-section {
-    padding: 200px 0;
+    padding-top: 198px;
+    padding-bottom: 108px;
+
     @include sm {
         padding: 70px 0;
     }

@@ -232,6 +232,33 @@
             ],
         });
 
+        /*
+       Related Portfolio Slider
+       ============================*/
+        $("#related_portfolio").slick({
+            slidesToShow: 3,
+            infinite: true,
+            autoplay: false,
+            draggable: true,
+            arrows: true,
+            slidesToScroll: 1,
+            loop: true,
+            dots: false,
+            speed: 1500,
+            prevArrow:
+                "<button type='button' class='portfolio-arrow-btn prev-btn'><i class='fa-solid fa-angle-left'></i></button>",
+            nextArrow:
+                "<button type='button' class='portfolio-arrow-btn next-btn'><i class='fa-solid fa-angle-right'></i></button>",
+            responsive: [
+                {
+                    breakpoint: 767,
+                    settings: {
+                        autoplay: true,
+                    },
+                },
+            ],
+        });
+
 
         /*
        Post Gallery Slider

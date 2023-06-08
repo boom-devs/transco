@@ -73,8 +73,8 @@ Footer Section
 @import "modules/counter/counter-card";
 @import "modules/counter/counter-card-two";
 @import "modules/counter/counter-card-three";
-@import "modules/process-step";
-@import "modules/process-step-two";
+@import "modules/process-step/process-step";
+@import "modules/process-step/process-step-two";
 @import "modules/testimonial/testimonial-card";
 @import "modules/testimonial/testimonial-card-two";
 @import "modules/testimonial/testimonial-card-three";
@@ -83,12 +83,12 @@ Footer Section
 @import "modules/accordion/accordion-style-two";
 @import "modules/accordion/accordion-style-three";
 @import "modules/accordion/accordion-style-four";
-@import "modules/client-logo";
-@import "modules/client-logo-two";
-@import "modules/post-card-one";
-@import "modules/post-card-two";
-@import "modules/post-card-three";
-@import "modules/post-card-four";
+@import "modules/client-logo/client-logo";
+@import "modules/client-logo/client-logo-two";
+@import "modules/post-card/post-card-one";
+@import "modules/post-card/post-card-two";
+@import "modules/post-card/post-card-three";
+@import "modules/post-card/post-card-four";
 @import "modules/skill-progress";
 @import "modules/price-card";
 @import "modules/call-to-action-card";
@@ -103,7 +103,7 @@ Footer Section
 @import "modules/breadcrumb/breadcrumb";
 
 /* 16.Blog Section */
-@import "modules/post-card";
+@import "modules/post-card/post-card";
 @import "modules/paginations";
 
 /* 17.Sidebar */
@@ -119,7 +119,8 @@ Footer Section
 /* Team Member */
 @import "modules/team/team-member";
 @import "modules/team/team-slider-controls";
-@import "modules/portfolio-two";
+@import "modules/portfolio/portfolio-two";
+@import "modules/portfolio/portfolio-slider-controls";
 
 @import "pages/pages";
 @import "pages/about-page";
