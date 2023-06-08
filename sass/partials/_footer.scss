@@ -79,7 +79,7 @@
   }
 
   // Footer Menu Widget
-  .footer-widget-menu {
+  &.widget_nav_menu {
     &.two-menu {
       display: flex;
       justify-content: space-between;
@@ -110,7 +110,7 @@
 
         &:hover {
           @include transition;
-          color: $primary-color;
+          color: $sky-color;
         }
       }
     }
