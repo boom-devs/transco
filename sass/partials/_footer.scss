@@ -452,6 +452,23 @@
     font-size: 18px;
     font-weight: 500;
   }
+  // Form Submit Message
+  .mc4wp-response {
+    .mc4wp-alert {
+      &.mc4wp-error {
+        p {
+          margin-bottom: 0;
+          color: #e30008;
+        }
+      }
+      &.mc4wp-success {
+        p {
+          margin-bottom: 0;
+          color: $sky-color;
+        }
+      }
+    }
+  }
 }
 
 // Social Widget

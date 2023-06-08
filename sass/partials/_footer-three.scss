@@ -6,6 +6,15 @@
       @include sm {
         padding-top: 100px;
       }
+
+      .footer-widget {
+        &.widget_nav_menu {
+          ul {
+            columns: 2;
+            column-gap: 26px;
+          }
+        }
+      }
     }
   }
 }
