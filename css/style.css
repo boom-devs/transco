@@ -8078,13 +8078,6 @@ ul.children {
           -ms-flex-align: start;
               align-items: start;
       gap: 30px; } }
-  .footer-widget.widget_nav_menu.two-menu {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between; }
   .footer-widget.widget_nav_menu ul {
     margin-top: -5px;
     padding-left: 0;
