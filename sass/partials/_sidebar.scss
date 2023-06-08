@@ -135,6 +135,9 @@
       border-radius: 50px;
       flex-shrink: 0;
       flex-wrap: wrap;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
 
       @include rmaxwd(1199) {
         width: 40px;
