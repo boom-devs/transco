@@ -8417,15 +8417,15 @@ ul.children {
   margin-bottom: 0;
   color: #1eae98; }
 
-.social-widget {
+.social-profile {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 10px; }
-  .social-widget a {
+  gap: 20px; }
+  .social-profile a {
     color: #ffffff;
     font-size: 24px;
     display: -webkit-box;
@@ -8439,7 +8439,7 @@ ul.children {
             justify-content: center;
     -webkit-transition: all 0.5s ease-out;
     transition: all 0.5s ease-out; }
-    .social-widget a:hover {
+    .social-profile a:hover {
       -webkit-transition: all 0.5s ease-out;
       transition: all 0.5s ease-out;
       color: #005bac; }
@@ -9737,4 +9737,5 @@ ul.children {
     .time-card-wrapper .time-card-arrow i {
       font-size: 16px;
       color: #ffffff; }
+
 /*# sourceMappingURL=style.css.map */
