@@ -6457,6 +6457,8 @@ button.testimonial-arrow-btn {
 
 .blog-details-wrapper .single-post-item {
   border: 0; }
+  .blog-details-wrapper .single-post-item iframe {
+    width: 100%; }
   .blog-details-wrapper .single-post-item .post-meta {
     margin-bottom: 30px; }
   .blog-details-wrapper .single-post-item .post-thumbnail {
@@ -6841,11 +6843,12 @@ button.testimonial-arrow-btn {
 .blog-details-border {
   margin-top: 40px;
   background: #fff;
-  padding: 40px;
+  padding: 23px 30px;
   padding-bottom: 22px;
-  border-radius: 14px; }
+  border-radius: 8px;
+  border: 1px solid #dfe2e9; }
 
-.bakix-navigation span {
+.post-navigation span {
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -6853,17 +6856,11 @@ button.testimonial-arrow-btn {
   display: block;
   margin-bottom: 10px;
   color: #ff5b5b; }
-
-.bakix-navigation span a:hover {
-  color: #FE4536; }
-
-.bakix-navigation h4 {
+.post-navigation h4 {
   font-size: 21px;
   margin: 0;
+  line-height: 30px;
   text-transform: capitalize; }
-
-.bakix-navigation h4 a:hover {
-  color: #FE4536; }
 
 .basic-pagination,
 .page-links {
@@ -9814,4 +9811,5 @@ ul.children {
     .time-card-wrapper .time-card-arrow i {
       font-size: 16px;
       color: #ffffff; }
+
 /*# sourceMappingURL=style.css.map */
