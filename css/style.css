@@ -7040,11 +7040,11 @@ button.testimonial-arrow-btn {
     font-size: 16px;
     line-height: 28px;
     margin: 0; }
-  .widget .social-widget {
+  .widget .social-profile {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start; }
-    .widget .social-widget a {
+    .widget .social-profile a {
       width: 60px;
       height: 60px;
       background-color: #005bac;
@@ -7057,18 +7057,18 @@ button.testimonial-arrow-btn {
       -ms-flex-wrap: wrap;
           flex-wrap: wrap; }
       @media (max-width: 1199px) {
-        .widget .social-widget a {
+        .widget .social-profile a {
           width: 40px;
           height: 40px; } }
-      .widget .social-widget a.facebook {
+      .widget .social-profile a.facebook {
         background-color: #1877f2; }
-      .widget .social-widget a.twitter {
+      .widget .social-profile a.twitter {
         background-color: #1da1f2; }
-      .widget .social-widget a.linkedin {
+      .widget .social-profile a.linkedin {
         background-color: #0a66c2; }
-      .widget .social-widget a.instagram {
+      .widget .social-profile a.instagram {
         background-color: #405de6; }
-      .widget .social-widget a:hover {
+      .widget .social-profile a:hover {
         color: #ffffff;
         -webkit-transition: all 0.5s ease-out;
         transition: all 0.5s ease-out;
