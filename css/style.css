@@ -6366,7 +6366,8 @@ button.testimonial-arrow-btn {
   z-index: -1;
   opacity: 0.6; }
 
-.page-heading h1 {
+.page-heading h3,
+.page-heading .page-title {
   font-family: "Poppins", sans-serif;
   font-size: 72px;
   text-align: center;
@@ -6376,11 +6377,13 @@ button.testimonial-arrow-btn {
   line-height: 84px;
   font-weight: 700; }
   @media only screen and (min-width: 0px) and (max-width: 767px) {
-    .page-heading h1 {
+    .page-heading h3,
+    .page-heading .page-title {
       font-size: 42px;
       line-height: 52px; } }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .page-heading h1 {
+    .page-heading h3,
+    .page-heading .page-title {
       font-size: 60px;
       line-height: 72px; } }
 
@@ -9737,5 +9740,4 @@ ul.children {
     .time-card-wrapper .time-card-arrow i {
       font-size: 16px;
       color: #ffffff; }
-
 /*# sourceMappingURL=style.css.map */
