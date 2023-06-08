@@ -85,7 +85,7 @@
       }
     }
   }
-  .header-social {
+  .social-profile {
     display: flex;
     align-items: center;
     gap: 25px;
@@ -95,7 +95,13 @@
       font-size: 16px;
       color: $white;
       transition: 0.3s;
+      transform: scale(1);
 
+      &:hover {
+        @include transition;
+        transform: scale(1.4);
+        color: $sky-color;
+      }
     }
   }
 }
