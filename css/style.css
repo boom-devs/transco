@@ -2583,6 +2583,7 @@ html {
         height: 100%;
         top: 0;
         left: 0;
+        width: 100%;
         border-radius: 0;
         z-index: -1; }
     .main-menu ul li a {
@@ -6408,8 +6409,10 @@ button.testimonial-arrow-btn {
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center; }
-      .breadcrumb-list ul li.active a {
+      .breadcrumb-list ul li.active {
         color: #ff6731; }
+        .breadcrumb-list ul li.active a {
+          color: #ff6731; }
       .breadcrumb-list ul li a {
         font-family: "Roboto", sans-serif;
         font-size: 16px;
@@ -9740,4 +9743,5 @@ ul.children {
     .time-card-wrapper .time-card-arrow i {
       font-size: 16px;
       color: #ffffff; }
+
 /*# sourceMappingURL=style.css.map */
