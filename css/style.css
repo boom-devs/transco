@@ -8354,7 +8354,7 @@ ul.children {
         .subscribe-area .subscribe-inner-area .subscribe-form-wrapper {
           width: 100%; } }
 
-.subscribe-form-widget form {
+.subscribe-form-widget .mc4wp-form-fields {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
