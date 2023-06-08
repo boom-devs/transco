@@ -401,6 +401,11 @@
   &.widget_categories {
     ul {
       li {
+        &.cat-item {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
         a {
           display: flex;
           justify-content: space-between;

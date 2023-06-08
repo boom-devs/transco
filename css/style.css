@@ -6466,7 +6466,7 @@ button.testimonial-arrow-btn {
   background-color: #ffffff;
   border-radius: 12px;
   overflow: hidden;
-  margin-bottom: 50px;
+  margin-bottom: 48px;
   border: 1px solid #dfe2e9;
   /* Quote Format Post */
   /* Sticky Post */ }
@@ -7272,6 +7272,16 @@ button.testimonial-arrow-btn {
       .widget ul.wp-tag-cloud li a:before,
       .widget ol.wp-tag-cloud li a:before {
         display: none; }
+  .widget.widget_categories ul li.cat-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
   .widget.widget_categories ul li a {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -9449,6 +9459,13 @@ ul.children {
   @media screen and (min-width: 1200px) {
     .team-space {
       margin-top: 85px; } }
+
+.blog-area {
+  padding-top: 144px;
+  padding-bottom: 49px; }
+  @media (max-width: 991px) {
+    .blog-area {
+      padding-top: 100px; } }
 
 .blog-grid-area {
   padding: 145px 0; }
