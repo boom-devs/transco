@@ -470,6 +470,7 @@ input[type="radio"]
   flex-shrink: 0;
   box-shadow: none !important;
   background-color: #FFFFFF !important;
+
 }
 
 
@@ -481,8 +482,7 @@ input[type="radio"]::before
   width: 8px;
   transition: 0.3s;
   transform: scale(0);
-  border-radius: 3px;
-  background-color: #1783FF;
+  background-color: $primary-color;
   top: 0;
   left: 0;
   bottom: 0;
@@ -500,8 +500,7 @@ input[type="checkbox"]::before{
   width: 100%;
   transition: 0.3s;
   transform: scale(0);
-  border-radius: 2px;
-  background-color: #1783FF;
+  background-color: $primary-color;
   top: 0;
   left: 0;
   bottom: 0;
@@ -512,11 +511,12 @@ input[type="checkbox"]:checked::before,
 input[type="radio"]:checked::before
 {
   transform: scale(1);
+  box-sizing:inherit !important;
 }
 input[type="checkbox"]:checked,
 input[type="radio"]:checked
 {
-  border-color: #1783FF !important;
+  border-color: $primary-color !important;
 }
 
 .wpcf7-form-control {

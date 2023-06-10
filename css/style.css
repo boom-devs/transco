@@ -43,7 +43,8 @@ body {
   font-family: "Roboto", sans-serif;
   color: #5e6f92;
   vertical-align: baseline;
-  line-height: 30px; }
+  line-height: 30px;
+  font-smoothing: antialiased; }
 
 p {
   margin: 0 0 15px; }
@@ -169,7 +170,7 @@ input:focus {
   outline: none; }
 
 .background-black {
-  background-color: #393d48; }
+  background-color: #31373f; }
 
 .background-blue {
   background-color: #003869; }
@@ -1916,8 +1917,7 @@ input[type="radio"]::before {
   transition: 0.3s;
   -webkit-transform: scale(0);
           transform: scale(0);
-  border-radius: 3px;
-  background-color: #1783FF;
+  background-color: #005bac;
   top: 0;
   left: 0;
   bottom: 0;
@@ -1937,8 +1937,7 @@ input[type="checkbox"]::before {
   transition: 0.3s;
   -webkit-transform: scale(0);
           transform: scale(0);
-  border-radius: 2px;
-  background-color: #1783FF;
+  background-color: #005bac;
   top: 0;
   left: 0;
   bottom: 0;
@@ -1948,11 +1947,13 @@ input[type="checkbox"]::before {
 input[type="checkbox"]:checked::before,
 input[type="radio"]:checked::before {
   -webkit-transform: scale(1);
-          transform: scale(1); }
+          transform: scale(1);
+  -webkit-box-sizing: inherit !important;
+          box-sizing: inherit !important; }
 
 input[type="checkbox"]:checked,
 input[type="radio"]:checked {
-  border-color: #1783FF !important; }
+  border-color: #005bac !important; }
 
 .wpcf7-form-control {
   display: -webkit-box;
@@ -2349,7 +2350,8 @@ html {
       .header-top .header-contact-info span:first-child:before {
         display: none; }
       .header-top .header-contact-info span:before {
-        background-color: #ffffff;
+        background-color: white;
+        opacity: 0.361;
         width: 1px;
         display: -webkit-inline-box;
         display: -ms-inline-flexbox;
@@ -2515,7 +2517,7 @@ html {
         z-index: -1; }
     .main-menu ul li a {
       display: block;
-      padding: 44px 20px;
+      padding: 44px 17px;
       text-decoration: none;
       text-transform: capitalize;
       -webkit-transition: all 0.5s ease-out;
@@ -2523,7 +2525,7 @@ html {
       position: relative;
       color: #393d48;
       font-family: "Poppins", sans-serif;
-      font-size: 16px;
+      font-size: 18px;
       font-weight: 700; }
       .main-menu ul li a:hover {
         color: #ff6731; }
@@ -2646,7 +2648,8 @@ html {
       font-family: "Poppins", sans-serif;
       font-size: 18px;
       font-weight: 700;
-      color: #393d48; }
+      color: #393d48;
+      line-height: 22px; }
   @media only screen and (max-width: 1199px) {
     .header-btn {
       display: none; } }
@@ -5169,17 +5172,18 @@ a.meanmenu-reveal {
     .testimonial-slider-wrapper .slick-dots li {
       display: inline-block;
       line-height: 0;
-      outline: 1px solid transparent;
-      border: 4px solid transparent;
+      outline: 2px solid transparent;
+      border: 5px solid transparent;
       border-radius: 50px;
       -webkit-transition: all 0.5s ease-out;
       transition: all 0.5s ease-out; }
       .testimonial-slider-wrapper .slick-dots li button {
         font-size: 0;
         padding: 0;
-        width: 11px;
-        height: 11px;
-        background-color: #b2bacb;
+        width: 12px;
+        height: 12px;
+        background-color: #5e6f92;
+        opacity: 0.478;
         border-radius: 50px;
         position: relative;
         -webkit-transition: all 0.5s ease-out;
@@ -5187,7 +5191,7 @@ a.meanmenu-reveal {
       .testimonial-slider-wrapper .slick-dots li.slick-active {
         -webkit-transition: all 0.5s ease-out;
         transition: all 0.5s ease-out;
-        outline: 1px solid #ff6731; }
+        outline: 2px solid #fc855b; }
         .testimonial-slider-wrapper .slick-dots li.slick-active button {
           -webkit-transition: all 0.5s ease-out;
           transition: all 0.5s ease-out; }
@@ -5454,7 +5458,7 @@ button.testimonial-arrow-btn {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 37px;
-  border: 1px solid #778196;
+  border: 1px solid #dfe2e9;
   border-radius: 12px;
   gap: 40px;
   margin-bottom: 25px; }
@@ -6226,7 +6230,7 @@ button.testimonial-arrow-btn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 20px;
+  gap: 10px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -6267,7 +6271,8 @@ button.testimonial-arrow-btn {
   .section-title .divider {
     width: 72px;
     height: 6px;
-    background-color: #005bac; }
+    background-color: #005bac;
+    margin-top: 16px; }
 
 /* 15.Page Breadcrumb Section */
 .page-breadcrumb-sec {

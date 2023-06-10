@@ -31,7 +31,8 @@
         }
       }
       &:before {
-        background-color: $white;
+        background-color: rgb(255, 255, 255);
+        opacity: 0.361;
         width: 1px;
         display: inline-flex;
         height: 12px;
@@ -254,14 +255,14 @@
       }
       a {
         display: block;
-        padding: 44px 20px;
+        padding: 44px 17px;
         text-decoration: none;
         text-transform: capitalize;
         @include transition;
         position: relative;
         color: $secondary-color;
         font-family: $heading-font;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 700;
 
         //&:before {
@@ -423,6 +424,7 @@
       font-size: 18px;
       font-weight: 700;
       color: $secondary-color;
+      line-height: 22px;
     }
   }
 

@@ -21,7 +21,7 @@
             z-index: -1;
             content: "";
             @include transition;
-            border: 1px solid $gray-300;
+            border: 1px solid rgb(223, 226, 233);
             border-radius: 12px;
         }
         &:hover {

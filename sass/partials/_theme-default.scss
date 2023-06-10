@@ -13,6 +13,7 @@ body {
   color: $text-color;
   vertical-align: baseline;
   line-height: 30px;
+  font-smoothing: antialiased;
 }
 p {
   margin: 0 0 15px;
@@ -138,8 +139,9 @@ input:focus {
 }
 
 .background-black {
-  background-color: $secondary-color;
+  background-color: rgb(49, 55, 63);
 }
+
 .background-blue {
   background-color: $blue-color;
 }

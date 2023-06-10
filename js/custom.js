@@ -180,7 +180,7 @@
         $("#testimonial_two").slick({
             slidesToShow: 2,
             infinite: true,
-            autoplay: true,
+            autoplay: false,
             draggable: true,
             arrows: true,
             slidesToScroll: 1,
