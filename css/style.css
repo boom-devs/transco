@@ -7952,11 +7952,24 @@ ul.children {
       font-size: 16px;
       font-weight: 400;
       font-family: "Roboto", sans-serif; }
-      .comment-respond .checkbox-field-wrapper .single-checkbox-field .form-check-input {
+      .comment-respond .checkbox-field-wrapper .single-checkbox-field input {
         margin: 0 !important;
         width: 18px;
         height: 18px;
-        padding: 0; }
+        padding: 0;
+        border: 1px solid #dfe2e9; }
+      .comment-respond .checkbox-field-wrapper .single-checkbox-field .wpcf7-form-control {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        gap: 10px;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+        .comment-respond .checkbox-field-wrapper .single-checkbox-field .wpcf7-form-control .wpcf7-list-item {
+          margin: 0; }
   .comment-respond .comment-form-cookies-consent {
     display: none; }
   .comment-respond input[type="number"] {
@@ -8021,6 +8034,8 @@ ul.children {
     color: #ffffff; }
   .comment-respond.style-two label {
     color: #c7cdda; }
+  .comment-respond.style-two .single-input-field p {
+    margin-bottom: 0; }
   .comment-respond.style-two .single-input-field input,
   .comment-respond.style-two .single-input-field select {
     background-color: transparent;

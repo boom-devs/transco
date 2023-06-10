@@ -76,12 +76,27 @@
       font-weight: 400;
       font-family: $body-font;
 
-      .form-check-input {
+
+      input {
         margin: 0 !important;
         width: 18px;
         height: 18px;
         padding: 0;
+        border: 1px solid #dfe2e9;
       }
+
+      // CF7 Compatibility
+      .wpcf7-form-control {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        flex-wrap: wrap;
+
+        .wpcf7-list-item {
+          margin: 0;
+        }
+      }
+
     }
   }
   .comment-form-cookies-consent {
@@ -199,6 +214,9 @@
       color: $white-100;
     }
     .single-input-field {
+      p {
+        margin-bottom: 0;
+      }
       input,
       select {
         background-color: transparent;
