@@ -414,9 +414,7 @@ input:focus {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  background: #e30008;
-  background: linear-gradient(45deg, #e30008 0%, #faae00 100%);
-  background-image: -ms-linear-gradient(-45deg, #e30008 0%, #faae00 100%);
+  background-image: linear-gradient(45deg, #e30008 0%, #faae00 100%);
   color: #fff;
   padding: 11px 10px 11px 36px;
   text-align: center;
@@ -2062,48 +2060,32 @@ object {
 
 .wpcf7-form .wpcf7-not-valid {
   border-color: #FF0000FF !important; }
+.wpcf7-form .wpcf7-not-valid-tip {
+  display: none; }
 .wpcf7-form.sent .wpcf7-response-output {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 14px;
   line-height: 21px;
   letter-spacing: -0.01em;
   color: #72DC60;
-  padding: 15px 23px 15px 60px;
+  padding: 15px 20px;
+  text-align: center;
   position: relative;
   background: #F4FFF5;
   border: 1px solid #CDF5C8 !important;
   border-radius: 10px; }
-  .wpcf7-form.sent .wpcf7-response-output:before {
-    position: absolute;
-    content: "";
-    width: 20px;
-    height: 20px;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
-    background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M19.9999 9.99976C19.9999 15.5238 15.5229 19.9998 9.99988 19.9998C4.47688 19.9998 -0.00012207 15.5238 -0.00012207 9.99976C-0.00012207 4.47776 4.47688 -0.000244141 9.99988 -0.000244141C15.5229 -0.000244141 19.9999 4.47776 19.9999 9.99976Z' fill='%2372DC60'/%3E%3Cpath d='M9.2485 13.4965C9.0245 13.4965 8.8005 13.4115 8.6295 13.2405L6.2565 10.8675C5.9145 10.5255 5.9145 9.9715 6.2565 9.6305C6.5985 9.2885 7.1515 9.2875 7.4935 9.6295L9.2485 11.3845L13.3765 7.2565C13.7185 6.9145 14.2715 6.9145 14.6135 7.2565C14.9555 7.5985 14.9555 8.1525 14.6135 8.4945L9.8675 13.2405C9.6965 13.4115 9.4725 13.4965 9.2485 13.4965' fill='white'/%3E%3C/svg%3E%0A");
-    left: 30px; }
 .wpcf7-form.invalid .wpcf7-response-output {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 14px;
   line-height: 21px;
   letter-spacing: -0.01em;
   color: #FF5353;
-  padding: 15px 23px 15px 60px;
+  padding: 15px 20px;
+  text-align: center;
   position: relative;
   background: #FFF7F7;
   border: 1px solid #FED8D8 !important;
   border-radius: 10px; }
-  .wpcf7-form.invalid .wpcf7-response-output:before {
-    position: absolute;
-    content: "";
-    width: 20px;
-    height: 20px;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
-    background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M0.00012207 9.99927C0.00012207 4.48027 4.48012 -0.000732422 10.0001 -0.000732422C15.5301 -0.000732422 20.0001 4.48027 20.0001 9.99927C20.0001 15.5203 15.5301 19.9993 10.0001 19.9993C4.48012 19.9993 0.00012207 15.5203 0.00012207 9.99927ZM9.12012 6.20927C9.12012 5.73027 9.52012 5.32927 10.0001 5.32927C10.4801 5.32927 10.8701 5.73027 10.8701 6.20927V10.6293C10.8701 11.1103 10.4801 11.4993 10.0001 11.4993C9.52012 11.4993 9.12012 11.1103 9.12012 10.6293V6.20927ZM10.0101 14.6803C9.52012 14.6803 9.13012 14.2803 9.13012 13.8003C9.13012 13.3203 9.52012 12.9303 10.0001 12.9303C10.4901 12.9303 10.8801 13.3203 10.8801 13.8003C10.8801 14.2803 10.4901 14.6803 10.0101 14.6803Z' fill='%23FF5353'/%3E%3C/svg%3E%0A");
-    left: 30px; }
 
 input[type="checkbox"],
 input[type="radio"] {
@@ -2669,7 +2651,7 @@ html {
     height: 238px;
     left: -40px;
     bottom: -41px;
-    background: linear-gradient(65deg, #e30008 0%, #faae00 100%);
+    background-image: linear-gradient(-65deg, #e30008 0%, #faae00 100%);
     border-radius: 15px;
     z-index: -1;
     -webkit-transform: rotate(19deg);

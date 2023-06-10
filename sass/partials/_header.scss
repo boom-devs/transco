@@ -154,7 +154,7 @@
     height: 238px;
     left: -40px;
     bottom: -41px;
-    background: linear-gradient(65deg, rgb(227,0,8) 0%, rgb(250,174,0) 100%);
+    background-image: linear-gradient( -65deg, rgb(227,0,8) 0%, rgb(250,174,0) 100%);
     border-radius: 15px;
     z-index: -1;
     transform: rotate(19deg);
@@ -390,6 +390,8 @@
   @media only screen and (max-width: 1399px) {
     display: none;
   }
+
+
 
   .icon-wrapper {
     border: 1px solid $sky-color;

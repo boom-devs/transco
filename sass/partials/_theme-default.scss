@@ -163,12 +163,7 @@ input:focus {
 .theme-btn,
 .wp-block-loginout a {
   display: inline-flex;
-  @include gradient-color-red;
-
-  background-image: -moz-linear-gradient( -45deg, rgb(227,0,8) 0%, rgb(250,174,0) 100%);
-  background-image: -webkit-linear-gradient( -45deg, rgb(227,0,8) 0%, rgb(250,174,0) 100%);
-  background-image: -ms-linear-gradient( -45deg, rgb(227,0,8) 0%, rgb(250,174,0) 100%);
-
+  background-image: linear-gradient(45deg, rgb(227,0,8) 0%, rgb(250,174,0) 100%);
   color: #fff;
   padding: 11px 10px 11px 36px;
   text-align: center;
