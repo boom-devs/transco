@@ -160,8 +160,16 @@ input:focus {
   padding-top: 100px;
   padding-bottom: 85px;
 }
+.border-radius-12 {
+  border-radius: 12px;
+}
+.text-white-100 {
+  color: $white-100;
+}
+
 .theme-btn,
-.wp-block-loginout a {
+.wp-block-loginout a,
+input.theme-btn {
   display: inline-flex;
   background-image: linear-gradient(45deg, rgb(227,0,8) 0%, rgb(250,174,0) 100%);
   color: #fff;
@@ -201,10 +209,50 @@ input:focus {
     border-color: #071c34;
   }
 }
+input.theme-btn {
+  display: inline-block !important;
+  width: inherit !important;
+  border: 0 !important;
 
-.border-radius-12 {
-  border-radius: 12px;
 }
-.text-white-100 {
-  color: $white-100;
+//.submit-btn {
+//  position: relative;
+//
+//  &:before {
+//      position: relative;
+//      right: 0;
+//      content: "\f105";
+//      font-family: $font-awesome;
+//      top: 50%;
+//      transform: translateY(-50%);
+//  }
+//}
+
+input[type="submit"]:before {
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  content: "\f105";
+  font-family: $font-awesome;
 }
+//.submit-btn {
+//  display: inline-block;
+//  position: relative;
+//}
+//
+//.submit-btn::before {
+//  position: relative;
+//  right: 0;
+//  content: "\f105";
+//  font-family: $font-awesome;
+//  top: 50%;
+//  transform: translateY(-50%);
+//}
+
+//.wpcf7-submit::before {
+//  position: relative;
+//  right: 0;
+//  content: "\f105";
+//  font-family: $font-awesome;
+//  top: 50%;
+//  transform: translateY(-50%);
+//}

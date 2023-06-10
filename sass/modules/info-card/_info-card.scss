@@ -23,18 +23,18 @@
         height: 100%;
     }
     .divider {
-        background-color: $gray-300;
-
         &:before {
             content: "";
             position: absolute;
-            background-color: $gray-300;
+            background-color: rgb(94, 111, 146);
+            opacity: 0.2;
             right: 0;
             height: 80%;
             width: 1px;
             top: 45px;
         }
     }
+
     .image-wrapper {
         position: absolute;
         width: 100%;
@@ -152,6 +152,7 @@
                         background-clip: content-box, border-box;
                         transform: scale(1);
                         @include transition;
+
                     }
 
                     i {

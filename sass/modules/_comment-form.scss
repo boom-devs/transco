@@ -45,6 +45,9 @@
   @include sm {
     padding: 30px;
   }
+  p {
+    margin: 0;
+  }
 
   .contacts-email,
   .contacts-name,
@@ -67,6 +70,10 @@
     margin-bottom: 12px;
     padding: 15px 0;
 
+    p {
+      margin: 0;
+    }
+
     .single-checkbox-field {
       margin-bottom: 0;
       display: inline-flex;
@@ -77,40 +84,6 @@
       font-family: $body-font;
 
     }
-    // CF7 Compatibility
-    .wpcf7-form-control {
-      display: flex;
-      justify-content: space-between;
-      gap: 10px;
-      flex-wrap: wrap;
-
-      .wpcf7-list-item {
-        margin: 0;
-        label {
-          display: flex;
-          align-content: center;
-          margin: 0;
-          gap: 10px;
-
-          .wpcf7-list-item-label {
-            font-size: 16px;
-            font-weight: 400;
-          }
-        }
-      }
-    }
-    //input[type="checkbox"],
-    //input[type="radio"]
-    //{
-    //  margin: 0 !important;
-    //  width: 18px !important;
-    //  height: 18px !important;
-    //  padding: 0;
-    //  flex-shrink: 0;
-    //  border: 1px solid #dfe2e9 !important;
-    //  box-shadow: none;
-    //  appearance: none;
-    //}
   }
   .comment-form-cookies-consent {
     display: none;
@@ -168,36 +141,6 @@
     font-family: $body-font !important;
     height: 130px;
   }
-
-  //.theme-btn {
-  //  display: inline-flex;
-  //  background: $primary-color;
-  //  color: $white;
-  //  padding: 12px 34px;
-  //  text-align: center;
-  //  font-weight: 500;
-  //  font-family: $body-font;
-  //  text-transform: capitalize;
-  //  position: relative;
-  //  z-index: 1;
-  //  transition: 0.3s;
-  //  font-size: 16px;
-  //  align-items: center;
-  //  gap: 10px;
-  //  border-radius: 50px;
-  //  margin-top: 20px;
-  //
-  //  &:hover {
-  //    background: #071c34;
-  //    color: #fff;
-  //    border-color: #071c34;
-  //  }
-  //}
-
-  //p {
-  //  margin-bottom: 20px;
-  //}
-
   input:focus,
   textarea:focus,
   .form-select:focus{
@@ -206,14 +149,6 @@
     border-color: $primary-color !important;
     transition: all 0.4s ease 0s;
   }
-
-  // CF7 Form Validation
-  //.wpcf7-not-valid {
-  //  border-color: $orange-color !important;
-  //}
-  //.wpcf7-not-valid-tip {
-  //  display: none;
-  //}
 }
 
 .comment-respond {

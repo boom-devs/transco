@@ -405,6 +405,7 @@ object {
 }
 // Form Validation
 .wpcf7-form {
+
   // Validation Error Message
   .wpcf7-not-valid {
     border-color: #FF0000FF !important;
@@ -516,4 +517,26 @@ input[type="checkbox"]:checked,
 input[type="radio"]:checked
 {
   border-color: #1783FF !important;
+}
+
+.wpcf7-form-control {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+
+  .wpcf7-list-item {
+    margin: 0;
+    label {
+      display: flex;
+      align-content: center;
+      margin: 0;
+      gap: 10px;
+
+      .wpcf7-list-item-label {
+        font-size: 16px;
+        font-weight: 400;
+      }
+    }
+  }
 }
