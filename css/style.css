@@ -8020,6 +8020,10 @@ ul.children {
     border-color: #005bac !important;
     -webkit-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s; }
+  .comment-respond .wpcf7-not-valid {
+    border-color: #ff6731 !important; }
+  .comment-respond .wpcf7-not-valid-tip {
+    display: none; }
 
 .comment-respond.style-two {
   background-color: transparent;
