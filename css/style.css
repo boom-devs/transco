@@ -2366,6 +2366,8 @@ html {
         @media only screen and (min-width: 0px) and (max-width: 767px) {
           .header-top .header-contact-info span:before {
             display: none; } }
+      .header-top .header-contact-info span.contact-info-item {
+        gap: 0 10px !important; }
       .header-top .header-contact-info span a {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -3180,9 +3182,8 @@ a.meanmenu-reveal {
     .slider-area.style-three .single-slider {
       height: 450px; } }
   .slider-area.style-three .single-slider .slider-overlay {
-    opacity: 0.659;
-    background: #005bac;
-    background: linear-gradient(135deg, #1eae98 0%, #005bac 100%); }
+    background: linear-gradient(135deg, #1eae98 0%, #005bac 100%);
+    opacity: 0.659; }
   .slider-area.style-three .single-slider .slider-content-wrapper {
     gap: 100px;
     margin-top: -60px; }

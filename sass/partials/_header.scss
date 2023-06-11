@@ -42,7 +42,9 @@
           display: none;
         }
       }
-
+      &.contact-info-item {
+        gap:0 10px !important;
+      }
       a {
         display: flex;
         align-items: center;
