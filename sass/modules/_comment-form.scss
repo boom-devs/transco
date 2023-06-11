@@ -170,6 +170,14 @@
     label {
       color: $white-100;
     }
+
+    .nice-select:after {
+      border-color: transparent transparent #c7cdda transparent;
+    }
+    input[type="radio"]::before,
+    input[type="checkbox"]::before{
+      background-color: #c7cdda;
+    }
     .single-input-field {
       p {
         margin-bottom: 0;
