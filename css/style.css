@@ -170,6 +170,9 @@ input:focus {
   outline: none; }
 
 .background-black {
+  background-color: #393d48; }
+
+.bg-light-black {
   background-color: #31373f; }
 
 .background-blue {
@@ -2467,7 +2470,7 @@ html {
     height: 238px;
     left: -40px;
     bottom: -41px;
-    background-image: linear-gradient(-65deg, #e30008 0%, #faae00 100%);
+    background-image: linear-gradient(65deg, #e30008 0%, #faae00 100%);
     border-radius: 15px;
     z-index: -1;
     -webkit-transform: rotate(19deg);
@@ -3134,7 +3137,7 @@ a.meanmenu-reveal {
     background: #1eae98;
     top: 0;
     left: -100%;
-    margin-left: -220px;
+    margin-left: -228px;
     -webkit-transform: skewX(-20deg);
             transform: skewX(-20deg); }
   .slider-area.style-two .slider-wrapper .slider-shape-bottom-left {
@@ -4342,16 +4345,16 @@ a.meanmenu-reveal {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    gap: 0 30px;
+    gap: 0 20px;
     margin-bottom: 5px; }
     .about-info-card.style-two .about-info-content .icon-card-wrapper .icon-card {
       width: 50%;
       padding: 0;
-      gap: 25px;
+      gap: 20px;
       margin-bottom: 0; }
       .about-info-card.style-two .about-info-content .icon-card-wrapper .icon-card .icon {
-        width: 50px;
-        height: 50px;
+        width: 42px;
+        height: 42px;
         margin-top: 13px; }
       .about-info-card.style-two .about-info-content .icon-card-wrapper .icon-card .content {
         gap: 4px; }
@@ -6056,7 +6059,7 @@ button.testimonial-arrow-btn {
 .triangle-shape-card-three {
   position: absolute;
   left: 0;
-  bottom: -50%;
+  top: 0;
   -webkit-transform: translateY(50%);
           transform: translateY(50%);
   z-index: 99;

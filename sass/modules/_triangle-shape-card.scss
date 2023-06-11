@@ -40,7 +40,7 @@
 .triangle-shape-card-three {
     position: absolute;
     left: 0;
-    bottom: -50%;
+    top: 0;
     transform: translateY(50%);
     z-index: 99;
     border-top: 550px solid $secondary-color;

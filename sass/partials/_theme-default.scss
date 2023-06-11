@@ -139,9 +139,11 @@ input:focus {
 }
 
 .background-black {
+  background-color: rgb(57, 61, 72);
+}
+.bg-light-black {
   background-color: rgb(49, 55, 63);
 }
-
 .background-blue {
   background-color: $blue-color;
 }
