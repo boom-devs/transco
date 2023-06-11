@@ -2329,6 +2329,9 @@ html {
             -ms-flex-pack: justify;
                 justify-content: space-between;
         width: 100%; } }
+    @media (max-width: 991px) {
+      .header-top .header-top-info {
+        padding-bottom: 10px; } }
   .header-top .header-contact-info {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3680,6 +3683,10 @@ a.meanmenu-reveal {
         line-height: 30px;
         font-weight: 400;
         margin: 0; }
+      .info-card.style-three .content-wrapper .content .read-more a .icon:before {
+        display: none; }
+      .info-card.style-three .content-wrapper .content .read-more a .icon i {
+        color: #ffffff; }
     @media only screen and (min-width: 0px) and (max-width: 767px) {
       .info-card.style-three .content-wrapper {
         padding: 0 10px; }
@@ -4000,11 +4007,11 @@ a.meanmenu-reveal {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 40px;
+  gap: 32px;
   margin-bottom: 50px; }
   .icon-card.style-three .icon {
-    width: 78px;
-    height: 78px;
+    width: 72px;
+    height: 72px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -4016,7 +4023,7 @@ a.meanmenu-reveal {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    gap: 34px;
+    gap: 30px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -4256,7 +4263,7 @@ a.meanmenu-reveal {
     height: 190px;
     border-radius: 8px;
     z-index: -1;
-    background-color: #003869;
+    background-color: #005bac;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -5743,6 +5750,9 @@ button.testimonial-arrow-btn {
     height: 100%;
     -webkit-transition: all 0.5s ease-out;
     transition: all 0.5s ease-out; }
+  .post-card.style-four .content .title a {
+    font-size: 24px;
+    line-height: 33px; }
   .post-card.style-four .content .title:hover {
     color: #005bac; }
   .post-card.style-four .content .post-meta span {
@@ -5772,10 +5782,12 @@ button.testimonial-arrow-btn {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  gap: 14px; }
+  gap: 14px;
+  padding-right: 20px; }
   @media only screen and (min-width: 0px) and (max-width: 767px) {
     .skill-progressbar-wrapper {
-      width: 100%; } }
+      width: 100%;
+      padding-right: 0; } }
 
 .skill-progressbar .progress-inner-item {
   position: relative;
