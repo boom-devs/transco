@@ -33,6 +33,7 @@
     <link rel="stylesheet" href="css/fontawesome.min.css" />
     <link rel="stylesheet" href="css/magnific-popup.css" />
     <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/meanmenu.css" />
     <link rel="stylesheet" href="css/nice-select.css" />
     <link rel="stylesheet" href="css/animate.css" />
     <link rel="stylesheet" href="css/style.css" />
@@ -47,7 +48,7 @@
     <!-- Header Start !-->
     <header class="header-area">
         <!-- Header Top Start -->
-        <div class="header-top">
+        <div class="header-top d-lg-block d-md-none">
             <div class="container">
                 <div class="row">
                     <div class="col-12 d-flex align-items-center justify-content-start justify-content-lg-end ">
@@ -67,10 +68,10 @@
         </div>
         <!-- Header Top End -->
         <!-- Header Nav Menu Start -->
-        <div class="header-sec">
+        <div class="header-sec sticky-header">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-3 col-lg-3 col-6 d-flex align-items-center">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-6 d-flex align-items-center">
                         <div class="logo">
                             <a href="index.html" class="standard-logo">
                                 <img src="images/logo/logo.png" alt="logo" />
@@ -81,7 +82,7 @@
                         </div>
                     </div>
 <!--                    <div class="mobile-nav-menu d-lg-none"></div>-->
-                    <div class="col-xl-9 col-lg-9 d-flex align-items-center justify-content-end">
+                    <div class="col-xl-9 col-lg-9 col-md-6 col-6 d-flex align-items-center justify-content-end">
                         <div class="menu d-inline-block">
                             <nav id="main-menu" class="main-menu">
                                 <ul>
@@ -130,6 +131,10 @@
                             </div>
                         </div>
                         <!-- Header Button Start !-->
+
+                        <div class="mobile-menu-bar d-lg-none text-end">
+                            <a href="#" class="mobile-menu-toggle-btn"><i class="fal fa-bars"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -137,62 +142,41 @@
         <!-- Header Nav Menu End -->
     </header>
     <!-- Header End !-->
-    <!-- Sidebar Section Start -->
-    <div class="sidebar-area">
-        <div class="sidebar-wrapper">
-            <div class="sidebar-close">
-                <button class="sidebar__close-btn" id="sidebar__close-btn">
+    <!-- Menu Sidebar Section Start -->
+    <div class="menu-sidebar-area">
+        <div class="menu-sidebar-wrapper">
+            <div class="menu-sidebar-close">
+                <button class="menu-sidebar-close-btn" id="menu_sidebar_close_btn">
                     <i class="fal fa-times"></i>
                 </button>
             </div>
-            <div class="sidebar-content">
-                <div class="sidebar-logo">
+            <div class="menu-sidebar-content">
+                <div class="menu-sidebar-logo">
                     <a href="index.html">
-                        <img src="assets/img/logo/logo-black.png" alt="logo">
+                        <img src="images/logo/logo-2.png" alt="logo" />
                     </a>
                 </div>
                 <div class="mobile-nav-menu fix"></div>
-                <div class="sidebar-content">
-                    <h4>Contact Info</h4>
-                    <ul>
-                        <li class="d-flex align-items-center">
-                            <div class="sidebar__contact-icon mr-15">
-                                <i class="fal fa-map-marker-alt"></i>
-                            </div>
-                            <div class="sidebar__contact-text">
-                                <a target="_blank" href="https://www.google.com/maps/place/Dhaka/@23.7806207,90.3492859,12z/data=!3m1!4b1!4m5!3m4!1s0x3755b8b087026b81:0x8fa563bbdd5904c2!8m2!3d23.8104753!4d90.4119873">12/A, Mirnada City Tower, NYC</a>
-                            </div>
-                        </li>
-                        <li class="d-flex align-items-center">
-                            <div class="sidebar__contact-icon mr-15">
-                                <i class="far fa-phone"></i>
-                            </div>
-                            <div class="sidebar__contact-text">
-                                <a href="tel:+012-345-6789">088889797697</a>
-                            </div>
-                        </li>
-                        <li class="d-flex align-items-center">
-                            <div class="sidebar__contact-icon mr-15">
-                                <i class="fal fa-envelope"></i>
-                            </div>
-                            <div class="sidebar__contact-text">
-                                <a href="mailto:info@gmail.com">info@gmail.com</a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="sidebar-social-profile">
-                    <ul>
-                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                    </ul>
+                <div class="menu-sidebar-content">
+                    <div class="menu-sidebar-single-widget">
+                        <h5 class="menu-sidebar-title">Contact Info</h5>
+                        <div class="header-contact-info">
+                            <span><a href="#"><i class="fa-solid fa-location-dot"></i>20, Bordeshi, New York, US</a></span>
+                            <span><a href="mailto:hello@transico.com"><i class="fa-solid fa-envelope"></i>hello@transico.com</a> </span>
+                        </div>
+                        <div class="social-profile">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Sidebar Section Start -->
+    <!-- Menu Sidebar Section Start -->
+    <div class="body-overlay"></div>
     <!-- Slider Section Start !-->
     <div class="slider-area">
         <div class="slider-wrapper">

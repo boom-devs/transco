@@ -5,11 +5,31 @@
         /*
        Jquery Mobile Menu
        ============================*/
-        $("#main-menu").meanmenu({
+        $('#main-menu').meanmenu({
+            meanMenuContainer: '.mobile-nav-menu',
             meanScreenWidth: "991",
-            meanMenuContainer: ".mobile-nav-menu",
+            meanExpand: ['<i class="fal fa-plus"></i>'],
         });
 
+        /*
+       Jquery Sidebar Toggle
+       ============================*/
+        $(".mobile-menu-toggle-btn").on("click", function () {
+            $(".menu-sidebar-area").addClass("active");
+            $(".body-overlay").addClass("active");
+        });
+        $(".menu-sidebar-close-btn").on("click", function () {
+            $(".menu-sidebar-area").removeClass("active");
+            $(".body-overlay").removeClass("active");
+        });
+
+        /*
+       Jquery Body Overlay
+       ============================*/
+        $(".body-overlay").on("click", function () {
+            $(".menu-sidebar-area").removeClass("active");
+            $(".body-overlay").removeClass("active");
+        });
         /*
         Stikey Js
         ============================*/
