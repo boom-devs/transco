@@ -21,7 +21,7 @@
 }
 // Video Popup Area
 .video-popup-area {
-  margin-bottom: -237px;
+  margin-bottom: -228px;
 
   @include rmaxwd(991) {
     margin-bottom: 0;
@@ -83,7 +83,7 @@
 // Service Area
 .home-one-service-area {
   padding-top: 144px;
-  padding-bottom: 124px;
+  padding-bottom: 129px;
 
   @include rmaxwd(991) {
     padding-top: 100px;
@@ -97,7 +97,7 @@
 // Process Step Area
 .home-one-process-step-area {
   background-color: $black-200;
-  padding-top: 144px;
+  padding-top: 148px;
 
   @include rmaxwd(991) {
     padding-top: 100px;
@@ -167,8 +167,8 @@
 }
 // News Area
 .home-one-news-area {
-  padding-top: 136px;
-  padding-bottom: 122px;
+  padding-top: 141px;
+  padding-bottom: 121px;
 
   @include rmaxwd(991) {
     padding: 100px 0;

@@ -5856,7 +5856,7 @@ button.testimonial-arrow-btn {
       font-weight: 700;
       font-size: 16px;
       line-height: 36px;
-      text-transform: uppercase;
+      text-transform: capitalize;
       color: #ff6731;
       margin: 0; }
     .price-card .card-title .title {
@@ -5902,7 +5902,7 @@ button.testimonial-arrow-btn {
         font-family: "Poppins", sans-serif;
         font-style: normal;
         font-weight: 600;
-        font-size: 16px;
+        font-size: 24px;
         line-height: 28px;
         color: #ffffff;
         text-align: start;
@@ -8801,7 +8801,7 @@ ul.children {
         padding-top: 100px; } }
 
 .video-popup-area {
-  margin-bottom: -237px; }
+  margin-bottom: -228px; }
   @media (max-width: 991px) {
     .video-popup-area {
       margin-bottom: 0;
@@ -8853,7 +8853,7 @@ ul.children {
 
 .home-one-service-area {
   padding-top: 144px;
-  padding-bottom: 124px; }
+  padding-bottom: 129px; }
   @media (max-width: 991px) {
     .home-one-service-area {
       padding-top: 100px;
@@ -8863,7 +8863,7 @@ ul.children {
 
 .home-one-process-step-area {
   background-color: #31373f;
-  padding-top: 144px; }
+  padding-top: 148px; }
   @media (max-width: 991px) {
     .home-one-process-step-area {
       padding-top: 100px;
@@ -8925,8 +8925,8 @@ ul.children {
   padding-bottom: 86px; }
 
 .home-one-news-area {
-  padding-top: 136px;
-  padding-bottom: 122px; }
+  padding-top: 141px;
+  padding-bottom: 121px; }
   @media (max-width: 991px) {
     .home-one-news-area {
       padding: 100px 0; } }
@@ -8966,7 +8966,7 @@ ul.children {
     -webkit-transform: skewX(-22deg);
             transform: skewX(-22deg); }
   .home-two-counter-area .counter-area-two-inner {
-    padding: 145px 0;
+    padding: 150px 0;
     position: relative;
     background-color: #005bac;
     border-radius: 0 18px 18px 0; }
@@ -9020,7 +9020,7 @@ ul.children {
           transform: skewX(-22deg); }
 
 .appointment-booking-area {
-  margin-bottom: -272px;
+  margin-bottom: -261px;
   position: relative;
   z-index: 2; }
   @media (max-width: 991px) {
@@ -9389,6 +9389,8 @@ ul.children {
   @media only screen and (min-width: 0px) and (max-width: 767px) {
     .accordion-section {
       padding: 70px 0; } }
+  .accordion-section .accordion-wrapper.style-four .accordion-list-item {
+    margin-bottom: 0; }
 
 .pricing-accordion-wrapper {
   padding-left: 120px; }

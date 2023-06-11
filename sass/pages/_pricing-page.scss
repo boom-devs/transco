@@ -33,6 +33,10 @@
     @include sm {
         padding: 70px 0;
     }
+
+    .accordion-wrapper.style-four .accordion-list-item {
+        margin-bottom: 0;
+    }
 }
 .pricing-accordion-wrapper {
     padding-left: 120px;
