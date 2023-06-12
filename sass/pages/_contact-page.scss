@@ -1,17 +1,33 @@
-.contact-page-sec-area {
-    padding: 145px 0;
+.contact-info-area {
+    padding-top: 110px;
+    padding-bottom: 133px;
 
     @include rmaxwd(991) {
         padding: 100px 0;
+    }
+}
+
+.contact-map-area {
+    padding-top: 130px;
+    padding-bottom: 151px;
+
+    @include rmaxwd(991) {
+        padding: 100px 0;
+    }
+    .map-wodget {
+        iframe {
+            height: 380px;
+        }
     }
 }
 // contact-page
 .contact-title {
     text-align: center;
     h2 {
-        font-size: 38px;
+        font-size: 48px;
         color: $secondary-color;
         margin-bottom: 0;
+
         @media only screen and (min-width: 992px) and (max-width: 1199px) {
             font-size: 48px;
         }

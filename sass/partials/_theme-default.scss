@@ -217,9 +217,12 @@ input.theme-btn {
     border-color: #071c34;
   }
 }
+.full-width-btn {
+  justify-content: space-between;
+  width: 100%;
+}
 input.theme-btn {
   display: inline-block !important;
   width: inherit !important;
   border: 0 !important;
-
 }
