@@ -10,6 +10,7 @@
         visibility: visible;
         opacity: 1;
         @include transition;
+        bottom: 0;
       }
       img {
         // transform: scale(1.1);
@@ -33,7 +34,7 @@
     height: 100%;
     width: 100%;
     left: 0;
-    top: 0;
+    bottom: -100%;
     visibility: hidden;
     opacity: 0;
     @include transition;
