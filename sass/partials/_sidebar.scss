@@ -23,6 +23,15 @@
     margin-bottom: 0;
   }
 
+  /* Widget Instagram Feed */
+  .widget-instagram-feed {
+    width: 315px;
+
+    .single-instagram-feed {
+      width: 96px;
+      height: 96px;
+    }
+  }
   /* Widget Title */
   .wp-block-heading,
   .widget-title {
@@ -36,7 +45,7 @@
 
     &:before {
       content: "\f0da";
-      font-family: "Font Awesome 6 Pro";
+      font-family: $font-awesome;
       margin-right: 6px;
       color: $sky-color;
     }
@@ -94,7 +103,7 @@
 
           &:before {
             content: "\f274";
-            font-family: "Font Awesome 6 Pro";
+            font-family: $font-awesome;
             padding-right: 8px;
           }
         }
@@ -509,7 +518,7 @@
   .rss-date {
     &:before {
       content: "\f274";
-      font-family: "Font Awesome 6 Pro";
+      font-family: $font-awesome;
       padding-right: 8px;
     }
   }
@@ -518,7 +527,7 @@
   .wp-block-rss__item-author {
     &:before {
       content: "\f007";
-      font-family: "Font Awesome 6 Pro";
+      font-family: $font-awesome;
       padding-right: 8px;
     }
   }
