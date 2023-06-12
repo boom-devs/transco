@@ -6369,7 +6369,8 @@ button.testimonial-arrow-btn {
   z-index: 2;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center; }
+  background-position: center center;
+  background-color: #005bac; }
 
 .page-overlay {
   background-image: linear-gradient(135deg, #1eae98 0%, #005bac 100%);
@@ -9830,5 +9831,4 @@ ul.children {
     .time-card-wrapper .time-card-arrow i {
       font-size: 16px;
       color: #ffffff; }
-
 /*# sourceMappingURL=style.css.map */
