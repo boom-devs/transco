@@ -9090,7 +9090,8 @@ ul.children {
 
 .home-two-counter-area {
   position: relative;
-  padding: 144px 0;
+  padding-top: 154px;
+  padding-bottom: 134px;
   overflow: hidden; }
   @media (max-width: 991px) {
     .home-two-counter-area {
@@ -9106,7 +9107,7 @@ ul.children {
     -webkit-transform: skewX(-22deg);
             transform: skewX(-22deg); }
   .home-two-counter-area .counter-area-two-inner {
-    padding: 150px 0;
+    padding: 145px 0;
     position: relative;
     background-color: #005bac;
     border-radius: 0 18px 18px 0; }
@@ -9177,7 +9178,7 @@ ul.children {
 
 .home-two-accordion-area {
   padding-top: 140px;
-  padding-bottom: 148px;
+  padding-bottom: 157px;
   z-index: 2; }
   @media (max-width: 991px) {
     .home-two-accordion-area {
@@ -9272,7 +9273,7 @@ ul.children {
   width: 100%; }
 
 .home-two-news-area {
-  padding-top: 68px;
+  padding-top: 80px;
   padding-bottom: 107px; }
   @media (max-width: 991px) {
     .home-two-news-area {
@@ -9295,7 +9296,7 @@ ul.children {
       padding: 100px 0; } }
 
 .home-two-project-area {
-  padding-bottom: 114px; }
+  padding-bottom: 143px; }
   @media (max-width: 767px) {
     .home-two-project-area {
       padding-top: 100px; } }
@@ -9333,7 +9334,7 @@ ul.children {
     overflow: hidden; }
 
 .home-three-why-choose-us {
-  padding-top: 123px;
+  padding-top: 142px;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat; }
@@ -9348,7 +9349,7 @@ ul.children {
         padding-left: 0; } }
 
 .home-three-about-us-area {
-  padding-top: 125px;
+  padding-top: 135px;
   padding-bottom: 144px; }
   @media (max-width: 991px) {
     .home-three-about-us-area {
@@ -9362,15 +9363,15 @@ ul.children {
 
 .home-three-project-area {
   padding-top: 136px;
-  padding-bottom: 130px; }
+  padding-bottom: 135px; }
   @media (max-width: 991px) {
     .home-three-project-area {
       padding-top: 100px;
       padding-bottom: 80px; } }
 
 .home-three-blog-post-area {
-  padding-top: 136px;
-  padding-bottom: 93px; }
+  padding-top: 142px;
+  padding-bottom: 81px; }
   @media (max-width: 991px) {
     .home-three-blog-post-area {
       padding-top: 100px;
@@ -9380,8 +9381,8 @@ ul.children {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  padding-top: 137px;
-  padding-bottom: 144px; }
+  padding-top: 140px;
+  padding-bottom: 145px; }
   @media (max-width: 991px) {
     .home-three-pricing-area {
       padding-top: 100px;
@@ -9394,7 +9395,7 @@ ul.children {
       padding: 0 12px; } }
 
 .home-three-our-service-area {
-  padding-top: 130px;
+  padding-top: 137px;
   padding-bottom: 88px; }
   @media (max-width: 991px) {
     .home-three-our-service-area {
@@ -9403,7 +9404,7 @@ ul.children {
 
 .home-three-accordion-area {
   padding-top: 212px;
-  padding-bottom: 139px; }
+  padding-bottom: 145px; }
   @media (max-width: 1199px) {
     .home-three-accordion-area {
       padding: 100px 0; } }

@@ -1,7 +1,8 @@
 // Counter Area Two
 .home-two-counter-area {
   position: relative;
-  padding: 144px 0;
+  padding-top: 154px;
+  padding-bottom: 134px;
   overflow: hidden;
 
   @include rmaxwd(991) {
@@ -20,7 +21,7 @@
   }
 
   .counter-area-two-inner {
-    padding: 150px 0;
+    padding: 145px 0;
     position: relative;
     background-color: $primary-color;
     border-radius: 0 18px 18px 0;
@@ -105,7 +106,7 @@
 // Accordion Area
 .home-two-accordion-area {
   padding-top: 140px;
-  padding-bottom: 148px;
+  padding-bottom: 157px;
   z-index: 2;
 
   @include rmaxwd(991) {
@@ -222,7 +223,7 @@
 
 // News Area
 .home-two-news-area {
-  padding-top: 68px;
+  padding-top: 80px;
   padding-bottom: 107px;
 
   @include rmaxwd(991) {
@@ -256,7 +257,7 @@
 
 // Project Area
 .home-two-project-area {
-  padding-bottom: 114px;
+  padding-bottom: 143px;
 
   @include rmaxwd(767) {
     padding-top: 100px;
