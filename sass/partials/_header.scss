@@ -1,6 +1,10 @@
 .header-top {
   background-color: $primary-color;
 
+  @include rmaxwd(991) {
+    display: none;
+  }
+
   .header-top-info {
     display: flex;
     gap: 0 24px;
@@ -113,7 +117,7 @@
 }
 
 // Start Header Nav
-.header-sec {
+.header-menu-area {
   width: 100%;
   z-index: 999;
   transition: all 0.4s ease 0s;
@@ -133,6 +137,18 @@
     z-index: 9999;
     box-shadow: 0 7px 24px 0 rgba(0, 0, 0, 0.03);
     background: #fff;
+
+    .logo {
+      &:before {
+        display: none;
+      }
+      .standard-logo {
+        display: none;
+      }
+      .retina-logo {
+        display: block;
+      }
+    }
   }
 }
 
@@ -179,6 +195,9 @@
   .retina-logo {
     display: none;
 
+    @media only screen and (max-width: 767px) {
+      width: 170px;
+    }
     @media only screen and (max-width: 1199px) {
       display: block;
     }

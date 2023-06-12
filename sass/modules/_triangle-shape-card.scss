@@ -45,6 +45,10 @@
     z-index: 99;
     border-top: 550px solid $secondary-color;
     border-right: 220px solid transparent;
+
+    @include rmaxwd(630) {
+        display: none;
+    }
 }
 // Four
 .triangle-shape-card-four {

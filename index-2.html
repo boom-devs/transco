@@ -33,6 +33,7 @@
     <link rel="stylesheet" href="css/fontawesome.min.css" />
     <link rel="stylesheet" href="css/magnific-popup.css" />
     <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/meanmenu.css" />
     <link rel="stylesheet" href="css/nice-select.css" />
     <link rel="stylesheet" href="css/animate.css" />
     <link rel="stylesheet" href="css/style.css" />
@@ -42,6 +43,7 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
+
 <body>
     <!-- Header Start !-->
     <header class="header-area style-two">
@@ -52,8 +54,7 @@
                     <div class="col-12 d-flex align-items-center justify-content-end">
                         <div class="header-top-info">
                             <div class="header-contact-info">
-                                <span><a href="#"><i class="fa-solid fa-location-dot"></i>20, Bordeshi, New York,
-                                        US</a></span>
+                                <span><span class="contact-info-item"><i class="fa-solid fa-location-dot"></i>20, Bordeshi, New York,US</span></span>
                                 <span><a href="mailto:hello@transico.com"><i class="fa-solid fa-envelope"></i>hello@transico.com</a> </span>
                             </div>
                             <div class="header-top-btn">
@@ -66,10 +67,10 @@
         </div>
         <!-- Header Top End -->
         <!-- Header Nav Menu Start -->
-        <div class="header-sec">
+        <div class="header-menu-area sticky-header">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-3 col-lg-3 col-6 d-flex align-items-center">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-6 d-flex align-items-center">
                         <div class="logo">
                             <a href="index.html" class="standard-logo">
                                 <img src="images/logo/logo.png" alt="logo" />
@@ -79,8 +80,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="mobile-nav-menu d-lg-none"></div>
-                    <div class="col-xl-9 col-lg-9 d-flex align-items-center justify-content-end">
+                    <div class="col-xl-9 col-lg-9 col-md-6 col-6 d-flex align-items-center justify-content-end">
                         <div class="menu d-inline-block">
                             <nav id="main-menu" class="main-menu">
                                 <ul>
@@ -129,6 +129,11 @@
                             </div>
                         </div>
                         <!-- Header Button Start !-->
+                        <!-- Mobile Menu Toggle Button Start !-->
+                        <div class="mobile-menu-bar d-lg-none text-end">
+                            <a href="#" class="mobile-menu-toggle-btn"><i class="fal fa-bars"></i></a>
+                        </div>
+                        <!-- Mobile Menu Toggle Button End !-->
                     </div>
                 </div>
             </div>
@@ -136,6 +141,42 @@
         <!-- Header Nav Menu End -->
     </header>
     <!-- Header End !-->
+    <!-- Menu Sidebar Section Start -->
+    <div class="menu-sidebar-area">
+        <div class="menu-sidebar-wrapper">
+            <div class="menu-sidebar-close">
+                <button class="menu-sidebar-close-btn" id="menu_sidebar_close_btn">
+                    <i class="fal fa-times"></i>
+                </button>
+            </div>
+            <div class="menu-sidebar-content">
+                <div class="menu-sidebar-logo">
+                    <a href="index.html">
+                        <img src="images/logo/logo-2.png" alt="logo" />
+                    </a>
+                </div>
+                <div class="mobile-nav-menu"></div>
+                <div class="menu-sidebar-content">
+                    <div class="menu-sidebar-single-widget">
+                        <h5 class="menu-sidebar-title">Contact Info</h5>
+                        <div class="header-contact-info">
+                            <span><i class="fa-solid fa-location-dot"></i>20, Bordeshi, New York, US</span>
+                            <span><a href="mailto:hello@transico.com"><i class="fa-solid fa-envelope"></i>hello@transico.com</a> </span>
+                            <span><a href="tel:+123-456-7890"><i class="fa-solid fa-phone"></i>+123-456-7890</a></span>
+                        </div>
+                        <div class="social-profile">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Menu Sidebar Section Start -->
+    <div class="body-overlay"></div>
     <!-- Slider Section Start !-->
     <div class="slider-area style-two">
         <div class="slider-wrapper">

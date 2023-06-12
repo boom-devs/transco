@@ -2318,6 +2318,9 @@ html {
 /* 3.Nav Menu CSS */
 .header-top {
   background-color: #005bac; }
+  @media (max-width: 991px) {
+    .header-top {
+      display: none; } }
   .header-top .header-top-info {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2433,18 +2436,18 @@ html {
                 transform: scale(1.4);
         color: #1eae98; }
 
-.header-sec {
+.header-menu-area {
   width: 100%;
   z-index: 999;
   -webkit-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s;
   background-color: #ffffff; }
-  .header-sec.sticky-header {
+  .header-menu-area.sticky-header {
     width: 100%;
     z-index: 999;
     -webkit-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s; }
-  .header-sec.sticky_menu {
+  .header-menu-area.sticky_menu {
     left: 0;
     right: 0;
     top: 0;
@@ -2453,6 +2456,12 @@ html {
     -webkit-box-shadow: 0 7px 24px 0 rgba(0, 0, 0, 0.03);
             box-shadow: 0 7px 24px 0 rgba(0, 0, 0, 0.03);
     background: #fff; }
+    .header-menu-area.sticky_menu .logo:before {
+      display: none; }
+    .header-menu-area.sticky_menu .logo .standard-logo {
+      display: none; }
+    .header-menu-area.sticky_menu .logo .retina-logo {
+      display: block; }
 
 .logo {
   position: relative;
@@ -2490,6 +2499,9 @@ html {
       display: none; } }
   .logo .retina-logo {
     display: none; }
+    @media only screen and (max-width: 767px) {
+      .logo .retina-logo {
+        width: 170px; } }
     @media only screen and (max-width: 1199px) {
       .logo .retina-logo {
         display: block; } }
@@ -2672,7 +2684,7 @@ html {
     border-radius: 0;
     -webkit-transform: skewX(-20deg);
             transform: skewX(-20deg); }
-.header-area.style-two .header-sec .logo:before {
+.header-area.style-two .header-menu-area .logo:before {
   border-radius: 0;
   -webkit-transform: skewX(-20deg);
           transform: skewX(-20deg);
@@ -2687,7 +2699,7 @@ html {
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .header-area.style-three .header-top .header-top-btn {
     display: none; } }
-.header-area.style-three .header-sec .logo:before {
+.header-area.style-three .header-menu-area .logo:before {
   display: none; }
 
 .mean-container a.meanmenu-reveal {
@@ -6135,6 +6147,9 @@ button.testimonial-arrow-btn {
   z-index: 99;
   border-top: 550px solid #393d48;
   border-right: 220px solid transparent; }
+  @media (max-width: 630px) {
+    .triangle-shape-card-three {
+      display: none; } }
 
 .triangle-shape-card-four {
   position: absolute;
@@ -9815,5 +9830,4 @@ ul.children {
     .time-card-wrapper .time-card-arrow i {
       font-size: 16px;
       color: #ffffff; }
-
 /*# sourceMappingURL=style.css.map */
