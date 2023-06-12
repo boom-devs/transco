@@ -15,6 +15,12 @@
                 opacity: 0.72;
             }
         }
+        .icon {
+            img {
+                transform: rotateY(360deg);
+                @include transition;
+            }
+        }
     }
     .info-card-inner {
         display: flex;
@@ -65,6 +71,10 @@
         justify-content: start;
         width: 54px;
         height: 50px;
+
+        img {
+            @include transition;
+        }
     }
     .content-wrapper {
         position: relative;
