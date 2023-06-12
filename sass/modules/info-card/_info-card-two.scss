@@ -40,8 +40,7 @@
         &:hover {
             @include transition;
             &:before {
-                transform: scale(0);
-                border-radius: 50%;
+                width: 0;
                 @include transition;
             }
             .title-wrapper {

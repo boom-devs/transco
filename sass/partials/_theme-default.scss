@@ -217,9 +217,16 @@ input.theme-btn {
     border-color: #071c34;
   }
 }
-.full-width-btn {
-  justify-content: space-between;
+.contact-form-btn {
+  justify-content: center;
   width: 100%;
+  display: block;
+  line-height: 42px;
+
+  .icon {
+    float: right;
+  }
+
 }
 input.theme-btn {
   display: inline-block !important;

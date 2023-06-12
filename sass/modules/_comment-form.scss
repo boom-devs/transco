@@ -180,11 +180,11 @@
     }
     input[type="radio"]::before,
     input[type="checkbox"]::before{
-      background-color: #c7cdda;
+      background-color: transparent;
     }
     input[type="checkbox"]:checked,
     input[type="radio"]:checked {
-      border-color: #c7cdda !important;
+      border-color: $sky-color !important;
     }
     input:focus,
     textarea:focus,
