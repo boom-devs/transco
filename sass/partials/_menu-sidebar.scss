@@ -21,6 +21,9 @@
   transition: all .3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
   z-index: 9999;
 
+  @include rmaxwd(560) {
+    width: 375px;
+  }
   .menu-sidebar-logo {
     display: inline-block;
     width: 180px;
@@ -47,7 +50,6 @@
       background-color: $sky-color;
       color: $white;
       border-radius: 50%;
-      margin-top: 10px;
       &:hover{
         background-color: $primary-color;
       }
@@ -70,15 +72,17 @@
         gap: 0 24px;
         padding: 6px 0;
         flex-wrap: wrap;
+        flex-direction: column;
 
         span {
           display: flex;
           align-items: center;
-          gap: 24px;
+          gap: 13px;
           color: $secondary-color;
           font-size: 16px;
           font-weight: 400;
           font-family: $body-font;
+          width: 100%;
 
           &.contact-info-item {
             gap:0 10px !important;
@@ -92,8 +96,7 @@
             font-weight: 400;
             font-family: $body-font;
             &:hover {
-              color: $sky-color;
-
+              color: $primary-color;
             }
           }
         }

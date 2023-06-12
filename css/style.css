@@ -131,14 +131,14 @@ a:focus,
   outline: none; }
 
 a:focus {
-  color: #1eae98;
+  color: #005bac;
   text-decoration: none;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out; }
 
 a,
 button {
-  color: #1eae98;
+  color: #005bac;
   outline: medium none;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out; }
@@ -2781,6 +2781,9 @@ html {
   -webkit-transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
   transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
   z-index: 9999; }
+  @media (max-width: 560px) {
+    .menu-sidebar-area {
+      width: 375px; } }
   .menu-sidebar-area .menu-sidebar-logo {
     display: inline-block;
     width: 180px; }
@@ -2808,8 +2811,7 @@ html {
       width: 45px;
       background-color: #1eae98;
       color: #ffffff;
-      border-radius: 50%;
-      margin-top: 10px; }
+      border-radius: 50%; }
       .menu-sidebar-area .menu-sidebar-close .menu-sidebar-close-btn:hover {
         background-color: #005bac; }
   .menu-sidebar-area .menu-sidebar-content .menu-sidebar-single-widget {
@@ -2827,7 +2829,11 @@ html {
       gap: 0 24px;
       padding: 6px 0;
       -ms-flex-wrap: wrap;
-          flex-wrap: wrap; }
+          flex-wrap: wrap;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; }
       .menu-sidebar-area .menu-sidebar-content .menu-sidebar-single-widget .header-contact-info span {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -2835,11 +2841,12 @@ html {
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center;
-        gap: 24px;
+        gap: 13px;
         color: #393d48;
         font-size: 16px;
         font-weight: 400;
-        font-family: "Roboto", sans-serif; }
+        font-family: "Roboto", sans-serif;
+        width: 100%; }
         .menu-sidebar-area .menu-sidebar-content .menu-sidebar-single-widget .header-contact-info span.contact-info-item {
           gap: 0 10px !important; }
         .menu-sidebar-area .menu-sidebar-content .menu-sidebar-single-widget .header-contact-info span a {
@@ -2855,7 +2862,7 @@ html {
           font-weight: 400;
           font-family: "Roboto", sans-serif; }
           .menu-sidebar-area .menu-sidebar-content .menu-sidebar-single-widget .header-contact-info span a:hover {
-            color: #1eae98; }
+            color: #005bac; }
     .menu-sidebar-area .menu-sidebar-content .menu-sidebar-single-widget .social-profile a {
       color: #393d48;
       font-size: 22px; }

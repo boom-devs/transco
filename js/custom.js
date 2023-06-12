@@ -384,7 +384,7 @@
         scrollUp
         ============================*/
         $.scrollUp({
-            scrollText: '<i class="fa-light fa-arrow-up-long"></i>',
+            scrollText: '<i class="fa-regular fa-angle-up"></i>',
             easingType: "linear",
             scrollSpeed: 900,
             animation: "fade",
