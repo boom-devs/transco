@@ -5028,6 +5028,21 @@ html {
   @media (max-width: 1199px) {
     .process-step.style-two {
       margin-bottom: 60px !important; } }
+  .process-step.style-two:hover .icon:before {
+    background-color: #ffffff;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    -webkit-transform: scale(1);
+            transform: scale(1); }
+  .process-step.style-two:hover .icon img {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out; }
+  .process-step.style-two:hover .icon .count {
+    background-color: #ff6731;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out; }
   .process-step.style-two .icon {
     width: 85px;
     height: 85px;
@@ -5041,11 +5056,26 @@ html {
         -ms-flex-align: center;
             align-items: center;
     background: #ffffff;
-    border-radius: 50px;
-    position: relative; }
+    border-radius: 50%;
+    position: relative;
+    z-index: 2; }
     @media (max-width: 1199px) {
       .process-step.style-two .icon {
         margin-bottom: 0 !important; } }
+    .process-step.style-two .icon:before {
+      width: 100%;
+      height: 100%;
+      background-color: #ff6731;
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: -1;
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      -webkit-transition: 0.0s;
+      transition: 0.0s;
+      border-radius: 50%; }
     .process-step.style-two .icon .count {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -5065,7 +5095,9 @@ html {
       width: 30px;
       height: 30px;
       border-radius: 50px;
-      color: #ffffff; }
+      color: #ffffff;
+      -webkit-transition: all 0.5s ease-out;
+      transition: all 0.5s ease-out; }
       .process-step.style-two .icon .count span {
         font-size: 16px;
         line-height: 36px;
@@ -8657,12 +8689,21 @@ ul.children {
 /* Team Member */
 .team-member-card {
   position: relative; }
+  .team-member-card:hover .image img {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out; }
   .team-member-card .image {
     border-radius: 12px;
     overflow: hidden; }
     .team-member-card .image img {
       width: 100%;
-      height: 100%; }
+      height: 100%;
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transition: all 0.5s ease-out;
+      transition: all 0.5s ease-out; }
   .team-member-card .content-wrapper {
     position: absolute;
     display: -webkit-box;

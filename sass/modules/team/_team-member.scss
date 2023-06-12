@@ -1,11 +1,22 @@
 .team-member-card {
   position: relative;
+
+  &:hover {
+   .image {
+     img {
+       transform: scale(1.1);
+       @include transition;
+     }
+   }
+  }
   .image {
     border-radius: 12px;
     overflow: hidden;
     img {
       width: 100%;
       height: 100%;
+      transform: scale(1);
+      @include transition;
     }
   }
   .content-wrapper {
