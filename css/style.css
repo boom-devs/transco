@@ -6363,7 +6363,7 @@ button.testimonial-arrow-btn {
     margin-top: 16px; }
 
 /* 15.Page Breadcrumb Section */
-.page-breadcrumb-sec {
+.page-breadcrumb-area {
   padding: 127px 0;
   position: relative;
   z-index: 2;
@@ -6404,7 +6404,7 @@ button.testimonial-arrow-btn {
       line-height: 72px; } }
 
 .breadcrumb-wrapper {
-  padding: 0; }
+  padding: 0 100px; }
 
 .breadcrumb-list {
   text-align: center; }
@@ -9830,4 +9830,5 @@ ul.children {
     .time-card-wrapper .time-card-arrow i {
       font-size: 16px;
       color: #ffffff; }
+
 /*# sourceMappingURL=style.css.map */

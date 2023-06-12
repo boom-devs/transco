@@ -1,10 +1,11 @@
-.page-breadcrumb-sec {
+.page-breadcrumb-area {
   padding: 127px 0;
   position: relative;
   z-index: 2;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  background-color: $primary-color;
 }
 
 .page-overlay {
@@ -41,7 +42,7 @@
   }
 }
 .breadcrumb-wrapper {
-  padding: 0;
+  padding: 0 100px;
 }
 .breadcrumb-list {
   text-align: center;
