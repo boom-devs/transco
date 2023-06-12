@@ -62,7 +62,7 @@
                 overflow: hidden;
                 visibility: hidden;
                 opacity: 1;
-                transition: all 0.6s ease;
+                @include transition;
             }
             .content {
                 display: flex;
@@ -97,7 +97,7 @@
                 .content-area {
                     visibility: visible;
                     opacity: 1;
-                    transition: 0.6s;
+                    @include transition;
 
                     .content {
                         margin: 20px 0 30px 0;

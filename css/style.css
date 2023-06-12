@@ -3317,6 +3317,11 @@ html {
     -webkit-transition: all 0.5s ease-out;
     transition: all 0.5s ease-out;
     opacity: 0.72; }
+  .info-card:hover .image-wrapper img {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out; }
   .info-card:hover .icon img {
     -webkit-transform: rotateY(360deg);
             transform: rotateY(360deg);
@@ -3353,7 +3358,11 @@ html {
     transition: all 0.6s ease; }
     .info-card .image-wrapper img {
       width: 100%;
-      height: 100%; }
+      height: 100%;
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transition: all 0.5s ease-out;
+      transition: all 0.5s ease-out; }
     .info-card .image-wrapper .overlay {
       width: 100%;
       height: 100%;
@@ -3895,8 +3904,8 @@ html {
       overflow: hidden;
       visibility: hidden;
       opacity: 1;
-      -webkit-transition: all 0.6s ease;
-      transition: all 0.6s ease; }
+      -webkit-transition: all 0.5s ease-out;
+      transition: all 0.5s ease-out; }
     .info-card.style-four .content-wrapper .content {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -3922,8 +3931,8 @@ html {
   .info-card.style-four:hover .content-wrapper .content-area {
     visibility: visible;
     opacity: 1;
-    -webkit-transition: 0.6s;
-    transition: 0.6s; }
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out; }
     .info-card.style-four:hover .content-wrapper .content-area .content {
       margin: 20px 0 30px 0; }
 
