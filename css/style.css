@@ -7047,7 +7047,12 @@ button.testimonial-arrow-btn {
   .widget .wp-block-heading,
   .widget .widget-title {
     font-size: 24px;
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     line-height: 28px;
     font-weight: 700;
     margin-bottom: 30px;
@@ -7058,7 +7063,8 @@ button.testimonial-arrow-btn {
       content: "\f0da";
       font-family: "Font Awesome 6 Pro";
       margin-right: 6px;
-      color: #1eae98; }
+      color: #1eae98;
+      font-size: 18px; }
   .widget .wp-block-social-links .wp-social-link {
     padding: 0;
     margin: 0;

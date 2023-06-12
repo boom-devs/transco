@@ -36,7 +36,8 @@
   .wp-block-heading,
   .widget-title {
     font-size: 24px;
-    display: block;
+    display: flex;
+    align-items: center;
     line-height: 28px;
     font-weight: 700;
     margin-bottom: 30px;
@@ -48,6 +49,7 @@
       font-family: $font-awesome;
       margin-right: 6px;
       color: $sky-color;
+      font-size: 18px;
     }
   }
 
