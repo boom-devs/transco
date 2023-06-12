@@ -55,6 +55,12 @@
     li {
         display: inline-block;
 
+        &.active {
+            a {
+                color: $white;
+                background: $orange-color;
+            }
+        }
         a {
             font-size: 18px;
             line-height: 18px;

@@ -2834,7 +2834,8 @@ html {
         background-color: #005bac; }
   .menu-sidebar-area .menu-sidebar-content .menu-sidebar-single-widget {
     display: inline-block;
-    margin-top: 20px; }
+    margin-top: 20px;
+    width: 100%; }
     .menu-sidebar-area .menu-sidebar-content .menu-sidebar-single-widget .menu-sidebar-title {
       margin-bottom: 5px; }
     .menu-sidebar-area .menu-sidebar-content .menu-sidebar-single-widget .header-contact-info {
@@ -2881,11 +2882,16 @@ html {
           font-family: "Roboto", sans-serif; }
           .menu-sidebar-area .menu-sidebar-content .menu-sidebar-single-widget .header-contact-info span a:hover {
             color: #005bac; }
-    .menu-sidebar-area .menu-sidebar-content .menu-sidebar-single-widget .social-profile a {
-      color: #393d48;
-      font-size: 22px; }
-      .menu-sidebar-area .menu-sidebar-content .menu-sidebar-single-widget .social-profile a:hover {
-        color: #005bac; }
+    .menu-sidebar-area .menu-sidebar-content .menu-sidebar-single-widget .social-profile {
+      margin-top: 20px;
+      border-top: 1px solid #dfe2e9;
+      width: 100%;
+      padding-top: 20px; }
+      .menu-sidebar-area .menu-sidebar-content .menu-sidebar-single-widget .social-profile a {
+        color: #393d48;
+        font-size: 22px; }
+        .menu-sidebar-area .menu-sidebar-content .menu-sidebar-single-widget .social-profile a:hover {
+          color: #005bac; }
 
 .body-overlay {
   background-color: rgba(0, 0, 0, 0.6);
@@ -8911,7 +8917,7 @@ ul.children {
       -webkit-transform: translate(-50%, -50%);
               transform: translate(-50%, -50%);
       color: #393d48;
-      font-size: 21px;
+      font-size: 16px;
       -webkit-transition: all 0.5s ease-out;
       transition: all 0.5s ease-out; }
     .portfolio-slider-wrapper button.portfolio-arrow-btn:hover {
@@ -9563,6 +9569,9 @@ ul.children {
   list-style: none; }
   .faq-tab li {
     display: inline-block; }
+    .faq-tab li.active a {
+      color: #ffffff;
+      background: #ff6731; }
     .faq-tab li a {
       font-size: 18px;
       line-height: 18px;

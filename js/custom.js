@@ -52,11 +52,11 @@
         /*
         Jquery Tab
         ============================*/
-        $('.nav-tab li:first-child').addClass('active');
+        $('.nav-tab li:first-child, .faq-tab li:first-child').addClass('active');
         $('.tab-content').hide();
         $('.tab-content:first').show();
-        $('.nav-tab li').on('click', function(){
-            $('.nav-tab li').removeClass('active');
+        $('.nav-tab li, .faq-tab li').on('click', function(){
+            $('.nav-tab li, .faq-tab li').removeClass('active');
             $(this).addClass('active');
             $('.tab-content').hide();
             var activeTab = $(this).find('a').attr('href');

@@ -62,7 +62,7 @@
     .menu-sidebar-single-widget {
       display: inline-block;
       margin-top: 20px;
-
+      width: 100%;
       .menu-sidebar-title {
         margin-bottom: 5px;
       }
@@ -103,6 +103,11 @@
       }
       // Social Profile
       .social-profile {
+        margin-top: 20px;
+        border-top: 1px solid #dfe2e9;
+        width: 100%;
+        padding-top: 20px;
+
         a {
           color: $secondary-color;
           font-size: 22px;
