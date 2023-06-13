@@ -202,6 +202,9 @@ input:focus {
 .blog-area {
   padding-top: 144px;
   padding-bottom: 129px; }
+  .page-area .page-links,
+  .blog-area .page-links {
+    margin-bottom: 15px; }
 
 .border-radius-12 {
   border-radius: 12px; }
