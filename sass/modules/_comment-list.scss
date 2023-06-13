@@ -4,17 +4,16 @@
 }
 .blog-coment-title,
 .wp-block-comments {
-  margin-bottom: 30px;
-
   h2,
   .wp-block-comments-title {
     font-size: 24px;
     line-height: 28px;
-    margin-bottom: 0;
+    margin-bottom: 30px;
   }
 }
 
-.latest-comments {
+.latest-comments,
+.wp-block-comments {
   li {
 
     .children {
@@ -33,7 +32,8 @@
       }
     }
 
-    .comments-box {
+    .comments-box,
+    .wp-block-columns {
       padding: 50px;
       border: 1px solid $gray-300;
       border-radius: 8px;
