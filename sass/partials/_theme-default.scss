@@ -227,6 +227,17 @@ input.theme-btn {
     border-color: #071c34;
   }
 }
+.wp-block-loginout {
+  a {
+    position: relative;
+
+    &:after {
+      content: "\f105";
+      font-family: $font-awesome;
+      top: 0;
+    }
+  }
+}
 .contact-form-btn {
   justify-content: center;
   width: 100%;

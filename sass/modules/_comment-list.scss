@@ -43,14 +43,18 @@
             }
         }
         .wp-block-comment-edit-link {
-          color: $primary-color;
+          a {
+            color: $primary-color;
+          }
         }
         .wp-block-comment-date,
         .wp-block-comment-edit-link {
-          color: #9ba8c3;
-          font-size: 16px;
-          font-weight: 400;
-          font-family: $body-font;
+          a {
+            color: #9ba8c3;
+            font-size: 16px;
+            font-weight: 400;
+            font-family: $body-font;
+          }
         }
         .wp-block-comment-reply-link {
            a {

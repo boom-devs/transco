@@ -267,6 +267,13 @@ input.theme-btn {
     color: #fff;
     border-color: #071c34; }
 
+.wp-block-loginout a {
+  position: relative; }
+  .wp-block-loginout a:after {
+    content: "\f105";
+    font-family: "Font Awesome 6 Pro";
+    top: 0; }
+
 .contact-form-btn {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -8057,10 +8064,10 @@ button.testimonial-arrow-btn {
       font-weight: 700;
       font-family: "Poppins", sans-serif;
       color: #393d48; }
-    .wp-block-comments .wp-block-comment-template li .wp-block-columns .wp-block-comment-edit-link {
+    .wp-block-comments .wp-block-comment-template li .wp-block-columns .wp-block-comment-edit-link a {
       color: #005bac; }
-    .wp-block-comments .wp-block-comment-template li .wp-block-columns .wp-block-comment-date,
-    .wp-block-comments .wp-block-comment-template li .wp-block-columns .wp-block-comment-edit-link {
+    .wp-block-comments .wp-block-comment-template li .wp-block-columns .wp-block-comment-date a,
+    .wp-block-comments .wp-block-comment-template li .wp-block-columns .wp-block-comment-edit-link a {
       color: #9ba8c3;
       font-size: 16px;
       font-weight: 400;
@@ -8219,8 +8226,7 @@ ul.children {
     margin: 0; }
   .comment-respond .contacts-email,
   .comment-respond .contacts-name,
-  .comment-respond .single-input-field,
-  .comment-respond .contacts-message {
+  .comment-respond .single-input-field {
     margin-bottom: 12px; }
   .comment-respond label {
     display: block;
