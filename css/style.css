@@ -199,8 +199,8 @@ input:focus {
   background-color: #020a27; }
 
 .page-area {
-  padding-top: 100px;
-  padding-bottom: 85px; }
+  padding-top: 144px;
+  padding-bottom: 129px; }
 
 .border-radius-12 {
   border-radius: 12px; }
@@ -7929,7 +7929,8 @@ button.testimonial-arrow-btn {
       background: #005bac;
       background: linear-gradient(135deg, rgba(0, 91, 172, 0.83) 0%, #1eae98 100%); }
 
-.post-comments-form {
+.post-comments-form,
+.post-comments {
   margin-top: 70px; }
 
 .blog-coment-title {
