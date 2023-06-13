@@ -234,6 +234,12 @@ img {
 /*
  Block Unit Test Widget
 ============================*/
+.wp-block-search__input {
+  border: 1px solid #dfe2e9 !important;
+}
+.wp-block-search__button {
+  margin-left: 0 !important;
+}
 // Blockquote
 blockquote {
   overflow:hidden;
