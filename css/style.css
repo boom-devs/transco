@@ -8309,7 +8309,8 @@ ul.children {
     font-weight: 400;
     background-color: #ffffff;
     font-family: "Roboto", sans-serif !important;
-    height: 192px; }
+    height: 192px;
+    margin-bottom: 12px; }
   .comment-respond input:focus,
   .comment-respond textarea:focus,
   .comment-respond .form-select:focus {
