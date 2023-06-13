@@ -2468,8 +2468,8 @@ html {
     top: 0;
     position: fixed;
     z-index: 9999;
-    -webkit-box-shadow: 0 7px 24px 0 rgba(0, 0, 0, 0.03);
-            box-shadow: 0 7px 24px 0 rgba(0, 0, 0, 0.03);
+    -webkit-box-shadow: 0 7px 24px 0 rgba(0, 0, 0, 0.05);
+            box-shadow: 0 7px 24px 0 rgba(0, 0, 0, 0.05);
     background: #fff; }
     .header-menu-area.sticky_menu .logo:before {
       display: none; }
@@ -10036,4 +10036,5 @@ ul.children {
     .time-card-wrapper .time-card-arrow i {
       font-size: 16px;
       color: #ffffff; }
+
 /*# sourceMappingURL=style.css.map */
