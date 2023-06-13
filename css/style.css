@@ -6596,6 +6596,9 @@ button.testimonial-arrow-btn {
   .blog-area ul li {
     padding-top: 7px; }
 
+.blog-details-wrapper .comment-respond {
+  margin-top: 70px;
+  margin-bottom: 15px; }
 .blog-details-wrapper .post-comments {
   margin-top: 0; }
 .blog-details-wrapper .single-post-item {
@@ -6617,9 +6620,6 @@ button.testimonial-arrow-btn {
     margin-bottom: 20px;
     /* Unit Test Data Compatibility Start */
     /* Unit Test Data Compatibility End */ }
-    .blog-details-wrapper .single-post-item .post-content .comment-respond {
-      margin-top: 70px;
-      margin-bottom: 20px; }
     .blog-details-wrapper .single-post-item .post-content .wp-block-query .wp-block-post-template {
       padding-left: 0; }
       .blog-details-wrapper .single-post-item .post-content .wp-block-query .wp-block-post-template .wp-block-post {

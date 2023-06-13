@@ -29,6 +29,10 @@
   }
 }
 .blog-details-wrapper {
+  .comment-respond {
+    margin-top: 70px;
+    margin-bottom: 15px;
+  }
   .post-comments {
     margin-top: 0;
   }
@@ -56,10 +60,7 @@
     .post-content {
       margin-bottom: 20px;
       /* Unit Test Data Compatibility Start */
-      .comment-respond {
-        margin-top: 70px;
-        margin-bottom: 20px;
-      }
+
       .wp-block-query .wp-block-post-template {
         padding-left: 0;
 
