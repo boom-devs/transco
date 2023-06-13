@@ -6592,7 +6592,8 @@ button.testimonial-arrow-btn {
     margin-bottom: 20px;
     /* Unit Test Data Compatibility Start */
     /* Unit Test Data Compatibility End */ }
-    .blog-details-wrapper .single-post-item .post-content .wp-block-page-list {
+    .blog-details-wrapper .single-post-item .post-content .wp-block-page-list,
+    .blog-details-wrapper .single-post-item .post-content .wp-block-post-template {
       padding-left: 0; }
     .blog-details-wrapper .single-post-item .post-content .wp-block-group {
       margin: 15px 0; }
