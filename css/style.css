@@ -8399,6 +8399,10 @@ ul.children {
   border: 1px solid #dfe2e9 !important;
   -webkit-box-shadow: none;
           box-shadow: none; }
+.comment-respond.style-three input:focus,
+.comment-respond.style-three textarea:focus,
+.comment-respond.style-three .form-select:focus {
+  border-color: #005bac !important; }
 
 /* Footer Section */
 .footer {

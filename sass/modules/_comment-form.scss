@@ -247,5 +247,10 @@
       border: 1px solid rgb(223, 226, 233) !important;
       box-shadow: none;
     }
+    input:focus,
+    textarea:focus,
+    .form-select:focus{
+      border-color: $primary-color !important;
+    }
   }
 }
