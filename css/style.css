@@ -7047,8 +7047,8 @@ button.testimonial-arrow-btn {
       -ms-flex-align: center;
           align-items: center;
   gap: 12px; }
-  .wp-block-query-pagination .wp-block-query-pagination-numbers .wp-block-query-pagination-previous,
-  .wp-block-query-pagination .wp-block-query-pagination-numbers .wp-block-query-pagination-next {
+  .wp-block-query-pagination .wp-block-query-pagination-previous,
+  .wp-block-query-pagination .wp-block-query-pagination-next {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -7068,8 +7068,8 @@ button.testimonial-arrow-btn {
     font-size: 18px;
     font-weight: 500;
     border: 1px solid #dfe2e9; }
-    .wp-block-query-pagination .wp-block-query-pagination-numbers .wp-block-query-pagination-previous:hover,
-    .wp-block-query-pagination .wp-block-query-pagination-numbers .wp-block-query-pagination-next:hover {
+    .wp-block-query-pagination .wp-block-query-pagination-previous:hover,
+    .wp-block-query-pagination .wp-block-query-pagination-next:hover {
       background: #ff6731 !important;
       color: #ffffff;
       border-color: #ff6731;
