@@ -6588,7 +6588,11 @@ button.testimonial-arrow-btn {
   .blog-details-wrapper .single-post-item .post-content-wrapper {
     padding: 0 0 10px 0; }
   .blog-details-wrapper .single-post-item .post-content {
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    /* Unit Test Data Compatibility Start */
+    /* Unit Test Data Compatibility End */ }
+    .blog-details-wrapper .single-post-item .post-content .wp-block-page-list {
+      padding-left: 0; }
     .blog-details-wrapper .single-post-item .post-content .wp-block-group p {
       margin-bottom: 0; }
     .blog-details-wrapper .single-post-item .post-content p {

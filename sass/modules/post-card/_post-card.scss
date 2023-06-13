@@ -53,12 +53,16 @@
     }
     .post-content {
       margin-bottom: 20px;
-
+      /* Unit Test Data Compatibility Start */
+      .wp-block-page-list {
+        padding-left: 0;
+      }
       .wp-block-group {
         p {
           margin-bottom: 0;
         }
       }
+      /* Unit Test Data Compatibility End */
       p {
         margin-bottom: 20px;
 
