@@ -6497,6 +6497,9 @@ button.testimonial-arrow-btn {
 
 .breadcrumb-wrapper {
   padding: 0 100px; }
+  @media (max-width: 1199px) {
+    .breadcrumb-wrapper {
+      padding: 0; } }
 
 .breadcrumb-list {
   text-align: center; }
