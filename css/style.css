@@ -142,6 +142,11 @@ button {
   outline: medium none;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out; }
+  a:hover,
+  button:hover {
+    color: #1eae98;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out; }
 
 button:focus,
 input:focus,
@@ -7927,10 +7932,12 @@ button.testimonial-arrow-btn {
 .post-comments-form {
   margin-top: 70px; }
 
-.blog-coment-title h2 {
-  font-size: 24px;
-  line-height: 28px;
-  margin-bottom: 0; }
+.blog-coment-title {
+  margin-bottom: 30px; }
+  .blog-coment-title h2 {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 0; }
 
 .latest-comments li .children .comments-box {
   margin-left: 50px; }
@@ -10029,5 +10036,4 @@ ul.children {
     .time-card-wrapper .time-card-arrow i {
       font-size: 16px;
       color: #ffffff; }
-
 /*# sourceMappingURL=style.css.map */

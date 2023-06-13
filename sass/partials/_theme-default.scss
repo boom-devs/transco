@@ -109,6 +109,11 @@ button {
   color: $primary-color;
   outline: medium none;
   @include transition;
+
+  &:hover {
+    color: $sky-color;
+    @include transition;
+  }
 }
 button:focus,
 input:focus,
