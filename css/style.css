@@ -6589,6 +6589,8 @@ button.testimonial-arrow-btn {
     padding: 0 0 10px 0; }
   .blog-details-wrapper .single-post-item .post-content {
     margin-bottom: 20px; }
+    .blog-details-wrapper .single-post-item .post-content .wp-block-group p {
+      margin-bottom: 0; }
     .blog-details-wrapper .single-post-item .post-content p {
       margin-bottom: 20px; }
       .blog-details-wrapper .single-post-item .post-content p img {

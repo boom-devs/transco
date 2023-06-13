@@ -32,6 +32,7 @@
   .post-comments {
     margin-top: 0;
   }
+
   .single-post-item {
     border: 0;
 
@@ -53,6 +54,11 @@
     .post-content {
       margin-bottom: 20px;
 
+      .wp-block-group {
+        p {
+          margin-bottom: 0;
+        }
+      }
       p {
         margin-bottom: 20px;
 
