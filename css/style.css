@@ -6592,8 +6592,9 @@ button.testimonial-arrow-btn {
     margin-bottom: 20px;
     /* Unit Test Data Compatibility Start */
     /* Unit Test Data Compatibility End */ }
-    .blog-details-wrapper .single-post-item .post-content .wp-block-page-list,
-    .blog-details-wrapper .single-post-item .post-content .wp-block-post-template {
+    .blog-details-wrapper .single-post-item .post-content .wp-block-query .wp-block-post-template {
+      padding-left: 0; }
+    .blog-details-wrapper .single-post-item .post-content .wp-block-page-list {
       padding-left: 0; }
     .blog-details-wrapper .single-post-item .post-content .wp-block-group {
       margin: 15px 0; }
@@ -10115,4 +10116,5 @@ ul.children {
     .time-card-wrapper .time-card-arrow i {
       font-size: 16px;
       color: #ffffff; }
+
 /*# sourceMappingURL=style.css.map */

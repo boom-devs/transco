@@ -55,8 +55,10 @@
     .post-content {
       margin-bottom: 20px;
       /* Unit Test Data Compatibility Start */
-      .wp-block-page-list,
-      .wp-block-post-template {
+      .wp-block-query .wp-block-post-template {
+        padding-left: 0;
+      }
+      .wp-block-page-list {
         padding-left: 0;
       }
       .wp-block-group {
