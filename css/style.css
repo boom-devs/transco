@@ -270,6 +270,15 @@ input.theme-btn {
 .wp-block-loginout a {
   position: relative; }
   .wp-block-loginout a:after {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     content: "\f105";
     font-family: "Font Awesome 6 Pro";
     width: 44px;

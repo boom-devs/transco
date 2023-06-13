@@ -232,6 +232,9 @@ input.theme-btn {
     position: relative;
 
     &:after {
+      display: flex;
+      align-items: center;
+      justify-content: center;
       content: "\f105";
       font-family: $font-awesome;
       width: 44px;
