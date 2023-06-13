@@ -6572,6 +6572,8 @@ button.testimonial-arrow-btn {
   .blog-area ul li {
     padding-top: 7px; }
 
+.blog-details-wrapper .post-comments {
+  margin-top: 0; }
 .blog-details-wrapper .single-post-item {
   border: 0; }
   .blog-details-wrapper .single-post-item iframe {
