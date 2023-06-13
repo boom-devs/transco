@@ -6582,7 +6582,8 @@ button.testimonial-arrow-btn {
     height: 522px; }
   .blog-details-wrapper .single-post-item .post-meta {
     margin-bottom: 30px; }
-  .blog-details-wrapper .single-post-item .post-thumbnail {
+  .blog-details-wrapper .single-post-item .post-thumbnail,
+  .blog-details-wrapper .single-post-item .wp-block-post-featured-image {
     border-radius: 12px;
     overflow: hidden;
     margin-bottom: 45px; }
@@ -8022,9 +8023,13 @@ button.testimonial-arrow-btn {
 .post-comments {
   margin-top: 70px; }
 
-.blog-coment-title {
+.blog-coment-title,
+.wp-block-comments {
   margin-bottom: 30px; }
-  .blog-coment-title h2 {
+  .blog-coment-title h2,
+  .blog-coment-title .wp-block-comments-title,
+  .wp-block-comments h2,
+  .wp-block-comments .wp-block-comments-title {
     font-size: 24px;
     line-height: 28px;
     margin-bottom: 0; }
