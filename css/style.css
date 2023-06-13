@@ -6566,10 +6566,7 @@ button.testimonial-arrow-btn {
     overflow: hidden;
     margin-bottom: 45px; }
   .blog-details-wrapper .single-post-item .post-content-wrapper {
-    padding-bottom: 10px;
-    padding-left: 0;
-    padding-right: 0;
-    padding-bottom: 0; }
+    padding: 10px 0 0 0; }
   .blog-details-wrapper .single-post-item .post-content {
     margin-bottom: 20px; }
     .blog-details-wrapper .single-post-item .post-content p {
