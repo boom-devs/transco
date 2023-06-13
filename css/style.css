@@ -8039,6 +8039,10 @@ button.testimonial-arrow-btn {
     border: 1px solid #dfe2e9;
     border-radius: 8px;
     margin-bottom: 24px; }
+    .wp-block-comments .wp-block-comment-template li .wp-block-columns .wp-block-avatar {
+      width: 100px;
+      -ms-flex-negative: 0;
+          flex-shrink: 0; }
     .wp-block-comments .wp-block-comment-template li .wp-block-columns .wp-block-comment-author-name a {
       font-size: 21px;
       margin-bottom: 5px;
@@ -8060,7 +8064,7 @@ button.testimonial-arrow-btn {
       color: #393d48;
       border: 1px solid #ff6731;
       padding: 4px 26px;
-      gap: 8px; }
+      display: inline-block; }
       .wp-block-comments .wp-block-comment-template li .wp-block-columns .wp-block-comment-reply-link a:hover {
         background-color: #ff6731;
         color: #ffffff;

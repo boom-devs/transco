@@ -22,9 +22,14 @@
         border: 1px solid #dfe2e9;
         border-radius: 8px;
         margin-bottom: 24px;
+        .wp-block-column {
+          &:first-child {
 
+          }
+        }
         .wp-block-avatar {
-
+          width: 100px;
+          flex-shrink: 0;
         }
         .wp-block-comment-author-name {
             a {
@@ -53,7 +58,7 @@
              color: $secondary-color;
              border: 1px solid $orange-color;
              padding: 4px 26px;
-             gap: 8px;
+             display: inline-block;
 
              &:hover {
                background-color: $orange-color;
