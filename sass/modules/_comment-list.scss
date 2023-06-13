@@ -39,7 +39,8 @@
       border-radius: 8px;
       margin-bottom: 24px;
 
-      .comments-avatar {
+      .comments-avatar,
+      .wp-block-avatar {
         float: left;
 
         @include sm {
@@ -52,7 +53,8 @@
           border-radius: 50px;
         }
       }
-      .comments-text {
+      .comments-text,
+      .wp-block-column {
           overflow: hidden;
 
 
@@ -62,7 +64,8 @@
           margin-bottom: 20px;
           color: $text-color;
         }
-        .avatar-name {
+        .avatar-name,
+        .wp-block-comment-author-name {
           margin-bottom: 10px;
           position: relative;
 
@@ -82,7 +85,8 @@
             font-family: $body-font;
           }
         }
-        .comment-reply-link {
+        .comment-reply-link,
+        .wp-block-comment-edit-link {
           display: inline-flex;
           align-items: center;
           border-radius: 6px;
