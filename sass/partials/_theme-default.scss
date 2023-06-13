@@ -234,7 +234,12 @@ input.theme-btn {
     &:after {
       content: "\f105";
       font-family: $font-awesome;
-      top: 0;
+      width: 44px;
+      height: 44px;
+      border-radius: 6px;
+      background-color: $primary-color;
+      color: #fff;
+      font-size: 16px;
     }
   }
 }

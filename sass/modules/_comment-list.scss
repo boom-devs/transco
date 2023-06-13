@@ -22,9 +22,10 @@
         border: 1px solid #dfe2e9;
         border-radius: 8px;
         margin-bottom: 24px;
+
         .wp-block-column {
           &:first-child {
-            flex-basis: 80px;
+            flex-basis: 80px !important;
           }
         }
         .wp-block-avatar {
@@ -32,6 +33,10 @@
           flex-shrink: 0;
           border-radius: 50%;
           overflow: hidden;
+
+          img {
+            width: 100%;
+          }
         }
         .wp-block-comment-author-name {
             a {

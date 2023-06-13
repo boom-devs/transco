@@ -272,7 +272,12 @@ input.theme-btn {
   .wp-block-loginout a:after {
     content: "\f105";
     font-family: "Font Awesome 6 Pro";
-    top: 0; }
+    width: 44px;
+    height: 44px;
+    border-radius: 6px;
+    background-color: #005bac;
+    color: #fff;
+    font-size: 16px; }
 
 .contact-form-btn {
   -webkit-box-pack: center;
@@ -8050,14 +8055,16 @@ button.testimonial-arrow-btn {
     border-radius: 8px;
     margin-bottom: 24px; }
     .wp-block-comments .wp-block-comment-template li .wp-block-columns .wp-block-column:first-child {
-      -ms-flex-preferred-size: 80px;
-          flex-basis: 80px; }
+      -ms-flex-preferred-size: 80px !important;
+          flex-basis: 80px !important; }
     .wp-block-comments .wp-block-comment-template li .wp-block-columns .wp-block-avatar {
       width: 100px;
       -ms-flex-negative: 0;
           flex-shrink: 0;
       border-radius: 50%;
       overflow: hidden; }
+      .wp-block-comments .wp-block-comment-template li .wp-block-columns .wp-block-avatar img {
+        width: 100%; }
     .wp-block-comments .wp-block-comment-template li .wp-block-columns .wp-block-comment-author-name a {
       font-size: 21px;
       margin-bottom: 5px;
@@ -8273,7 +8280,7 @@ ul.children {
     width: 100%;
     color: #778196;
     opacity: 1;
-    border: 1px solid transparent;
+    border: 1px solid transparent !important;
     -webkit-box-shadow: 0px 10px 30px 0px rgba(4, 43, 77, 0.04);
             box-shadow: 0px 10px 30px 0px rgba(4, 43, 77, 0.04);
     border-radius: 5px;
@@ -8294,7 +8301,7 @@ ul.children {
     padding: 20px;
     width: 100%;
     color: #778196;
-    border: 1px solid transparent;
+    border: 1px solid transparent !important;
     -webkit-box-shadow: 0px 10px 30px 0px rgba(4, 43, 77, 0.04);
             box-shadow: 0px 10px 30px 0px rgba(4, 43, 77, 0.04);
     border-radius: 5px;
