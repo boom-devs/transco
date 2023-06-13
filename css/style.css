@@ -6593,8 +6593,10 @@ button.testimonial-arrow-btn {
     /* Unit Test Data Compatibility End */ }
     .blog-details-wrapper .single-post-item .post-content .wp-block-page-list {
       padding-left: 0; }
-    .blog-details-wrapper .single-post-item .post-content .wp-block-group p {
-      margin-bottom: 0; }
+    .blog-details-wrapper .single-post-item .post-content .wp-block-group {
+      margin: 15px 0; }
+      .blog-details-wrapper .single-post-item .post-content .wp-block-group p {
+        margin-bottom: 0; }
     .blog-details-wrapper .single-post-item .post-content p {
       margin-bottom: 20px; }
       .blog-details-wrapper .single-post-item .post-content p img {
