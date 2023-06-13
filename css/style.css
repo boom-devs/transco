@@ -8376,7 +8376,7 @@ ul.children {
   .comment-respond.style-two .single-input-field textarea {
     background-color: transparent;
     color: #c7cdda;
-    border: 1px solid #739bbf;
+    border: 1px solid #739bbf !important;
     -webkit-box-shadow: none;
             box-shadow: none; }
   .comment-respond.style-two .single-input-field .nice-select {
@@ -8396,7 +8396,7 @@ ul.children {
 .comment-respond.style-three input,
 .comment-respond.style-three select,
 .comment-respond.style-three textarea {
-  border: 1px solid #dfe2e9;
+  border: 1px solid #dfe2e9 !important;
   -webkit-box-shadow: none;
           box-shadow: none; }
 
