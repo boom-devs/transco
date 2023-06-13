@@ -368,6 +368,11 @@
         &:hover {
           color: $primary-color;
           @include transition;
+
+          i {
+            color: $primary-color;
+            @include transition;
+          }
         }
       }
     }
