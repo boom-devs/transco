@@ -8039,10 +8039,15 @@ button.testimonial-arrow-btn {
     border: 1px solid #dfe2e9;
     border-radius: 8px;
     margin-bottom: 24px; }
+    .wp-block-comments .wp-block-comment-template li .wp-block-columns .wp-block-column:first-child {
+      -ms-flex-preferred-size: 80px;
+          flex-basis: 80px; }
     .wp-block-comments .wp-block-comment-template li .wp-block-columns .wp-block-avatar {
       width: 100px;
       -ms-flex-negative: 0;
-          flex-shrink: 0; }
+          flex-shrink: 0;
+      border-radius: 50%;
+      overflow: hidden; }
     .wp-block-comments .wp-block-comment-template li .wp-block-columns .wp-block-comment-author-name a {
       font-size: 21px;
       margin-bottom: 5px;

@@ -24,12 +24,14 @@
         margin-bottom: 24px;
         .wp-block-column {
           &:first-child {
-
+            flex-basis: 80px;
           }
         }
         .wp-block-avatar {
           width: 100px;
           flex-shrink: 0;
+          border-radius: 50%;
+          overflow: hidden;
         }
         .wp-block-comment-author-name {
             a {
