@@ -1599,7 +1599,7 @@ table {
         color: #ffffff; }
 
 .page-content .size-full.alignright {
-  margin-bottom: 35px;
+  margin-bottom: 15px;
   margin-top: 20px; }
 .page-content figure.wp-caption.aligncenter {
   margin-top: 40px; }
@@ -8026,7 +8026,9 @@ ul.children {
 .page-content .post-comments-form {
   padding-top: 1px;
   margin-bottom: 15px;
-  clear: both; }
+  clear: both;
+  display: inline-block;
+  width: 100%; }
 
 .post-comments-title .sub-title {
   font-size: 18px;
