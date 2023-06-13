@@ -6547,6 +6547,21 @@ button.testimonial-arrow-btn {
         color: transparent; }
 
 /* 16.Blog Section */
+.page-header {
+  border-left: 4px solid #dfe2e9;
+  padding-left: 45px;
+  margin-bottom: 50px; }
+  @media (max-width: 991px) {
+    .page-header {
+      padding-left: 30px; } }
+  .page-header .page-title {
+    font-size: 48px;
+    line-height: 60px; }
+    @media (max-width: 991px) {
+      .page-header .page-title {
+        font-size: 38px;
+        line-height: 48px; } }
+
 .blog-area ol,
 .blog-area ul {
   padding-left: 20px; }

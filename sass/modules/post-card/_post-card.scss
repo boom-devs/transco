@@ -1,3 +1,22 @@
+// Archive Post Title
+.page-header {
+  border-left: 4px solid #dfe2e9;
+  padding-left: 45px;
+  margin-bottom: 50px;
+
+  @include rmaxwd(991) {
+    padding-left: 30px;
+  }
+  .page-title {
+    font-size: 48px;
+    line-height: 60px;
+
+    @include rmaxwd(991) {
+      font-size: 38px;
+      line-height: 48px;
+    }
+  }
+}
 // Blog Details Page
 .blog-area {
   ol,
