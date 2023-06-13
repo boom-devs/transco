@@ -62,9 +62,12 @@
           margin-bottom: 30px;
         }
       }
-      .wp-block-page-list {
-        padding-left: 0;
+      .wp-block-navigation__responsive-container-content {
+        .wp-block-page-list {
+          padding-left: 0;
+        }
       }
+
       .wp-block-group {
         margin: 15px 0;
         p {

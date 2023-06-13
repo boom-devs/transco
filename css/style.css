@@ -6596,7 +6596,7 @@ button.testimonial-arrow-btn {
       padding-left: 0; }
       .blog-details-wrapper .single-post-item .post-content .wp-block-query .wp-block-post-template .wp-block-post {
         margin-bottom: 30px; }
-    .blog-details-wrapper .single-post-item .post-content .wp-block-page-list {
+    .blog-details-wrapper .single-post-item .post-content .wp-block-navigation__responsive-container-content .wp-block-page-list {
       padding-left: 0; }
     .blog-details-wrapper .single-post-item .post-content .wp-block-group {
       margin: 15px 0; }
