@@ -34,7 +34,8 @@
   }
   /* Widget Title */
   .wp-block-heading,
-  .widget-title {
+  .widget-title,
+  .wp-block-search__label {
     font-size: 24px;
     display: flex;
     align-items: center;

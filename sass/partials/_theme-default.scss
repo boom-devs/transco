@@ -111,7 +111,7 @@ button {
   @include transition;
 
   &:hover {
-    color: $sky-color;
+    color: $text-color;
     @include transition;
   }
 }

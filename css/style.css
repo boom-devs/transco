@@ -144,7 +144,7 @@ button {
   transition: all 0.5s ease-out; }
   a:hover,
   button:hover {
-    color: #1eae98;
+    color: #5e6f92;
     -webkit-transition: all 0.5s ease-out;
     transition: all 0.5s ease-out; }
 
@@ -7120,7 +7120,8 @@ button.testimonial-arrow-btn {
       width: 96px;
       height: 96px; }
   .widget .wp-block-heading,
-  .widget .widget-title {
+  .widget .widget-title,
+  .widget .wp-block-search__label {
     font-size: 24px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -7134,7 +7135,8 @@ button.testimonial-arrow-btn {
     color: #393d48;
     position: relative; }
     .widget .wp-block-heading:before,
-    .widget .widget-title:before {
+    .widget .widget-title:before,
+    .widget .wp-block-search__label:before {
       content: "\f0da";
       font-family: "Font Awesome 6 Pro";
       margin-right: 6px;
