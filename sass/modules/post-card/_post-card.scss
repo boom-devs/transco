@@ -57,6 +57,10 @@
       /* Unit Test Data Compatibility Start */
       .wp-block-query .wp-block-post-template {
         padding-left: 0;
+
+        .wp-block-post {
+          margin-bottom: 30px;
+        }
       }
       .wp-block-page-list {
         padding-left: 0;
