@@ -2576,9 +2576,6 @@ html {
     .main-menu ul li ul li:hover ul {
       visibility: visible;
       top: -2px; }
-      .main-menu ul li ul li:hover ul ul ul {
-        left: 0;
-        top: 40px; }
   .main-menu ul ul {
     background-color: #ffffff;
     left: 0;
@@ -7344,11 +7341,11 @@ button.testimonial-arrow-btn {
       border-radius: 6px 0 0 6px; }
     .widget .wp-block-search button,
     .widget .search-form button {
-      color: #393d48;
+      color: #ffffff;
       padding: 0 20px;
       position: relative;
       right: 0;
-      background: #ffffff;
+      background-color: #005bac;
       top: 0;
       height: auto;
       border-radius: 0 6px 6px 0;
