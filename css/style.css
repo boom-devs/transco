@@ -7040,7 +7040,8 @@ button.testimonial-arrow-btn {
       text-transform: capitalize; }
 
 .basic-pagination,
-.page-links {
+.page-links,
+.wp-block-query-pagination-numbers {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -7053,7 +7054,8 @@ button.testimonial-arrow-btn {
       flex-wrap: wrap;
   margin-bottom: 40px; }
   .basic-pagination ul,
-  .page-links ul {
+  .page-links ul,
+  .wp-block-query-pagination-numbers ul {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
@@ -7068,20 +7070,26 @@ button.testimonial-arrow-btn {
     margin-bottom: 0;
     padding-left: 0; }
     .basic-pagination ul li,
-    .page-links ul li {
+    .page-links ul li,
+    .wp-block-query-pagination-numbers ul li {
       padding-top: 0; }
     .basic-pagination ul .prev span,
     .basic-pagination ul .next span,
     .page-links ul .prev span,
-    .page-links ul .next span {
+    .page-links ul .next span,
+    .wp-block-query-pagination-numbers ul .prev span,
+    .wp-block-query-pagination-numbers ul .next span {
       display: none; }
   .basic-pagination .post-page-numbers,
-  .page-links .post-page-numbers {
+  .page-links .post-page-numbers,
+  .wp-block-query-pagination-numbers .post-page-numbers {
     background-color: rgba(71, 112, 247, 0.1) !important; }
   .basic-pagination .page-numbers,
   .basic-pagination .post-page-numbers,
   .page-links .page-numbers,
-  .page-links .post-page-numbers {
+  .page-links .post-page-numbers,
+  .wp-block-query-pagination-numbers .page-numbers,
+  .wp-block-query-pagination-numbers .post-page-numbers {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -7104,7 +7112,9 @@ button.testimonial-arrow-btn {
     .basic-pagination .page-numbers:hover,
     .basic-pagination .post-page-numbers:hover,
     .page-links .page-numbers:hover,
-    .page-links .post-page-numbers:hover {
+    .page-links .post-page-numbers:hover,
+    .wp-block-query-pagination-numbers .page-numbers:hover,
+    .wp-block-query-pagination-numbers .post-page-numbers:hover {
       background: #ff6731 !important;
       color: #ffffff;
       border-color: #ff6731;
@@ -7113,7 +7123,9 @@ button.testimonial-arrow-btn {
     .basic-pagination .page-numbers.current,
     .basic-pagination .post-page-numbers.current,
     .page-links .page-numbers.current,
-    .page-links .post-page-numbers.current {
+    .page-links .post-page-numbers.current,
+    .wp-block-query-pagination-numbers .page-numbers.current,
+    .wp-block-query-pagination-numbers .post-page-numbers.current {
       background: #ff6731 !important;
       color: #ffffff;
       border-color: #ff6731;
