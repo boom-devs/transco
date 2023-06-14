@@ -234,7 +234,8 @@ input.theme-btn {
       -ms-flex-align: center;
           align-items: center;
   gap: 36px;
-  border-radius: 6px; }
+  border-radius: 6px;
+  overflow: hidden; }
   @media only screen and (min-width: 0px) and (max-width: 767px) {
     .theme-btn,
     .wp-block-loginout a,
@@ -242,6 +243,19 @@ input.theme-btn {
       padding: 5px 6px 5px 26px;
       gap: 30px;
       font-size: 16px; } }
+  .theme-btn:before,
+  .wp-block-loginout a:before,
+  input.theme-btn:before {
+    position: absolute;
+    width: 0;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: linear-gradient(-45deg, #e30008 0%, #faae00 100%);
+    content: "";
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    z-index: -1; }
   .theme-btn i,
   .wp-block-loginout a i,
   input.theme-btn i {
@@ -263,9 +277,14 @@ input.theme-btn {
   .theme-btn:hover,
   .wp-block-loginout a:hover,
   input.theme-btn:hover {
-    background: #071c34;
     color: #fff;
-    border-color: #071c34; }
+    border-color: #E30008FF; }
+    .theme-btn:hover:before,
+    .wp-block-loginout a:hover:before,
+    input.theme-btn:hover:before {
+      width: 100%;
+      -webkit-transition: all 0.5s ease-out;
+      transition: all 0.5s ease-out; }
 
 .wp-block-loginout a {
   position: relative; }
