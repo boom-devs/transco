@@ -5072,6 +5072,11 @@ html {
   @media (max-width: 991px) {
     .process-step {
       margin-bottom: 28px; } }
+  .process-step:hover .count:before {
+    -webkit-transform: scale(1) rotateY(360deg);
+            transform: scale(1) rotateY(360deg);
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out; }
   .process-step .count {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -5092,6 +5097,20 @@ html {
     height: 72px;
     border-radius: 50px;
     color: #ffffff; }
+    .process-step .count:before {
+      width: 100%;
+      height: 100%;
+      background-color: #005bac;
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: -1;
+      -webkit-transform: scale(0) rotateY(0deg);
+              transform: scale(0) rotateY(0deg);
+      -webkit-transition: all 0.5s ease-out;
+      transition: all 0.5s ease-out;
+      border-radius: 50%; }
     .process-step .count span {
       font-size: 24px;
       line-height: 36px;
@@ -5513,6 +5532,17 @@ button.testimonial-arrow-btn {
   cursor: pointer;
   bottom: 0;
   overflow: hidden; }
+  button.testimonial-arrow-btn:before {
+    position: absolute;
+    width: 0;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: linear-gradient(-45deg, #e30008 0%, #faae00 100%);
+    content: "";
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    z-index: -1; }
   button.testimonial-arrow-btn i {
     position: absolute;
     top: 50%;
@@ -5526,9 +5556,11 @@ button.testimonial-arrow-btn {
   button.testimonial-arrow-btn:hover {
     -webkit-transition: all 0.5s ease-out;
     transition: all 0.5s ease-out;
-    background: #e30008;
-    background: linear-gradient(45deg, #e30008 0%, #faae00 100%);
     border-color: #ff6731; }
+    button.testimonial-arrow-btn:hover:before {
+      width: 100%;
+      -webkit-transition: all 0.5s ease-out;
+      transition: all 0.5s ease-out; }
     button.testimonial-arrow-btn:hover i {
       color: #ffffff;
       -webkit-transition: all 0.5s ease-out;
@@ -8456,13 +8488,6 @@ ul.children {
   .comment-respond.style-two input[type="radio"]::before,
   .comment-respond.style-two input[type="checkbox"]::before {
     background-color: transparent; }
-  .comment-respond.style-two input[type="checkbox"]:checked,
-  .comment-respond.style-two input[type="radio"]:checked {
-    border-color: #1eae98 !important; }
-  .comment-respond.style-two input:focus,
-  .comment-respond.style-two textarea:focus,
-  .comment-respond.style-two .form-select:focus {
-    border-color: #1eae98 !important; }
   .comment-respond.style-two .single-input-field p {
     margin-bottom: 0; }
   .comment-respond.style-two .single-input-field input,
@@ -8470,12 +8495,17 @@ ul.children {
   .comment-respond.style-two .single-input-field textarea {
     background-color: transparent;
     color: #c7cdda;
-    border: 1px solid #739bbf !important;
+    border-color: #739bbf !important;
     -webkit-box-shadow: none;
             box-shadow: none; }
   .comment-respond.style-two .single-input-field .nice-select {
     color: #c7cdda;
     border-color: #739bbf !important; }
+  .comment-respond.style-two .single-input-field input:focus,
+  .comment-respond.style-two .single-input-field textarea:focus,
+  .comment-respond.style-two .single-input-field .form-select:focus,
+  .comment-respond.style-two .single-input-field .nice-select:focus {
+    border-color: #1eae98 !important; }
   .comment-respond.style-two .single-input-field *::-webkit-input-placeholder {
     color: #c7cdda; }
   .comment-respond.style-two .single-input-field *:-ms-input-placeholder {
@@ -8486,7 +8516,10 @@ ul.children {
     color: #c7cdda; }
   .comment-respond.style-two .checkbox-field-wrapper .single-checkbox-field .form-check-input {
     background-color: transparent;
-    border-color: #739bbf; }
+    border-color: #739bbf !important; }
+  .comment-respond.style-two .checkbox-field-wrapper .single-checkbox-field input[type="checkbox"]:checked,
+  .comment-respond.style-two .checkbox-field-wrapper .single-checkbox-field input[type="radio"]:checked {
+    border-color: #1eae98 !important; }
 .comment-respond.style-three input,
 .comment-respond.style-three select,
 .comment-respond.style-three textarea {
@@ -8495,7 +8528,8 @@ ul.children {
           box-shadow: none; }
 .comment-respond.style-three input:focus,
 .comment-respond.style-three textarea:focus,
-.comment-respond.style-three .form-select:focus {
+.comment-respond.style-three .form-select:focus,
+.comment-respond.style-three .nice-select:focus {
   border-color: #005bac !important; }
 
 /* Footer Section */

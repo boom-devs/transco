@@ -184,15 +184,7 @@
     input[type="checkbox"]::before{
       background-color: transparent;
     }
-    input[type="checkbox"]:checked,
-    input[type="radio"]:checked {
-      border-color: $sky-color !important;
-    }
-    input:focus,
-    textarea:focus,
-    .form-select:focus{
-      border-color: $sky-color !important;
-    }
+
     .single-input-field {
       p {
         margin-bottom: 0;
@@ -202,12 +194,18 @@
       textarea {
         background-color: transparent;
         color: $white-100;
-        border: 1px solid #739bbf !important;
+        border-color: #739bbf !important;
         box-shadow: none;
       }
       .nice-select {
         color: $white-100;
         border-color: #739bbf !important;
+      }
+      input:focus,
+      textarea:focus,
+      .form-select:focus,
+      .nice-select:focus {
+        border-color: $sky-color !important;
       }
       *::-webkit-input-placeholder {
         color: $white-100;
@@ -231,11 +229,14 @@
       }
     }
     .checkbox-field-wrapper {
-
       .single-checkbox-field {
         .form-check-input {
           background-color: transparent;
-          border-color: #739bbf;
+          border-color: #739bbf !important;
+        }
+        input[type="checkbox"]:checked,
+        input[type="radio"]:checked {
+          border-color: $sky-color !important;
         }
       }
     }
@@ -249,7 +250,8 @@
     }
     input:focus,
     textarea:focus,
-    .form-select:focus{
+    .form-select:focus,
+    .nice-select:focus {
       border-color: $primary-color !important;
     }
   }

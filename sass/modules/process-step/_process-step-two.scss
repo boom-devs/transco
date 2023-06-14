@@ -68,6 +68,7 @@
                 border-radius: 50px;
                 color: $white;
                 @include transition;
+
                 span {
                     font-size: 16px;
                     line-height: 36px;
@@ -79,6 +80,7 @@
             display: flex;
             flex-direction: column;
             gap: 20px;
+
             .title {
                 margin: 0;
                 font-size: 24px;

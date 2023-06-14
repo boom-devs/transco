@@ -101,6 +101,18 @@ button.testimonial-arrow-btn {
   bottom: 0;
   overflow: hidden;
 
+  &:before {
+    position: absolute;
+    width: 0;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: linear-gradient(-45deg, rgb(227,0,8) 0%, rgb(250,174,0) 100%);
+    content: "";
+    @include transition;
+    z-index: -1;
+  }
+
   i {
     position: absolute;
     top: 50%;
@@ -112,9 +124,12 @@ button.testimonial-arrow-btn {
   }
   &:hover {
     @include transition;
-    @include gradient-color-red;
     border-color: $orange-color;
 
+    &:before {
+      width: 100%;
+      @include transition;
+    }
     i {
       color: $white;
       @include transition;
