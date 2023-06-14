@@ -2,6 +2,12 @@
   overflow: hidden;
   position: relative;
 
+
+  .social-share-wrapper {
+    @include rmaxwd(1299) {
+      position: relative;
+    }
+  }
   .social-share {
     display: flex;
     align-items: center;
@@ -19,13 +25,21 @@
     @media only screen and (min-width: 1300px) and (max-width: 1499px){
       left: 10px;
     }
-    @include rmaxwd(1299) {
+    @media only screen and (min-width: 992px) and (max-width: 1299px){
       top: unset;
-      left: 50%;
-      transform: translateY(0);
-      transform: translateX(-50%);
+      left: 0;
+      transform: unset;
+      bottom: 200px;
+      flex-direction: row;
+      position: relative;
+    }
+    @media only screen and (max-width: 991px){
+      top: unset;
+      left: 0;
+      transform: unset;
       bottom: 100px;
       flex-direction: row;
+      position: relative;
     }
 
     a {
@@ -193,6 +207,11 @@
     @include md {
       height: 700px;
     }
+
+    @include sm {
+      height: 800px;
+    }
+
       .slider-overlay {
         background: linear-gradient( -135deg, rgb(30,174,152) 0%, rgb(0,91,172) 100%);
         opacity: 0.831;
@@ -209,6 +228,9 @@
         position: relative;
         z-index: 99;
 
+        @include sm {
+          padding-bottom: 30px;
+        }
         .slider-content {
           @include sm {
             text-align: center;
@@ -225,6 +247,9 @@
 
             @include lg {
               font-size: 18px;
+            }
+            @include sm {
+              font-size: 16px;
             }
           }
           .slider-title {
@@ -289,10 +314,15 @@
       right: 47px;
       top: 24px;
 
+      &.moblile-slider-img {
+        @include sm {
+          left: -30px;
+        }
+      }
 
       @include sm {
         animation: none;
-        margin-bottom: -150px;
+        //margin-bottom: -150px;
         right: unset;
         text-align: center;
       }

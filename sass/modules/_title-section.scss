@@ -10,6 +10,10 @@
     font-weight: 700;
     font-family: $heading-font;
     color: $orange-color;
+
+    @include sm {
+      font-size: 20px;
+    }
   }
   .title {
     font-size: 48px;

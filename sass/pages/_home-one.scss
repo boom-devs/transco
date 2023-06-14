@@ -24,8 +24,10 @@
   margin-bottom: -228px;
 
   @include rmaxwd(991) {
-    margin-bottom: 0;
-    padding-bottom: 100px;
+    margin-bottom: -180px;
+  }
+  @include rmaxwd(767) {
+    margin-bottom: -80px;
   }
 }
 
@@ -40,9 +42,12 @@
   z-index: -1;
 
   @include rmaxwd(991) {
-    padding: 100px 0;
+    padding-top: 280px;
+    padding-bottom: 100px;
   }
-
+  @include rmaxwd(767) {
+   padding-top: 180px;
+  }
 }
 .counter-squre-shape {
   width: 245px;
@@ -53,6 +58,13 @@
   right: -135px;
   bottom: -110px;
   position: absolute;
+
+  @include rmaxwd(991) {
+    width: 100px;
+    height: 100px;
+    right: -50px;
+    bottom: -50px;
+  }
 }
 
 // Why Choose Us Area
@@ -136,7 +148,7 @@
 
     @include rmaxwd(1399) {
       padding-left: 0;
-      margin-top: 50px;
+      margin-top: 80px;
     }
   }
 }
@@ -149,6 +161,13 @@
   left: -36px;
   top: -90px;
   position: absolute;
+
+  @include rmaxwd(991) {
+    width: 100px;
+    height: 100px;
+    left: -50px;
+    top: -50px;
+  }
 }
 .blue-overlay {
   position: absolute;
