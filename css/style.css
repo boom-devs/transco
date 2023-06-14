@@ -7557,7 +7557,7 @@ button.testimonial-arrow-btn {
     .widget .wp-block-search input,
     .widget .search-form input {
       background-color: #ffffff;
-      border: 1px solid #ffffff;
+      border: 1px solid #ffffff !important;
       padding: 0 25px;
       height: 60px;
       width: 100%;
