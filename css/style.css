@@ -7029,7 +7029,7 @@ button.testimonial-arrow-btn {
             -webkit-transition: all 0.5s ease-out;
             transition: all 0.5s ease-out; }
 
-.author {
+.author-info {
   background-color: #eef5f8;
   padding: 90px 45px 45px 45px;
   display: -webkit-box;
@@ -7048,7 +7048,7 @@ button.testimonial-arrow-btn {
   text-align: center;
   margin-top: 130px;
   margin-bottom: 70px; }
-  .author .author-thumb {
+  .author-info .author-thumb {
     -ms-flex-negative: 0;
         flex-shrink: 0;
     width: 120px;
@@ -7060,21 +7060,21 @@ button.testimonial-arrow-btn {
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%); }
-    .author .author-thumb img {
+    .author-info .author-thumb img {
       border-radius: 50%; }
-  .author .author-text h3 {
+  .author-info .author-text h3 {
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 10px;
     line-height: 28px; }
-  .author .author-text .designation {
+  .author-info .author-text .designation {
     font-size: 16px;
     font-style: italic;
     color: #9ba8c3; }
-  .author .author-text p {
+  .author-info .author-text p {
     margin-top: 30px;
     margin-bottom: 0; }
-  .author .author-social-profiles {
+  .author-info .author-social-profiles {
     margin-top: 20px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -7083,7 +7083,7 @@ button.testimonial-arrow-btn {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center; }
-    .author .author-social-profiles a {
+    .author-info .author-social-profiles a {
       font-size: 18px;
       color: #ffffff;
       -webkit-transition: all 0.5s ease-out;
@@ -7101,12 +7101,12 @@ button.testimonial-arrow-btn {
               justify-content: center;
       background-color: #005bac;
       border-radius: 10px; }
-      .author .author-social-profiles a:hover {
+      .author-info .author-social-profiles a:hover {
         -webkit-transition: all 0.5s ease-out;
         transition: all 0.5s ease-out;
         background-color: #ffffff;
         color: #005bac; }
-  .author .author-post a {
+  .author-info .author-post a {
     font-size: 16px;
     font-weight: 700;
     font-family: "Poppins", sans-serif;
@@ -7114,7 +7114,7 @@ button.testimonial-arrow-btn {
     border-bottom: 2px solid #ff6731;
     margin-top: 30px;
     display: inline-block; }
-    .author .author-post a:hover {
+    .author-info .author-post a:hover {
       color: #ff6731; }
 
 .blog-post-nav {
