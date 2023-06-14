@@ -45,6 +45,17 @@
       bottom: -80px;
     }
 
+    &:before {
+      position: absolute;
+      width: 0;
+      height: 100%;
+      left: 0;
+      top: 0;
+      background: linear-gradient(-45deg, rgb(227,0,8) 0%, rgb(250,174,0) 100%);
+      content: "";
+      @include transition;
+      z-index: -1;
+    }
     &.prev-btn {
       right: 72px;
 
@@ -71,9 +82,12 @@
     }
     &:hover{
       @include transition;
-      @include gradient-color-red;
       border-color: $orange-color;
 
+      &:before {
+        width: 100%;
+        @include transition;
+      }
       i{
         color: $white;
         @include transition;

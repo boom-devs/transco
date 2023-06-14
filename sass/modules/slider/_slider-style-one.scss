@@ -45,9 +45,16 @@
     a {
       font-size: 24px;
       color: $white;
-      transform: rotate(-90deg);
+      transform: scale(1) rotate(-90deg);
+      @include transition;
       @include rmaxwd(1299) {
         transform: unset;
+      }
+
+      &:hover {
+        transform: scale(1.1);
+        @include transition;
+        color: $orange-color;
       }
     }
   }
@@ -135,6 +142,11 @@
           border-radius: 50px;
           position: relative;
           @include transition;
+
+          &:hover {
+            background-color: $orange-color;
+            @include transition;
+          }
         }
         &.slick-active {
           @include transition;
@@ -165,6 +177,17 @@
     overflow: hidden;
     display: none !important;
 
+    &:before {
+      position: absolute;
+      width: 0;
+      height: 100%;
+      left: 0;
+      top: 0;
+      background: linear-gradient(-45deg, rgb(227,0,8) 0%, rgb(250,174,0) 100%);
+      content: "";
+      @include transition;
+      z-index: -1;
+    }
     @include rmaxwd(767) {
       width: 40px;
       height: 40px;
@@ -186,8 +209,12 @@
     }
     &:hover{
       @include transition;
-      @include gradient-color-red;
       border-color: $orange-color;
+
+      &:before {
+        width: 100%;
+        @include transition;
+      }
 
       i{
         color: $white;

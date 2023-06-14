@@ -7,10 +7,17 @@
         a {
           margin-bottom: inherit;
           padding: 6px 46px;
-
+          &:hover {
+            &:before {
+              @include transition;
+              transform: skewX(-0deg);
+              background-color: $sky-color;
+            }
+          }
           &:before {
             border-radius: 0;
             transform: skewX(-20deg);
+            @include transition;
           }
         }
       }
