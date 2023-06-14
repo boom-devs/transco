@@ -144,7 +144,7 @@ button {
   transition: all 0.5s ease-out; }
   a:hover,
   button:hover {
-    color: #5e6f92;
+    color: #ff6731;
     -webkit-transition: all 0.5s ease-out;
     transition: all 0.5s ease-out; }
 
@@ -8585,7 +8585,7 @@ ul.children {
       .footer-widget.widget_nav_menu li a:hover {
         -webkit-transition: all 0.5s ease-out;
         transition: all 0.5s ease-out;
-        color: #1eae98; }
+        color: #005bac; }
   .footer-widget .footer-widget-contact p {
     color: #c7cdda; }
   .footer-widget .footer-widget-contact .footer-contact ul {
@@ -8626,7 +8626,9 @@ ul.children {
         line-height: 24px;
         overflow: hidden; }
         .footer-widget .footer-widget-contact .footer-contact ul li .contact-text a:hover span {
-          color: #1eae98; }
+          color: #005bac;
+          -webkit-transition: all 0.5s ease-out;
+          transition: all 0.5s ease-out; }
         .footer-widget .footer-widget-contact .footer-contact ul li .contact-text span,
         .footer-widget .footer-widget-contact .footer-contact ul li .contact-text p,
         .footer-widget .footer-widget-contact .footer-contact ul li .contact-text a {
@@ -8635,7 +8637,9 @@ ul.children {
           line-height: 24px;
           display: inline-block;
           width: 100%;
-          margin-bottom: 0; }
+          margin-bottom: 0;
+          -webkit-transition: all 0.5s ease-out;
+          transition: all 0.5s ease-out; }
   .footer-widget .widget_latest_post ul li .latest-post-thumb img {
     width: 60px;
     height: 60px; }
@@ -8700,7 +8704,7 @@ ul.children {
     .footer-bottom-menu ul li a:hover {
       -webkit-transition: all 0.5s ease-out;
       transition: all 0.5s ease-out;
-      color: #1eae98; }
+      color: #005bac; }
 
 .footer-bottom-area {
   padding: 57px 0; }

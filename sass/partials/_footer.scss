@@ -105,7 +105,7 @@
 
         &:hover {
           @include transition;
-          color: $sky-color;
+          color: $primary-color;
         }
       }
     }
@@ -152,7 +152,8 @@
           a {
             &:hover {
               span {
-                color: $sky-color;
+                color: $primary-color;
+                @include transition;
               }
             }
           }
@@ -165,6 +166,7 @@
             display: inline-block;
             width: 100%;
             margin-bottom: 0;
+            @include transition;
           }
         }
       }
@@ -243,7 +245,7 @@
 
         &:hover {
           @include transition;
-          color: $sky-color;
+          color: $primary-color;
         }
       }
     }
