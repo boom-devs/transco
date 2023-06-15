@@ -24,6 +24,7 @@
 
         @include md {
           flex-direction: column;
+          gap: 20px;
         }
       }
       .counter-content {

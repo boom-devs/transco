@@ -5,6 +5,10 @@
   padding-bottom: 134px;
   overflow: hidden;
 
+  @include md {
+    background-color: $primary-color;
+    margin: 100px 0;
+  }
   @include rmaxwd(991) {
     padding: 100px 0;
   }
@@ -18,6 +22,10 @@
     top: 0;
     right: -75%;
     transform: skewX(-22deg);
+
+    @include md {
+      display: none;
+    }
   }
 
   .counter-area-two-inner {
@@ -28,6 +36,10 @@
 
     @include rmaxwd(991) {
       padding: 100px 0;
+    }
+    @include md {
+      background-color: transparent;
+      padding: 0;
     }
 
     &:before {
@@ -59,6 +71,10 @@
   border-top: 350px solid $sky-color;
   border-right: 140px solid transparent;
   z-index: 1;
+
+  @include sm {
+    display: none;
+  }
 }
 .triangle-shape-bottom {
   position: absolute;
@@ -70,6 +86,17 @@
   border-right: 0 solid transparent;
   width: 170px;
   animation: MoveUpDown 2s linear infinite alternate;
+
+  @include md {
+    bottom: -100px;
+    border-bottom: 135px solid #ff6731;
+    width: 170px;
+  }
+  @include sm {
+    bottom: -100px;
+    border-bottom: 135px solid #ff6731;
+    width: 170px;
+  }
 }
 .triangle-border-shape {
   position: absolute;
@@ -80,6 +107,10 @@
   border-top: 1px solid $orange-color;
   border-right: 1px solid $orange-color;
   transform: skewX(-22deg);
+
+  @include sm {
+    display: none;
+  }
 }
 
 // Appointment Booking Area
@@ -152,9 +183,20 @@
 .home-two-testimonial-area {
   padding-top: 145px;
 
-  @include rmaxwd(1199) {
+  @include md {
+    padding: 0;
+  }
+  @include sm {
+    padding: 0;
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1199px){
     padding-top: 0;
     padding-bottom: 100px;
+  }
+  .section-title {
+    @include sm {
+      margin-bottom: 0;
+    }
   }
 }
 // Testimonial Triangle Image
@@ -176,6 +218,15 @@
 .testimonial-triangle-image {
   -webkit-clip-path: polygon(0 0, 100% 0, 70% 100%, 0% 100%);
   clip-path: polygon(0 0, 100% 0, 70% 100%, 0% 100%);
+
+  @include md {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+  @include sm {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
 }
 .testimonial-triangle-shape {
   position: absolute;
@@ -185,6 +236,13 @@
   height: 190px;
   background-color: $sky-color;
   transform: skewX(-22deg);
+
+  @include md {
+    display: none;
+  }
+  @include sm {
+    display: none;
+  }
 }
 
 // About Us Area
@@ -202,9 +260,13 @@
         padding-left: 0;
         padding-top: 330px;
       }
-      @include rmaxwd(767) {
+      @media only screen and (min-width: 651px) and (max-width: 767px){
+        padding-top: 150px;
+      }
+      @include rmaxwd(651) {
         padding-top: 100px;
       }
+
     }
   }
 }
@@ -261,6 +323,7 @@
 
   @include rmaxwd(767) {
     padding-top: 100px;
+    padding-bottom: 80px;
   }
 }
 

@@ -1,6 +1,33 @@
 .header-area {
   &.style-two {
+   &.has-header-top {
+     .header-menu-area {
+       &.sticky_menu {
+         .logo {
+           height: 84px;
+           margin-top: inherit;
+         }
+       }
+       .logo {
+         height: 162px;
+         margin-top: -42px;
 
+         @media only screen and (min-width: 992px) and (max-width: 1199px){
+           height: 120px;
+           margin-top: inherit;
+         }
+         @include md {
+           height: 100px;
+           margin-top: inherit;
+         }
+
+         @include sm {
+           height: 80px;
+           margin-top: inherit;
+         }
+       }
+     }
+   }
     // Header Top Area
     .header-top {
       .header-top-btn {
