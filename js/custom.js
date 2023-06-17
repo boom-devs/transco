@@ -110,7 +110,7 @@
         $(".slider-wrapper").slick({
             slidesToShow: 1,
             infinite: true,
-            autoplay: false,
+            autoplay: true,
             draggable: true,
             arrows: true,
             slidesToScroll: 1,
@@ -137,7 +137,7 @@
         $("#info_card_slider_wrapper").slick({
             slidesToShow: 3,
             infinite: true,
-            autoplay: false,
+            autoplay: true,
             draggable: true,
             arrows: true,
             slidesToScroll: 1,
@@ -170,7 +170,7 @@
         $("#team_slider_wrapper").slick({
             slidesToShow: 3,
             infinite: true,
-            autoplay: false,
+            autoplay: true,
             draggable: true,
             arrows: false,
             slidesToScroll: 1,
@@ -200,7 +200,7 @@
         $("#testimonial_two").slick({
             slidesToShow: 2,
             infinite: true,
-            autoplay: false,
+            autoplay: true,
             draggable: true,
             arrows: true,
             slidesToScroll: 1,
@@ -259,7 +259,7 @@
         $("#related_portfolio").slick({
             slidesToShow: 3,
             infinite: true,
-            autoplay: false,
+            autoplay: true,
             draggable: true,
             arrows: true,
             slidesToScroll: 1,
@@ -287,7 +287,7 @@
         $(".post-gallery").slick({
             slidesToShow: 1,
             infinite: false,
-            autoplay: false,
+            autoplay: true,
             draggable: true,
             arrows: true,
             slidesToScroll: 1,
@@ -305,7 +305,7 @@
         $(".client-logo-slider-wrapper").slick({
             slidesToShow: 5,
             infinite: true,
-            autoplay: false,
+            autoplay: true,
             draggable: true,
             arrows: false,
             slidesToScroll: 1,
