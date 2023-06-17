@@ -33,8 +33,8 @@
         /*
         Stikey Js
         ============================*/
-        var nav = $(".header-menu-area.sticky-header");
-        var scrolled = false;
+        const nav = $(".header-menu-area.sticky-header");
+        let scrolled = false;
         $(window).scroll(function () {
             if (100 < $(window).scrollTop() && !scrolled) {
                 nav
@@ -59,7 +59,7 @@
             $('.nav-tab li, .faq-tab li').removeClass('active');
             $(this).addClass('active');
             $('.tab-content').hide();
-            var activeTab = $(this).find('a').attr('href');
+            const activeTab = $(this).find('a').attr('href');
             $(activeTab).fadeIn();
             return false;
         });
@@ -83,20 +83,20 @@
         /*
         Skill Progress Bar Js
         ============================*/
-        $('.skill-progressbar').one('inview', function(event, isInView, visiblePartX, visiblePartY) {
+        $('.skill-progressbar').one('inview', function(event, isInView) {
             if (isInView) {
-                jQuery('.progress-inner').each(function() {
-                    jQuery(this).find('.progress-content').animate({
-                        width:jQuery(this).attr('data-percentage')
+                $('.progress-inner').each(function() {
+                    $(this).find('.progress-content').animate({
+                        width:$(this).attr('data-percentage')
                     },2000);
 
-                    jQuery(this).find('.progress-number-count').animate(
-                        {left:jQuery(this).attr('data-percentage')},
+                    $(this).find('.progress-number-count').animate(
+                        {left:$(this).attr('data-percentage')},
                         {
                             duration: 2000,
-                            step: function(now, fx) {
-                                var data = Math.round(now);
-                                jQuery(this).find('.progress-percent').html(data + '%');
+                            step: function(now) {
+                                let data = Math.round(now);
+                                $(this).find('.progress-percent').html(data + '%');
                             }
                         });
                 });
