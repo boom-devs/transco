@@ -150,6 +150,11 @@
             font-size: 16px;
             font-weight: 400;
             font-family: $body-font;
+
+            @include sm {
+              display: inline-block;
+              width: 100%;
+            }
           }
         }
         .comment-reply-link {

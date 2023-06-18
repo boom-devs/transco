@@ -29,23 +29,30 @@
 
     @include rmaxwd(991) {
       top: unset;
-      bottom: -80px;
+      bottom: -50px;
     }
 
     &.prev-btn {
-      right: 50px;
+      right: 40px;
 
+      @include rmaxwd(991) {
+        right: unset;
+      }
       @include rmaxwd(767) {
         right: unset;
-        left: 30px;
+        left: 10px;
       }
     }
     &.next-btn {
-      right: 12px;
+      right: 0;
 
+      @include rmaxwd(991) {
+        right: unset;
+        left: 50px;
+      }
       @include rmaxwd(767) {
         right: 30px;
-        left: unset;
+        left: 50px;
       }
     }
     i{

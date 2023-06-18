@@ -274,7 +274,13 @@
                 {
                     breakpoint: 767,
                     settings: {
-                        autoplay: true,
+                        slidesToShow: 2,
+                    },
+                },
+                {
+                    breakpoint: 460,
+                    settings: {
+                        slidesToShow: 1,
                     },
                 },
             ],

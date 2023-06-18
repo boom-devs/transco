@@ -218,6 +218,16 @@ input:focus {
 .blog-area {
   padding-top: 144px;
   padding-bottom: 129px; }
+  @media (max-width: 991px) {
+    .page-area,
+    .blog-area {
+      padding-top: 100px;
+      padding-bottom: 52px; } }
+  @media (max-width: 767px) {
+    .page-area,
+    .blog-area {
+      padding-top: 70px;
+      padding-bottom: 22px; } }
   .page-area .page-links,
   .blog-area .page-links {
     margin-bottom: 15px; }
@@ -6263,9 +6273,19 @@ button.testimonial-arrow-btn {
       -ms-flex-pack: justify;
           justify-content: space-between;
   gap: 30px; }
+  @media (max-width: 767px) {
+    .blog-post-nav {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; } }
   .blog-post-nav .divider {
     background-color: #dfe2e9;
     width: 1px; }
+    @media (max-width: 767px) {
+      .blog-post-nav .divider {
+        width: 100%;
+        height: 1px; } }
   .blog-post-nav .post-navigation {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -7031,6 +7051,9 @@ button.testimonial-arrow-btn {
   background-size: cover;
   background-position: center center;
   background-color: #005bac; }
+  @media (max-width: 991px) {
+    .page-breadcrumb-area {
+      padding: 100px 0; } }
   @media (max-width: 767px) {
     .page-breadcrumb-area {
       padding: 80px 0; } }
@@ -7507,6 +7530,12 @@ button.testimonial-arrow-btn {
 .project-page-wrapper {
   padding-top: 145px;
   padding-bottom: 136px; }
+  @media (max-width: 991px) {
+    .project-page-wrapper {
+      padding: 100px 0; } }
+  @media (max-width: 767px) {
+    .project-page-wrapper {
+      padding: 70px 0; } }
   .project-page-wrapper .basic-pagination {
     margin-bottom: 0;
     margin-top: 30px; }
@@ -7516,6 +7545,10 @@ button.testimonial-arrow-btn {
   @media (max-width: 991px) {
     .project-detail-area {
       padding: 100px 0; } }
+  @media (max-width: 767px) {
+    .project-detail-area {
+      padding-top: 70px;
+      padding-bottom: 120px; } }
   .project-detail-area .project-details-padding-left {
     padding-left: 60px; }
     @media (max-width: 1199px) {
@@ -8626,6 +8659,10 @@ button.testimonial-arrow-btn {
         font-size: 16px;
         font-weight: 400;
         font-family: "Roboto", sans-serif; }
+        @media only screen and (min-width: 0px) and (max-width: 767px) {
+          .latest-comments li .comments-box .comments-text .avatar-name span {
+            display: inline-block;
+            width: 100%; } }
     .latest-comments li .comments-box .comments-text .comment-reply-link {
       display: -webkit-inline-box;
       display: -ms-inline-flexbox;
@@ -9175,19 +9212,26 @@ ul.children {
     @media (max-width: 991px) {
       .portfolio-slider-wrapper button.portfolio-arrow-btn {
         top: unset;
-        bottom: -80px; } }
+        bottom: -50px; } }
     .portfolio-slider-wrapper button.portfolio-arrow-btn.prev-btn {
-      right: 50px; }
+      right: 40px; }
+      @media (max-width: 991px) {
+        .portfolio-slider-wrapper button.portfolio-arrow-btn.prev-btn {
+          right: unset; } }
       @media (max-width: 767px) {
         .portfolio-slider-wrapper button.portfolio-arrow-btn.prev-btn {
           right: unset;
-          left: 30px; } }
+          left: 10px; } }
     .portfolio-slider-wrapper button.portfolio-arrow-btn.next-btn {
-      right: 12px; }
+      right: 0; }
+      @media (max-width: 991px) {
+        .portfolio-slider-wrapper button.portfolio-arrow-btn.next-btn {
+          right: unset;
+          left: 50px; } }
       @media (max-width: 767px) {
         .portfolio-slider-wrapper button.portfolio-arrow-btn.next-btn {
           right: 30px;
-          left: unset; } }
+          left: 50px; } }
     .portfolio-slider-wrapper button.portfolio-arrow-btn i {
       position: absolute;
       top: 50%;
@@ -10014,13 +10058,24 @@ ul.children {
   @media (max-width: 991px) {
     .pricing-page-price-card-wrapper {
       padding: 100px 0; } }
+  @media (max-width: 767px) {
+    .pricing-page-price-card-wrapper {
+      padding-top: 70px;
+      padding-bottom: 40px; } }
 
 .pricing-page-why-choose-us {
-  padding-top: 122px; }
+  padding-top: 122px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
   @media (max-width: 1199px) {
     .pricing-page-why-choose-us {
       padding-top: 100px;
       padding-bottom: 100px; } }
+  @media (max-width: 767px) {
+    .pricing-page-why-choose-us {
+      padding-top: 70px;
+      padding-bottom: 20px; } }
   .pricing-page-why-choose-us .why-choose-card-wrapper {
     padding-left: 110px; }
     @media (max-width: 991px) {
@@ -10030,6 +10085,9 @@ ul.children {
 .accordion-section {
   padding-top: 198px;
   padding-bottom: 108px; }
+  @media (max-width: 1199px) {
+    .accordion-section {
+      padding: 100px 0; } }
   @media only screen and (min-width: 0px) and (max-width: 767px) {
     .accordion-section {
       padding: 70px 0; } }
@@ -10141,6 +10199,17 @@ ul.children {
   .service-details-wrapper .benefits-image {
     margin-bottom: 30px; }
 
+.team-page-area {
+  padding-top: 140px;
+  padding-bottom: 175px; }
+  @media (max-width: 991px) {
+    .team-page-area {
+      padding: 100px 0; } }
+  @media (max-width: 767px) {
+    .team-page-area {
+      padding-top: 70px;
+      padding-bottom: 50px; } }
+
 .team-space {
   padding: 0 37px;
   margin-top: 30px; }
@@ -10157,6 +10226,9 @@ ul.children {
   @media (max-width: 991px) {
     .blog-grid-area {
       padding: 100px 0; } }
+  @media (max-width: 767px) {
+    .blog-grid-area {
+      padding: 70px 0; } }
 
 .blog-load-btn {
   padding: 20px 35px;
@@ -10166,6 +10238,9 @@ ul.children {
   line-height: 18px;
   font-weight: 700;
   border-radius: 6px; }
+  @media (max-width: 767px) {
+    .blog-load-btn {
+      margin-top: 0; } }
   .blog-load-btn:hover {
     background-color: #1eae98; }
 
