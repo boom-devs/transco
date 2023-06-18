@@ -2,6 +2,9 @@
   &.style-two {
     .footer-sec {
       padding-top: 225px;
+      @include sm {
+        padding-top: 180px;
+      }
     }
     // Subscribe Form
     .subscribe-form-wrapper {

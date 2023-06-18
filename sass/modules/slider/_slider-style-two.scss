@@ -7,22 +7,23 @@
         display: none;
       }
     }
-    &:after {
-      content: "";
-      position: absolute;
-      right: 0;
-      bottom: 0;
-      border-bottom: 290px solid $primary-color;
-      border-left: 117px solid transparent;
-      z-index: 1;
-
-      @include sm {
-        display: none;
-      }
-    }
     .single-slider {
+      position: relative;
       @include sm {
         height: 500px;
+      }
+      &:after {
+        content: "";
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        border-bottom: 290px solid $primary-color;
+        border-left: 117px solid transparent;
+        z-index: 1;
+
+        @include sm {
+          display: none;
+        }
       }
     }
     .slider-wrapper {

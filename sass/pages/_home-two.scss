@@ -8,9 +8,10 @@
   @include md {
     background-color: $primary-color;
     margin: 100px 0;
-  }
-  @include rmaxwd(991) {
     padding: 100px 0;
+  }
+  @include sm {
+    padding: 70px 0;
   }
 
   &:before {
@@ -34,12 +35,12 @@
     background-color: $primary-color;
     border-radius: 0 18px 18px 0;
 
-    @include rmaxwd(991) {
-      padding: 100px 0;
-    }
     @include md {
       background-color: transparent;
-      padding: 0;
+      padding: 100px 0;
+    }
+    @include sm {
+      padding: 70px 0;
     }
 
     &:before {
@@ -59,7 +60,11 @@
   padding-top: 380px;
   padding-bottom: 64px;
 
-  @include rmaxwd(1199) {
+  @include sm {
+    padding-top: 340px;
+    padding-bottom: 10px;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1199px){
     padding-bottom: 40px;
   }
 
@@ -119,8 +124,11 @@
   position: relative;
   z-index: 2;
 
-  @include rmaxwd(991) {
+  @include md() {
     margin-top: 80px;
+  }
+  @include sm() {
+    margin-top: 70px;
   }
   .form-image-mr {
     padding-right: 56px !important;
@@ -140,8 +148,15 @@
   padding-bottom: 157px;
   z-index: 2;
 
-  @include rmaxwd(991) {
+  @include md() {
     padding: 100px 0;
+  }
+  @include sm {
+    padding: 70px 0;
+
+    .promotional-banner-widget {
+      margin-top: 0;
+    }
   }
   .accordion-wrapper {
     padding-left: 120px;
@@ -178,6 +193,10 @@
 .home-two-client-logo-area {
   padding-top: 100px;
   padding-bottom: 120px;
+
+  @include sm {
+    padding: 70px 0;
+  }
 }
 // Testimonial Area
 .home-two-testimonial-area {
@@ -208,6 +227,9 @@
 
   @media only screen and (min-width: 1200px) and (max-width: 1399px){
     width: 620px;
+  }
+  @include sm {
+    margin-bottom: 70px !important;
   }
   @include rmaxwd(1199) {
     width: 100%;
@@ -249,8 +271,11 @@
 .home-two-about-us-area {
   padding-top: 140px;
 
-  @include rmaxwd(991) {
+  @include md() {
     padding-top: 100px;
+  }
+  @include sm() {
+    padding-top: 70px;
   }
   .about-info-card {
     .about-info-content {
@@ -258,7 +283,7 @@
 
       @include rmaxwd(1199) {
         padding-left: 0;
-        padding-top: 330px;
+        padding-top: 300px;
       }
       @media only screen and (min-width: 651px) and (max-width: 767px){
         padding-top: 150px;
@@ -288,9 +313,14 @@
   padding-top: 80px;
   padding-bottom: 107px;
 
-  @include rmaxwd(991) {
+  @include md() {
     padding: 100px 0;
   }
+  @include sm() {
+    padding-top: 70px;
+    padding-bottom: 50px;
+  }
+
 
   .section-title {
     margin-bottom: 70px;
@@ -312,8 +342,11 @@
 .home-two-team-member-area {
  padding: 139px 0;
 
-  @include rmaxwd(991) {
+  @include md() {
     padding: 100px 0;
+  }
+  @include sm() {
+    padding: 70px 0;
   }
 }
 
@@ -322,7 +355,7 @@
   padding-bottom: 143px;
 
   @include rmaxwd(767) {
-    padding-top: 100px;
+    padding-top: 70px;
     padding-bottom: 80px;
   }
 }
@@ -332,8 +365,12 @@
   padding-top: 150px;
   padding-bottom: 100px;
 
-  @include rmaxwd(991) {
+  @include md() {
     padding-top: 100px;
+  }
+  @include sm() {
+    padding-top: 70px;
+    padding-bottom: 34px;
   }
 
 

@@ -3265,20 +3265,22 @@ input[type="radio"]:checked {
   @media (max-width: 991px) {
     .slider-area.style-two .social-share {
       display: none; } }
-  .slider-area.style-two:after {
-    content: "";
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    border-bottom: 290px solid #005bac;
-    border-left: 117px solid transparent;
-    z-index: 1; }
+  .slider-area.style-two .single-slider {
+    position: relative; }
     @media only screen and (min-width: 0px) and (max-width: 767px) {
-      .slider-area.style-two:after {
-        display: none; } }
-  @media only screen and (min-width: 0px) and (max-width: 767px) {
-    .slider-area.style-two .single-slider {
-      height: 500px; } }
+      .slider-area.style-two .single-slider {
+        height: 500px; } }
+    .slider-area.style-two .single-slider:after {
+      content: "";
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      border-bottom: 290px solid #005bac;
+      border-left: 117px solid transparent;
+      z-index: 1; }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .slider-area.style-two .single-slider:after {
+          display: none; } }
   .slider-area.style-two .slider-wrapper .container {
     position: relative; }
   .slider-area.style-two .slider-wrapper .slider-shape-top-triangle {
@@ -4311,6 +4313,7 @@ input[type="radio"]:checked {
     @media only screen and (max-width: 650px) {
       .about-image-card .main-img-wrapper .main-img-inner {
         padding: 50px;
+        padding-top: 0;
         width: 100%; } }
     .about-image-card .main-img-wrapper .main-img-inner > img {
       border-radius: 12px;
@@ -8931,7 +8934,8 @@ ul.children {
             flex-direction: row;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            justify-content: center; }
+            justify-content: center;
+    margin-bottom: 0; }
     .team-member-slider-wrapper .slick-dots li {
       display: inline-block;
       line-height: 0;
@@ -9334,10 +9338,11 @@ ul.children {
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .home-two-counter-area {
       background-color: #005bac;
-      margin: 100px 0; } }
-  @media (max-width: 991px) {
-    .home-two-counter-area {
+      margin: 100px 0;
       padding: 100px 0; } }
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .home-two-counter-area {
+      padding: 70px 0; } }
   .home-two-counter-area:before {
     position: absolute;
     content: "";
@@ -9356,13 +9361,13 @@ ul.children {
     position: relative;
     background-color: #005bac;
     border-radius: 0 18px 18px 0; }
-    @media (max-width: 991px) {
-      .home-two-counter-area .counter-area-two-inner {
-        padding: 100px 0; } }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .home-two-counter-area .counter-area-two-inner {
         background-color: transparent;
-        padding: 0; } }
+        padding: 100px 0; } }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .home-two-counter-area .counter-area-two-inner {
+        padding: 70px 0; } }
     .home-two-counter-area .counter-area-two-inner:before {
       position: absolute;
       content: "";
@@ -9375,7 +9380,11 @@ ul.children {
 .home-two-process-step-two-area {
   padding-top: 380px;
   padding-bottom: 64px; }
-  @media (max-width: 1199px) {
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .home-two-process-step-two-area {
+      padding-top: 340px;
+      padding-bottom: 10px; } }
+  @media only screen and (min-width: 768px) and (max-width: 1199px) {
     .home-two-process-step-two-area {
       padding-bottom: 40px; } }
 
@@ -9429,9 +9438,12 @@ ul.children {
   margin-bottom: -261px;
   position: relative;
   z-index: 2; }
-  @media (max-width: 991px) {
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
     .appointment-booking-area {
       margin-top: 80px; } }
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .appointment-booking-area {
+      margin-top: 70px; } }
   .appointment-booking-area .form-image-mr {
     padding-right: 56px !important; }
   .appointment-booking-area .form-image-wrapper {
@@ -9445,9 +9457,14 @@ ul.children {
   padding-top: 140px;
   padding-bottom: 157px;
   z-index: 2; }
-  @media (max-width: 991px) {
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
     .home-two-accordion-area {
       padding: 100px 0; } }
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .home-two-accordion-area {
+      padding: 70px 0; }
+      .home-two-accordion-area .promotional-banner-widget {
+        margin-top: 0; } }
   .home-two-accordion-area .accordion-wrapper {
     padding-left: 120px; }
     @media (max-width: 991px) {
@@ -9479,6 +9496,9 @@ ul.children {
 .home-two-client-logo-area {
   padding-top: 100px;
   padding-bottom: 120px; }
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .home-two-client-logo-area {
+      padding: 70px 0; } }
 
 .home-two-testimonial-area {
   padding-top: 145px; }
@@ -9504,6 +9524,9 @@ ul.children {
   @media only screen and (min-width: 1200px) and (max-width: 1399px) {
     .testimonial-triangle-image-wrapper {
       width: 620px; } }
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .testimonial-triangle-image-wrapper {
+      margin-bottom: 70px !important; } }
   @media (max-width: 1199px) {
     .testimonial-triangle-image-wrapper {
       width: 100%;
@@ -9540,15 +9563,18 @@ ul.children {
 
 .home-two-about-us-area {
   padding-top: 140px; }
-  @media (max-width: 991px) {
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
     .home-two-about-us-area {
       padding-top: 100px; } }
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .home-two-about-us-area {
+      padding-top: 70px; } }
   .home-two-about-us-area .about-info-card .about-info-content {
     padding-left: 120px; }
     @media (max-width: 1199px) {
       .home-two-about-us-area .about-info-card .about-info-content {
         padding-left: 0;
-        padding-top: 330px; } }
+        padding-top: 300px; } }
     @media only screen and (min-width: 651px) and (max-width: 767px) {
       .home-two-about-us-area .about-info-card .about-info-content {
         padding-top: 150px; } }
@@ -9566,9 +9592,13 @@ ul.children {
 .home-two-news-area {
   padding-top: 80px;
   padding-bottom: 107px; }
-  @media (max-width: 991px) {
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
     .home-two-news-area {
       padding: 100px 0; } }
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .home-two-news-area {
+      padding-top: 70px;
+      padding-bottom: 50px; } }
   .home-two-news-area .section-title {
     margin-bottom: 70px; }
     @media (max-width: 991px) {
@@ -9582,23 +9612,30 @@ ul.children {
 
 .home-two-team-member-area {
   padding: 139px 0; }
-  @media (max-width: 991px) {
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
     .home-two-team-member-area {
       padding: 100px 0; } }
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .home-two-team-member-area {
+      padding: 70px 0; } }
 
 .home-two-project-area {
   padding-bottom: 143px; }
   @media (max-width: 767px) {
     .home-two-project-area {
-      padding-top: 100px;
+      padding-top: 70px;
       padding-bottom: 80px; } }
 
 .home-two-why-choose-area {
   padding-top: 150px;
   padding-bottom: 100px; }
-  @media (max-width: 991px) {
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
     .home-two-why-choose-area {
       padding-top: 100px; } }
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .home-two-why-choose-area {
+      padding-top: 70px;
+      padding-bottom: 34px; } }
   .home-two-why-choose-area .section-title {
     padding-right: 100px; }
     @media (max-width: 1399px) {
@@ -10380,6 +10417,9 @@ ul.children {
 
 .footer.style-two .footer-sec {
   padding-top: 225px; }
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .footer.style-two .footer-sec {
+      padding-top: 180px; } }
 .footer.style-two .subscribe-form-wrapper p {
   color: #c7cdda;
   margin-bottom: 30px; }
