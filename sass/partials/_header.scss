@@ -449,12 +449,6 @@
     display: none;
   }
 
-  &:hover {
-    .icon-wrapper {
-      @include transition;
-      transform: rotateY(360deg);
-    }
-  }
   .icon-wrapper {
     border: 1px solid $sky-color;
     border-radius: 50px;

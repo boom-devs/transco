@@ -3,6 +3,7 @@
 
   .slick-list {
     padding: 40px 30px;
+    padding-bottom: 60px;
     margin: 0 -12px;
 
     @include sm {
@@ -15,11 +16,15 @@
 
       &.slick-active {
         @include transition;
-        box-shadow: 1px 8px 44px rgba(20, 20, 43, 0.03);
+        box-shadow: 0px 10px 44px 0px rgba(4, 43, 77, 0.08);
         background-color: $white;
+        @include rmaxwd(767) {
+          box-shadow: 1px 8px 44px rgba(20, 20, 43, 0.03);
+        }
       }
     }
   }
+
   // Slick Dots
   .slick-dots {
     display: flex;
@@ -30,9 +35,7 @@
     right: -65px;
     transform: translateY(-50%);
     z-index: 2;
-    @include sm {
-      margin-top: 10px !important;
-    }
+
     @include rmaxwd(991) {
       position: unset;
       right: unset;
@@ -41,7 +44,6 @@
       flex-direction: row;
       align-items: center;
       justify-content: center;
-      margin-top: 50px;
     }
 
     li {
