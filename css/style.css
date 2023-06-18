@@ -4931,7 +4931,9 @@ input[type="radio"]:checked {
       border-radius: 12px;
       overflow: hidden; }
     .video-popup-card.style-three .video-popup-btn {
-      left: 0; }
+      left: 0;
+      width: 135px;
+      height: 135px; }
       @media (max-width: 1199px) {
         .video-popup-card.style-three .video-popup-btn {
           left: 50%; } }
@@ -7642,6 +7644,9 @@ button.testimonial-arrow-btn {
           flex-direction: row;
   gap: 24px;
   margin-bottom: 45px; }
+  @media (max-width: 991px) {
+    .list-item {
+      margin-bottom: 20px; } }
   .list-item .icon {
     width: 54px;
     height: 54px;
@@ -7658,6 +7663,11 @@ button.testimonial-arrow-btn {
             justify-content: center;
     -ms-flex-negative: 0;
         flex-shrink: 0; }
+    @media (max-width: 991px) {
+      .list-item .icon {
+        width: 40px;
+        height: 40px;
+        font-size: 16px; } }
     @media (max-width: 767px) {
       .list-item .icon {
         width: 35px;
@@ -9402,7 +9412,7 @@ ul.children {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  padding: 133px 0;
+  padding: 144px 0;
   position: relative;
   z-index: 2; }
   @media (max-width: 991px) {
@@ -9950,7 +9960,7 @@ ul.children {
 
 .about-page-about-us-area {
   padding-top: 140px;
-  padding-bottom: 144px; }
+  padding-bottom: 154px; }
   @media (max-width: 991px) {
     .about-page-about-us-area {
       padding: 100px 0; } }
@@ -9983,7 +9993,7 @@ ul.children {
       padding: 70px 0; } }
 
 .about-page-faq-area {
-  padding: 102px 0; }
+  padding: 140px 0; }
   @media (max-width: 991px) {
     .about-page-faq-area {
       padding: 100px 0; } }
@@ -9991,7 +10001,7 @@ ul.children {
     .about-page-faq-area {
       padding: 70px 0; } }
   .about-page-faq-area .video-popup-card.style-three {
-    margin-left: 160px; }
+    margin-left: 220px; }
     @media (max-width: 1199px) {
       .about-page-faq-area .video-popup-card.style-three {
         margin-left: 0;
@@ -9999,8 +10009,7 @@ ul.children {
 
 .about-page-timeline-area {
   background-color: #f3f8fc;
-  padding-top: 169px;
-  padding-bottom: 129px; }
+  padding: 140px 0; }
   @media (max-width: 991px) {
     .about-page-timeline-area {
       padding: 100px 0; } }
@@ -10023,18 +10032,20 @@ ul.children {
     margin-bottom: -40px; }
 
 .about-page-client-logo-area {
-  padding-top: 130px;
-  padding-bottom: 151px; }
+  padding-top: 140px;
+  padding-bottom: 135px; }
   @media (max-width: 991px) {
     .about-page-client-logo-area {
       padding: 100px 0; } }
-  @media (max-width: 991px) {
+  @media (max-width: 767px) {
     .about-page-client-logo-area {
       padding: 70px 0; } }
 
 .about-page-team-member-area {
-  padding-top: 137px;
-  padding-bottom: 129px; }
+  padding: 140px 0; }
+  @media (max-width: 991px) {
+    .about-page-team-member-area {
+      padding: 100px 0; } }
   @media (max-width: 767px) {
     .about-page-team-member-area {
       padding: 70px 0; } }
@@ -10067,8 +10078,8 @@ ul.children {
 
 .pricing-page-price-card-wrapper {
   background-color: #eef5f8;
-  padding-top: 132px;
-  padding-bottom: 149px; }
+  padding-top: 140px;
+  padding-bottom: 140px; }
   @media (max-width: 991px) {
     .pricing-page-price-card-wrapper {
       padding: 100px 0; } }
@@ -10171,15 +10182,22 @@ ul.children {
       padding-bottom: 10px; } }
 
 .service-page-service-list-area {
-  padding-top: 170px;
-  padding-bottom: 116px; }
+  padding-top: 160px;
+  padding-bottom: 120px; }
+  @media (max-width: 1199px) {
+    .service-page-service-list-area {
+      padding: 100px 0; } }
   @media (max-width: 991px) {
     .service-page-service-list-area {
       padding: 100px 0; } }
   .service-page-service-list-area .service-list-wrapper {
     padding-right: 100px;
     padding-top: 65px; }
-    @media only screen and (min-width: 0px) and (max-width: 767px) {
+    @media (max-width: 1199px) {
+      .service-page-service-list-area .service-list-wrapper {
+        padding-top: 0;
+        padding-right: 20px; } }
+    @media (max-width: 767px) {
       .service-page-service-list-area .service-list-wrapper {
         padding-right: 0;
         padding-top: 0; } }

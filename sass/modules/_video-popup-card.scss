@@ -77,13 +77,15 @@
     overflow: visible;
     padding: 0;
     box-shadow: none;
+
     .video-popup-image {
       border-radius: 12px;
       overflow: hidden;
     }
     .video-popup-btn {
       left: 0;
-
+      width: 135px;
+      height: 135px;
       @include rmaxwd(1199) {
         left: 50%;
       }

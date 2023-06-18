@@ -27,16 +27,23 @@
 }
 // Service List Area
 .service-page-service-list-area {
-    padding-top: 170px;
-    padding-bottom: 116px;
+    padding-top: 160px;
+    padding-bottom: 120px;
 
+    @include rmaxwd(1199) {
+        padding: 100px 0;
+    }
     @include rmaxwd(991) {
         padding: 100px 0;
     }
     .service-list-wrapper {
         padding-right: 100px;
         padding-top: 65px;
-        @include sm {
+        @include rmaxwd(1199) {
+            padding-top: 0;
+            padding-right: 20px;
+        }
+        @include rmaxwd(767) {
             padding-right: 0;
             padding-top: 0;
         }
