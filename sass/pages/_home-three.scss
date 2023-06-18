@@ -13,7 +13,7 @@
 
 // Why Choose Us Area
 .home-three-why-choose-us {
-  padding-top: 142px;
+  padding-top: 144px;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -41,7 +41,7 @@
 }
 // About Us Area
 .home-three-about-us-area {
-  padding-top: 135px;
+  padding-top: 140px;
   padding-bottom: 144px;
 
   @include rmaxwd(991) {
@@ -61,8 +61,8 @@
 }
 // Project Area & Blog Area
 .home-three-project-area {
-  padding-top: 136px;
-  padding-bottom: 135px;
+  padding-top: 140px;
+  padding-bottom: 134px;
 
   @include rmaxwd(991) {
     padding-top: 100px;
@@ -74,7 +74,7 @@
   }
 }
 .home-three-blog-post-area {
-  padding-top: 142px;
+  padding-top: 140px;
   padding-bottom: 81px;
 
   @include rmaxwd(991) {
@@ -92,7 +92,7 @@
   background-size: cover;
   background-position: center center;
   padding-top: 140px;
-  padding-bottom: 145px;
+  padding-bottom: 144px;
 
   @include rmaxwd(991) {
     padding-top: 100px;
@@ -112,8 +112,8 @@
 }
 // Our Service Area
 .home-three-our-service-area {
-  padding-top: 137px;
-  padding-bottom: 88px;
+  padding-top: 140px;
+  padding-bottom: 92px;
 
   @include rmaxwd(991) {
     padding-top: 100px;
@@ -136,7 +136,7 @@
 // Accordion Area
 .home-three-accordion-area {
   padding-top: 212px;
-  padding-bottom: 145px;
+  padding-bottom: 140px;
 
   @include rmaxwd(1199) {
     padding: 100px 0;
@@ -154,8 +154,8 @@
 }
 
 .home-three-testimonial-area{
-  padding-top: 144px;
-  padding-bottom: 128px;
+  padding-top: 140px;
+  padding-bottom: 134px;
 
   @include rmaxwd(991) {
     padding: 100px 0;
