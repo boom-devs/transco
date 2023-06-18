@@ -3,9 +3,11 @@
 
   .slick-list {
     padding: 40px 30px;
-    //margin-top: -40px;
     margin: 0 -12px;
 
+    @include sm {
+      padding: 30px 10px;
+    }
     .slick-slide {
       margin: 0 12px;
       border-radius: 20px;
@@ -28,7 +30,9 @@
     right: -65px;
     transform: translateY(-50%);
     z-index: 2;
-
+    @include sm {
+      margin-top: 10px !important;
+    }
     @include rmaxwd(991) {
       position: unset;
       right: unset;
@@ -156,6 +160,7 @@ button.testimonial-arrow-btn {
       padding-left: 10px;
       padding-right: 10px;
       padding-bottom: 50px;
+
       .slick-slide {
         border-radius: 0;
 
@@ -171,6 +176,7 @@ button.testimonial-arrow-btn {
       padding-left: 0;
       flex-direction: row;
       justify-content: center;
+
     }
   }
 }

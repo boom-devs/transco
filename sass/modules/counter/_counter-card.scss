@@ -10,6 +10,7 @@
   }
   @include sm {
     grid-template-columns: repeat(1, 1fr);
+    grid-gap: 50px;
   }
 
   .counter-item {

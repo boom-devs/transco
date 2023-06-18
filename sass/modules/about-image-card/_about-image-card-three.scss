@@ -6,6 +6,7 @@
       .main-img-inner {
         @include sm {
           width: 100%;
+          padding: 0;
         }
 
         img {
@@ -21,7 +22,8 @@
       transform: translate(-50%, 50%);
 
       @include sm {
-        transform: translate(50%, 50%);
+        top: 50%;
+        transform: translateY(-50%) !important;
       }
       .image-six {
         width: 190px;

@@ -33,7 +33,7 @@
         /*
         Stikey Js
         ============================*/
-        const nav = $(".header-menu-area.sticky-header");
+        // const nav = $(".header-menu-area.sticky-header");
         let scrolled = false;
         $(window).scroll(function () {
             if (100 < $(window).scrollTop() && !scrolled) {

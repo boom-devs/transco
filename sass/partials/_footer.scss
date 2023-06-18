@@ -10,6 +10,10 @@
   }
   .footer-sec {
     padding-top: 265px;
+
+    @include rmaxwd(767) {
+      padding-top: 210px;
+    }
   }
   //footer Background
   .footer-bg {

@@ -25,6 +25,10 @@
 
           .slider-short-title {
             font-size: 36px;
+            @include sm {
+              font-size: 24px;
+              line-height: 28px;
+            }
           }
           .slider-title {
             font-size: 120px;

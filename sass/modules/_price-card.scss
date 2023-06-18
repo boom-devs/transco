@@ -5,6 +5,14 @@
     position: relative;
     border-radius: 14px;
 
+    &:hover {
+        .price {
+            &:before {
+                width: 100%;
+                @include transition;
+            }
+        }
+    }
     .card-title {
         display: flex;
         justify-content: center;
@@ -38,6 +46,22 @@
         padding-top: 28px;
         padding-bottom: 28px;
         gap: 8px;
+        position: relative;
+        overflow: hidden;
+        z-index: 2;
+
+        &:before {
+            position: absolute;
+            width: 0;
+            height: 100%;
+            left: 0;
+            top: 0;
+            background: linear-gradient(135deg, rgb(30,174,152) 0%, rgb(0,91,172) 100%);
+            content: "";
+            @include transition;
+            z-index: -1;
+        }
+
         .price-heading {
             font-family: $heading-font;
             font-style: normal;

@@ -2,8 +2,12 @@
 .home-one-about-us-area {
   padding: 145px 0;
 
-  @include rmaxwd(991) {
+  @include md() {
     padding: 100px 0;
+  }
+  @include sm() {
+    padding-top: 42px;
+    padding-bottom: 70px;
   }
   .about-info-card {
     .about-info-content {
@@ -12,6 +16,9 @@
       @include rmaxwd(1199) {
         padding-left: 0;
         padding-top: 200px;
+      }
+      @include rmaxwd(767) {
+        padding-top: 150px;
       }
       @include rmaxwd(650) {
         padding-top: 100px;
@@ -46,7 +53,8 @@
     padding-bottom: 100px;
   }
   @include rmaxwd(767) {
-   padding-top: 180px;
+   padding-top: 150px;
+    padding-bottom: 70px;
   }
 }
 .counter-squre-shape {
@@ -76,6 +84,9 @@
     padding-top: 100px;
   }
 
+  @include sm {
+    padding-top: 70px !important;
+  }
 
   .why-choose-us-wrapper {
     background-color: $white;
@@ -101,6 +112,10 @@
     padding-top: 100px;
     padding-bottom: 76px;
   }
+  @include rmaxwd(767) {
+    padding-top: 70px;
+    padding-bottom: 46px;
+  }
   .section-title {
     margin-bottom: 60px;
   }
@@ -115,12 +130,20 @@
     padding-top: 100px;
     padding-bottom: 76px;
   }
+  @include rmaxwd(767) {
+    padding-top: 70px;
+    padding-bottom: 42px;
+  }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     padding-bottom: 67px;
   }
 
   .section-title {
     margin-bottom: 95px;
+
+    @include rmaxwd(767) {
+      margin-bottom: 50px;
+    }
   }
 }
 .process-image {
@@ -142,6 +165,9 @@
 
   @include rmaxwd(991) {
     padding: 100px 0;
+  }
+  @include rmaxwd(767) {
+    padding: 70px 0;
   }
   .accordion-wrapper {
     padding-left: 120px;
@@ -183,6 +209,10 @@
 .home-one-client-logo-area {
   padding-top: 100px;
   padding-bottom: 86px;
+
+  @include rmaxwd(767) {
+    padding: 70px 0;
+  }
 }
 // News Area
 .home-one-news-area {
@@ -192,9 +222,16 @@
   @include rmaxwd(991) {
     padding: 100px 0;
   }
+  @include rmaxwd(767) {
+    padding-top: 70px;
+    padding-bottom: 45px;
+  }
 
   .section-title {
     margin-bottom: 70px;
+    @include rmaxwd(767) {
+      margin-bottom: 50px;
+    }
   }
 }
 
@@ -203,12 +240,18 @@
   padding-top: 132px;
   padding-bottom: 120px;
 
+
   @include rmaxwd(991) {
     padding: 100px 0;
+  }
+  @include rmaxwd(767) {
+    padding: 70px 0;
   }
 
   .testimonial-slider-wrapper {
     padding-left: 94px;
+    margin-top: -40px;
+    margin-bottom: -40px;
 
     @include md {
       padding-left: 0;
