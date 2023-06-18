@@ -20,6 +20,10 @@
     font-weight: 500;
     border: 1px solid $gray-300;
 
+    @include rmaxwd(767) {
+      height: 40px;
+    }
+
     &:hover {
       background: $orange-color !important;
       color: $white;
@@ -79,6 +83,11 @@
     font-weight: 500;
     border: 1px solid $gray-300;
 
+    @include rmaxwd(767) {
+      width: 40px;
+      height: 40px;
+      font-size: 16px;
+    }
     &:hover {
       background: $orange-color !important;
       color: $white;

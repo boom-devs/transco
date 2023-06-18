@@ -7174,6 +7174,10 @@ button.testimonial-arrow-btn {
     font-size: 18px;
     font-weight: 500;
     border: 1px solid #dfe2e9; }
+    @media (max-width: 767px) {
+      .wp-block-query-pagination .wp-block-query-pagination-previous,
+      .wp-block-query-pagination .wp-block-query-pagination-next {
+        height: 40px; } }
     .wp-block-query-pagination .wp-block-query-pagination-previous:hover,
     .wp-block-query-pagination .wp-block-query-pagination-next:hover {
       background: #ff6731 !important;
@@ -7252,6 +7256,16 @@ button.testimonial-arrow-btn {
     font-size: 18px;
     font-weight: 500;
     border: 1px solid #dfe2e9; }
+    @media (max-width: 767px) {
+      .basic-pagination .page-numbers,
+      .basic-pagination .post-page-numbers,
+      .page-links .page-numbers,
+      .page-links .post-page-numbers,
+      .wp-block-query-pagination-numbers .page-numbers,
+      .wp-block-query-pagination-numbers .post-page-numbers {
+        width: 40px;
+        height: 40px;
+        font-size: 16px; } }
     .basic-pagination .page-numbers:hover,
     .basic-pagination .post-page-numbers:hover,
     .page-links .page-numbers:hover,
