@@ -22,6 +22,14 @@
     padding-top: 100px;
     padding-bottom: 50px;
   }
+  @include rmaxwd(767) {
+    padding-top: 70px;
+    padding-bottom: 20px;
+
+    .section-title {
+      margin-bottom: 50px;
+    }
+  }
 
   .why-choose-card-wrapper {
     padding-left: 110px;
@@ -39,6 +47,10 @@
   @include rmaxwd(991) {
     padding: 100px 0;
   }
+  @include rmaxwd(767) {
+    padding: 70px 0;
+  }
+
 }
 // Why Choose Area Three
 .why-choose-three-area {
@@ -56,6 +68,10 @@
     padding-top: 100px;
     padding-bottom: 80px;
   }
+  @include rmaxwd(767) {
+    padding-top: 70px;
+    padding-bottom: 40px;
+  }
 }
 .home-three-blog-post-area {
   padding-top: 142px;
@@ -64,6 +80,10 @@
   @include rmaxwd(991) {
     padding-top: 100px;
     padding-bottom: 80px;
+  }
+  @include rmaxwd(991) {
+    padding-top: 70px;
+    padding-bottom: 25px;
   }
 }
 // Pricing Area
@@ -77,6 +97,10 @@
   @include rmaxwd(991) {
     padding-top: 100px;
     padding-bottom: 70px;
+  }
+  @include rmaxwd(767) {
+    padding-top: 70px;
+    padding-bottom: 40px;
   }
 }
 .price-card-padding {
@@ -99,6 +123,14 @@
     }
   }
 
+  @include rmaxwd(767) {
+    padding-top: 70px;
+    padding-bottom: 20px;
+
+    .row.mb-70 {
+      margin-bottom: 50px;
+    }
+  }
 }
 
 // Accordion Area
@@ -110,6 +142,9 @@
     padding: 100px 0;
   }
 
+  @include rmaxwd(767) {
+    padding: 70px 0;
+  }
   .accordion-wrapper {
     @include rmaxwd(1199) {
       padding-right: 0 !important;
@@ -125,6 +160,13 @@
   @include rmaxwd(991) {
     padding: 100px 0;
   }
+  @include rmaxwd(767) {
+    padding: 70px 0;
+
+    .section-title {
+      margin-bottom: 30px;
+    }
+  }
 
   .accordion-wrapper {
     @include rmaxwd(1199) {
@@ -135,3 +177,6 @@
 }
 
 
+.home-three-client-logo-area {
+  padding-bottom: 70px;
+}

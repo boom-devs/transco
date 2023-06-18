@@ -5,6 +5,11 @@
   z-index: 2;
   position: relative;
 
+  &.mb-70 {
+    @include rmaxwd(767) {
+      margin-bottom: 50px;
+    }
+  }
   .short-title {
     font-size: 24px;
     font-weight: 700;

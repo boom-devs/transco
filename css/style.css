@@ -6976,6 +6976,9 @@ button.testimonial-arrow-btn {
           flex-direction: column;
   z-index: 2;
   position: relative; }
+  @media (max-width: 767px) {
+    .section-title.mb-70 {
+      margin-bottom: 50px; } }
   .section-title .short-title {
     font-size: 24px;
     font-weight: 700;
@@ -9742,6 +9745,12 @@ ul.children {
     .home-three-why-choose-us {
       padding-top: 100px;
       padding-bottom: 50px; } }
+  @media (max-width: 767px) {
+    .home-three-why-choose-us {
+      padding-top: 70px;
+      padding-bottom: 20px; }
+      .home-three-why-choose-us .section-title {
+        margin-bottom: 50px; } }
   .home-three-why-choose-us .why-choose-card-wrapper {
     padding-left: 110px; }
     @media (max-width: 991px) {
@@ -9754,6 +9763,9 @@ ul.children {
   @media (max-width: 991px) {
     .home-three-about-us-area {
       padding: 100px 0; } }
+  @media (max-width: 767px) {
+    .home-three-about-us-area {
+      padding: 70px 0; } }
 
 .why-choose-three-area {
   background-color: #393d48;
@@ -9768,6 +9780,10 @@ ul.children {
     .home-three-project-area {
       padding-top: 100px;
       padding-bottom: 80px; } }
+  @media (max-width: 767px) {
+    .home-three-project-area {
+      padding-top: 70px;
+      padding-bottom: 40px; } }
 
 .home-three-blog-post-area {
   padding-top: 142px;
@@ -9776,6 +9792,10 @@ ul.children {
     .home-three-blog-post-area {
       padding-top: 100px;
       padding-bottom: 80px; } }
+  @media (max-width: 991px) {
+    .home-three-blog-post-area {
+      padding-top: 70px;
+      padding-bottom: 25px; } }
 
 .home-three-pricing-area {
   background-repeat: no-repeat;
@@ -9787,6 +9807,10 @@ ul.children {
     .home-three-pricing-area {
       padding-top: 100px;
       padding-bottom: 70px; } }
+  @media (max-width: 767px) {
+    .home-three-pricing-area {
+      padding-top: 70px;
+      padding-bottom: 40px; } }
 
 .price-card-padding {
   padding: 0 50px; }
@@ -9803,6 +9827,12 @@ ul.children {
       padding-bottom: 50px; }
       .home-three-our-service-area .section-title {
         margin-bottom: 15px; } }
+  @media (max-width: 767px) {
+    .home-three-our-service-area {
+      padding-top: 70px;
+      padding-bottom: 20px; }
+      .home-three-our-service-area .row.mb-70 {
+        margin-bottom: 50px; } }
 
 .home-three-accordion-area {
   padding-top: 212px;
@@ -9810,6 +9840,9 @@ ul.children {
   @media (max-width: 1199px) {
     .home-three-accordion-area {
       padding: 100px 0; } }
+  @media (max-width: 767px) {
+    .home-three-accordion-area {
+      padding: 70px 0; } }
   @media (max-width: 1199px) {
     .home-three-accordion-area .accordion-wrapper {
       padding-right: 0 !important;
@@ -9821,10 +9854,18 @@ ul.children {
   @media (max-width: 991px) {
     .home-three-testimonial-area {
       padding: 100px 0; } }
+  @media (max-width: 767px) {
+    .home-three-testimonial-area {
+      padding: 70px 0; }
+      .home-three-testimonial-area .section-title {
+        margin-bottom: 30px; } }
   @media (max-width: 1199px) {
     .home-three-testimonial-area .accordion-wrapper {
       padding-right: 0 !important;
       padding-bottom: 80px; } }
+
+.home-three-client-logo-area {
+  padding-bottom: 70px; }
 
 .about-page-about-us-area {
   padding-top: 140px;
@@ -10557,7 +10598,7 @@ ul.children {
   padding-top: 130px; }
   @media only screen and (min-width: 0px) and (max-width: 767px) {
     .footer.style-three .footer-sec {
-      padding-top: 100px; } }
+      padding-top: 70px; } }
   .footer.style-three .footer-sec .footer-widget.widget_nav_menu ul {
     -webkit-columns: 2;
             columns: 2;
