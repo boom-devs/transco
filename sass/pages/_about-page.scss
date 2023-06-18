@@ -6,6 +6,9 @@
   @include rmaxwd(991) {
    padding: 100px 0;
   }
+  @include rmaxwd(767) {
+   padding: 70px 0;
+  }
   .about-info-card {
     .about-info-content {
       padding-left: 120px;
@@ -15,7 +18,10 @@
         padding-top: 330px;
       }
       @include rmaxwd(767) {
-        padding-top: 100px;
+        padding-top: 150px;
+      }
+      @include rmaxwd(650) {
+        padding-top: 110px;
       }
     }
   }
@@ -30,6 +36,9 @@
   @include rmaxwd(991) {
     padding: 100px 0;
   }
+  @include rmaxwd(767) {
+    padding: 70px 0;
+  }
 }
 
 // FAQ Area
@@ -38,6 +47,9 @@
 
   @include rmaxwd(991) {
     padding: 100px 0;
+  }
+  @include rmaxwd(767) {
+    padding: 70px 0;
   }
 
   .video-popup-card.style-three {
@@ -59,6 +71,9 @@
   @include rmaxwd(991) {
     padding: 100px 0;
   }
+  @include rmaxwd(767) {
+    padding: 70px 0;
+  }
 }
 
 // Testimonial Area
@@ -70,6 +85,13 @@
   @include rmaxwd(991) {
     padding: 100px 0;
   }
+  @include rmaxwd(767) {
+    padding: 70px 0;
+  }
+  .testimonial-slider-wrapper {
+    margin-top: -40px;
+    margin-bottom: -40px;
+  }
 }
 
 // Client Logo
@@ -80,9 +102,16 @@
   @include rmaxwd(991) {
     padding: 100px 0;
   }
+  @include rmaxwd(991) {
+    padding: 70px 0;
+  }
 }
 // Team Member Area
 .about-page-team-member-area {
   padding-top: 137px;
   padding-bottom: 129px;
+
+  @include rmaxwd(767) {
+    padding: 70px 0;
+  }
 }

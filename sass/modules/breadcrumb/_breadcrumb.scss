@@ -6,6 +6,10 @@
   background-size: cover;
   background-position: center center;
   background-color: $primary-color;
+
+  @include rmaxwd(767) {
+    padding: 80px 0;
+  }
 }
 .page-overlay {
   background-image: linear-gradient( 135deg, rgb(30,174,152) 0%, rgb(0,91,172) 100%);

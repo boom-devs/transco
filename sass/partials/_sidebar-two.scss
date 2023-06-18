@@ -1,3 +1,8 @@
+.service-sidebar {
+    @include rmaxwd(1199) {
+        margin-top: 70px;
+    }
+}
 .widget_service_categories {
     background-color: transparent;
     padding: 0;
@@ -95,6 +100,8 @@
             display: flex;
             align-items: center;
             gap: 18px;
+            justify-content: center;
+
             .icon {
                 width: 48px;
                 height: 48px;

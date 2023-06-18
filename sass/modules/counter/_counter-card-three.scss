@@ -28,7 +28,8 @@
                 line-height: 60px;
                 font-weight: 700;
                 @include sm {
-                    font-size: 56px;
+                    font-size: 48px;
+                    line-height: 52px;
                 }
             }
             @include sm {

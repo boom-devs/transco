@@ -8,6 +8,9 @@
         line-height: 0;
         margin-right: 50px;
 
+        @include rmaxwd(575) {
+            width: 100%;
+        }
         &:last-child {
             margin-right: 0;
         }
@@ -54,5 +57,9 @@
 .tab-content {
     img {
         border-radius: 8px;
+
+        @include rmaxwd(575) {
+            width: 100%;
+        }
     }
 }
