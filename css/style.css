@@ -9497,8 +9497,8 @@ ul.children {
 
 .home-two-counter-area {
   position: relative;
-  padding-top: 154px;
-  padding-bottom: 134px;
+  padding-top: 141px;
+  padding-bottom: 151px;
   overflow: hidden; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .home-two-counter-area {
@@ -9522,7 +9522,8 @@ ul.children {
       .home-two-counter-area:before {
         display: none; } }
   .home-two-counter-area .counter-area-two-inner {
-    padding: 145px 0;
+    padding-top: 144px;
+    padding-bottom: 140px;
     position: relative;
     background-color: #005bac;
     border-radius: 0 18px 18px 0; }
@@ -9543,8 +9544,8 @@ ul.children {
       left: -100%; }
 
 .home-two-process-step-two-area {
-  padding-top: 380px;
-  padding-bottom: 64px; }
+  padding-top: 363px;
+  padding-bottom: 66px; }
   @media only screen and (min-width: 0px) and (max-width: 767px) {
     .home-two-process-step-two-area {
       padding-top: 340px;
@@ -9620,7 +9621,7 @@ ul.children {
 
 .home-two-accordion-area {
   padding-top: 140px;
-  padding-bottom: 157px;
+  padding-bottom: 144px;
   z-index: 2; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .home-two-accordion-area {
@@ -9666,7 +9667,7 @@ ul.children {
       padding: 70px 0; } }
 
 .home-two-testimonial-area {
-  padding-top: 145px; }
+  padding-top: 140px; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .home-two-testimonial-area {
       padding: 0; } }
@@ -9755,8 +9756,8 @@ ul.children {
   width: 100%; }
 
 .home-two-news-area {
-  padding-top: 80px;
-  padding-bottom: 107px; }
+  padding-top: 110px;
+  padding-bottom: 109px; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .home-two-news-area {
       padding: 100px 0; } }
@@ -9776,7 +9777,8 @@ ul.children {
         padding-left: 12px; } }
 
 .home-two-team-member-area {
-  padding: 139px 0; }
+  padding-top: 140px;
+  padding-bottom: 145px; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .home-two-team-member-area {
       padding: 100px 0; } }
@@ -9785,15 +9787,15 @@ ul.children {
       padding: 70px 0; } }
 
 .home-two-project-area {
-  padding-bottom: 143px; }
+  padding-bottom: 144px; }
   @media (max-width: 767px) {
     .home-two-project-area {
       padding-top: 70px;
       padding-bottom: 80px; } }
 
 .home-two-why-choose-area {
-  padding-top: 150px;
-  padding-bottom: 100px; }
+  padding-top: 140px;
+  padding-bottom: 108px; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .home-two-why-choose-area {
       padding-top: 100px; } }
@@ -10770,4 +10772,5 @@ ul.children {
             columns: 2;
     -webkit-column-gap: 26px;
             column-gap: 26px; }
+
 /*# sourceMappingURL=style.css.map */
