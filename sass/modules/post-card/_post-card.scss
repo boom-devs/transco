@@ -36,9 +36,11 @@
   .post-comments {
     margin-top: 0;
   }
-  .wp-block-button {
-    .wp-block-button__link {
-      color: $white !important;
+  .wp-block-group.has-background {
+    .wp-block-button {
+      .wp-block-button__link {
+        color: $white !important;
+      }
     }
   }
   .single-post-item {
