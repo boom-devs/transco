@@ -1654,13 +1654,13 @@ table {
   margin-bottom: 20px;
   width: 100%; }
   table caption {
-    border: 1px solid #ddd;
+    border: 1px solid #dfe2e9;
     padding: 6px 10px;
     border-top: 0; }
   table th,
   table td {
     background-color: transparent;
-    border: 1px solid #31373f;
+    border: 1px solid #dfe2e9;
     text-align: center;
     padding: 8px;
     -webkit-transition: .3s;
