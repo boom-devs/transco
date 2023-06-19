@@ -384,7 +384,7 @@
         /*
        Jquery Nice Select Js
        ============================*/
-        $('select').niceSelect();
+        $('select.select_option').niceSelect();
 
         /*
         scrollUp
