@@ -192,7 +192,9 @@ input:focus {
 .text-white-100 {
   color: $white-100;
 }
-
+code {
+  color: $orange-color;
+}
 .theme-btn,
 .wp-block-loginout a,
 input.theme-btn {
