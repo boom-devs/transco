@@ -7935,7 +7935,7 @@ button.testimonial-arrow-btn {
     max-width: 100%;
     height: 50px;
     width: 100%;
-    border: 1px solid #31373f;
+    border: 1px solid transparent;
     padding: 0 10px;
     border-radius: 5px;
     color: #5e6f92;
@@ -8130,23 +8130,16 @@ button.testimonial-arrow-btn {
       .widget ul.wp-tag-cloud li a:before,
       .widget ol.wp-tag-cloud li a:before {
         display: none; }
-  .widget.widget_categories ul li.cat-item {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
-  .widget.widget_categories ul li a {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between; }
+  .widget.widget_categories ul li {
+    text-align: right;
+    display: inline-block;
+    width: 100%; }
+    .widget.widget_categories ul li.cat-item {
+      text-align: right;
+      display: inline-block;
+      width: 100%; }
+    .widget.widget_categories ul li a {
+      float: left; }
 
 /* About Info Widget*/
 .widget-about-info {

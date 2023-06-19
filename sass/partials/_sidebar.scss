@@ -183,7 +183,7 @@
     max-width: 100%;
     height: 50px;
     width: 100%;
-    border: 1px solid $gray;
+    border: 1px solid transparent;
     padding: 0 10px;
     border-radius: 5px;
     color: $text-color;
@@ -419,14 +419,17 @@
   &.widget_categories {
     ul {
       li {
+        text-align: right;
+        display: inline-block;
+        width: 100%;
+
         &.cat-item {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
+          text-align: right;
+          display: inline-block;
+          width: 100%;
         }
         a {
-          display: flex;
-          justify-content: space-between;
+          float: left;
         }
       }
     }
