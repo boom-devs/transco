@@ -1,7 +1,7 @@
 // Service Area
 .service-page-service-area {
-    padding-top: 144px;
-    padding-bottom: 122px;
+    padding-top: 140px;
+    padding-bottom: 120px;
 
     @include rmaxwd(991) {
         padding: 100px 0;
@@ -13,8 +13,8 @@
 }
 // Process Area
 .service-page-process-area {
-    padding-top: 130px;
-    padding-bottom: 62px;
+    padding-top: 140px;
+    padding-bottom: 66px;
 
     @include rmaxwd(991) {
         padding-top: 100px;
@@ -55,8 +55,8 @@
 
 // Service Details Page
 .service-details-wrapper {
-    padding-top: 145px;
-    padding-bottom: 111px;
+    padding-top: 140px;
+    padding-bottom: 132px;
 
     @include rmaxwd(991) {
         padding: 100px 0;

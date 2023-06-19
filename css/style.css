@@ -10212,8 +10212,8 @@ ul.children {
         background: #ff6731; }
 
 .service-page-service-area {
-  padding-top: 144px;
-  padding-bottom: 122px; }
+  padding-top: 140px;
+  padding-bottom: 120px; }
   @media (max-width: 991px) {
     .service-page-service-area {
       padding: 100px 0; } }
@@ -10223,8 +10223,8 @@ ul.children {
       padding-bottom: 46px; } }
 
 .service-page-process-area {
-  padding-top: 130px;
-  padding-bottom: 62px; }
+  padding-top: 140px;
+  padding-bottom: 66px; }
   @media (max-width: 991px) {
     .service-page-process-area {
       padding-top: 100px;
@@ -10259,8 +10259,8 @@ ul.children {
       padding: 65px 0; } }
 
 .service-details-wrapper {
-  padding-top: 145px;
-  padding-bottom: 111px; }
+  padding-top: 140px;
+  padding-bottom: 132px; }
   @media (max-width: 991px) {
     .service-details-wrapper {
       padding: 100px 0; } }
