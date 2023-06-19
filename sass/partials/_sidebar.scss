@@ -18,6 +18,9 @@
   border-radius: 8px;
   margin-bottom: 48px;
 
+  &:last-child {
+    margin-bottom: 40px;
+  }
   @include sm {
     padding: 30px;
   }

@@ -7792,6 +7792,8 @@ button.testimonial-arrow-btn {
   /* Search Widget */
   /* Tagcloud Widget */
   /* Default Widget */ }
+  .widget:last-child {
+    margin-bottom: 40px; }
   @media only screen and (min-width: 0px) and (max-width: 767px) {
     .widget {
       padding: 30px; } }
