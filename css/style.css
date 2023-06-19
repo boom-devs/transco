@@ -7181,17 +7181,25 @@ button.testimonial-arrow-btn {
         color: transparent;
         display: none; }
 
-.wp-block-query-pagination {
+.wp-block-query-pagination,
+.navigation.posts-navigation {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
-  .wp-block-query-pagination .wp-block-query-pagination-numbers {
+  .wp-block-query-pagination .wp-block-query-pagination-numbers,
+  .navigation.posts-navigation .wp-block-query-pagination-numbers {
     width: inherit; }
   .wp-block-query-pagination .wp-block-query-pagination-previous,
-  .wp-block-query-pagination .wp-block-query-pagination-next {
+  .wp-block-query-pagination .wp-block-query-pagination-next,
+  .wp-block-query-pagination .nav-next a,
+  .wp-block-query-pagination .nav-previous a,
+  .navigation.posts-navigation .wp-block-query-pagination-previous,
+  .navigation.posts-navigation .wp-block-query-pagination-next,
+  .navigation.posts-navigation .nav-next a,
+  .navigation.posts-navigation .nav-previous a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -7213,10 +7221,22 @@ button.testimonial-arrow-btn {
     border: 1px solid #dfe2e9; }
     @media (max-width: 767px) {
       .wp-block-query-pagination .wp-block-query-pagination-previous,
-      .wp-block-query-pagination .wp-block-query-pagination-next {
+      .wp-block-query-pagination .wp-block-query-pagination-next,
+      .wp-block-query-pagination .nav-next a,
+      .wp-block-query-pagination .nav-previous a,
+      .navigation.posts-navigation .wp-block-query-pagination-previous,
+      .navigation.posts-navigation .wp-block-query-pagination-next,
+      .navigation.posts-navigation .nav-next a,
+      .navigation.posts-navigation .nav-previous a {
         height: 40px; } }
     .wp-block-query-pagination .wp-block-query-pagination-previous:hover,
-    .wp-block-query-pagination .wp-block-query-pagination-next:hover {
+    .wp-block-query-pagination .wp-block-query-pagination-next:hover,
+    .wp-block-query-pagination .nav-next a:hover,
+    .wp-block-query-pagination .nav-previous a:hover,
+    .navigation.posts-navigation .wp-block-query-pagination-previous:hover,
+    .navigation.posts-navigation .wp-block-query-pagination-next:hover,
+    .navigation.posts-navigation .nav-next a:hover,
+    .navigation.posts-navigation .nav-previous a:hover {
       background: #ff6731 !important;
       color: #ffffff;
       border-color: #ff6731;

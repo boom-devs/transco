@@ -1,4 +1,5 @@
-.wp-block-query-pagination {
+.wp-block-query-pagination,
+.navigation.posts-navigation {
   display: flex;
   align-items: center;
 
@@ -6,7 +7,9 @@
     width: inherit;
   }
   .wp-block-query-pagination-previous,
-  .wp-block-query-pagination-next {
+  .wp-block-query-pagination-next,
+  .nav-next a,
+  .nav-previous a {
     display: flex;
     align-items: center;
     justify-content: center;
