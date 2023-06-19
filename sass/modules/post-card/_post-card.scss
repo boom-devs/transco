@@ -535,6 +535,8 @@
   .post-navigation {
     display: flex;
     gap: 20px;
+    flex-basis: 0;
+    flex-grow: 1;
 
       &:last-child {
         flex-direction: row-reverse;

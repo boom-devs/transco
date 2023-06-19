@@ -6314,7 +6314,12 @@ button.testimonial-arrow-btn {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    gap: 20px; }
+    gap: 20px;
+    -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1; }
     .blog-post-nav .post-navigation:last-child {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: reverse;
