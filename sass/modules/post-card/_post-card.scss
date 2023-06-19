@@ -46,7 +46,7 @@
       height: 522px;
     }
     .post-meta {
-      margin-bottom: 30px;
+      margin-bottom: 20px;
     }
     .post-thumbnail,
     .wp-block-post-featured-image {
@@ -115,6 +115,10 @@
   .post-content-wrapper {
     padding: 45px;
 
+    @include sm {
+      padding: 35px;
+      padding-top: 30px;
+    }
     .read-more {
       margin-top: 30px;
       display: flex;
@@ -172,6 +176,7 @@
     @include sm{
       font-size: 28px;
       line-height: 42px;
+      margin-bottom: 5px;
     }
 
     &:hover {
@@ -514,6 +519,7 @@
 
   @include rmaxwd(767) {
     flex-direction: column;
+    padding: 30px;
   }
 
   .divider {

@@ -84,13 +84,18 @@
     }
     .video-popup-btn {
       left: 0;
-      width: 135px;
-      height: 135px;
       @include rmaxwd(1199) {
         left: 50%;
       }
       a {
+        width: 135px;
+        height: 135px;
         @include gradient-color-red;
+
+        @include rmaxwd(767) {
+          width: 80px;
+          height: 80px;
+        }
       }
     }
   }

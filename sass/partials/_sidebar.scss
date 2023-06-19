@@ -18,6 +18,9 @@
   border-radius: 8px;
   margin-bottom: 48px;
 
+  @include sm {
+    padding: 30px;
+  }
   ol,
   ul {
     margin-bottom: 0;

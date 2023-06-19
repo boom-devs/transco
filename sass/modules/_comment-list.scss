@@ -109,6 +109,9 @@
       border-radius: 8px;
       margin-bottom: 24px;
 
+      @include rmaxwd(767) {
+        padding: 30px;
+      }
       .comments-avatar {
         float: left;
 

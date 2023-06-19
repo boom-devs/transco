@@ -61,6 +61,10 @@
         color: $secondary-color;
         margin: 0;
     }
+
+    @include rmaxwd(991) {
+        margin-bottom: 30px;
+    }
 }
 
 .project-info-widget {

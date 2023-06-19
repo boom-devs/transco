@@ -2822,7 +2822,7 @@ input[type="radio"]:checked {
   z-index: 9999; }
   @media (max-width: 560px) {
     .menu-sidebar-area {
-      width: 375px; } }
+      width: 350px; } }
   .menu-sidebar-area .menu-sidebar-logo {
     display: inline-block;
     width: 180px; }
@@ -4528,7 +4528,8 @@ input[type="radio"]:checked {
       padding: 0; } }
   @media only screen and (min-width: 0px) and (max-width: 767px) {
     .about-image-card.style-three .main-img-wrapper .main-img-inner img {
-      width: 100%; } }
+      width: 100%;
+      margin: 0; } }
 .about-image-card.style-three .img-card-wrapper {
   top: 0;
   -webkit-transform: translate(-50%, 50%);
@@ -4538,6 +4539,10 @@ input[type="radio"]:checked {
       top: 50%;
       -webkit-transform: translateY(-50%) !important;
               transform: translateY(-50%) !important; } }
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .about-image-card.style-three .img-card-wrapper .year {
+      font-size: 38px;
+      line-height: 32px; } }
   .about-image-card.style-three .img-card-wrapper .image-six {
     width: 190px;
     height: 190px;
@@ -4558,6 +4563,10 @@ input[type="radio"]:checked {
         -ms-flex-pack: center;
             justify-content: center;
     gap: 15px; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .about-image-card.style-three .img-card-wrapper .image-six {
+        width: 190px;
+        height: 190px; } }
   .about-image-card.style-three .img-card-wrapper .image-seven {
     width: 190px;
     height: 190px;
@@ -4578,6 +4587,10 @@ input[type="radio"]:checked {
         -ms-flex-pack: center;
             justify-content: center;
     gap: 15px; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .about-image-card.style-three .img-card-wrapper .image-seven {
+        width: 190px;
+        height: 190px; } }
 
 .about-info-card .about-info-content {
   display: -webkit-box;
@@ -4926,15 +4939,19 @@ input[type="radio"]:checked {
       border-radius: 12px;
       overflow: hidden; }
     .video-popup-card.style-three .video-popup-btn {
-      left: 0;
-      width: 135px;
-      height: 135px; }
+      left: 0; }
       @media (max-width: 1199px) {
         .video-popup-card.style-three .video-popup-btn {
           left: 50%; } }
       .video-popup-card.style-three .video-popup-btn a {
+        width: 135px;
+        height: 135px;
         background: #e30008;
         background: linear-gradient(45deg, #e30008 0%, #faae00 100%); }
+        @media (max-width: 767px) {
+          .video-popup-card.style-three .video-popup-btn a {
+            width: 80px;
+            height: 80px; } }
 
 .counter-card {
   z-index: 1;
@@ -5334,6 +5351,9 @@ input[type="radio"]:checked {
           flex-direction: column;
   gap: 30px;
   border-radius: 12px; }
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .testimonial-card {
+      padding: 35px; } }
   .testimonial-card .content-wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -5795,6 +5815,10 @@ button.testimonial-arrow-btn {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 60px 30px; }
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .client-logo-wrapper.style-two {
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 50px 30px; } }
   .client-logo-wrapper.style-two .client-logo {
     cursor: pointer;
     overflow: hidden;
@@ -5813,10 +5837,6 @@ button.testimonial-arrow-btn {
         -webkit-filter: none;
                 filter: none;
         opacity: 1; }
-  @media only screen and (min-width: 0px) and (max-width: 767px) {
-    .client-logo-wrapper.style-two {
-      grid-template-columns: repeat(3, 1fr);
-      grid-gap: 30px 30px; } }
 
 .page-header {
   border-left: 4px solid #dfe2e9;
@@ -5852,7 +5872,7 @@ button.testimonial-arrow-btn {
     width: 100%;
     height: 522px; }
   .blog-details-wrapper .single-post-item .post-meta {
-    margin-bottom: 30px; }
+    margin-bottom: 20px; }
   .blog-details-wrapper .single-post-item .post-thumbnail,
   .blog-details-wrapper .single-post-item .wp-block-post-featured-image {
     border-radius: 12px;
@@ -5898,6 +5918,10 @@ button.testimonial-arrow-btn {
         height: 350px; } }
   .single-post-item .post-content-wrapper {
     padding: 45px; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .single-post-item .post-content-wrapper {
+        padding: 35px;
+        padding-top: 30px; } }
     .single-post-item .post-content-wrapper .read-more {
       margin-top: 30px;
       display: -webkit-box;
@@ -5944,7 +5968,8 @@ button.testimonial-arrow-btn {
     @media only screen and (min-width: 0px) and (max-width: 767px) {
       .single-post-item .post-title {
         font-size: 28px;
-        line-height: 42px; } }
+        line-height: 42px;
+        margin-bottom: 5px; } }
     .single-post-item .post-title:hover a {
       color: #005bac;
       -webkit-transition: all 0.5s ease-out;
@@ -6276,7 +6301,8 @@ button.testimonial-arrow-btn {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
           -ms-flex-direction: column;
-              flex-direction: column; } }
+              flex-direction: column;
+      padding: 30px; } }
   .blog-post-nav .divider {
     background-color: #dfe2e9;
     width: 1px; }
@@ -6608,8 +6634,11 @@ button.testimonial-arrow-btn {
           flex-direction: column;
   border: none;
   padding: 0;
-  gap: 28px;
+  gap: 25px;
   margin-bottom: 45px; }
+  @media (max-width: 991px) {
+    .post-card.style-four {
+      gap: 22px; } }
   .post-card.style-four:hover .image img {
     -webkit-transform: scale(1.05);
             transform: scale(1.05); }
@@ -6716,13 +6745,13 @@ button.testimonial-arrow-btn {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column; }
     .price-card .card-title .sub-title {
-      font-family: "Roboto", sans-serif;
+      font-family: "Poppins", sans-serif;
       font-style: normal;
       font-weight: 700;
       font-size: 16px;
@@ -6732,9 +6761,11 @@ button.testimonial-arrow-btn {
       margin: 0; }
     .price-card .card-title .title {
       font-weight: 700;
-      font-size: 36px;
+      font-size: 30px;
       line-height: 30px;
-      color: #393d48; }
+      color: #393d48;
+      font-family: "Poppins", sans-serif;
+      margin-bottom: 0; }
   .price-card .price {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -7140,7 +7171,8 @@ button.testimonial-arrow-btn {
         display: -ms-inline-flexbox;
         display: inline-flex; }
       .breadcrumb-list ul li:first-child:before {
-        color: transparent; }
+        color: transparent;
+        display: none; }
 
 .wp-block-query-pagination {
   display: -webkit-box;
@@ -7311,6 +7343,9 @@ button.testimonial-arrow-btn {
       font-weight: 700;
       margin: 0;
       position: relative; }
+      @media (max-width: 575px) {
+        .nav-tab li a {
+          padding: 16px 0; } }
       .nav-tab li a:hover {
         color: #ff6731; }
       .nav-tab li a:before {
@@ -7336,7 +7371,8 @@ button.testimonial-arrow-btn {
   border-radius: 8px; }
   @media (max-width: 575px) {
     .tab-content img {
-      width: 100%; } }
+      width: 100%;
+      margin-bottom: 25px; } }
 
 .time-card-wrapper {
   display: -webkit-box;
@@ -7592,6 +7628,9 @@ button.testimonial-arrow-btn {
   font-weight: 700;
   color: #393d48;
   margin: 0; }
+@media (max-width: 991px) {
+  .simillar-project-title {
+    margin-bottom: 30px; } }
 
 .project-info-widget {
   background: #ebf4f8;
@@ -7743,6 +7782,9 @@ button.testimonial-arrow-btn {
   /* Search Widget */
   /* Tagcloud Widget */
   /* Default Widget */ }
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .widget {
+      padding: 30px; } }
   .widget ol,
   .widget ul {
     margin-bottom: 0; }
@@ -8640,6 +8682,9 @@ button.testimonial-arrow-btn {
   border: 1px solid #dfe2e9;
   border-radius: 8px;
   margin-bottom: 24px; }
+  @media (max-width: 767px) {
+    .latest-comments li .comments-box {
+      padding: 30px; } }
   .latest-comments li .comments-box .comments-avatar {
     float: left; }
     @media only screen and (min-width: 0px) and (max-width: 767px) {
@@ -9980,7 +10025,8 @@ ul.children {
         padding-top: 110px; } }
 
 .about-page-counter-area {
-  padding: 133px 0;
+  padding-top: 134px;
+  padding-bottom: 138px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; }
@@ -9999,6 +10045,9 @@ ul.children {
   @media (max-width: 767px) {
     .about-page-faq-area {
       padding: 70px 0; } }
+  @media (max-width: 575px) {
+    .about-page-faq-area .section-title {
+      margin-bottom: 20px; } }
   .about-page-faq-area .video-popup-card.style-three {
     margin-left: 220px; }
     @media (max-width: 1199px) {
@@ -10008,7 +10057,8 @@ ul.children {
 
 .about-page-timeline-area {
   background-color: #f3f8fc;
-  padding: 140px 0; }
+  padding-top: 140px;
+  padding-bottom: 144px; }
   @media (max-width: 991px) {
     .about-page-timeline-area {
       padding: 100px 0; } }
@@ -10019,7 +10069,7 @@ ul.children {
 .about-page-testimonial-area {
   background-color: #f3f7fc;
   padding-top: 140px;
-  padding-bottom: 142px; }
+  padding-bottom: 124px; }
   @media (max-width: 991px) {
     .about-page-testimonial-area {
       padding: 100px 0; } }
@@ -10041,7 +10091,8 @@ ul.children {
       padding: 70px 0; } }
 
 .about-page-team-member-area {
-  padding: 140px 0; }
+  padding-top: 140px;
+  padding-bottom: 143px; }
   @media (max-width: 991px) {
     .about-page-team-member-area {
       padding: 100px 0; } }
@@ -10058,7 +10109,7 @@ ul.children {
 
 .contact-map-area {
   padding-top: 130px;
-  padding-bottom: 151px; }
+  padding-bottom: 134px; }
   @media (max-width: 991px) {
     .contact-map-area {
       padding: 100px 0; } }
@@ -10120,6 +10171,9 @@ ul.children {
 
 .pricing-accordion-wrapper {
   padding-left: 120px; }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .pricing-accordion-wrapper {
+      padding-left: 0; } }
   @media only screen and (min-width: 0px) and (max-width: 767px) {
     .pricing-accordion-wrapper {
       padding-left: 0;

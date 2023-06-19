@@ -28,7 +28,8 @@
 }
 // Counter Area
 .about-page-counter-area {
-  padding: 133px 0;
+  padding-top: 134px;
+  padding-bottom: 138px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -51,7 +52,11 @@
   @include rmaxwd(767) {
     padding: 70px 0;
   }
-
+  .section-title {
+    @include rmaxwd(575) {
+      margin-bottom: 20px;
+    }
+  }
   .video-popup-card.style-three {
     margin-left: 220px;
 
@@ -65,7 +70,8 @@
 // Timeline Area
 .about-page-timeline-area {
   background-color: #f3f8fc;
-  padding: 140px 0;
+  padding-top: 140px;
+  padding-bottom: 144px;
 
   @include rmaxwd(991) {
     padding: 100px 0;
@@ -79,7 +85,7 @@
 .about-page-testimonial-area {
   background-color: #f3f7fc;
   padding-top: 140px;
-  padding-bottom: 142px;
+  padding-bottom: 124px;
 
   @include rmaxwd(991) {
     padding: 100px 0;
@@ -107,7 +113,8 @@
 }
 // Team Member Area
 .about-page-team-member-area {
-  padding: 140px 0;
+  padding-top: 140px;
+  padding-bottom: 143px;
 
   @include rmaxwd(991) {
     padding: 100px 0;

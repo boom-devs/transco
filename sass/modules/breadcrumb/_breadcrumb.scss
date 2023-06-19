@@ -104,6 +104,7 @@
       &:first-child {
        &:before {
          color: transparent;
+         display: none;
        }
       }
     }
