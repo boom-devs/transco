@@ -5,14 +5,21 @@
     @include rmaxwd(991) {
         padding: 100px 0;
     }
+    @include rmaxwd(767) {
+        padding-top: 35px;
+        padding-bottom: 70px;
+    }
 }
 
 .contact-map-area {
-    padding-top: 130px;
+    padding-top: 144px;
     padding-bottom: 134px;
 
     @include rmaxwd(991) {
         padding: 100px 0;
+    }
+    @include rmaxwd(767) {
+        padding: 70px 0;
     }
     .map-wodget {
         iframe {
@@ -30,6 +37,10 @@
 
         @media only screen and (min-width: 992px) and (max-width: 1199px) {
             font-size: 48px;
+        }
+        @include rmaxwd(991) {
+            font-size: 38px;
+            line-height: 32px;
         }
     }
 }

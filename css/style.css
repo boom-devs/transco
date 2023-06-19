@@ -217,7 +217,7 @@ input:focus {
 .page-area,
 .blog-area {
   padding-top: 144px;
-  padding-bottom: 129px; }
+  padding-bottom: 104px; }
   @media (max-width: 991px) {
     .page-area,
     .blog-area {
@@ -5862,7 +5862,7 @@ button.testimonial-arrow-btn {
 
 .blog-details-wrapper .comment-respond {
   margin-top: 70px;
-  margin-bottom: 15px; }
+  margin-bottom: 40px; }
 .blog-details-wrapper .post-comments {
   margin-top: 0; }
 .blog-details-wrapper .single-post-item {
@@ -7576,8 +7576,8 @@ button.testimonial-arrow-btn {
       color: #ffffff; }
 
 .project-page-wrapper {
-  padding-top: 145px;
-  padding-bottom: 136px; }
+  padding-top: 144px;
+  padding-bottom: 144px; }
   @media (max-width: 991px) {
     .project-page-wrapper {
       padding: 100px 0; } }
@@ -7589,7 +7589,7 @@ button.testimonial-arrow-btn {
     margin-top: 30px; }
 
 .project-detail-area {
-  padding: 145px 0; }
+  padding: 144px 0; }
   @media (max-width: 991px) {
     .project-detail-area {
       padding: 100px 0; } }
@@ -10106,13 +10106,20 @@ ul.children {
   @media (max-width: 991px) {
     .contact-info-area {
       padding: 100px 0; } }
+  @media (max-width: 767px) {
+    .contact-info-area {
+      padding-top: 35px;
+      padding-bottom: 70px; } }
 
 .contact-map-area {
-  padding-top: 130px;
+  padding-top: 144px;
   padding-bottom: 134px; }
   @media (max-width: 991px) {
     .contact-map-area {
       padding: 100px 0; } }
+  @media (max-width: 767px) {
+    .contact-map-area {
+      padding: 70px 0; } }
   .contact-map-area .map-wodget iframe {
     height: 380px; }
 
@@ -10125,6 +10132,10 @@ ul.children {
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .contact-title h2 {
         font-size: 48px; } }
+    @media (max-width: 991px) {
+      .contact-title h2 {
+        font-size: 38px;
+        line-height: 32px; } }
 
 .pricing-page-price-card-wrapper {
   background-color: #eef5f8;
@@ -10212,7 +10223,7 @@ ul.children {
         background: #ff6731; }
 
 .service-page-service-area {
-  padding-top: 140px;
+  padding-top: 144px;
   padding-bottom: 120px; }
   @media (max-width: 991px) {
     .service-page-service-area {
@@ -10259,7 +10270,7 @@ ul.children {
       padding: 65px 0; } }
 
 .service-details-wrapper {
-  padding-top: 140px;
+  padding-top: 144px;
   padding-bottom: 132px; }
   @media (max-width: 991px) {
     .service-details-wrapper {
@@ -10285,8 +10296,8 @@ ul.children {
     margin-bottom: 30px; }
 
 .team-page-area {
-  padding-top: 140px;
-  padding-bottom: 175px; }
+  padding-top: 144px;
+  padding-bottom: 181px; }
   @media (max-width: 991px) {
     .team-page-area {
       padding: 100px 0; } }
@@ -10307,7 +10318,8 @@ ul.children {
       margin-top: 85px; } }
 
 .blog-grid-area {
-  padding: 145px 0; }
+  padding-top: 140px;
+  padding-bottom: 144px; }
   @media (max-width: 991px) {
     .blog-grid-area {
       padding: 100px 0; } }

@@ -1,5 +1,6 @@
 .blog-grid-area {
-    padding: 145px 0;
+   padding-top: 140px;
+    padding-bottom: 144px;
 
     @include rmaxwd(991) {
         padding: 100px 0;
