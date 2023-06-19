@@ -60,6 +60,11 @@
         font-weight: 700;
         color: $secondary-color;
         margin: 0;
+
+        @include rmaxwd(767) {
+            font-size: 28px;
+            line-height: 32px;
+        }
     }
 
     @include rmaxwd(991) {

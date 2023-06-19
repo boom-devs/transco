@@ -10,6 +10,7 @@
 
         @include rmaxwd(575) {
             width: 100%;
+            margin: 0;
         }
         &:last-child {
             margin-right: 0;

@@ -7330,7 +7330,8 @@ button.testimonial-arrow-btn {
     margin-right: 50px; }
     @media (max-width: 575px) {
       .nav-tab li {
-        width: 100%; } }
+        width: 100%;
+        margin: 0; } }
     .nav-tab li:last-child {
       margin-right: 0; }
     .nav-tab li a {
@@ -7628,6 +7629,10 @@ button.testimonial-arrow-btn {
   font-weight: 700;
   color: #393d48;
   margin: 0; }
+  @media (max-width: 767px) {
+    .simillar-project-title h2 {
+      font-size: 28px;
+      line-height: 32px; } }
 @media (max-width: 991px) {
   .simillar-project-title {
     margin-bottom: 30px; } }
