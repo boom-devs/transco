@@ -559,3 +559,12 @@ input[type="radio"]:checked
     }
   }
 }
+
+// When Admin Logged In
+body {
+  &.admin-bar {
+    .header-menu-area.sticky_menu {
+      top: 30px;
+    }
+  }
+}

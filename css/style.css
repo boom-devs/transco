@@ -2083,6 +2083,9 @@ input[type="radio"]:checked {
 .logged-in .comment-respond textarea {
   margin-bottom: 12px; }
 
+body.admin-bar .header-menu-area.sticky_menu {
+  top: 30px; }
+
 @-webkit-keyframes MovefadeUp {
   0% {
     opacity: 0;
