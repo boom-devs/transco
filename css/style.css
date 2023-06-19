@@ -8130,15 +8130,15 @@ button.testimonial-arrow-btn {
       .widget ul.wp-tag-cloud li a:before,
       .widget ol.wp-tag-cloud li a:before {
         display: none; }
-  .widget.widget_categories ul li {
+  .widget.widget_categories ul li, .widget.widget_archive ul li {
     text-align: right;
     display: inline-block;
     width: 100%; }
-    .widget.widget_categories ul li.cat-item {
+    .widget.widget_categories ul li.cat-item, .widget.widget_archive ul li.cat-item {
       text-align: right;
       display: inline-block;
       width: 100%; }
-    .widget.widget_categories ul li a {
+    .widget.widget_categories ul li a, .widget.widget_archive ul li a {
       float: left; }
 
 /* About Info Widget*/
@@ -8204,6 +8204,12 @@ button.testimonial-arrow-btn {
   display: inline-block;
   width: 100%;
   font-weight: 500; }
+
+.widget_rss .wp-block-heading:before,
+.widget_rss .widget-title:before {
+  display: none; }
+.widget_rss .rss-widget-icon {
+  margin-right: 6px; }
 
 .wp-block-latest-posts .wp-block-rss__item-title,
 .wp-block-rss .wp-block-rss__item-title,

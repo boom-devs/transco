@@ -416,7 +416,8 @@
     }
   }
   // Category Widget
-  &.widget_categories {
+  &.widget_categories,
+  &.widget_archive {
     ul {
       li {
         text-align: right;
@@ -497,9 +498,19 @@
     font-weight: 500;
   }
 }
+.widget_rss {
+  .wp-block-heading:before,
+  .widget-title:before {
+    display: none;
+  }
+  .rss-widget-icon {
+    margin-right: 6px;
+  }
+}
 .wp-block-latest-posts,
 .wp-block-rss,
 .widget_rss {
+
   .wp-block-rss__item-title {
     display: inline-block;
     width: 100%;
