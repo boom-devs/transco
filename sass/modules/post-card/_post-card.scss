@@ -36,7 +36,11 @@
   .post-comments {
     margin-top: 0;
   }
-
+  .wp-block-button {
+    .wp-block-button__link {
+      color: $white !important;
+    }
+  }
   .single-post-item {
     border: 0;
     overflow: visible;
