@@ -5,7 +5,8 @@
   z-index: 2;
   position: relative;
 
-  &.mb-70 {
+  &.mb-70,
+  &.mb-75 {
     @include rmaxwd(767) {
       margin-bottom: 50px;
     }

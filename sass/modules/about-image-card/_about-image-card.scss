@@ -107,8 +107,8 @@
       }
       @include rmaxwd(650) {
         left: 0;
-        width: 150px;
-        height: 150px;
+        width: 130px;
+        height: 130px;
       }
     }
     &.image-four {
@@ -118,8 +118,6 @@
       width: 335px;
       height: 330px;
       overflow: hidden;
-      animation: MoveLeftRight 2s linear infinite alternate;
-
 
       @media only screen  and (max-width: 650px){
         width: 150px;

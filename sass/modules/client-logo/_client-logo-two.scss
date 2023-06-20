@@ -17,6 +17,13 @@
                 filter: grayscale(100%);
                 opacity: 0.65;
                 @include transition;
+
+                @include rmaxwd(767) {
+                    width: 65%;
+                }
+                @include rmaxwd(575) {
+                    width: 60%;
+                }
             }
             &:hover {
                 transform: scale(1.1);

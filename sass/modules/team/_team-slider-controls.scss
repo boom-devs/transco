@@ -6,10 +6,8 @@
     margin: 0 -55px;
 
     @include sm {
+      padding-bottom: 25px;
       margin: unset;
-    }
-    @include sm {
-      padding-bottom: 60px;
     }
     .slick-slide {
       margin: 0 55px;

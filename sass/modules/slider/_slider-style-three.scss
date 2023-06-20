@@ -25,8 +25,9 @@
 
           .slider-short-title {
             font-size: 36px;
+
             @include sm {
-              font-size: 24px;
+              font-size: 20px;
               line-height: 28px;
             }
           }

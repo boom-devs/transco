@@ -22,6 +22,9 @@
       margin: 0 12px;
       @include transition;
 
+      .info-card {
+        margin-bottom: 0;
+      }
       &.slick-active {
         @include transition;
       }
