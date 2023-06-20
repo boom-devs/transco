@@ -223,11 +223,12 @@ input.theme-btn {
 
   &:before {
     position: absolute;
-    width: 0;
-    height: 100%;
-    left: 0;
-    top: 0;
+    width: 100%;
+    height: 0%;
+    left: 50%;
+    top: 50%;
     background: linear-gradient(-45deg, rgb(227,0,8) 0%, rgb(250,174,0) 100%);
+    transform: translate(-50%, -50%) rotate(-45deg);
     content: "";
     @include transition;
     z-index: -1;
@@ -248,7 +249,7 @@ input.theme-btn {
     border-color: #E30008FF;
 
     &:before {
-      width: 100%;
+      height: 380%;
       @include transition;
     }
   }

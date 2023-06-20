@@ -6,6 +6,7 @@
         background-repeat: no-repeat;
         background-position: center center;
         border-radius: 12px;
+        top: 0;
         z-index: 2;
         @include transition;
         overflow: hidden;
@@ -15,11 +16,12 @@
             position: absolute;
             width: 100%;
             height: 100%;
-            top: 0;
-            left: 0;
+            top: 50%;
+            left: 50%;
             background-color: $white;
             z-index: -1;
             content: "";
+            transform: translate(-50%, -50%) rotate(0deg);
             @include transition;
             border: 1px solid rgb(223, 226, 233);
             border-radius: 12px;
@@ -39,8 +41,10 @@
         }
         &:hover {
             @include transition;
+            top: -10px;
             &:before {
-                width: 0;
+                visibility: hidden;
+                opacity: 0;
                 @include transition;
             }
             .title-wrapper {

@@ -34,7 +34,9 @@
     justify-content: center;
     z-index: 1;
     flex-direction: column;
-
+    img {
+      border-radius: 12px;
+    }
     .year,
     .title {
       font-size: 18px;

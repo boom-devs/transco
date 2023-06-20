@@ -387,6 +387,14 @@
         $('select.select_option').niceSelect();
 
         /*
+       Jquery Tilt Js
+       ============================*/
+        $('.tilt-animate').tilt({
+            maxTilt: 9,
+            perspective: 1200,
+        })
+
+        /*
         scrollUp
         ============================*/
         $.scrollUp({
