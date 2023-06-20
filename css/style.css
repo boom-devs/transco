@@ -6416,6 +6416,52 @@ button.testimonial-arrow-btn {
       line-height: 30px;
       text-transform: capitalize; }
 
+.post-card.style-one:hover .image img {
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1); }
+.post-card.style-one:hover .image:before {
+  height: 0; }
+.post-card.style-one:hover .date-bottom {
+  color: #ffffff;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out; }
+.post-card.style-one:hover .content .title {
+  color: #ffffff;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out; }
+.post-card.style-one .image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0; }
+  .post-card.style-one .image:before {
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    left: 50%;
+    top: 50%;
+    background-color: #ffffff;
+    -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+            transform: translate(-50%, -50%) rotate(-45deg);
+    content: "";
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    z-index: 2; }
+  .post-card.style-one .image:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    content: "";
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    z-index: 1; }
+
 .post-card {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6431,10 +6477,17 @@ button.testimonial-arrow-btn {
   border: 1px solid #dfe2e9;
   border-radius: 13px;
   gap: 40px;
-  margin-bottom: 34px; }
+  margin-bottom: 34px;
+  position: relative;
+  overflow: hidden; }
   .post-card .image {
     overflow: hidden;
     border-radius: 6px; }
+    .post-card .image img {
+      -webkit-transition: all 0.5s ease-out;
+      transition: all 0.5s ease-out;
+      -webkit-transform: scale(1);
+              transform: scale(1); }
   .post-card .overlay {
     width: 100%;
     height: 100%;
@@ -6451,7 +6504,9 @@ button.testimonial-arrow-btn {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    width: 100%; }
+    width: 100%;
+    position: relative;
+    z-index: 3; }
     .post-card .content .post-meta {
       display: -webkit-inline-box;
       display: -ms-inline-flexbox;
@@ -6493,7 +6548,9 @@ button.testimonial-arrow-btn {
     line-height: 18px;
     font-weight: 400;
     margin-bottom: 0;
-    color: #778196; }
+    color: #778196;
+    position: relative;
+    z-index: 3; }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .post-card {
       padding: 20px 25px;
@@ -6619,12 +6676,15 @@ button.testimonial-arrow-btn {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: end;
-  position: relative;
   overflow: hidden;
   border: 0; }
   .post-card.style-three:before {
     background-color: #393d48;
     opacity: 0.3; }
+  .post-card.style-three:hover .image:before {
+    height: 250%;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out; }
   .post-card.style-three:hover .image img {
     -webkit-transform: scale(1.05);
             transform: scale(1.05);
@@ -6636,7 +6696,20 @@ button.testimonial-arrow-btn {
     height: 100%;
     left: 0;
     top: 0;
-    z-index: -1; }
+    z-index: 2; }
+    .post-card.style-three .image:before {
+      position: absolute;
+      width: 200%;
+      height: 0%;
+      left: 50%;
+      top: 50%;
+      background-color: rgba(0, 0, 0, 0.3);
+      -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+              transform: translate(-50%, -50%) rotate(-45deg);
+      content: "";
+      -webkit-transition: all 0.5s ease-out;
+      transition: all 0.5s ease-out;
+      z-index: 1; }
     .post-card.style-three .image img {
       position: absolute;
       top: 0;

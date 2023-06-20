@@ -3,7 +3,6 @@
         height: 470px;
         justify-content: end;
         align-items: end;
-        position: relative;
         overflow: hidden;
         border: 0;
 
@@ -13,6 +12,10 @@
         }
         &:hover {
             .image {
+                &:before {
+                    height: 250%;
+                    @include transition;
+                }
                img {
                    transform: scale(1.05);
                    @include transition;
@@ -25,7 +28,20 @@
             height: 100%;
             left: 0;
             top: 0;
-            z-index: -1;
+            z-index: 2;
+
+            &:before {
+                position: absolute;
+                width: 200%;
+                height: 0%;
+                left: 50%;
+                top: 50%;
+                background-color: rgba(0, 0, 0, 0.3);
+                transform: translate(-50%, -50%) rotate(-45deg);
+                content: "";
+                @include transition;
+                z-index: 1;
+            }
 
             img {
                 position: absolute;
@@ -39,6 +55,7 @@
             }
         }
         .content {
+
             .post-meta {
                 color: $white;
                 display: inline-flex;
