@@ -5886,6 +5886,10 @@ button.testimonial-arrow-btn {
     border-radius: 12px;
     overflow: hidden;
     margin-bottom: 45px; }
+    @media (max-width: 767px) {
+      .blog-details-wrapper .single-post-item .post-thumbnail,
+      .blog-details-wrapper .single-post-item .wp-block-post-featured-image {
+        margin-bottom: 30px; } }
   .blog-details-wrapper .single-post-item .post-content-wrapper {
     padding: 0 0 10px 0; }
   .blog-details-wrapper .single-post-item .post-content {
@@ -6030,17 +6034,9 @@ button.testimonial-arrow-btn {
       margin-right: 5px;
       text-transform: uppercase; }
   .single-post-item .blog-post-tag {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    gap: 10px;
     padding-bottom: 20px;
     width: 100%;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
+    display: inline-block; }
     .single-post-item .blog-post-tag span {
       font-size: 16px;
       font-weight: 700;
@@ -6048,27 +6044,36 @@ button.testimonial-arrow-btn {
       font-family: "Poppins", sans-serif;
       color: #393d48;
       margin-bottom: 0;
-      margin-right: 28px;
-      text-transform: uppercase; }
-      @media only screen and (min-width: 0px) and (max-width: 767px) {
-        .single-post-item .blog-post-tag span {
-          width: 100%; } }
-    .single-post-item .blog-post-tag a {
-      color: #5e6f92;
-      display: inline-block;
-      font-size: 16px;
-      line-height: 1;
-      padding: 12px 22px;
-      border-radius: 50px;
-      -webkit-transition: all 0.5s ease-out;
-      transition: all 0.5s ease-out;
-      border: 1px solid #bfc5cb; }
-      .single-post-item .blog-post-tag a:hover {
-        color: #ffffff;
-        background: #005bac;
-        border-color: #005bac;
+      margin-right: 30px;
+      text-transform: uppercase;
+      margin-top: 9px;
+      float: left; }
+    .single-post-item .blog-post-tag .post-tag-list {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      gap: 10px;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .single-post-item .blog-post-tag .post-tag-list a {
+        color: #5e6f92;
+        display: inline-block;
+        font-size: 16px;
+        line-height: 1;
+        padding: 12px 22px;
+        border-radius: 50px;
         -webkit-transition: all 0.5s ease-out;
-        transition: all 0.5s ease-out; }
+        transition: all 0.5s ease-out;
+        border: 1px solid #bfc5cb; }
+        .single-post-item .blog-post-tag .post-tag-list a:hover {
+          color: #ffffff;
+          background: #005bac;
+          border-color: #005bac;
+          -webkit-transition: all 0.5s ease-out;
+          transition: all 0.5s ease-out; }
   .single-post-item .post-thumbnail,
   .single-post-item .post-video {
     position: relative; }
@@ -10177,7 +10182,7 @@ ul.children {
     @media (max-width: 991px) {
       .contact-title h2 {
         font-size: 38px;
-        line-height: 32px; } }
+        line-height: 44px; } }
 
 .pricing-page-price-card-wrapper {
   background-color: #eef5f8;
@@ -10880,4 +10885,5 @@ ul.children {
             columns: 2;
     -webkit-column-gap: 26px;
             column-gap: 26px; }
+
 /*# sourceMappingURL=style.css.map */

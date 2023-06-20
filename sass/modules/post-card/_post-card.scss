@@ -59,6 +59,10 @@
       border-radius: 12px;
       overflow: hidden;
       margin-bottom: 45px;
+
+      @include rmaxwd(767) {
+        margin-bottom: 30px;
+      }
     }
     .post-content-wrapper {
       padding: 0 0 10px 0;
@@ -246,12 +250,9 @@
   }
   // Post Tags
   .blog-post-tag {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
     padding-bottom: 20px;
     width: 100%;
-    align-items: center;
+    display: inline-block;
 
     span {
       font-size: 16px;
@@ -260,31 +261,37 @@
       font-family: $heading-font;
       color: $secondary-color;
       margin-bottom: 0;
-      margin-right: 28px;
+      margin-right: 30px;
       text-transform: uppercase;
-
-      @include sm {
-        width: 100%;
-      }
+      margin-top: 9px;
+      float: left;
     }
-    a {
-      color: $text-color;
-      display: inline-block;
-      font-size: 16px;
-      line-height: 1;
-      padding: 12px 22px;
-      border-radius: 50px;
-      @include transition;
-      border: 1px solid $white-50;
+    .post-tag-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
 
-      &:hover {
-        color: $white;
-        background: $primary-color;
-        border-color: $primary-color;
+      a {
+        color: $text-color;
+        display: inline-block;
+        font-size: 16px;
+        line-height: 1;
+        padding: 12px 22px;
+        border-radius: 50px;
         @include transition;
+        border: 1px solid $white-50;
+
+        &:hover {
+          color: $white;
+          background: $primary-color;
+          border-color: $primary-color;
+          @include transition;
+        }
       }
     }
   }
+
   // Post Image
   .post-thumbnail,
   .post-video {
