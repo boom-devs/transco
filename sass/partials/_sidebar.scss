@@ -570,6 +570,14 @@
       border: 0;
       align-items: center;
 
+      &:hover {
+        .latest-post-thumb {
+          img {
+            transform: scale(1.2);
+            @include transition;
+          }
+        }
+      }
       &:last-child {
         margin-bottom: 0;
       }
@@ -583,11 +591,13 @@
 
       .latest-post-thumb {
         flex-shrink: 0;
-
+        overflow: hidden;
+        width: 84px;
+        height: 84px;
+        border-radius: 6px;
         img {
-          width: 84px;
-          height: 84px;
-          border-radius: 6px;
+          transform: scale(1);
+          @include transition
         }
       }
       .latest-post-desc {
@@ -642,6 +652,12 @@
     position: relative;
     flex-shrink: 0;
 
+    &:hover {
+      img {
+        transform: scale(1.1);
+        @include transition;
+      }
+    }
     img {
       width: 100%;
       height: 100%;
@@ -649,6 +665,8 @@
       position: absolute;
       left: 0;
       top: 0;
+      transform: scale(1);
+      @include transition;
     }
   }
 }
