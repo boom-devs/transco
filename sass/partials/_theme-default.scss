@@ -227,11 +227,14 @@ input.theme-btn {
     height: 0%;
     left: 50%;
     top: 50%;
-    background: linear-gradient(-45deg, rgb(227,0,8) 0%, rgb(250,174,0) 100%);
-    transform: translate(-50%, -50%) rotate(-45deg);
+    //background: linear-gradient(-45deg, rgb(227,0,8) 0%, rgb(250,174,0) 100%);
+    //transform: translate(-50%, -50%) rotate(-45deg);
     content: "";
     @include transition;
     z-index: -1;
+    transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, -45deg) translate3d(0, -160%, 0);
+    background-color: rgba(255, 255, 255, 0.5);
+
   }
   i {
     display: inline-flex;
@@ -249,12 +252,16 @@ input.theme-btn {
     border-color: #E30008FF;
 
     &:before {
-      height: 380%;
+      transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, -45deg) translate3d(0, 150%, 0);
+      //height: 380%;
       @include transition;
     }
   }
-
+  &:focus {
+    color: $white;
+  }
 }
+
 .wp-block-loginout {
   a {
     position: relative;

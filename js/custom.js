@@ -390,8 +390,8 @@
        Jquery Tilt Js
        ============================*/
         $('.tilt-animate').tilt({
-            maxTilt: 9,
-            perspective: 1200,
+            maxTilt: 12,
+            perspective: 1500,
         })
 
         /*

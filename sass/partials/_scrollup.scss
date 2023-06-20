@@ -11,9 +11,12 @@
   height: 50px;
   background-color: $sky-color;
   border-radius: 50px;
-  padding-top: 12px;
+  border: 2px solid ;
+  outline: 2px dashed $sky-color;
+  align-items: center;
 
   i {
+    margin-top: -3px;
     display: block;
   }
 }
