@@ -10000,7 +10000,24 @@ ul.children {
 
 .testimonial-triangle-image {
   -webkit-clip-path: polygon(0 0, 100% 0, 70% 100%, 0% 100%);
-  clip-path: polygon(0 0, 100% 0, 70% 100%, 0% 100%); }
+  clip-path: polygon(0 0, 100% 0, 70% 100%, 0% 100%);
+  position: relative; }
+  .testimonial-triangle-image:hover:before {
+    left: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 900ms linear;
+    transition: all 900ms linear; }
+  .testimonial-triangle-image:before {
+    position: absolute;
+    content: "";
+    opacity: 1;
+    z-index: 3;
+    top: 0;
+    right: 50%;
+    bottom: 0;
+    left: 50%;
+    background-color: rgba(255, 255, 255, 0.3); }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .testimonial-triangle-image {
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
