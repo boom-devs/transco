@@ -1820,6 +1820,12 @@ img.emoji {
   .wp-block-social-links li {
     padding-top: 0 !important; }
 
+.single-post-item.format-quote blockquote {
+  padding: 45px; }
+  @media (max-width: 767px) {
+    .single-post-item.format-quote blockquote {
+      padding: 35px; } }
+
 blockquote {
   overflow: hidden;
   margin: 40px 0;
@@ -10913,5 +10919,4 @@ ul.children {
             columns: 2;
     -webkit-column-gap: 26px;
             column-gap: 26px; }
-
 /*# sourceMappingURL=style.css.map */

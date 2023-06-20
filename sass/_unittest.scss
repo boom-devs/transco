@@ -248,6 +248,17 @@ img {
   }
 }
 // Blockquote
+.single-post-item {
+  &.format-quote {
+    blockquote {
+      padding: 45px;
+
+      @include rmaxwd(767) {
+        padding: 35px;
+      }
+    }
+  }
+}
 blockquote {
   overflow:hidden;
   //padding: 30px 30px 30px 30px !important;
@@ -568,3 +579,4 @@ body {
     }
   }
 }
+
