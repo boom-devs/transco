@@ -395,13 +395,33 @@
         })
 
         /*
-        scrollUp
+        Scroll To Top Js
         ============================*/
-        $.scrollUp({
-            scrollText: '<i class="fa-regular fa-angle-up"></i>',
-            easingType: "linear",
-            scrollSpeed: 900,
-            animation: "fade",
+        $(function () {
+            $("#scrollTop").hide();
+            var position = $(window).scrollTop();
+            var timer;
+            $(window).on('scroll', function () {
+                var scrollTop = $(window).scrollTop();
+                clearTimeout(timer);
+                if (scrollTop > 100) {
+                    if (scrollTop > position) {
+                        $('#scrollTop').fadeOut();
+                    } else {
+                        $('#scrollTop').fadeIn();
+                        timer = window.setTimeout(function() {
+                            $("#scrollTop").fadeOut();
+                        }, 3000);
+                    }
+                    position = scrollTop;
+                } else {
+                    $('#scrollTop').fadeOut();
+                }
+            });
+            $(".scrollup-btn").click(function() {
+                $("html, body").animate({ scrollTop: 0 }, "slow");
+                return false;
+            });
         });
         /*
         Preeloader
