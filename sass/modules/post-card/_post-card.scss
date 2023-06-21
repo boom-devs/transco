@@ -59,10 +59,39 @@
       border-radius: 12px;
       overflow: hidden;
       margin-bottom: 45px;
+      position: relative;
 
       @include rmaxwd(767) {
         margin-bottom: 30px;
       }
+      &:hover {
+        img {
+          transform: scale(1.1);
+          @include transition;
+        }
+        &:before {
+          height: 250%;
+          transition: all 900ms linear;
+          background-color: transparent;
+        }
+      }
+      &:before {
+        position: absolute;
+        width: 200%;
+        height: 0%;
+        left: 50%;
+        top: 50%;
+        background-color: rgba(255, 255, 255, 0.3);
+        transform: translate(-50%, -50%) rotate(-45deg);
+        content: "";
+        z-index: 1;
+      }
+
+      img {
+        transform: scale(1);
+        @include transition;
+      }
+
     }
     .post-content-wrapper {
       padding: 0 0 10px 0;
@@ -113,6 +142,23 @@
   overflow: hidden;
   margin-bottom: 48px;
   border: 1px solid $gray-300;
+
+
+  &:hover {
+    // Post Image
+    .post-thumbnail,
+    .post-video {
+      img {
+        transform: scale(1.1);
+        @include transition;
+      }
+      &:before {
+        height: 250%;
+        transition: all 900ms linear;
+        background-color: transparent;
+      }
+    }
+  }
 
   iframe {
     width: 100%;
@@ -296,6 +342,23 @@
   .post-thumbnail,
   .post-video {
     position: relative;
+
+    &:before {
+      position: absolute;
+      width: 200%;
+      height: 0%;
+      left: 50%;
+      top: 50%;
+      background-color: rgba(255, 255, 255, 0.3);
+      transform: translate(-50%, -50%) rotate(-45deg);
+      content: "";
+      z-index: 1;
+    }
+
+    img {
+      transform: scale(1);
+      @include transition;
+    }
 
     .popup-video-wrapper {
       position: absolute;
