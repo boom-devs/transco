@@ -3,6 +3,11 @@
 
   &:hover {
    .image {
+     &:before {
+       height: 250%;
+       transition: all 900ms linear;
+       background-color: transparent;
+     }
      img {
        transform: scale(1.1);
        @include transition;
@@ -12,6 +17,19 @@
   .image {
     border-radius: 12px;
     overflow: hidden;
+    position: relative;
+
+    &:before {
+      position: absolute;
+      width: 200%;
+      height: 0%;
+      left: 50%;
+      top: 50%;
+      background-color: rgba(255, 255, 255, 0.3);
+      transform: translate(-50%, -50%) rotate(-45deg);
+      content: "";
+      z-index: 1;
+    }
     img {
       width: 100%;
       height: 100%;
@@ -28,6 +46,7 @@
     padding: 0 36px;
     width: 100%;
     bottom: -36px;
+    z-index: 2;
     .content {
       width: 100%;
       padding: 30px 20px;
@@ -64,7 +83,7 @@
       align-items: center;
       gap: 22px;
       width: 94%;
-      margin-top: -68px;
+      margin-top: -60px;
       z-index: -1;
       transition: all 0.5s ease-out;
       a {

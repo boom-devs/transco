@@ -37,7 +37,6 @@
           &:hover {
             &:before {
               @include transition;
-              transform: skewX(-0deg);
               background-color: $sky-color;
             }
           }

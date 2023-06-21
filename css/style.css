@@ -2429,6 +2429,10 @@ body.admin-bar .header-menu-area.sticky_menu {
     display: inline-block;
     font-weight: 700;
     z-index: 2; }
+    .header-top .header-top-btn a:hover:before {
+      -webkit-transition: all 0.5s ease-out;
+      transition: all 0.5s ease-out;
+      background-color: #1eae98; }
     .header-top .header-top-btn a:before {
       position: absolute;
       content: "";
@@ -2438,7 +2442,9 @@ body.admin-bar .header-menu-area.sticky_menu {
       left: 0;
       width: 100%;
       height: 100%;
-      z-index: -1; }
+      z-index: -1;
+      -webkit-transition: all 0.5s ease-out;
+      transition: all 0.5s ease-out; }
   .header-top .social-profile {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2747,8 +2753,6 @@ body.admin-bar .header-menu-area.sticky_menu {
   .header-area.style-two .header-top .header-top-btn a:hover:before {
     -webkit-transition: all 0.5s ease-out;
     transition: all 0.5s ease-out;
-    -webkit-transform: skewX(0deg);
-            transform: skewX(0deg);
     background-color: #1eae98; }
   .header-area.style-two .header-top .header-top-btn a:before {
     border-radius: 0;
@@ -4016,6 +4020,17 @@ body.admin-bar .header-menu-area.sticky_menu {
     -webkit-transition: all 0.6s ease;
     transition: all 0.6s ease;
     border-radius: 10px; }
+    .info-card.style-four .image-wrapper:before {
+      position: absolute;
+      width: 200%;
+      height: 0%;
+      left: 50%;
+      top: 50%;
+      background-color: rgba(255, 255, 255, 0.3);
+      -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+              transform: translate(-50%, -50%) rotate(-45deg);
+      content: "";
+      z-index: 1; }
     .info-card.style-four .image-wrapper .overlay {
       background: #393d49; }
   .info-card.style-four .content-wrapper {
@@ -4088,8 +4103,8 @@ body.admin-bar .header-menu-area.sticky_menu {
               flex-direction: column;
       gap: 30px;
       margin-top: -400px;
-      -webkit-transition: all 0.5s ease-out;
-      transition: all 0.5s ease-out; }
+      -webkit-transition: 0.7s ease-in;
+      transition: 0.7s ease-in; }
       .info-card.style-four .content-wrapper .content .desc {
         color: #ffffff; }
       .info-card.style-four .content-wrapper .content .read-more a {
@@ -4098,15 +4113,22 @@ body.admin-bar .header-menu-area.sticky_menu {
           display: none; }
         .info-card.style-four .content-wrapper .content .read-more a .icon i {
           color: #ffffff; }
+  .info-card.style-four:hover .image-wrapper:before {
+    height: 250%;
+    -webkit-transition: all 800ms linear;
+    transition: all 800ms linear;
+    background-color: transparent; }
   .info-card.style-four:hover .title-wrapper {
     border-bottom: 1px solid rgba(255, 255, 255, 0.6); }
   .info-card.style-four:hover .content-wrapper .content-area {
     visibility: visible;
     opacity: 1;
-    -webkit-transition: all 0.5s ease-out;
-    transition: all 0.5s ease-out; }
+    -webkit-transition: 0.8s ease-in;
+    transition: 0.8s ease-in; }
     .info-card.style-four:hover .content-wrapper .content-area .content {
-      margin: 20px 0 30px 0; }
+      margin: 20px 0 30px 0;
+      -webkit-transition: all 0.5s ease-out;
+      transition: all 0.5s ease-out; }
 
 .info-card-slider-wrapper {
   position: relative; }
@@ -6636,7 +6658,7 @@ button.testimonial-arrow-btn {
 .post-card.style-two {
   padding: 0;
   border: none;
-  border-radius: 12px;
+  border-radius: 0;
   gap: 30px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -6674,8 +6696,8 @@ button.testimonial-arrow-btn {
             align-items: center;
     overflow: hidden; }
     .post-card.style-two .image img {
-      -webkit-transform: scale(1.01);
-              transform: scale(1.01);
+      -webkit-transform: scale(1);
+              transform: scale(1);
       width: 100%;
       -webkit-transition: all 0.5s ease-out;
       transition: all 0.5s ease-out; }
@@ -6755,8 +6777,9 @@ button.testimonial-arrow-btn {
     opacity: 0.3; }
   .post-card.style-three:hover .image:before {
     height: 250%;
-    -webkit-transition: all 0.5s ease-out;
-    transition: all 0.5s ease-out; }
+    -webkit-transition: all 800ms linear;
+    transition: all 800ms linear;
+    background-color: transparent; }
   .post-card.style-three:hover .image img {
     -webkit-transform: scale(1.05);
             transform: scale(1.05);
@@ -6775,12 +6798,10 @@ button.testimonial-arrow-btn {
       height: 0%;
       left: 50%;
       top: 50%;
-      background-color: rgba(0, 0, 0, 0.3);
+      background-color: rgba(255, 255, 255, 0.3);
       -webkit-transform: translate(-50%, -50%) rotate(-45deg);
               transform: translate(-50%, -50%) rotate(-45deg);
       content: "";
-      -webkit-transition: all 0.5s ease-out;
-      transition: all 0.5s ease-out;
       z-index: 1; }
     .post-card.style-three .image img {
       position: absolute;
@@ -6849,14 +6870,32 @@ button.testimonial-arrow-btn {
   @media (max-width: 991px) {
     .post-card.style-four {
       gap: 22px; } }
+  .post-card.style-four:hover .image:before {
+    height: 250%;
+    -webkit-transition: all 900ms linear;
+    transition: all 900ms linear;
+    background-color: transparent; }
   .post-card.style-four:hover .image img {
     -webkit-transform: scale(1.05);
             transform: scale(1.05); }
-  .post-card.style-four .image img {
-    width: 100%;
-    height: 100%;
-    -webkit-transition: all 0.5s ease-out;
-    transition: all 0.5s ease-out; }
+  .post-card.style-four .image {
+    position: relative; }
+    .post-card.style-four .image:before {
+      position: absolute;
+      width: 200%;
+      height: 0%;
+      left: 50%;
+      top: 50%;
+      background-color: rgba(255, 255, 255, 0.3);
+      -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+              transform: translate(-50%, -50%) rotate(-45deg);
+      content: "";
+      z-index: 1; }
+    .post-card.style-four .image img {
+      width: 100%;
+      height: 100%;
+      -webkit-transition: all 0.5s ease-out;
+      transition: all 0.5s ease-out; }
   .post-card.style-four .content .title a {
     font-size: 24px;
     line-height: 33px; }
@@ -6942,9 +6981,10 @@ button.testimonial-arrow-btn {
   position: relative;
   border-radius: 14px; }
   .price-card:hover .price:before {
-    width: 100%;
-    -webkit-transition: all 0.5s ease-out;
-    transition: all 0.5s ease-out; }
+    height: 250%;
+    -webkit-transition: all 700ms linear;
+    transition: all 700ms linear;
+    background-color: transparent; }
   .price-card .card-title {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -7000,15 +7040,17 @@ button.testimonial-arrow-btn {
     z-index: 2; }
     .price-card .price:before {
       position: absolute;
-      width: 0;
-      height: 100%;
-      left: 0;
-      top: 0;
+      width: 200%;
+      height: 0%;
+      left: 50%;
+      top: 50%;
       background: linear-gradient(135deg, #1eae98 0%, #005bac 100%);
+      -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+              transform: translate(-50%, -50%) rotate(-45deg);
       content: "";
+      z-index: -1;
       -webkit-transition: all 0.5s ease-out;
-      transition: all 0.5s ease-out;
-      z-index: -1; }
+      transition: all 0.5s ease-out; }
     .price-card .price .price-heading {
       font-family: "Poppins", sans-serif;
       font-style: normal;
@@ -9223,6 +9265,11 @@ ul.children {
 
 .team-member-card {
   position: relative; }
+  .team-member-card:hover .image:before {
+    height: 250%;
+    -webkit-transition: all 900ms linear;
+    transition: all 900ms linear;
+    background-color: transparent; }
   .team-member-card:hover .image img {
     -webkit-transform: scale(1.1);
             transform: scale(1.1);
@@ -9230,7 +9277,19 @@ ul.children {
     transition: all 0.5s ease-out; }
   .team-member-card .image {
     border-radius: 12px;
-    overflow: hidden; }
+    overflow: hidden;
+    position: relative; }
+    .team-member-card .image:before {
+      position: absolute;
+      width: 200%;
+      height: 0%;
+      left: 50%;
+      top: 50%;
+      background-color: rgba(255, 255, 255, 0.3);
+      -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+              transform: translate(-50%, -50%) rotate(-45deg);
+      content: "";
+      z-index: 1; }
     .team-member-card .image img {
       width: 100%;
       height: 100%;
@@ -9255,7 +9314,8 @@ ul.children {
             flex-direction: column;
     padding: 0 36px;
     width: 100%;
-    bottom: -36px; }
+    bottom: -36px;
+    z-index: 2; }
     .team-member-card .content-wrapper .content {
       width: 100%;
       padding: 30px 20px;
@@ -9303,7 +9363,7 @@ ul.children {
               align-items: center;
       gap: 22px;
       width: 94%;
-      margin-top: -68px;
+      margin-top: -60px;
       z-index: -1;
       -webkit-transition: all 0.5s ease-out;
       transition: all 0.5s ease-out; }
@@ -10003,21 +10063,21 @@ ul.children {
   clip-path: polygon(0 0, 100% 0, 70% 100%, 0% 100%);
   position: relative; }
   .testimonial-triangle-image:hover:before {
-    left: 0;
-    right: 0;
-    opacity: 0;
+    height: 250%;
     -webkit-transition: all 900ms linear;
-    transition: all 900ms linear; }
+    transition: all 900ms linear;
+    background-color: transparent; }
   .testimonial-triangle-image:before {
     position: absolute;
-    content: "";
-    opacity: 1;
-    z-index: 3;
-    top: 0;
-    right: 50%;
-    bottom: 0;
+    width: 200%;
+    height: 0%;
     left: 50%;
-    background-color: rgba(255, 255, 255, 0.3); }
+    top: 50%;
+    background-color: rgba(255, 255, 255, 0.3);
+    -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+            transform: translate(-50%, -50%) rotate(-45deg);
+    content: "";
+    z-index: 1; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .testimonial-triangle-image {
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);

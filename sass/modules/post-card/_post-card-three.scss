@@ -14,7 +14,8 @@
             .image {
                 &:before {
                     height: 250%;
-                    @include transition;
+                    transition: all 800ms linear;
+                    background-color: transparent;
                 }
                img {
                    transform: scale(1.05);
@@ -36,10 +37,9 @@
                 height: 0%;
                 left: 50%;
                 top: 50%;
-                background-color: rgba(0, 0, 0, 0.3);
+                background-color: rgba(255, 255, 255, 0.3);
                 transform: translate(-50%, -50%) rotate(-45deg);
                 content: "";
-                @include transition;
                 z-index: 1;
             }
 
