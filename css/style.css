@@ -2814,7 +2814,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   line-height: 1.5;
   font-weight: 700; }
   .mean-container .mean-nav ul li a:hover {
-    color: var(--tp-theme-1); }
+    color: #ffffff; }
 
 .mean-container .mean-nav ul li a.mean-expand {
   margin-top: 5px;
@@ -2823,14 +2823,10 @@ body.admin-bar .header-menu-area.sticky_menu {
   height: 30px;
   width: 30px;
   line-height: 30px;
-  color: var(--tp-heading-primary);
+  color: #393d48;
   line-height: 30px;
   top: 0;
   font-weight: 400; }
-  .mean-container .mean-nav ul li a.mean-expand:hover {
-    background-color: #005bac;
-    color: #ffffff;
-    border-color: #005bac; }
 
 .mean-container .mean-nav ul li > a > i {
   display: none; }
@@ -2841,13 +2837,20 @@ body.admin-bar .header-menu-area.sticky_menu {
 .mean-container .mean-nav > ul > li:first-child > a {
   border-top: 0; }
 
+.mean-container .mean-nav ul li.dropdown-opened a.mean-expand.mean-clicked {
+  background-color: #005bac;
+  border-color: #005bac !important; }
+
+.mean-container .mean-nav ul li.dropdown-opened a.mean-expand.mean-clicked i {
+  color: #ffffff; }
+
 .mean-container .mean-nav ul li a.mean-expand.mean-clicked {
-  color: var(--tp-common-white); }
+  color: #ffffff; }
 
 .mean-container .mean-nav ul li a.mean-expand.mean-clicked i {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
-  color: var(--tp-heading-primary); }
+  color: #ffffff; }
 
 .mobile-menu-bar a {
   display: -webkit-box;
@@ -11259,5 +11262,4 @@ ul.children {
             columns: 2;
     -webkit-column-gap: 26px;
             column-gap: 26px; }
-
 /*# sourceMappingURL=style.css.map */
