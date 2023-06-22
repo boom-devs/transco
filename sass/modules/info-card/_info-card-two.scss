@@ -11,6 +11,7 @@
         @include transition;
         overflow: hidden;
         margin-bottom: 24px;
+        border: 1px solid rgb(223, 226, 233);
 
         &:before {
             position: absolute;
@@ -22,9 +23,7 @@
             z-index: -1;
             content: "";
             transform: translate(-50%, -50%) rotate(0deg);
-            @include transition;
-            border: 1px solid rgb(223, 226, 233);
-            border-radius: 12px;
+            transition: 0.8s;
         }
         &:after {
             position: absolute;
@@ -32,12 +31,11 @@
             height: 100%;
             top: 0;
             left: 0;
-            @include gradient-color-skye;
+            background-color: $white;
             z-index: -2;
             content: "";
             @include transition;
-            border: 1px solid rgb(223, 226, 233);
-            border-radius: 12px;
+            border: 0;
         }
         &:hover {
             @include transition;
@@ -45,6 +43,10 @@
             &:before {
                 visibility: hidden;
                 opacity: 0;
+                transition: 0.8s;
+            }
+            &:after {
+                @include gradient-color-skye;
                 @include transition;
             }
             .title-wrapper {

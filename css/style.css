@@ -2723,7 +2723,8 @@ body.admin-bar .header-menu-area.sticky_menu {
             flex-direction: column; }
     .header-btn .content-wrapper span {
       display: inline-block;
-      width: 100%; }
+      width: 100%;
+      color: #5e6f92; }
     .header-btn .content-wrapper .text {
       font-family: "Poppins", sans-serif;
       font-size: 18px;
@@ -3718,7 +3719,8 @@ body.admin-bar .header-menu-area.sticky_menu {
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
   overflow: hidden;
-  margin-bottom: 24px; }
+  margin-bottom: 24px;
+  border: 1px solid #dfe2e9; }
   .info-card.style-two:before {
     position: absolute;
     width: 100%;
@@ -3730,24 +3732,20 @@ body.admin-bar .header-menu-area.sticky_menu {
     content: "";
     -webkit-transform: translate(-50%, -50%) rotate(0deg);
             transform: translate(-50%, -50%) rotate(0deg);
-    -webkit-transition: all 0.5s ease-out;
-    transition: all 0.5s ease-out;
-    border: 1px solid #dfe2e9;
-    border-radius: 12px; }
+    -webkit-transition: 0.8s;
+    transition: 0.8s; }
   .info-card.style-two:after {
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
-    background: #005bac;
-    background: linear-gradient(135deg, rgba(0, 91, 172, 0.83) 0%, #1eae98 100%);
+    background-color: #ffffff;
     z-index: -2;
     content: "";
     -webkit-transition: all 0.5s ease-out;
     transition: all 0.5s ease-out;
-    border: 1px solid #dfe2e9;
-    border-radius: 12px; }
+    border: 0; }
   .info-card.style-two:hover {
     -webkit-transition: all 0.5s ease-out;
     transition: all 0.5s ease-out;
@@ -3755,6 +3753,11 @@ body.admin-bar .header-menu-area.sticky_menu {
     .info-card.style-two:hover:before {
       visibility: hidden;
       opacity: 0;
+      -webkit-transition: 0.8s;
+      transition: 0.8s; }
+    .info-card.style-two:hover:after {
+      background: #005bac;
+      background: linear-gradient(135deg, rgba(0, 91, 172, 0.83) 0%, #1eae98 100%);
       -webkit-transition: all 0.5s ease-out;
       transition: all 0.5s ease-out; }
     .info-card.style-two:hover .title-wrapper {
@@ -9551,8 +9554,8 @@ ul.children {
       -webkit-transition: all 0.5s ease-out;
       transition: all 0.5s ease-out; }
   .portfolio-style-two:hover .image img {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
     -webkit-transition: all 0.5s ease-out;
     transition: all 0.5s ease-out; }
   .portfolio-style-two .image {
@@ -11262,4 +11265,5 @@ ul.children {
             columns: 2;
     -webkit-column-gap: 26px;
             column-gap: 26px; }
+
 /*# sourceMappingURL=style.css.map */
