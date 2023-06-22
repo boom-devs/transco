@@ -312,9 +312,9 @@ input.theme-btn {
     .theme-btn:hover:before,
     .wp-block-loginout a:hover:before,
     input.theme-btn:hover:before {
-      height: 300%;
-      -webkit-transition: all 700ms linear;
-      transition: all 700ms linear;
+      height: 350%;
+      -webkit-transition: all 500ms linear;
+      transition: all 500ms linear;
       background-color: transparent; }
   .theme-btn:focus,
   .wp-block-loginout a:focus,
