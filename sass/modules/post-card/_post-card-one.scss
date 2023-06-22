@@ -45,7 +45,6 @@
         left: 0;
         top: 0;
         background-color: $white;
-        //transform: translate(-50%, -50%) rotate(-45deg);
         content: "";
         @include transition;
         z-index: 2;

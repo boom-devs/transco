@@ -276,17 +276,17 @@ input.theme-btn {
   .wp-block-loginout a:before,
   input.theme-btn:before {
     position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
+    width: 200%;
+    height: 0%;
+    left: 50%;
+    top: 50%;
+    background-image: linear-gradient(-45deg, #e30008 0%, #faae00 100%);
+    -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+            transform: translate(-50%, -50%) rotate(-45deg);
     content: "";
-    -webkit-transition: all 0.5s ease-out;
-    transition: all 0.5s ease-out;
     z-index: -1;
-    -webkit-transform: scale3d(1.8, 1.3, 1) rotate3d(0, 0, 1, -45deg) translate3d(0, -150%, 0);
-            transform: scale3d(1.8, 1.3, 1) rotate3d(0, 0, 1, -45deg) translate3d(0, -150%, 0);
-    background-color: rgba(255, 255, 255, 0.5); }
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out; }
   .theme-btn i,
   .wp-block-loginout a i,
   input.theme-btn i {
@@ -308,16 +308,14 @@ input.theme-btn {
   .theme-btn:hover,
   .wp-block-loginout a:hover,
   input.theme-btn:hover {
-    color: #fff;
-    border-color: #E30008FF;
-    background-image: linear-gradient(-45deg, #e30008 0%, #faae00 100%); }
+    color: #fff; }
     .theme-btn:hover:before,
     .wp-block-loginout a:hover:before,
     input.theme-btn:hover:before {
-      -webkit-transform: scale3d(1.8, 1.3, 1) rotate3d(0, 0, 1, -45deg) translate3d(0, 160%, 0);
-              transform: scale3d(1.8, 1.3, 1) rotate3d(0, 0, 1, -45deg) translate3d(0, 160%, 0);
-      -webkit-transition: all 0.5s ease-out;
-      transition: all 0.5s ease-out; }
+      height: 300%;
+      -webkit-transition: all 700ms linear;
+      transition: all 700ms linear;
+      background-color: transparent; }
   .theme-btn:focus,
   .wp-block-loginout a:focus,
   input.theme-btn:focus {
@@ -2501,9 +2499,9 @@ body.admin-bar .header-menu-area.sticky_menu {
         display: none; }
       .header-menu-area.sticky_menu .logo .standard-logo {
         display: none; }
-      .header-menu-area.sticky_menu .logo .retina-logo {
+      .header-menu-area.sticky_menu .logo .sticky-logo {
         display: block; }
-        .header-menu-area.sticky_menu .logo .retina-logo img {
+        .header-menu-area.sticky_menu .logo .sticky-logo img {
           width: 170px;
           -webkit-transition: all 0.5s ease-out;
           transition: all 0.5s ease-out; }
@@ -2552,17 +2550,19 @@ body.admin-bar .header-menu-area.sticky_menu {
     .header-menu-area .logo .standard-logo img {
       -webkit-transition: all 0.5s ease-out;
       transition: all 0.5s ease-out; }
-    .header-menu-area .logo .retina-logo {
+    .header-menu-area .logo .sticky-logo {
       display: none; }
       @media only screen and (max-width: 767px) {
-        .header-menu-area .logo .retina-logo {
+        .header-menu-area .logo .sticky-logo {
           width: 170px; } }
       @media only screen and (max-width: 1199px) {
-        .header-menu-area .logo .retina-logo {
+        .header-menu-area .logo .sticky-logo {
           display: block; } }
-      .header-menu-area .logo .retina-logo img {
+      .header-menu-area .logo .sticky-logo img {
         -webkit-transition: all 0.5s ease-out;
         transition: all 0.5s ease-out; }
+    .header-menu-area .logo .retina-logo {
+      display: none; }
 
 .main-menu ul {
   margin: 0;
@@ -5274,20 +5274,6 @@ body.admin-bar .header-menu-area.sticky_menu {
     height: 72px;
     border-radius: 50px;
     color: #ffffff; }
-    .process-step .count:before {
-      width: 100%;
-      height: 100%;
-      background-color: #005bac;
-      content: "";
-      position: absolute;
-      left: 0;
-      top: 0;
-      z-index: -1;
-      -webkit-transform: scale(0) rotateY(0deg);
-              transform: scale(0) rotateY(0deg);
-      -webkit-transition: all 0.5s ease-out;
-      transition: all 0.5s ease-out;
-      border-radius: 50%; }
     .process-step .count span {
       font-size: 24px;
       line-height: 36px;
@@ -5434,6 +5420,20 @@ body.admin-bar .header-menu-area.sticky_menu {
       color: #ffffff;
       -webkit-transition: all 0.5s ease-out;
       transition: all 0.5s ease-out; }
+      .process-step.style-two .icon .count:before {
+        width: 100%;
+        height: 100%;
+        background-color: #005bac;
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: -1;
+        -webkit-transform: scale(0) rotateY(0deg);
+                transform: scale(0) rotateY(0deg);
+        -webkit-transition: all 0.5s ease-out;
+        transition: all 0.5s ease-out;
+        border-radius: 50%; }
       .process-step.style-two .icon .count span {
         font-size: 16px;
         line-height: 36px;
@@ -6034,28 +6034,10 @@ button.testimonial-arrow-btn {
         margin-bottom: 30px; } }
     .blog-details-wrapper .single-post-item .post-thumbnail:hover img,
     .blog-details-wrapper .single-post-item .wp-block-post-featured-image:hover img {
-      -webkit-transform: scale(1.1);
-              transform: scale(1.1);
+      -webkit-transform: scale(1.06);
+              transform: scale(1.06);
       -webkit-transition: all 0.5s ease-out;
       transition: all 0.5s ease-out; }
-    .blog-details-wrapper .single-post-item .post-thumbnail:hover:before,
-    .blog-details-wrapper .single-post-item .wp-block-post-featured-image:hover:before {
-      height: 250%;
-      -webkit-transition: all 900ms linear;
-      transition: all 900ms linear;
-      background-color: transparent; }
-    .blog-details-wrapper .single-post-item .post-thumbnail:before,
-    .blog-details-wrapper .single-post-item .wp-block-post-featured-image:before {
-      position: absolute;
-      width: 200%;
-      height: 0%;
-      left: 50%;
-      top: 50%;
-      background-color: rgba(255, 255, 255, 0.3);
-      -webkit-transform: translate(-50%, -50%) rotate(-45deg);
-              transform: translate(-50%, -50%) rotate(-45deg);
-      content: "";
-      z-index: 1; }
     .blog-details-wrapper .single-post-item .post-thumbnail img,
     .blog-details-wrapper .single-post-item .wp-block-post-featured-image img {
       -webkit-transform: scale(1);
@@ -6096,16 +6078,10 @@ button.testimonial-arrow-btn {
   /* Sticky Post */ }
   .single-post-item:hover .post-thumbnail img,
   .single-post-item:hover .post-video img {
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    -webkit-transform: scale(1.06);
+            transform: scale(1.06);
     -webkit-transition: all 0.5s ease-out;
     transition: all 0.5s ease-out; }
-  .single-post-item:hover .post-thumbnail:before,
-  .single-post-item:hover .post-video:before {
-    height: 250%;
-    -webkit-transition: all 900ms linear;
-    transition: all 900ms linear;
-    background-color: transparent; }
   .single-post-item iframe {
     width: 100%;
     height: 522px; }
@@ -6260,19 +6236,8 @@ button.testimonial-arrow-btn {
           transition: all 0.5s ease-out; }
   .single-post-item .post-thumbnail,
   .single-post-item .post-video {
-    position: relative; }
-    .single-post-item .post-thumbnail:before,
-    .single-post-item .post-video:before {
-      position: absolute;
-      width: 200%;
-      height: 0%;
-      left: 50%;
-      top: 50%;
-      background-color: rgba(255, 255, 255, 0.3);
-      -webkit-transform: translate(-50%, -50%) rotate(-45deg);
-              transform: translate(-50%, -50%) rotate(-45deg);
-      content: "";
-      z-index: 1; }
+    position: relative;
+    overflow: hidden; }
     .single-post-item .post-thumbnail img,
     .single-post-item .post-video img {
       -webkit-transform: scale(1);
@@ -6297,7 +6262,7 @@ button.testimonial-arrow-btn {
       background-size: cover;
       background-repeat: no-repeat;
       -webkit-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
-      animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+              animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -6314,7 +6279,7 @@ button.testimonial-arrow-btn {
       .single-post-item .post-thumbnail .video-btn a:hover,
       .single-post-item .post-video .video-btn a:hover {
         -webkit-animation: none;
-        animation: none; }
+                animation: none; }
   .single-post-item button.post-gallery-btn {
     position: absolute;
     width: 60px;
@@ -6847,11 +6812,6 @@ button.testimonial-arrow-btn {
   .post-card.style-three:before {
     background-color: #393d48;
     opacity: 0.3; }
-  .post-card.style-three:hover .image:before {
-    height: 250%;
-    -webkit-transition: all 800ms linear;
-    transition: all 800ms linear;
-    background-color: transparent; }
   .post-card.style-three:hover .image img {
     -webkit-transform: scale(1.05);
             transform: scale(1.05);
@@ -6864,17 +6824,6 @@ button.testimonial-arrow-btn {
     left: 0;
     top: 0;
     z-index: 2; }
-    .post-card.style-three .image:before {
-      position: absolute;
-      width: 200%;
-      height: 0%;
-      left: 50%;
-      top: 50%;
-      background-color: rgba(255, 255, 255, 0.3);
-      -webkit-transform: translate(-50%, -50%) rotate(-45deg);
-              transform: translate(-50%, -50%) rotate(-45deg);
-      content: "";
-      z-index: 1; }
     .post-card.style-three .image img {
       position: absolute;
       top: 0;
@@ -6942,27 +6891,11 @@ button.testimonial-arrow-btn {
   @media (max-width: 991px) {
     .post-card.style-four {
       gap: 22px; } }
-  .post-card.style-four:hover .image:before {
-    height: 250%;
-    -webkit-transition: all 900ms linear;
-    transition: all 900ms linear;
-    background-color: transparent; }
   .post-card.style-four:hover .image img {
-    -webkit-transform: scale(1.05);
-            transform: scale(1.05); }
+    -webkit-transform: scale(1.06);
+            transform: scale(1.06); }
   .post-card.style-four .image {
     position: relative; }
-    .post-card.style-four .image:before {
-      position: absolute;
-      width: 200%;
-      height: 0%;
-      left: 50%;
-      top: 50%;
-      background-color: rgba(255, 255, 255, 0.3);
-      -webkit-transform: translate(-50%, -50%) rotate(-45deg);
-              transform: translate(-50%, -50%) rotate(-45deg);
-      content: "";
-      z-index: 1; }
     .post-card.style-four .image img {
       width: 100%;
       height: 100%;
@@ -10158,22 +10091,6 @@ ul.children {
   -webkit-clip-path: polygon(0 0, 100% 0, 70% 100%, 0% 100%);
   clip-path: polygon(0 0, 100% 0, 70% 100%, 0% 100%);
   position: relative; }
-  .testimonial-triangle-image:hover:before {
-    height: 250%;
-    -webkit-transition: all 900ms linear;
-    transition: all 900ms linear;
-    background-color: transparent; }
-  .testimonial-triangle-image:before {
-    position: absolute;
-    width: 200%;
-    height: 0%;
-    left: 50%;
-    top: 50%;
-    background-color: rgba(255, 255, 255, 0.3);
-    -webkit-transform: translate(-50%, -50%) rotate(-45deg);
-            transform: translate(-50%, -50%) rotate(-45deg);
-    content: "";
-    z-index: 1; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .testimonial-triangle-image {
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);

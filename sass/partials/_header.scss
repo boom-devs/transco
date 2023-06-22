@@ -154,7 +154,7 @@
       .standard-logo {
         display: none;
       }
-      .retina-logo {
+      .sticky-logo {
         display: block;
 
         img {
@@ -231,7 +231,7 @@
       }
     }
 
-    .retina-logo {
+    .sticky-logo {
       display: none;
 
       @media only screen and (max-width: 767px) {
@@ -243,6 +243,9 @@
       img {
         @include transition;
       }
+    }
+    .retina-logo {
+      display: none;
     }
   }
 }
