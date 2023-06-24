@@ -36,13 +36,13 @@
         const nav = $(".header-menu-area.sticky-header");
         let scrolled = false;
         $(window).scroll(function () {
-            if (100 < $(window).scrollTop() && !scrolled) {
+            if (80 < $(window).scrollTop() && !scrolled) {
                 nav
                     .addClass("sticky_menu animated fadeIn")
                     .animate({"margin-top": "0px"});
                 scrolled = true;
             }
-            if (100 > $(window).scrollTop() && scrolled) {
+            if (80 > $(window).scrollTop() && scrolled) {
                 nav.removeClass("sticky_menu animated fadeIn").css("margin-top", "0px");
                 scrolled = false;
             }
