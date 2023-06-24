@@ -2417,8 +2417,6 @@ body.admin-bar .header-menu-area.sticky_menu {
         font-size: 16px;
         font-weight: 400;
         font-family: "Roboto", sans-serif; }
-        .header-top .header-contact-info span a:hover {
-          color: #1eae98; }
   @media only screen and (min-width: 0px) and (max-width: 767px) {
     .header-top .header-top-btn {
       display: none; } }
@@ -2731,6 +2729,8 @@ body.admin-bar .header-menu-area.sticky_menu {
       font-weight: 700;
       color: #393d48;
       line-height: 22px; }
+      .header-btn .content-wrapper .text a {
+        color: #393d48; }
   @media only screen and (max-width: 1199px) {
     .header-btn {
       display: none; } }

@@ -60,10 +60,6 @@
         font-size: 16px;
         font-weight: 400;
         font-family: $body-font;
-        &:hover {
-          color: $sky-color;
-
-        }
       }
     }
   }
@@ -492,6 +488,10 @@
       font-weight: 700;
       color: $secondary-color;
       line-height: 22px;
+
+      a {
+        color: $secondary-color;
+      }
     }
   }
 
