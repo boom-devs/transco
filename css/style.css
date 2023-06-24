@@ -216,7 +216,7 @@ input:focus {
 
 .page-area {
   padding-top: 136px;
-  padding-bottom: 120px; }
+  padding-bottom: 124px; }
 
 .blog-area {
   padding-top: 144px;
@@ -234,7 +234,7 @@ input:focus {
     padding-bottom: 22px; } }
 .page-area .page-links,
 .blog-area .page-links {
-  margin-bottom: 15px; }
+  margin-bottom: 20px; }
 
 .border-radius-12 {
   border-radius: 12px; }
@@ -9100,7 +9100,7 @@ ul.children {
 /*Comment Input Filed*/
 .page-content .post-comments-form {
   padding-top: 1px;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
   clear: both;
   display: inline-block;
   width: 100%; }
@@ -11186,5 +11186,4 @@ ul.children {
             columns: 2;
     -webkit-column-gap: 26px;
             column-gap: 26px; }
-
 /*# sourceMappingURL=style.css.map */
