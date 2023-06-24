@@ -169,10 +169,17 @@ input:focus {
   background-color: $black;
 }
 
-.page-area,
+.page-area {
+  padding-top: 140px;
+  padding-bottom: 129px;
+}
 .blog-area {
   padding-top: 144px;
   padding-bottom: 104px;
+}
+.page-area,
+.blog-area {
+
 
   @include rmaxwd(991) {
     padding-top: 100px;
