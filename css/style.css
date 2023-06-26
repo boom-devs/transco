@@ -9312,6 +9312,11 @@ ul.children {
   .comment-respond.style-two .checkbox-field-wrapper .wpcf7-list-item .form-check-input {
     background-color: transparent;
     border-color: #739bbf !important; }
+  .comment-respond.style-two .checkbox-field-wrapper .single-checkbox-field input[type="checkbox"],
+  .comment-respond.style-two .checkbox-field-wrapper .single-checkbox-field input[type="radio"],
+  .comment-respond.style-two .checkbox-field-wrapper .wpcf7-list-item input[type="checkbox"],
+  .comment-respond.style-two .checkbox-field-wrapper .wpcf7-list-item input[type="radio"] {
+    border-color: #739bbf !important; }
   .comment-respond.style-two .checkbox-field-wrapper .single-checkbox-field input[type="checkbox"]:checked,
   .comment-respond.style-two .checkbox-field-wrapper .single-checkbox-field input[type="radio"]:checked,
   .comment-respond.style-two .checkbox-field-wrapper .wpcf7-list-item input[type="checkbox"]:checked,

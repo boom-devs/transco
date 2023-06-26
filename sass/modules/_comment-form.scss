@@ -240,6 +240,10 @@
           background-color: transparent;
           border-color: #739bbf !important;
         }
+        input[type="checkbox"],
+        input[type="radio"] {
+          border-color: #739bbf !important;
+        }
         input[type="checkbox"]:checked,
         input[type="radio"]:checked {
           border-color: $sky-color !important;
