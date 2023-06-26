@@ -4448,6 +4448,8 @@ body.admin-bar .header-menu-area.sticky_menu {
   .promotional-banner-widget.style-two .promotional-bananer-content .content .text {
     font-size: 24px;
     color: #ffffff; }
+    .promotional-banner-widget.style-two .promotional-bananer-content .content .text a {
+      color: #ffffff; }
 
 .video-popup-card {
   position: relative;
