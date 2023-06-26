@@ -52,6 +52,10 @@
             font-weight: 400;
             color: $text-color;
             margin-bottom: 0;
+
+            a {
+                color: $text-color;
+            }
         }
     }
 
