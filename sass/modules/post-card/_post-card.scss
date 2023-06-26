@@ -54,6 +54,11 @@
     .post-meta {
       margin-bottom: 20px;
     }
+    .post-gallery {
+      &:hover {
+        transform: scale(1);
+      }
+    }
     .post-thumbnail,
     .post-video,
     .post-gallery,
