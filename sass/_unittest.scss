@@ -576,6 +576,10 @@ body {
   &.admin-bar {
     .header-menu-area.sticky_menu {
       top: 30px;
+
+      @include rmaxwd(600) {
+        top: 0;
+      }
     }
   }
 }
