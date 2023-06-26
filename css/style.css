@@ -6036,8 +6036,8 @@ button.testimonial-arrow-btn {
   .blog-details-wrapper .single-post-item .post-meta {
     margin-bottom: 20px; }
   .blog-details-wrapper .single-post-item .post-gallery:hover {
-    -webkit-transform: scale(1);
-            transform: scale(1); }
+    -webkit-transform: scale(1) !important;
+            transform: scale(1) !important; }
   .blog-details-wrapper .single-post-item .post-thumbnail,
   .blog-details-wrapper .single-post-item .post-video,
   .blog-details-wrapper .single-post-item .post-gallery,
