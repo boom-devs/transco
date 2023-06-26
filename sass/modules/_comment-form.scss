@@ -234,7 +234,8 @@
       }
     }
     .checkbox-field-wrapper {
-      .single-checkbox-field {
+      .single-checkbox-field,
+      .wpcf7-list-item {
         .form-check-input {
           background-color: transparent;
           border-color: #739bbf !important;

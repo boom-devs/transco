@@ -9308,11 +9308,14 @@ ul.children {
     color: #c7cdda; }
   .comment-respond.style-two .single-input-field *::placeholder {
     color: #c7cdda; }
-  .comment-respond.style-two .checkbox-field-wrapper .single-checkbox-field .form-check-input {
+  .comment-respond.style-two .checkbox-field-wrapper .single-checkbox-field .form-check-input,
+  .comment-respond.style-two .checkbox-field-wrapper .wpcf7-list-item .form-check-input {
     background-color: transparent;
     border-color: #739bbf !important; }
   .comment-respond.style-two .checkbox-field-wrapper .single-checkbox-field input[type="checkbox"]:checked,
-  .comment-respond.style-two .checkbox-field-wrapper .single-checkbox-field input[type="radio"]:checked {
+  .comment-respond.style-two .checkbox-field-wrapper .single-checkbox-field input[type="radio"]:checked,
+  .comment-respond.style-two .checkbox-field-wrapper .wpcf7-list-item input[type="checkbox"]:checked,
+  .comment-respond.style-two .checkbox-field-wrapper .wpcf7-list-item input[type="radio"]:checked {
     border-color: #1eae98 !important; }
 .comment-respond.style-three input,
 .comment-respond.style-three select,
