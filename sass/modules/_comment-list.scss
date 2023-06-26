@@ -2,6 +2,7 @@
 .post-comments {
   margin-top: 70px;
 }
+
 .blog-coment-title,
 .wp-block-comments {
   h2,
@@ -85,6 +86,9 @@
 
 /* Block Comment End */
 .latest-comments {
+  .comment-respond {
+    margin-top: 94px;
+  }
   li {
 
     .children {

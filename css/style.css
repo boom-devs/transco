@@ -9000,6 +9000,8 @@ button.testimonial-arrow-btn {
         transition: all 0.5s ease-out; }
 
 /* Block Comment End */
+.latest-comments .comment-respond {
+  margin-top: 94px; }
 .latest-comments li .children .comments-box {
   margin-left: 50px; }
   @media only screen and (min-width: 0px) and (max-width: 767px) {
@@ -11186,4 +11188,5 @@ ul.children {
             columns: 2;
     -webkit-column-gap: 26px;
             column-gap: 26px; }
+
 /*# sourceMappingURL=style.css.map */
