@@ -384,7 +384,7 @@
         /*
        Jquery Nice Select Js
        ============================*/
-        $('select.select_option').niceSelect();
+        $('select.select_option, select.wpcf7-select').niceSelect();
 
         /*
        Jquery Tilt Js
