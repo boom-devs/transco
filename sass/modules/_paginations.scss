@@ -7,6 +7,10 @@
   .wp-block-query-pagination-numbers {
     width: inherit;
   }
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
   .wp-block-query-pagination-previous,
   .wp-block-query-pagination-next,
   .nav-next a,

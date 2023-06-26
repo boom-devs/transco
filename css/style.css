@@ -7449,6 +7449,13 @@ button.testimonial-arrow-btn {
   .navigation.posts-navigation .wp-block-query-pagination-numbers,
   .comment-navigation .wp-block-query-pagination-numbers {
     width: inherit; }
+  .wp-block-query-pagination .nav-links,
+  .navigation.posts-navigation .nav-links,
+  .comment-navigation .nav-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 20px; }
   .wp-block-query-pagination .wp-block-query-pagination-previous,
   .wp-block-query-pagination .wp-block-query-pagination-next,
   .wp-block-query-pagination .nav-next a,
