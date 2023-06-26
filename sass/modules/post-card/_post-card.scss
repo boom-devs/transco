@@ -56,7 +56,9 @@
     }
     .post-gallery {
       &:hover {
-        transform: scale(1) !important;
+        img {
+          transform: scale(1) !important;
+        }
       }
     }
     .post-thumbnail,

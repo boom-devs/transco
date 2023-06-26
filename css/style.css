@@ -6035,7 +6035,7 @@ button.testimonial-arrow-btn {
     height: 522px; }
   .blog-details-wrapper .single-post-item .post-meta {
     margin-bottom: 20px; }
-  .blog-details-wrapper .single-post-item .post-gallery:hover {
+  .blog-details-wrapper .single-post-item .post-gallery:hover img {
     -webkit-transform: scale(1) !important;
             transform: scale(1) !important; }
   .blog-details-wrapper .single-post-item .post-thumbnail,
