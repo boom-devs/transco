@@ -650,11 +650,13 @@ body {
 .post-template-default {
   &.postid-163 {
     .blog-details-wrapper .single-post-item .post-content {
-      margin-bottom: 32px;
+      margin-bottom: 34px;
     }
   }
   &.postid-150 {
     .blog-details-wrapper .single-post-item .post-content {
+      margin-bottom: 34px;
+
       .wp-block-group.is-layout-constrained {
         &:last-child {
           border: 1px solid #000;
@@ -663,10 +665,16 @@ body {
     }
   }
   &.postid-51 {
-    .blog-details-wrapper .single-post-item .post-content {
-      p {
-        &:last-child {
-          margin-bottom: 0;
+    .blog-details-wrapper {
+      .post-comments {
+        margin-top: 94px;
+      }
+      .single-post-item .post-content {
+        margin-bottom: 25px;
+        p {
+          &:last-child {
+            margin-bottom: 0;
+          }
         }
       }
     }
