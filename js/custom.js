@@ -298,7 +298,7 @@
        ============================*/
         $(".post-gallery").slick({
             slidesToShow: 1,
-            infinite: false,
+            infinite: true,
             autoplay: true,
             draggable: true,
             arrows: true,
