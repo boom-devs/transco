@@ -2134,6 +2134,9 @@ body.admin-bar .header-menu-area.sticky_menu {
   display: inline-block;
   width: 100%; }
 
+.post-template-default.postid-163 .blog-details-wrapper .single-post-item .post-content {
+  margin-bottom: 32px; }
+
 @-webkit-keyframes MovefadeUp {
   0% {
     opacity: 0;

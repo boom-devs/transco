@@ -641,4 +641,12 @@ body {
       }
     }
   }
+
+}
+.post-template-default {
+  &.postid-163 {
+    .blog-details-wrapper .single-post-item .post-content {
+      margin-bottom: 32px;
+    }
+  }
 }
