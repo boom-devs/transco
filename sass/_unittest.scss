@@ -690,4 +690,13 @@ body {
       }
     }
   }
+  &.postid-1785 {
+    .blog-details-wrapper {
+      .single-post-item .post-content {
+        .wp-block-button__link {
+          color: $white !important;
+        }
+      }
+    }
+  }
 }
