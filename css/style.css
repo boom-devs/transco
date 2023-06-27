@@ -2153,6 +2153,8 @@ body.admin-bar .header-menu-area.sticky_menu {
   margin-top: 20px; }
 .post-template-default.postid-1785 .blog-details-wrapper .single-post-item .post-content .wp-block-button__link {
   color: #ffffff !important; }
+.post-template-default.postid-1149 .blog-details-wrapper .latest-comments li .comments-box .comments-text p {
+  margin-bottom: 0; }
 
 @-webkit-keyframes MovefadeUp {
   0% {

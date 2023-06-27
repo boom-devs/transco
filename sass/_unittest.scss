@@ -699,4 +699,13 @@ body {
       }
     }
   }
+  &.postid-1149 {
+    .blog-details-wrapper {
+      .latest-comments li .comments-box .comments-text {
+        p {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
 }
