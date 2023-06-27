@@ -44,6 +44,11 @@
   }
   // Footer Info Widget
   .footer-widget-info {
+    padding-right: 30px;
+
+    @include rmaxwd(1199) {
+      padding-right: 0;
+    }
     p {
       color: $white-100;
       margin-bottom: 30px;
