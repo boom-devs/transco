@@ -2138,6 +2138,8 @@ body.admin-bar .header-menu-area.sticky_menu {
   margin-top: 78px;
   display: inline-block;
   width: 100%; }
+.page-template-default.page-id-3 .page-area {
+  padding-top: 128px; }
 
 .post-template-default.postid-163 .blog-details-wrapper .single-post-item .post-content {
   margin-bottom: 34px; }

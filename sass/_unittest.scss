@@ -649,7 +649,11 @@ body {
       }
     }
   }
-
+  &.page-id-3 {
+    .page-area {
+      padding-top: 128px;
+    }
+  }
 }
 .post-template-default {
   &.postid-163 {
