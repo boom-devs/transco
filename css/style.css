@@ -2128,8 +2128,12 @@ body.admin-bar .header-menu-area.sticky_menu {
     body.admin-bar .header-menu-area.sticky_menu {
       top: 0; } }
 
-.page-template-default.page.page-id-146 .page-content p:last-child {
+.page-template-default.page-id-146 .page-content p:last-child {
   margin-bottom: 10px; }
+.page-template-default.page-id-1133 .page-content .comment-respond {
+  margin-top: 78px;
+  display: inline-block;
+  width: 100%; }
 
 @-webkit-keyframes MovefadeUp {
   0% {
