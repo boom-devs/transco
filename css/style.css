@@ -8588,6 +8588,10 @@ button.testimonial-arrow-btn {
   display: none; }
 .widget_rss .rss-widget-icon {
   margin-right: 6px; }
+.widget_rss ul li a.rsswidget {
+  color: #393d48; }
+  .widget_rss ul li a.rsswidget:hover {
+    color: #005bac; }
 
 .wp-block-latest-posts .wp-block-rss__item-title,
 .wp-block-rss .wp-block-rss__item-title,

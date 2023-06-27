@@ -509,6 +509,18 @@
   .rss-widget-icon {
     margin-right: 6px;
   }
+  ul {
+    li {
+      a {
+        &.rsswidget {
+          color: $secondary-color;
+          &:hover {
+            color: $primary-color;
+          }
+        }
+      }
+    }
+  }
 }
 .wp-block-latest-posts,
 .wp-block-rss,
