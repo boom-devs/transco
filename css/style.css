@@ -6184,16 +6184,16 @@ button.testimonial-arrow-btn {
       color: #005bac;
       -webkit-transition: all 0.5s ease-out;
       transition: all 0.5s ease-out; }
-  .single-post-item .post-content {
+  .single-post-item .post-content p {
     margin-top: 20px; }
-    .single-post-item .post-content h2,
-    .single-post-item .post-content h3,
-    .single-post-item .post-content h4,
-    .single-post-item .post-content h5,
-    .single-post-item .post-content h6 {
-      margin-bottom: 10px; }
-    .single-post-item .post-content p {
-      margin-bottom: unset; }
+  .single-post-item .post-content h2,
+  .single-post-item .post-content h3,
+  .single-post-item .post-content h4,
+  .single-post-item .post-content h5,
+  .single-post-item .post-content h6 {
+    margin-bottom: 10px; }
+  .single-post-item .post-content p {
+    margin-bottom: unset; }
   .single-post-item .single-post-meta {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
