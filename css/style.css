@@ -7758,6 +7758,8 @@ button.testimonial-arrow-btn {
 /* Block Comment Start */
 .wp-block-comments .wp-block-comment-template {
   padding-left: 0; }
+  .wp-block-comments .wp-block-comment-template .wp-block-comment-reply-link {
+    margin-top: 15px; }
   .wp-block-comments .wp-block-comment-template li .wp-block-columns {
     padding: 50px;
     border: 1px solid #dfe2e9;

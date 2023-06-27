@@ -18,7 +18,9 @@
 .wp-block-comments {
   .wp-block-comment-template {
     padding-left: 0;
-
+    .wp-block-comment-reply-link {
+      margin-top: 15px;
+    }
     li {
       .wp-block-columns {
         padding: 50px;
