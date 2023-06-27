@@ -666,9 +666,9 @@ body {
   }
   &.postid-51 {
     .blog-details-wrapper {
-      .post-comments {
-        margin-top: 94px;
-      }
+      //.post-comments {
+      //  margin-top: 94px;
+      //}
       .single-post-item .post-content {
         margin-bottom: 25px;
         p {
@@ -679,11 +679,11 @@ body {
       }
     }
   }
-  &.postid-34 {
-    .blog-details-wrapper {
-      .comment-respond {
-        margin-top: 80px;
-      }
-    }
-  }
+  //&.postid-34 {
+  //  .blog-details-wrapper {
+  //    .comment-respond {
+  //      margin-top: 80px;
+  //    }
+  //  }
+  //}
 }
