@@ -9773,15 +9773,22 @@ ul.children {
       padding-top: 150px;
       padding-bottom: 70px; } }
 
+.squre-shape-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 340px;
+  overflow: hidden;
+  margin-top: -170px; }
+
 .counter-squre-shape {
   width: 245px;
   height: 245px;
   border-radius: 18px;
   background: linear-gradient(-45deg, #e30008 0%, #faae00 100%);
-  -webkit-transform: rotate(-124deg);
-          transform: rotate(-124deg);
+  -webkit-transform: translateY(-50%) rotate(-124deg);
+          transform: translateY(-50%) rotate(-124deg);
   right: -135px;
-  bottom: -110px;
+  top: 50%;
   position: absolute; }
   @media (max-width: 991px) {
     .counter-squre-shape {
@@ -9882,17 +9889,17 @@ ul.children {
   border-radius: 18px;
   background: #e30008;
   background: linear-gradient(45deg, #e30008 0%, #faae00 100%);
-  -webkit-transform: rotate(27deg);
-          transform: rotate(27deg);
+  -webkit-transform: translateY(-50%) rotate(27deg);
+          transform: translateY(-50%) rotate(27deg);
   left: -36px;
-  top: -90px;
-  position: absolute; }
+  top: 50%;
+  position: absolute;
+  z-index: 9; }
   @media (max-width: 991px) {
     .appointment-squre-shape {
       width: 100px;
       height: 100px;
-      left: -50px;
-      top: -50px; } }
+      left: -50px; } }
 
 .blue-overlay {
   position: absolute;
