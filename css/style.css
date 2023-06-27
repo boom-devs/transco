@@ -1691,6 +1691,8 @@ table {
   margin-top: 20px; }
 .page-content figure.wp-caption.aligncenter {
   margin-top: 40px; }
+.page-content dl, .page-content ol, .page-content ul {
+  margin-bottom: 11px; }
 
 /* Text meant only for screen readers. */
 .screen-reader-text {
@@ -11270,5 +11272,4 @@ ul.children {
             columns: 2;
     -webkit-column-gap: 26px;
             column-gap: 26px; }
-
 /*# sourceMappingURL=style.css.map */

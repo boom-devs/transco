@@ -76,6 +76,7 @@ table {
     }
   }
 }
+// Page Content Unit Test
 .page-content {
   .size-full.alignright {
     margin-bottom: 15px;
@@ -83,6 +84,10 @@ table {
   }
   figure.wp-caption.aligncenter {
     margin-top: 40px;
+  }
+
+  dl, ol, ul {
+    margin-bottom: 11px;
   }
 }
 
