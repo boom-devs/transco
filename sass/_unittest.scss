@@ -362,7 +362,11 @@ blockquote {
   .wp-block-file {
     margin-top: 20px;
   }
-
+  .wp-block-group__inner-container {
+    p {
+      margin-top: 0 !important;
+    }
+  }
 }
 
 .has-very-light-gray-color.has-very-light-gray-color {

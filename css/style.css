@@ -1907,6 +1907,8 @@ blockquote {
   margin-bottom: 15px; }
 .post-content .wp-block-file {
   margin-top: 20px; }
+.post-content .wp-block-group__inner-container p {
+  margin-top: 0 !important; }
 
 .has-very-light-gray-color.has-very-light-gray-color {
   color: #fff;
@@ -11291,5 +11293,4 @@ ul.children {
             columns: 2;
     -webkit-column-gap: 26px;
             column-gap: 26px; }
-
 /*# sourceMappingURL=style.css.map */
