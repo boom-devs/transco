@@ -9003,8 +9003,7 @@ button.testimonial-arrow-btn {
       background: #005bac;
       background: linear-gradient(135deg, rgba(0, 91, 172, 0.83) 0%, #1eae98 100%); }
 
-.post-comments-form,
-.post-comments {
+.comment-respond {
   margin-top: 70px; }
 
 .blog-coment-title h2,
@@ -9166,12 +9165,6 @@ ul.children {
   margin-top: 10px; }
 
 /*Comment Input Filed*/
-.page-content .post-comments-form {
-  padding-top: 1px;
-  margin-bottom: 20px;
-  clear: both;
-  display: inline-block;
-  width: 100%; }
 .page-content .latest-comments .comment-respond {
   margin-bottom: 40px; }
 
@@ -11272,4 +11265,5 @@ ul.children {
             columns: 2;
     -webkit-column-gap: 26px;
             column-gap: 26px; }
+
 /*# sourceMappingURL=style.css.map */
