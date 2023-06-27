@@ -570,8 +570,23 @@ input[type="radio"]:checked
     }
   }
 }
+// Zoom Instagram Widget
+.zoom-instagram-widget {
+ p {
+   color: $white;
 
-// When Admin Logged In
+   a {
+     color: $orange-color;
+   }
+ }
+  ul {
+    list-style: none;
+    li {
+      color: $white;
+    }
+  }
+}
+  // When Admin Logged In
 body {
   &.admin-bar {
     .header-menu-area.sticky_menu {

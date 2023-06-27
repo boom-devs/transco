@@ -2102,6 +2102,15 @@ input[type="radio"]:checked {
 .logged-in .comment-respond textarea {
   margin-bottom: 12px; }
 
+.zoom-instagram-widget p {
+  color: #ffffff; }
+  .zoom-instagram-widget p a {
+    color: #ff6731; }
+.zoom-instagram-widget ul {
+  list-style: none; }
+  .zoom-instagram-widget ul li {
+    color: #ffffff; }
+
 body.admin-bar .header-menu-area.sticky_menu {
   top: 30px; }
   @media (max-width: 600px) {
