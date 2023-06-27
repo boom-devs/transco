@@ -89,6 +89,15 @@ table {
   dl, ol, ul {
     margin-bottom: 11px;
   }
+  .comment-respond {
+    margin-top: 94px;
+    margin-bottom: 20px;
+  }
+  .latest-comments {
+    .comment-respond {
+      margin-bottom: 40px;
+    }
+  }
 }
 
 

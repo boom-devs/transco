@@ -1693,6 +1693,11 @@ table {
   margin-top: 40px; }
 .page-content dl, .page-content ol, .page-content ul {
   margin-bottom: 11px; }
+.page-content .comment-respond {
+  margin-top: 94px;
+  margin-bottom: 20px; }
+.page-content .latest-comments .comment-respond {
+  margin-bottom: 40px; }
 
 /* Text meant only for screen readers. */
 .screen-reader-text {
@@ -9165,9 +9170,6 @@ ul.children {
   margin-top: 10px; }
 
 /*Comment Input Filed*/
-.page-content .latest-comments .comment-respond {
-  margin-bottom: 40px; }
-
 .post-comments-title .sub-title {
   font-size: 18px;
   font-weight: 700;
