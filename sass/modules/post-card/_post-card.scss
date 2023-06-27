@@ -603,6 +603,10 @@
     flex-grow: 1;
     width: 50%;
 
+    @include rmaxwd(767) {
+      width: 100%;
+    }
+
       &:last-child {
         flex-direction: row-reverse;
 
