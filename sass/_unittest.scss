@@ -359,6 +359,12 @@ blockquote {
   .wp-block-search {
     margin-bottom: 15px;
   }
+  .wp-block-cover.has-custom-content-position {
+    .wp-block-file {
+      margin-top: 20px;
+    }
+  }
+
 }
 
 .has-very-light-gray-color.has-very-light-gray-color {
@@ -389,11 +395,7 @@ blockquote {
 .wp-block-cover-text a {
   color: #fff;
 }
-.wp-block-cover {
-  .wp-block-file {
-    margin-top: 20px;
-  }
-}
+
 .wp-block-rss {
   padding-left: 0 !important;
 }
