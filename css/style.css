@@ -1879,7 +1879,8 @@ blockquote {
 
 .wp-block-pullquote {
   border-top: 5px solid #005bac !important;
-  border-bottom: 5px solid #005bac !important; }
+  border-bottom: 5px solid #005bac !important;
+  background-color: #eef5f8; }
 
 .wp-block-quote__citation, .wp-block-quote cite, .wp-block-quote footer {
   margin-top: 10px;
