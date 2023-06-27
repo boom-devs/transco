@@ -653,4 +653,13 @@ body {
       margin-bottom: 32px;
     }
   }
+  &.postid-150 {
+    .blog-details-wrapper .single-post-item .post-content {
+      .wp-block-group.is-layout-constrained {
+        &:last-child {
+          border: 1px solid #000;
+        }
+      }
+    }
+  }
 }
