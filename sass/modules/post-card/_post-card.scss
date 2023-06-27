@@ -182,7 +182,9 @@
     }
     blockquote {
       margin: 0;
-
+      p {
+        margin-top: 0;
+      }
       cite {
         a {
           font-family: $body-font;

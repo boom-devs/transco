@@ -6150,6 +6150,8 @@ button.testimonial-arrow-btn {
     margin: 0; }
   .single-post-item.format-quote blockquote {
     margin: 0; }
+    .single-post-item.format-quote blockquote p {
+      margin-top: 0; }
     .single-post-item.format-quote blockquote cite a {
       font-family: "Roboto", sans-serif;
       font-size: 16px;
