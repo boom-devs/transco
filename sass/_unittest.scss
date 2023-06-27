@@ -662,4 +662,13 @@ body {
       }
     }
   }
+  &.postid-51 {
+    .blog-details-wrapper .single-post-item .post-content {
+      p {
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
 }
