@@ -48,6 +48,12 @@
             }
         });
 
+        /*
+        Jquery Empty Post Content Hide
+        ============================*/
+        $('.blog-area .post-content p').filter(function() {
+            return /\u00A0/.test($(this).text());
+        }).hide();
 
         /*
         Jquery Tab
