@@ -601,6 +601,7 @@
     gap: 20px;
     flex-basis: 0;
     flex-grow: 1;
+    width: 50%;
 
       &:last-child {
         flex-direction: row-reverse;
@@ -627,6 +628,8 @@
       }
     }
     .text {
+      width: 100%;
+
       span {
         font-size: 14px;
         font-family: $heading-font;
