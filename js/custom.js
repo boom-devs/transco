@@ -33,21 +33,29 @@
         /*
         Stikey Js
         ============================*/
-        const nav = $(".header-menu-area.sticky-header");
-        let scrolled = false;
-        $(window).scroll(function () {
-            if (160 < $(window).scrollTop() && !scrolled) {
-                nav
-                    .addClass("sticky_menu animated fadeIn")
-                    .animate({"margin-top": "0px"});
-                scrolled = true;
-            }
-            if (160 > $(window).scrollTop() && scrolled) {
-                nav.removeClass("sticky_menu animated fadeIn").css("margin-top", "0px");
-                scrolled = false;
-            }
-        });
 
+        const body = document.body;
+        const html = document.documentElement;
+        const height = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
+
+        if( height  > 1400 ) {
+            const nav = $(".header-menu-area.sticky-header");
+            let scrolled = false;
+            $(window).scroll(function () {
+                if (160 < $(window).scrollTop() && !scrolled) {
+                    nav
+                        .addClass("sticky_menu animated fadeIn")
+                        .animate({"margin-top": "0px"});
+                    scrolled = true;
+                }
+                if (160 > $(window).scrollTop() && scrolled) {
+                    nav.removeClass("sticky_menu animated fadeIn").css("margin-top", "0px");
+                    scrolled = false;
+                }
+            });
+        }
+
+        console.log(height)
         /*
         Jquery Empty Post Content Hide
         ============================*/
