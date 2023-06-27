@@ -6119,6 +6119,8 @@ button.testimonial-arrow-btn {
       .blog-details-wrapper .single-post-item .post-content p img {
         margin: 20px 0;
         border-radius: 8px; }
+  .blog-details-wrapper .single-post-item .blog-post-tag .social-share {
+    padding-bottom: 20px; }
 .blog-details-wrapper .wp-block-calendar {
   margin-bottom: 30px; }
 
@@ -6253,7 +6255,6 @@ button.testimonial-arrow-btn {
       margin-right: 5px;
       text-transform: uppercase; }
   .single-post-item .blog-post-tag {
-    padding-bottom: 20px;
     width: 100%;
     display: inline-block; }
     .single-post-item .blog-post-tag span {

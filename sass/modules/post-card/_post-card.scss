@@ -123,6 +123,11 @@
         }
       }
     }
+    .blog-post-tag {
+      .social-share {
+        padding-bottom: 20px;
+      }
+    }
   }
   .wp-block-calendar {
     margin-bottom: 30px;
@@ -295,7 +300,6 @@
   }
   // Post Tags
   .blog-post-tag {
-    padding-bottom: 20px;
     width: 100%;
     display: inline-block;
 
