@@ -55,7 +55,6 @@
             });
         }
 
-        console.log(height)
         /*
         Jquery Empty Post Content Hide
         ============================*/
