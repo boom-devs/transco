@@ -708,4 +708,13 @@ body {
       }
     }
   }
+  &.postid-555 {
+    .blog-details-wrapper {
+      .single-post-item .post-content {
+        .gallery {
+          margin-top: 20px;
+        }
+      }
+    }
+  }
 }
