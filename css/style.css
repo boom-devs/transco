@@ -1931,6 +1931,9 @@ blockquote {
 .wp-block-cover-text a {
   color: #fff; }
 
+.wp-block-cover .wp-block-file {
+  margin-top: 20px; }
+
 .wp-block-rss {
   padding-left: 0 !important; }
 
