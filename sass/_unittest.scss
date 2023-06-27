@@ -381,15 +381,18 @@ blockquote {
 .wp-block-latest-comments {
   padding-left: 0 !important;
 }
-.wp-block-cover p.wp-block-cover-text {
-  color: #fff;
+.wp-block-cover p.wp-block-cover-text,
+.wp-block-cover.is-light .wp-block-cover__inner-container {
+  color: #fff !important;
 }
+
 .wp-block-cover-text a {
   color: #fff;
 }
 .wp-block-rss {
   padding-left: 0 !important;
 }
+
 .widget .wp-block-archives-dropdown,
 .widget .wp-block-categories-dropdown,
 .widget .wp-block-loginout,
@@ -613,3 +616,12 @@ body {
   }
 }
 
+.page-template-default.page.page-id-146 {
+  .page-content {
+    p {
+      &:last-child {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
