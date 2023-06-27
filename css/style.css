@@ -9300,6 +9300,7 @@ ul.children {
     transition: all 0.4s ease 0s; }
 
 .comment-respond.style-two {
+  margin: 0;
   background-color: transparent;
   padding: 82px 88px 82px 6px; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -9357,17 +9358,19 @@ ul.children {
   .comment-respond.style-two .checkbox-field-wrapper .wpcf7-list-item input[type="checkbox"]:checked,
   .comment-respond.style-two .checkbox-field-wrapper .wpcf7-list-item input[type="radio"]:checked {
     border-color: #1eae98 !important; }
-.comment-respond.style-three input,
-.comment-respond.style-three select,
-.comment-respond.style-three textarea {
-  border: 1px solid #dfe2e9 !important;
-  -webkit-box-shadow: none;
-          box-shadow: none; }
-.comment-respond.style-three input:focus,
-.comment-respond.style-three textarea:focus,
-.comment-respond.style-three .form-select:focus,
-.comment-respond.style-three .nice-select:focus {
-  border-color: #005bac !important; }
+.comment-respond.style-three {
+  margin: 0; }
+  .comment-respond.style-three input,
+  .comment-respond.style-three select,
+  .comment-respond.style-three textarea {
+    border: 1px solid #dfe2e9 !important;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
+  .comment-respond.style-three input:focus,
+  .comment-respond.style-three textarea:focus,
+  .comment-respond.style-three .form-select:focus,
+  .comment-respond.style-three .nice-select:focus {
+    border-color: #005bac !important; }
 
 .team-member-card {
   position: relative; }
@@ -10538,6 +10541,9 @@ ul.children {
     .contact-info-area {
       padding-top: 35px;
       padding-bottom: 70px; } }
+
+.contact-form-area .comment-respond {
+  margin-top: 45px; }
 
 .contact-map-area {
   padding-top: 144px;
