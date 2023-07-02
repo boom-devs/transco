@@ -6838,7 +6838,6 @@ button.testimonial-arrow-btn:hover i {
   margin-bottom: 20px;
   flex-direction: column;
   width: 100%;
-  gap: 32px;
 }
 .single-post-item .social-share {
   display: flex;
@@ -9035,6 +9034,16 @@ button.testimonial-arrow-btn:hover i {
   line-height: 0;
   border: 0;
   margin-left: 0 !important;
+}
+.widget .single-post-item .single-post-meta {
+  display: inline-flex;
+  align-items: flex-start;
+  padding-top: 15px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  flex-direction: column;
+  width: 100%;
+  gap: 32px;
 }
 .widget .tagcloud,
 .widget .wp-block-tag-cloud {
