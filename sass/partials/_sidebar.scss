@@ -300,18 +300,6 @@
     }
   }
 
-  .single-post-item {
-    .single-post-meta {
-      display: inline-flex;
-      align-items: flex-start;
-      padding-top: 15px;
-      margin-top: 30px;
-      margin-bottom: 20px;
-      flex-direction: column;
-      width: 100%;
-      gap: 32px;
-    }
-  }
   /* Tagcloud Widget */
   .tagcloud,
   .wp-block-tag-cloud {
@@ -727,4 +715,9 @@
     color: rgba(255, 255, 255, 0.53);
     margin-bottom: 32px;
   }
+}
+
+//
+.single-post-meta {
+  gap: 32px;
 }

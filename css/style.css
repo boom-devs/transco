@@ -9035,16 +9035,6 @@ button.testimonial-arrow-btn:hover i {
   border: 0;
   margin-left: 0 !important;
 }
-.widget .single-post-item .single-post-meta {
-  display: inline-flex;
-  align-items: flex-start;
-  padding-top: 15px;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  flex-direction: column;
-  width: 100%;
-  gap: 32px;
-}
 .widget .tagcloud,
 .widget .wp-block-tag-cloud {
   display: flex;
@@ -9431,6 +9421,10 @@ button.testimonial-arrow-btn:hover i {
 .widget_promotion p {
   color: rgba(255, 255, 255, 0.53);
   margin-bottom: 32px;
+}
+
+.single-post-meta {
+  gap: 32px;
 }
 
 @media (max-width: 1199px) {
