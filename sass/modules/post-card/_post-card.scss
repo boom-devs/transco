@@ -20,7 +20,7 @@
 // Blog Details Page
 .blog-area {
   ol,
-  ul{
+  ul {
     padding-left: 20px;
 
     li {
@@ -85,7 +85,6 @@
         transform: scale(1);
         @include transition;
       }
-
     }
     .post-content-wrapper {
       padding: 0 0 10px 0;
@@ -142,7 +141,6 @@
   overflow: hidden;
   margin-bottom: 48px;
   border: 1px solid $gray-300;
-
 
   &:hover {
     // Post Image
@@ -228,7 +226,7 @@
     //margin-bottom: 10px;
     margin-bottom: 0;
 
-    @include sm{
+    @include sm {
       font-size: 28px;
       line-height: 42px;
       margin-top: 5px;
@@ -251,14 +249,13 @@
     h3,
     h4,
     h5,
-    h6{
+    h6 {
       margin-bottom: 10px;
     }
 
     p {
       margin-bottom: unset;
     }
-
   }
 
   .single-post-meta {
@@ -269,6 +266,7 @@
     margin-bottom: 20px;
     flex-direction: column;
     width: 100%;
+    gap: 32px;
   }
   // Social Share
   .social-share {
@@ -364,7 +362,7 @@
         width: 70px;
         height: 70px;
         box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
-        background-color: #FFFFFF;
+        background-color: #ffffff;
         border-radius: 50%;
         background-size: cover;
         background-repeat: no-repeat;
@@ -381,9 +379,7 @@
           animation: none;
         }
       }
-
     }
-
   }
   // Post Gallery Slick Button
   button.post-gallery-btn {
@@ -396,7 +392,7 @@
     background-color: #ffffff;
     cursor: pointer;
     top: 50%;
-    transform:translateY(-50%);
+    transform: translateY(-50%);
     overflow: hidden;
 
     &.prev-btn {
@@ -405,7 +401,7 @@
     &.next-btn {
       right: 30px;
     }
-    i{
+    i {
       position: absolute;
       top: 50%;
       left: 50%;
@@ -414,11 +410,11 @@
       font-size: 17px;
       @include transition;
     }
-    &:hover{
+    &:hover {
       @include transition;
       background-color: $primary-color;
 
-      i{
+      i {
         color: $white;
         @include transition;
       }
@@ -477,7 +473,6 @@
       }
     }
   }
-
 }
 
 // Author
@@ -567,7 +562,6 @@
   }
 }
 
-
 // Next Prev Post
 .blog-post-nav {
   margin: 40px 0;
@@ -607,13 +601,13 @@
       width: 100%;
     }
 
-      &:last-child {
-        flex-direction: row-reverse;
+    &:last-child {
+      flex-direction: row-reverse;
 
-        .text {
-          text-align: right;
-        }
+      .text {
+        text-align: right;
       }
+    }
     .post-img {
       width: 96px;
       height: 96px;
