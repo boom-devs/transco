@@ -9423,7 +9423,7 @@ button.testimonial-arrow-btn:hover i {
   margin-bottom: 32px;
 }
 
-.single-post-meta {
+.single-post-item .single-post-meta {
   gap: 32px;
 }
 
