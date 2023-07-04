@@ -12,10 +12,10 @@
         }
         &:hover {
             .image {
-               img {
-                   transform: scale(1.05);
-                   @include transition;
-               }
+                img {
+                    transform: scale(1.05);
+                    @include transition;
+                }
             }
         }
         .image {
@@ -38,7 +38,6 @@
             }
         }
         .content {
-
             .post-meta {
                 color: $white;
                 display: inline-flex;
@@ -50,6 +49,9 @@
                     color: $white;
                     margin: 0;
                     font-weight: 400;
+                    a {
+                        color: $white;
+                    }
                     &:before {
                         background-color: #b8bfcc;
                         width: 1px;
