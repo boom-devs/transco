@@ -7474,7 +7474,7 @@ button.testimonial-arrow-btn:hover i {
   font-weight: 400;
 }
 .post-card.style-three .content .post-meta span a {
-  color: #ffffff;
+  color: #ffffff !important;
 }
 .post-card.style-three .content .post-meta span:before {
   background-color: #b8bfcc;

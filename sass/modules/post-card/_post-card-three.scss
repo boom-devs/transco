@@ -49,9 +49,9 @@
                     color: $white;
                     margin: 0;
                     font-weight: 400;
-                    // a {
-                    //     color: $white;
-                    // }
+                    a {
+                        color: $white !important;
+                    }
                     &:before {
                         background-color: #b8bfcc;
                         width: 1px;
