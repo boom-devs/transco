@@ -10649,16 +10649,16 @@ ul.children {
       .pricing-page-why-choose-us .why-choose-card-wrapper {
         padding-left: 0; } }
 
-.accordion-section {
+.faq-area.style-4 {
   padding-top: 198px;
   padding-bottom: 108px; }
   @media (max-width: 1199px) {
-    .accordion-section {
+    .faq-area.style-4 {
       padding: 100px 0; } }
   @media only screen and (min-width: 0px) and (max-width: 767px) {
-    .accordion-section {
+    .faq-area.style-4 {
       padding: 70px 0; } }
-  .accordion-section .accordion-wrapper.style-four .accordion-list-item {
+  .faq-area.style-4 .accordion-wrapper.style-four .accordion-list-item {
     margin-bottom: 0; }
 
 .pricing-accordion-wrapper {
