@@ -1,5 +1,5 @@
 // About Us Area
-.home-one-about-us-area {
+.about-us-area {
   padding-top: 140px;
   padding-bottom: 165px;
 
@@ -40,22 +40,24 @@
 }
 
 // Counter Up Area
-.counter-area {
-  padding-top: 363px;
-  padding-bottom: 138px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-color: $primary-color;
-  z-index: -1;
+.counter-up-area {
+  &.style-1 {
+    padding-top: 363px;
+    padding-bottom: 138px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: $primary-color;
+    z-index: -1;
 
-  @include rmaxwd(991) {
-    padding-top: 280px;
-    padding-bottom: 100px;
-  }
-  @include rmaxwd(767) {
-   padding-top: 150px;
-    padding-bottom: 70px;
+    @include rmaxwd(991) {
+      padding-top: 280px;
+      padding-bottom: 100px;
+    }
+    @include rmaxwd(767) {
+      padding-top: 150px;
+      padding-bottom: 70px;
+    }
   }
 }
 .squre-shape-wrapper {
@@ -84,52 +86,56 @@
 }
 // Why Choose Us Area
 .feature-area {
-  margin-top: -74px;
+  &.style-1 {
+    margin-top: -74px;
 
-  @include rmaxwd(1199) {
-    margin-top: 0;
-    padding-top: 100px;
-  }
-
-  @include sm {
-    padding-top: 70px !important;
-  }
-
-  .feature-area-wrapper {
-    background-color: $white;
-    position: relative;
-    border-radius: 10px;
-    box-shadow: 0px 5px 90px 0px rgba(2, 24, 93, 0.08);
+    @include rmaxwd(1199) {
+      margin-top: 0;
+      padding-top: 100px;
+    }
 
     @include sm {
-      box-shadow: none;
+      padding-top: 70px !important;
     }
-    @include md {
-      box-shadow: none;
+
+    .feature-area-wrapper {
+      background-color: $white;
+      position: relative;
+      border-radius: 10px;
+      box-shadow: 0px 5px 90px 0px rgba(2, 24, 93, 0.08);
+
+      @include sm {
+        box-shadow: none;
+      }
+      @include md {
+        box-shadow: none;
+      }
     }
   }
 }
 
 // Service Area
-.home-one-service-area {
-  padding-top: 140px;
-  padding-bottom: 120px;
+.service-area {
+  &.style-1 {
+    padding-top: 140px;
+    padding-bottom: 120px;
 
-  @include rmaxwd(991) {
-    padding-top: 100px;
-    padding-bottom: 76px;
-  }
-  @include rmaxwd(767) {
-    padding-top: 70px;
-    padding-bottom: 46px;
-  }
-  .section-title {
-    margin-bottom: 60px;
+    @include rmaxwd(991) {
+      padding-top: 100px;
+      padding-bottom: 76px;
+    }
+    @include rmaxwd(767) {
+      padding-top: 70px;
+      padding-bottom: 46px;
+    }
+    .section-title {
+      margin-bottom: 60px;
+    }
   }
 }
 
 // Process Step Area
-.home-one-process-step-area {
+.process-step-area {
   background-color: $black-200;
   padding-top: 140px;
 
@@ -162,26 +168,28 @@
 }
 
 // Appoitment Area
-.home-one-appointment-area {
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  padding: 144px 0;
-  position: relative;
-  z-index: 2;
+.appointment-area {
+  &.style-1 {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 144px 0;
+    position: relative;
+    z-index: 2;
 
-  @include rmaxwd(991) {
-    padding: 100px 0;
-  }
-  @include rmaxwd(767) {
-    padding: 70px 0;
-  }
-  .accordion-wrapper {
-    padding-left: 120px;
+    @include rmaxwd(991) {
+      padding: 100px 0;
+    }
+    @include rmaxwd(767) {
+      padding: 70px 0;
+    }
+    .accordion-wrapper {
+      padding-left: 120px;
 
-    @include rmaxwd(1399) {
-      padding-left: 0;
-      margin-top: 80px;
+      @include rmaxwd(1399) {
+        padding-left: 0;
+        margin-top: 80px;
+      }
     }
   }
 }
@@ -213,58 +221,64 @@
 }
 
 // Client Logo Area
-.home-one-client-logo-area {
-  padding-top: 100px;
-  padding-bottom: 86px;
+.brand-slider-area {
+  &.style-1 {
+    padding-top: 100px;
+    padding-bottom: 86px;
 
-  @include rmaxwd(767) {
-    padding: 70px 0;
+    @include rmaxwd(767) {
+      padding: 70px 0;
+    }
   }
 }
 // News Area
-.home-one-news-area {
-  padding-top: 140px;
-  padding-bottom: 110px;
+.latest-posts-area {
+  &.style-1 {
+    padding-top: 140px;
+    padding-bottom: 110px;
 
-  @include rmaxwd(991) {
-    padding: 100px 0;
-  }
-  @include rmaxwd(767) {
-    padding-top: 70px;
-    padding-bottom: 36px;
-  }
-
-  .section-title {
-    margin-bottom: 70px;
+    @include rmaxwd(991) {
+      padding: 100px 0;
+    }
     @include rmaxwd(767) {
-      margin-bottom: 50px;
+      padding-top: 70px;
+      padding-bottom: 36px;
+    }
+
+    .section-title {
+      margin-bottom: 70px;
+      @include rmaxwd(767) {
+        margin-bottom: 50px;
+      }
     }
   }
 }
 
 // Testimonial Area
-.home-one-testimonial-area {
-  padding-top: 140px;
-  padding-bottom: 124px;
+.testimonial-slider-area {
+  &.style-1 {
+    padding-top: 140px;
+    padding-bottom: 124px;
 
 
-  @include rmaxwd(991) {
-    padding: 100px 0;
-  }
-  @include rmaxwd(767) {
-    padding: 70px 0;
-  }
-
-  .testimonial-slider-wrapper {
-    padding-left: 94px;
-    margin-top: -40px;
-    margin-bottom: -40px;
-
-    @include md {
-      padding-left: 0;
+    @include rmaxwd(991) {
+      padding: 100px 0;
     }
-    @include sm {
-      padding-left: 0;
+    @include rmaxwd(767) {
+      padding: 70px 0;
+    }
+
+    .testimonial-slider-wrapper {
+      padding-left: 94px;
+      margin-top: -40px;
+      margin-bottom: -40px;
+
+      @include md {
+        padding-left: 0;
+      }
+      @include sm {
+        padding-left: 0;
+      }
     }
   }
 }

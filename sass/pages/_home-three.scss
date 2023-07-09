@@ -1,56 +1,61 @@
 // Why Choose Area
-.why-us-area {
-  margin-top: -65px;
-  position: relative;
-  z-index: 2;
+.feature-area {
+  &.style-2 {
+    margin-top: -65px;
+    position: relative;
+    z-index: 2;
 
-  .why-us-area-inner {
-    background-color: $black-50;
-    border-radius: 8px;
-    overflow: hidden;
+    .feature-area-inner {
+      background-color: $black-50;
+      border-radius: 8px;
+      overflow: hidden;
+    }
   }
 }
 
 // Why Choose Us Area
-.home-three-why-choose-us {
-  padding-top: 144px;
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
+.why-choose-us-area {
+ &.style-2 {
+   padding-top: 144px;
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;
 
-  @include rmaxwd(1199) {
-    padding-top: 100px;
-    padding-bottom: 50px;
-  }
-  @include rmaxwd(767) {
-    padding-top: 70px;
-    padding-bottom: 20px;
+   @include rmaxwd(1199) {
+     padding-top: 100px;
+     padding-bottom: 50px;
+   }
+   @include rmaxwd(767) {
+     padding-top: 70px;
+     padding-bottom: 20px;
 
-    .section-title {
-      margin-bottom: 50px;
-    }
-  }
+     .section-title {
+       margin-bottom: 50px;
+     }
+   }
 
-  .why-choose-card-wrapper {
-    padding-left: 110px;
+   .why-choose-card-wrapper {
+     padding-left: 110px;
 
-    @include rmaxwd(991) {
-      padding-left: 0;
-    }
-  }
+     @include rmaxwd(991) {
+       padding-left: 0;
+     }
+   }
+ }
 }
 // About Us Area
-.home-three-about-us-area {
-  padding-top: 140px;
-  padding-bottom: 144px;
+.about-us-area {
+  &.style-3 {
+    padding-top: 140px;
+    padding-bottom: 144px;
 
-  @include rmaxwd(991) {
-    padding: 100px 0;
+    @include rmaxwd(991) {
+      padding: 100px 0;
+    }
+    @include rmaxwd(767) {
+      padding: 70px 0;
+    }
   }
-  @include rmaxwd(767) {
-    padding: 70px 0;
-  }
-
 }
 // Why Choose Area Three
 .why-choose-three-area {
@@ -60,47 +65,53 @@
   background-position: center center;
 }
 // Project Area & Blog Area
-.home-three-project-area {
-  padding-top: 140px;
-  padding-bottom: 134px;
+.portfolio-area {
+  &.style-1 {
+    padding-top: 140px;
+    padding-bottom: 134px;
 
-  @include rmaxwd(991) {
-    padding-top: 100px;
-    padding-bottom: 80px;
-  }
-  @include rmaxwd(767) {
-    padding-top: 70px;
-    padding-bottom: 40px;
+    @include rmaxwd(991) {
+      padding-top: 100px;
+      padding-bottom: 80px;
+    }
+    @include rmaxwd(767) {
+      padding-top: 70px;
+      padding-bottom: 40px;
+    }
   }
 }
-.home-three-blog-post-area {
-  padding-top: 140px;
-  padding-bottom: 81px;
+.latest-posts-area {
+  &.style-3 {
+    padding-top: 140px;
+    padding-bottom: 81px;
 
-  @include rmaxwd(991) {
-    padding-top: 100px;
-    padding-bottom: 80px;
-  }
-  @include rmaxwd(991) {
-    padding-top: 70px;
-    padding-bottom: 25px;
+    @include rmaxwd(991) {
+      padding-top: 100px;
+      padding-bottom: 80px;
+    }
+    @include rmaxwd(991) {
+      padding-top: 70px;
+      padding-bottom: 25px;
+    }
   }
 }
 // Pricing Area
-.home-three-pricing-area {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  padding-top: 140px;
-  padding-bottom: 144px;
+.pricing-area {
+  &.style-1 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 140px;
+    padding-bottom: 144px;
 
-  @include rmaxwd(991) {
-    padding-top: 100px;
-    padding-bottom: 70px;
-  }
-  @include rmaxwd(767) {
-    padding-top: 70px;
-    padding-bottom: 40px;
+    @include rmaxwd(991) {
+      padding-top: 100px;
+      padding-bottom: 70px;
+    }
+    @include rmaxwd(767) {
+      padding-top: 70px;
+      padding-bottom: 40px;
+    }
   }
 }
 .price-card-padding {
@@ -111,72 +122,81 @@
   }
 }
 // Our Service Area
-.home-three-our-service-area {
-  padding-top: 140px;
-  padding-bottom: 92px;
+.service-area {
+  &.style-2 {
+    padding-top: 140px;
+    padding-bottom: 92px;
 
-  @include rmaxwd(991) {
-    padding-top: 100px;
-    padding-bottom: 50px;
-    .section-title {
-      margin-bottom: 15px;
+    @include rmaxwd(991) {
+      padding-top: 100px;
+      padding-bottom: 50px;
+      .section-title {
+        margin-bottom: 15px;
+      }
+    }
+
+    @include rmaxwd(767) {
+      padding-top: 70px;
+      padding-bottom: 20px;
+
+      .row.mb-70 {
+        margin-bottom: 50px;
+      }
     }
   }
 
-  @include rmaxwd(767) {
-    padding-top: 70px;
-    padding-bottom: 20px;
-
-    .row.mb-70 {
-      margin-bottom: 50px;
-    }
-  }
 }
 
 // Accordion Area
-.home-three-accordion-area {
-  padding-top: 212px;
-  padding-bottom: 140px;
+.faq-area {
+  &.style-2 {
+    padding-top: 212px;
+    padding-bottom: 140px;
 
-  @include rmaxwd(1199) {
-    padding: 100px 0;
-  }
-
-  @include rmaxwd(767) {
-    padding: 70px 0;
-  }
-  .accordion-wrapper {
     @include rmaxwd(1199) {
-      padding-right: 0 !important;
-      padding-bottom: 80px;
+      padding: 100px 0;
+    }
+
+    @include rmaxwd(767) {
+      padding: 70px 0;
+    }
+    .accordion-wrapper {
+      @include rmaxwd(1199) {
+        padding-right: 0 !important;
+        padding-bottom: 80px;
+      }
     }
   }
 }
 
-.home-three-testimonial-area{
-  padding-top: 140px;
-  padding-bottom: 134px;
+.testimonial-area{
+  &.style-2 {
+    padding-top: 140px;
+    padding-bottom: 134px;
 
-  @include rmaxwd(991) {
-    padding: 100px 0;
-  }
-  @include rmaxwd(767) {
-    padding: 70px 0;
-
-    .section-title {
-      margin-bottom: 30px;
+    @include rmaxwd(991) {
+      padding: 100px 0;
     }
-  }
+    @include rmaxwd(767) {
+      padding: 70px 0;
 
-  .accordion-wrapper {
-    @include rmaxwd(1199) {
-      padding-right: 0 !important;
-      padding-bottom: 80px;
+      .section-title {
+        margin-bottom: 30px;
+      }
+    }
+
+    .accordion-wrapper {
+      @include rmaxwd(1199) {
+        padding-right: 0 !important;
+        padding-bottom: 80px;
+      }
     }
   }
 }
 
 
-.home-three-client-logo-area {
-  padding-bottom: 70px;
+.brand-slider-area {
+  &.style-3 {
+    padding-bottom: 70px;
+  }
 }

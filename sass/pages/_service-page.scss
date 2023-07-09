@@ -12,44 +12,51 @@
     }
 }
 // Process Area
-.service-page-process-area {
-    padding-top: 140px;
-    padding-bottom: 66px;
+.process-step-area {
+     &.style-3 {
+         padding-top: 140px;
+         padding-bottom: 66px;
 
-    @include rmaxwd(991) {
-        padding-top: 100px;
-        padding-bottom: 50px;
-    }
-    @include rmaxwd(767) {
-        padding-top: 70px;
-        padding-bottom: 10px;
-    }
+         @include rmaxwd(991) {
+             padding-top: 100px;
+             padding-bottom: 50px;
+         }
+         @include rmaxwd(767) {
+             padding-top: 70px;
+             padding-bottom: 10px;
+         }
+         .section-title {
+             margin-bottom: 0;
+         }
+     }
 }
 // Service List Area
-.service-page-service-list-area {
-    padding-top: 160px;
-    padding-bottom: 120px;
+.why-choose-us-area {
+    &.style-3 {
+        padding-top: 160px;
+        padding-bottom: 120px;
 
-    @include rmaxwd(1199) {
-        padding: 100px 0;
-    }
-    @include rmaxwd(991) {
-        padding: 100px 0;
-    }
-    .service-list-wrapper {
-        padding-right: 100px;
-        padding-top: 65px;
         @include rmaxwd(1199) {
-            padding-top: 0;
-            padding-right: 20px;
+            padding: 100px 0;
         }
-        @include rmaxwd(767) {
-            padding-right: 0;
-            padding-top: 0;
+        @include rmaxwd(991) {
+            padding: 100px 0;
         }
-    }
-    @include sm {
-        padding: 65px 0;
+        .service-list-wrapper {
+            padding-right: 100px;
+            padding-top: 65px;
+            @include rmaxwd(1199) {
+                padding-top: 0;
+                padding-right: 20px;
+            }
+            @include rmaxwd(767) {
+                padding-right: 0;
+                padding-top: 0;
+            }
+        }
+        @include sm {
+            padding: 65px 0;
+        }
     }
 }
 

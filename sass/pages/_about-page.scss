@@ -27,57 +27,63 @@
   }
 }
 // Counter Area
-.about-page-counter-area {
-  padding-top: 134px;
-  padding-bottom: 138px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+.counter-up-area {
+  &.style-3 {
+    padding-top: 134px;
+    padding-bottom: 138px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 
-  @include rmaxwd(991) {
-    padding: 100px 0;
-  }
-  @include rmaxwd(767) {
-    padding: 70px 0;
+    @include rmaxwd(991) {
+      padding: 100px 0;
+    }
+    @include rmaxwd(767) {
+      padding: 70px 0;
+    }
   }
 }
 
 // FAQ Area
-.about-page-faq-area {
-  padding: 140px 0;
+.faq-area {
+   &.style-3 {
+     padding: 140px 0;
 
-  @include rmaxwd(991) {
-    padding: 100px 0;
-  }
-  @include rmaxwd(767) {
-    padding: 70px 0;
-  }
-  .section-title {
-    @include rmaxwd(575) {
-      margin-bottom: 20px;
-    }
-  }
-  .video-popup-card.style-three {
-    margin-left: 220px;
+     @include rmaxwd(991) {
+       padding: 100px 0;
+     }
+     @include rmaxwd(767) {
+       padding: 70px 0;
+     }
+     .section-title {
+       @include rmaxwd(575) {
+         margin-bottom: 20px;
+       }
+     }
+     .video-popup-card.style-three {
+       margin-left: 220px;
 
-    @include rmaxwd(1199) {
-      margin-left: 0;
-      margin-top: 80px;
-    }
-  }
+       @include rmaxwd(1199) {
+         margin-left: 0;
+         margin-top: 80px;
+       }
+     }
+   }
 }
 
 // Timeline Area
-.about-page-timeline-area {
-  background-color: #f3f8fc;
-  padding-top: 140px;
-  padding-bottom: 144px;
+.timeline-area {
+  &.style-1 {
+    background-color: #f3f8fc;
+    padding-top: 140px;
+    padding-bottom: 144px;
 
-  @include rmaxwd(991) {
-    padding: 100px 0;
-  }
-  @include rmaxwd(767) {
-    padding: 70px 0;
+    @include rmaxwd(991) {
+      padding: 100px 0;
+    }
+    @include rmaxwd(767) {
+      padding: 70px 0;
+    }
   }
 }
 
@@ -100,26 +106,16 @@
 }
 
 // Client Logo
-.about-page-client-logo-area {
-  padding-top: 140px;
-  padding-bottom: 135px;
+.brand-area {
+  &.style-1 {
+    padding-top: 140px;
+    padding-bottom: 135px;
 
-  @include rmaxwd(991) {
-    padding: 100px 0;
-  }
-  @include rmaxwd(767) {
-    padding: 70px 0;
-  }
-}
-// Team Member Area
-.about-page-team-member-area {
-  padding-top: 140px;
-  padding-bottom: 143px;
-
-  @include rmaxwd(991) {
-    padding: 100px 0;
-  }
-  @include rmaxwd(767) {
-    padding: 70px 0;
+    @include rmaxwd(991) {
+      padding: 100px 0;
+    }
+    @include rmaxwd(767) {
+      padding: 70px 0;
+    }
   }
 }
