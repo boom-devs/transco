@@ -458,46 +458,48 @@ object {
   max-width: 100%;
 }
 // Form Validation
-.wpcf7-form {
+.comment-respond {
+  .wpcf7-form {
 
-  // Validation Error Message
-  .wpcf7-not-valid {
-    border-color: #FF0000FF !important;
-  }
-  .wpcf7-not-valid-tip {
-    display: none;
-  }
-
-  // Form Send Message
-  &.sent {
-    .wpcf7-response-output {
-      font-weight: 500;
-      font-size: 14px;
-      line-height: 21px;
-      letter-spacing: -0.01em;
-      color: #72DC60;
-      padding: 15px 20px;
-      text-align: center;
-      position: relative;
-      background: #F4FFF5;
-      border: 1px solid #CDF5C8 !important;
-      border-radius: 10px;
-
+    // Validation Error Message
+    .wpcf7-not-valid {
+      border-color: #FF0000FF !important;
     }
-  }
-  &.invalid {
-    .wpcf7-response-output {
-      font-weight: 500;
-      font-size: 14px;
-      line-height: 21px;
-      letter-spacing: -0.01em;
-      color: #FF5353;
-      padding: 15px 20px;
-      text-align: center;
-      position: relative;
-      background: #FFF7F7;
-      border: 1px solid #FED8D8 !important;
-      border-radius: 10px;
+    .wpcf7-not-valid-tip {
+      display: none;
+    }
+
+    // Form Send Message
+    &.sent {
+      .wpcf7-response-output {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: -0.01em;
+        color: #72DC60;
+        padding: 15px 20px;
+        text-align: center;
+        position: relative;
+        background: #F4FFF5;
+        border: 1px solid #CDF5C8 !important;
+        border-radius: 10px;
+
+      }
+    }
+    &.invalid {
+      .wpcf7-response-output {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: -0.01em;
+        color: #FF5353;
+        padding: 15px 20px;
+        text-align: center;
+        position: relative;
+        background: #FFF7F7;
+        border: 1px solid #FED8D8 !important;
+        border-radius: 10px;
+      }
     }
   }
 }
