@@ -6958,6 +6958,10 @@ button.testimonial-arrow-btn {
       color: #ffffff;
       margin: 0;
       font-weight: 400; }
+      .post-card.style-three .content .post-meta span a {
+        color: #ffffff; }
+        .post-card.style-three .content .post-meta span a:hover {
+          color: #ff6731; }
       .post-card.style-three .content .post-meta span:before {
         background-color: #b8bfcc;
         width: 1px;
@@ -10795,7 +10799,7 @@ ul.children {
     margin-bottom: 30px; }
 
 .team-page-area {
-  padding-top: 144px;
+  padding-top: 59px;
   padding-bottom: 181px; }
   @media (max-width: 991px) {
     .team-page-area {

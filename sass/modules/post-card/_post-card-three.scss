@@ -49,7 +49,12 @@
                     color: $white;
                     margin: 0;
                     font-weight: 400;
-
+                    a {
+                        color: $white;
+                        &:hover {
+                            color: $orange-color;
+                        }
+                    }
                     &:before {
                         background-color: #b8bfcc;
                         width: 1px;
