@@ -83,7 +83,7 @@
   }
 }
 // Why Choose Us Area
-.why-choose-us-area {
+.feature-area {
   margin-top: -74px;
 
   @include rmaxwd(1199) {
@@ -95,7 +95,7 @@
     padding-top: 70px !important;
   }
 
-  .why-choose-us-wrapper {
+  .feature-area-wrapper {
     background-color: $white;
     position: relative;
     border-radius: 10px;
