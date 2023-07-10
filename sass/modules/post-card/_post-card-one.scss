@@ -26,6 +26,11 @@
             &:first-child {
               color: $white;
               @include transition;
+
+              a {
+                color: $white;
+                @include transition;
+              }
             }
           }
         }
@@ -123,6 +128,12 @@
 
         &:first-child {
           color: $orange-color;
+          a {
+            color: $orange-color;
+            &:hover {
+              color: $orange-color !important;
+            }
+          }
           &:before {
             display: none;
           }

@@ -6658,6 +6658,10 @@ button.testimonial-arrow-btn {
   color: #ffffff;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out; }
+  .post-card.style-one:hover .content .post-meta span:first-child a {
+    color: #ffffff;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out; }
 .post-card.style-one .image {
   position: absolute;
   width: 100%;
@@ -6759,6 +6763,10 @@ button.testimonial-arrow-btn {
           margin-right: 17px; }
         .post-card .content .post-meta span:first-child {
           color: #ff6731; }
+          .post-card .content .post-meta span:first-child a {
+            color: #ff6731; }
+            .post-card .content .post-meta span:first-child a:hover {
+              color: #ff6731 !important; }
           .post-card .content .post-meta span:first-child:before {
             display: none; }
     .post-card .content .title {
@@ -11359,5 +11367,4 @@ ul.children {
             columns: 2;
     -webkit-column-gap: 26px;
             column-gap: 26px; }
-
 /*# sourceMappingURL=style.css.map */
