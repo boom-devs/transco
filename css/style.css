@@ -5940,7 +5940,9 @@ button.testimonial-arrow-btn {
 .accordion-wrapper .accordion-list-item .accordion-item-body {
   color: #c7cdda;
   padding-left: 50px;
-  padding-bottom: 3px; }
+  padding-bottom: 3px;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out; }
 
 .accordion-wrapper.style-two .accordion-list-item.open .accordion-head .icon {
   background-color: #ff6731;
@@ -5960,8 +5962,10 @@ button.testimonial-arrow-btn {
     font-size: 12px; }
 .accordion-wrapper.style-two .accordion-list-item:last-child {
   border-bottom: 1px solid #395670; }
-.accordion-wrapper.style-two .accordion-list-item .accordion-item-body {
-  padding-bottom: 28px; }
+.accordion-wrapper.style-two .accordion-list-item .show.accordion-item-body {
+  padding-bottom: 20px;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out; }
 
 .accordion-wrapper.style-two.accordion-style-three .accordion-list-item.open .accordion-head .icon {
   background-color: #ff6731;
@@ -5991,9 +5995,11 @@ button.testimonial-arrow-btn {
     height: 30px;
     background: #1eae98;
     border-radius: 50px; }
-  .accordion-wrapper.style-four .accordion-list-item .accordion-item-body {
+  .accordion-wrapper.style-four .accordion-list-item .show.accordion-item-body {
     padding-top: 16px;
-    color: #5e6f92; }
+    color: #5e6f92;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out; }
 
 .client-logo-wrapper {
   padding: 10px 0; }

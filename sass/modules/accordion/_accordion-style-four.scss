@@ -21,9 +21,10 @@
                     border-radius: 50px;
                 }
             }
-            .accordion-item-body {
+            .show.accordion-item-body {
                 padding-top: 16px;
                 color: #5e6f92;
+                @include transition;
             }
         }
     }

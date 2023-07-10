@@ -49,6 +49,7 @@
       color: $white-100;
       padding-left: 50px;
       padding-bottom: 3px;
+      @include transition;
     }
   }
 }
