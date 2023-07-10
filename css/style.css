@@ -1989,9 +1989,10 @@ object {
   max-width: 100%; }
 
 .comment-respond .wpcf7-form .wpcf7-not-valid {
-  border-color: #FF0000FF !important; }
+  border-color: #dc3232 !important; }
 .comment-respond .wpcf7-form .wpcf7-not-valid-tip {
-  display: none; }
+  font-size: 16px;
+  margin-top: 5px; }
 .comment-respond .wpcf7-form.sent .wpcf7-response-output {
   font-weight: 500;
   font-size: 14px;
@@ -2009,7 +2010,7 @@ object {
   font-size: 14px;
   line-height: 21px;
   letter-spacing: -0.01em;
-  color: #FF5353;
+  color: #dc3232;
   padding: 15px 20px;
   text-align: center;
   position: relative;
@@ -11367,4 +11368,5 @@ ul.children {
             columns: 2;
     -webkit-column-gap: 26px;
             column-gap: 26px; }
+
 /*# sourceMappingURL=style.css.map */
