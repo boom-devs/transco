@@ -81,18 +81,26 @@
         /*
         Jquery Accordion
         ============================*/
+        // $(function() {
+        //     $('.accordion-list-item .accordion-item-body').css("display","none");
+        //     $('.accordion-list-item.open .accordion-item-body').css("display","block");
+        //     $('.accordion-list-item').on('click', function(){
+        //         $(this).toggleClass(' open ');
+        //         $(this).siblings().removeClass(' open ');
+        //         $('.accordion-item-body').stop().slideUp();
+        //         $('.open .accordion-item-body').stop().slideDown();
+        //         return false;
+        //     });
+        // });
+
+
         $(function() {
-            $('.accordion-list-item .accordion-item-body').css("display","none");
-            $('.accordion-list-item.open .accordion-item-body').css("display","block");
             $('.accordion-list-item').on('click', function(){
                 $(this).toggleClass(' open ');
                 $(this).siblings().removeClass(' open ');
-                $('.accordion-item-body').stop().slideUp();
-                $('.open .accordion-item-body').stop().slideDown();
                 return false;
             });
         });
-
         /*
         Skill Progress Bar Js
         ============================*/
