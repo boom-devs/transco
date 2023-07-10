@@ -1995,7 +1995,7 @@ object {
   margin-top: 5px; }
 .comment-respond .wpcf7-form.sent .wpcf7-response-output {
   font-weight: 500;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 21px;
   letter-spacing: -0.01em;
   color: #72DC60;
@@ -2007,7 +2007,7 @@ object {
   border-radius: 10px; }
 .comment-respond .wpcf7-form.invalid .wpcf7-response-output {
   font-weight: 500;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 21px;
   letter-spacing: -0.01em;
   color: #dc3232;
