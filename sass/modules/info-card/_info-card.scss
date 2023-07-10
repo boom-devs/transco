@@ -7,6 +7,9 @@
     border-radius: 10px;
     position: relative;
 
+    @media only screen and (min-width: 991px) and (max-width: 1399px) {
+        padding: 30px 20px 30px 20px;
+    }
 
     &:hover {
         .image-wrapper {

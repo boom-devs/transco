@@ -3516,6 +3516,9 @@ body.admin-bar .header-menu-area.sticky_menu {
   padding: 36px 40px 36px 55px;
   border-radius: 10px;
   position: relative; }
+  @media only screen and (min-width: 991px) and (max-width: 1399px) {
+    .info-card {
+      padding: 30px 20px 30px 20px; } }
   .info-card:hover .image-wrapper .overlay {
     -webkit-transition: all 0.5s ease-out;
     transition: all 0.5s ease-out;
@@ -10301,25 +10304,25 @@ ul.children {
     .testimonial-triangle-shape {
       display: none; } }
 
-.about-us-area.style {
+.about-us-area.style-2 {
   padding-top: 140px; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .about-us-area.style {
+    .about-us-area.style-2 {
       padding-top: 100px; } }
   @media only screen and (min-width: 0px) and (max-width: 767px) {
-    .about-us-area.style {
+    .about-us-area.style-2 {
       padding-top: 70px; } }
-  .about-us-area.style .about-info-card .about-info-content {
+  .about-us-area.style-2 .about-info-card .about-info-content {
     padding-left: 120px; }
     @media (max-width: 1199px) {
-      .about-us-area.style .about-info-card .about-info-content {
+      .about-us-area.style-2 .about-info-card .about-info-content {
         padding-left: 0;
         padding-top: 300px; } }
     @media only screen and (min-width: 651px) and (max-width: 767px) {
-      .about-us-area.style .about-info-card .about-info-content {
+      .about-us-area.style-2 .about-info-card .about-info-content {
         padding-top: 150px; } }
     @media (max-width: 651px) {
-      .about-us-area.style .about-info-card .about-info-content {
+      .about-us-area.style-2 .about-info-card .about-info-content {
         padding-top: 100px; } }
 
 @media (max-width: 991px) {
