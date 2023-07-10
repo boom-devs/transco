@@ -10491,19 +10491,19 @@ ul.children {
       padding-right: 0 !important;
       padding-bottom: 80px; } }
 
-.testimonial-area.style-2 {
+.testimonial-area.style-3 {
   padding-top: 140px;
   padding-bottom: 134px; }
   @media (max-width: 991px) {
-    .testimonial-area.style-2 {
+    .testimonial-area.style-3 {
       padding: 100px 0; } }
   @media (max-width: 767px) {
-    .testimonial-area.style-2 {
+    .testimonial-area.style-3 {
       padding: 70px 0; }
-      .testimonial-area.style-2 .section-title {
+      .testimonial-area.style-3 .section-title {
         margin-bottom: 30px; } }
   @media (max-width: 1199px) {
-    .testimonial-area.style-2 .accordion-wrapper {
+    .testimonial-area.style-3 .accordion-wrapper {
       padding-right: 0 !important;
       padding-bottom: 80px; } }
 
