@@ -5732,6 +5732,9 @@ body.admin-bar .header-menu-area.sticky_menu {
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
     z-index: 2; }
+    @media only screen and (min-width: 991px) and (max-width: 1280px) {
+      .testimonial-slider-wrapper .slick-dots {
+        right: -15px; } }
     @media (max-width: 991px) {
       .testimonial-slider-wrapper .slick-dots {
         position: unset;
