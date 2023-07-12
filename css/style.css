@@ -7834,47 +7834,49 @@ button.testimonial-arrow-btn {
   .nav-tab li {
     position: relative;
     display: inline-block;
-    line-height: 0;
-    margin-right: 50px; }
+    margin-right: 50px;
+    color: #393d48;
+    font-family: "Poppins", sans-serif;
+    display: inline-block;
+    font-size: 21px;
+    line-height: 20px;
+    padding: 18px 0;
+    font-weight: 700;
+    position: relative;
+    cursor: pointer; }
+    @media (max-width: 575px) {
+      .nav-tab li {
+        padding: 16px 0; } }
+    .nav-tab li:hover {
+      color: #ff6731;
+      -webkit-transition: all 0.5s ease-out;
+      transition: all 0.5s ease-out; }
+    .nav-tab li:before {
+      content: "";
+      width: 0;
+      height: 1px;
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+      background-color: #ff6731;
+      opacity: 0;
+      visibility: hidden;
+      -webkit-transition: all 0.5s ease-out;
+      transition: all 0.5s ease-out; }
     @media (max-width: 575px) {
       .nav-tab li {
         width: 100%;
         margin: 0; } }
     .nav-tab li:last-child {
       margin-right: 0; }
-    .nav-tab li a {
-      color: #393d48;
-      font-family: "Poppins", sans-serif;
-      display: inline-block;
-      font-size: 21px;
-      line-height: 20px;
-      padding: 18px 0;
-      font-weight: 700;
-      margin: 0;
-      position: relative; }
-      @media (max-width: 575px) {
-        .nav-tab li a {
-          padding: 16px 0; } }
-      .nav-tab li a:hover {
-        color: #ff6731; }
-      .nav-tab li a:before {
-        content: "";
-        width: 0;
-        height: 1px;
-        position: absolute;
-        bottom: -1px;
-        left: 0;
-        background-color: #ff6731;
-        opacity: 0;
-        visibility: hidden;
+    .nav-tab li.active {
+      color: #ff6731; }
+      .nav-tab li.active:before {
+        width: 100%;
+        visibility: visible;
+        opacity: 1;
         -webkit-transition: all 0.5s ease-out;
         transition: all 0.5s ease-out; }
-    .nav-tab li.active a:before {
-      width: 100%;
-      visibility: visible;
-      opacity: 1;
-      -webkit-transition: all 0.5s ease-out;
-      transition: all 0.5s ease-out; }
 
 .tab-content img {
   border-radius: 8px; }
@@ -11446,4 +11448,5 @@ ul.children {
             columns: 2;
     -webkit-column-gap: 26px;
             column-gap: 26px; }
+
 /*# sourceMappingURL=style.css.map */

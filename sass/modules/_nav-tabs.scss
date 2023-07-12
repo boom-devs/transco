@@ -5,9 +5,37 @@
     li {
         position: relative;
         display: inline-block;
-        line-height: 0;
         margin-right: 50px;
+        color: $secondary-color;
+        font-family: $heading-font;
+        display: inline-block;
+        font-size: 21px;
+        line-height: 20px;
+        padding: 18px 0;
+        font-weight: 700;
+        position: relative;
+        cursor: pointer;
 
+        @include rmaxwd(575) {
+            padding: 16px 0;
+        }
+
+        &:hover {
+            color: $orange-color;
+            @include transition;
+        }
+        &:before {
+            content: "";
+            width: 0;
+            height: 1px;
+            position: absolute;
+            bottom: -1px;
+            left: 0;
+            background-color: $orange-color;
+            opacity: 0;
+            visibility: hidden;
+            @include transition;
+        }
         @include rmaxwd(575) {
             width: 100%;
             margin: 0;
@@ -15,47 +43,14 @@
         &:last-child {
             margin-right: 0;
         }
-        a {
-            color: $secondary-color;
-            font-family: $heading-font;
-            display: inline-block;
-            font-size: 21px;
-            line-height: 20px;
-            padding: 18px 0;
-            font-weight: 700;
-            margin: 0;
-            position: relative;
-
-            @include rmaxwd(575) {
-                padding: 16px 0;
-            }
-
-            &:hover {
-                color: $orange-color;
-            }
-            &:before {
-                content: "";
-                width: 0;
-                height: 1px;
-                position: absolute;
-                bottom: -1px;
-                left: 0;
-                background-color: $orange-color;
-                opacity: 0;
-                visibility: hidden;
-                @include transition
-            }
-        }
         &.active {
-            a {
-                &:before {
-                    width: 100%;
-                    visibility: visible;
-                    opacity: 1;
-                    @include transition
-                }
+            color: $orange-color;
+            &:before {
+                width: 100%;
+                visibility: visible;
+                opacity: 1;
+                @include transition;
             }
-
         }
     }
 }
