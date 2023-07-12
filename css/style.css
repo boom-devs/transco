@@ -5893,53 +5893,34 @@ button.testimonial-arrow-btn {
       -ms-flex-pack: center;
           justify-content: center; }
 
-.accordion-wrapper .accordion-list-item.open .accordion-head .icon:before {
-  content: "\f068"; }
 .accordion-wrapper .accordion-list-item .accordion-head {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   gap: 20px;
   cursor: pointer;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
-  padding: 12px 0; }
+  padding: 12px 0;
+  position: relative; }
+  .accordion-wrapper .accordion-list-item .accordion-head:before {
+    content: "\f068";
+    font-family: "Font Awesome 6 Pro";
+    color: #ffffff;
+    font-weight: 700; }
+  .accordion-wrapper .accordion-list-item .accordion-head.collapsed:before {
+    position: relative;
+    content: "\2b";
+    font-family: "Font Awesome 6 Pro";
+    color: #ffffff;
+    font-weight: 700; }
   .accordion-wrapper .accordion-list-item .accordion-head .accordion-title {
     font-size: 21px;
     line-height: 32px;
     color: #ffffff;
     font-weight: 700;
     margin-bottom: 0; }
-  .accordion-wrapper .accordion-list-item .accordion-head .icon {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    width: 24px;
-    height: 24px;
-    position: relative;
-    color: #ffffff;
-    font-weight: 700;
-    -ms-flex-negative: 0;
-        flex-shrink: 0; }
-    .accordion-wrapper .accordion-list-item .accordion-head .icon:before {
-      position: absolute;
-      content: "\2b";
-      left: 50%;
-      top: 50%;
-      -webkit-transform: translate(-50%, -50%);
-              transform: translate(-50%, -50%);
-      font-family: "Font Awesome 6 Pro"; }
 .accordion-wrapper .accordion-list-item .accordion-item-body {
   color: #c7cdda;
   padding-left: 50px;
@@ -5947,9 +5928,6 @@ button.testimonial-arrow-btn {
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out; }
 
-.accordion-wrapper.style-two .accordion-list-item.open .accordion-head .icon {
-  background-color: #ff6731;
-  color: #ffffff; }
 .accordion-wrapper.style-two .accordion-list-item .accordion-head {
   border-top: 1px solid #395670;
   padding: 26px 0; }
@@ -5958,11 +5936,42 @@ button.testimonial-arrow-btn {
     @media only screen and (min-width: 0px) and (max-width: 767px) {
       .accordion-wrapper.style-two .accordion-list-item .accordion-head .accordion-title {
         font-size: 20px; } }
-  .accordion-wrapper.style-two .accordion-list-item .accordion-head .icon {
+  .accordion-wrapper.style-two .accordion-list-item .accordion-head:before {
+    background-color: #ff6731;
+    color: #ffffff;
+    font-size: 12px;
+    border-radius: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 24px;
+    height: 24px;
+    -ms-flex-negative: 0;
+        flex-shrink: 0; }
+  .accordion-wrapper.style-two .accordion-list-item .accordion-head.collapsed:before {
     background-color: #ffffff;
     border-radius: 50px;
     color: #ff6731;
-    font-size: 12px; }
+    font-size: 12px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 24px;
+    height: 24px;
+    -ms-flex-negative: 0;
+        flex-shrink: 0; }
 .accordion-wrapper.style-two .accordion-list-item:last-child {
   border-bottom: 1px solid #395670; }
 .accordion-wrapper.style-two .accordion-list-item .show.accordion-item-body {
@@ -5970,18 +5979,47 @@ button.testimonial-arrow-btn {
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out; }
 
-.accordion-wrapper.style-two.accordion-style-three .accordion-list-item.open .accordion-head .icon {
-  background-color: #ff6731;
-  color: #ffffff; }
 .accordion-wrapper.style-two.accordion-style-three .accordion-list-item .accordion-head {
   border-top: 1px solid #dfe2e9;
   padding: 28px 0; }
   .accordion-wrapper.style-two.accordion-style-three .accordion-list-item .accordion-head .accordion-title {
     color: #393d48; }
-  .accordion-wrapper.style-two.accordion-style-three .accordion-list-item .accordion-head .icon {
-    background-color: #1eae98;
+  .accordion-wrapper.style-two.accordion-style-three .accordion-list-item .accordion-head:before {
+    background-color: #ff6731 !important;
+    color: #ffffff;
+    font-size: 12px;
     border-radius: 50px;
-    color: #ffffff; }
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 24px;
+    height: 24px;
+    -ms-flex-negative: 0;
+        flex-shrink: 0; }
+  .accordion-wrapper.style-two.accordion-style-three .accordion-list-item .accordion-head.collapsed:before {
+    background-color: #1eae98 !important;
+    border-radius: 50px;
+    color: #ffffff;
+    font-size: 12px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 24px;
+    height: 24px;
+    -ms-flex-negative: 0;
+        flex-shrink: 0; }
 .accordion-wrapper.style-two.accordion-style-three .accordion-list-item .accordion-item-body {
   color: #5e6f92; }
 .accordion-wrapper.style-two.accordion-style-three .accordion-list-item:last-child {
@@ -5989,18 +6027,48 @@ button.testimonial-arrow-btn {
 
 .accordion-wrapper.style-four .accordion-list-item {
   margin-bottom: 20px; }
-  .accordion-wrapper.style-four .accordion-list-item.open .accordion-head .icon {
-    background: #ff6731; }
   .accordion-wrapper.style-four .accordion-list-item .accordion-head .accordion-title {
     color: #393d48; }
-  .accordion-wrapper.style-four .accordion-list-item .accordion-head .icon {
+  .accordion-wrapper.style-four .accordion-list-item .accordion-head:before {
+    background-color: #ff6731 !important;
+    color: #ffffff;
+    font-size: 12px;
+    border-radius: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     width: 30px;
     height: 30px;
-    background: #1eae98;
-    border-radius: 50px; }
+    -ms-flex-negative: 0;
+        flex-shrink: 0; }
+  .accordion-wrapper.style-four .accordion-list-item .accordion-head.collapsed:before {
+    background-color: #1eae98 !important;
+    border-radius: 50px;
+    color: #ffffff;
+    font-size: 12px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 30px;
+    height: 30px;
+    -ms-flex-negative: 0;
+        flex-shrink: 0; }
+  .accordion-wrapper.style-four .accordion-list-item .accordion-item-body {
+    color: #5e6f92; }
   .accordion-wrapper.style-four .accordion-list-item .show.accordion-item-body {
     padding-top: 16px;
-    color: #5e6f92;
     -webkit-transition: all 0.5s ease-out;
     transition: all 0.5s ease-out; }
 
@@ -11378,5 +11446,4 @@ ul.children {
             columns: 2;
     -webkit-column-gap: 26px;
             column-gap: 26px; }
-
 /*# sourceMappingURL=style.css.map */

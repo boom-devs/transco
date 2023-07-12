@@ -1,22 +1,28 @@
 .accordion-wrapper {
   .accordion-list-item {
-    &.open {
-      .accordion-head {
-        .icon {
-          &:before {
-            content: "\f068";
-          }
-        }
-      }
-    }
     .accordion-head {
       display: flex;
-      justify-content: flex-end;
       align-items: center;
       gap: 20px;
       cursor: pointer;
-      flex-direction: row-reverse;
       padding: 12px 0;
+      position: relative;
+
+      &:before {
+        content: "\f068";
+        font-family: $font-awesome;
+        color: $white;
+        font-weight: 700;
+      }
+      &.collapsed {
+        &:before {
+          position: relative;
+          content: "\2b";
+          font-family: $font-awesome;
+          color: $white;
+          font-weight: 700;
+        }
+      }
 
       .accordion-title {
         font-size: 21px;
@@ -24,25 +30,6 @@
         color: $white;
         font-weight: 700;
         margin-bottom: 0;
-      }
-      .icon {
-        display: flex;
-        align-items: center;
-        width: 24px;
-        height: 24px;
-        position: relative;
-        color: $white;
-        font-weight: 700;
-        flex-shrink: 0;
-
-        &:before {
-          position: absolute;
-          content: "\2b";
-          left: 50%;
-          top: 50%;
-          transform: translate(-50%, -50%);
-          font-family: $font-awesome;
-        }
       }
     }
     .accordion-item-body {
